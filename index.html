@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>PapaVoca</title>
+<meta name="description" content="한가한 갈매기를 위한 단어 학습장">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3182F6">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="PapaVoca">
+
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div class="topbar">
+    <div class="sun"></div>
+    <div class="gulls">🕊️</div>
+    <div class="brand" id="topbar-title">PapaVoca</div>
+    <div class="slogan" id="topbar-sub">한가한 갈매기를 위한 단어 학습장</div>
+  </div>
+
+  <div class="content" id="content">
+    <!-- JS가 렌더링 -->
+  </div>
+
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-nav="home"><span class="nav-icon">🏠</span><span class="nav-label">홈</span></button>
+    <button class="nav-item" data-nav="browse"><span class="nav-icon">📖</span><span class="nav-label">단어장</span></button>
+    <button class="nav-item" data-nav="review"><span class="nav-icon">🔁</span><span class="nav-label">복습</span></button>
+    <button class="nav-item" data-nav="stats"><span class="nav-icon">📊</span><span class="nav-label">통계</span></button>
+    <button class="nav-item" data-nav="settings"><span class="nav-icon">⚙️</span><span class="nav-label">설정</span></button>
+  </nav>
+
+  <div class="toast" id="toast"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

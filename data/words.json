@@ -1,0 +1,3777 @@
+{
+  "categories": [
+    {
+      "id": "travel",
+      "name": "여행",
+      "icon": "✈️",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0001",
+            "en": "airport",
+            "ko": "공항",
+            "pron": "에어포트",
+            "example_en": "The airport is very busy today.",
+            "example_ko": "오늘 공항이 매우 붐빈다.",
+            "related": "plane",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0002",
+            "en": "ticket",
+            "ko": "표, 티켓",
+            "pron": "티킷",
+            "example_en": "I bought a ticket for the train.",
+            "example_ko": "나는 기차표를 샀다.",
+            "related": "train",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0003",
+            "en": "passport",
+            "ko": "여권",
+            "pron": "패스포트",
+            "example_en": "Don't forget your passport.",
+            "example_ko": "여권을 잊지 마세요.",
+            "related": "visa",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0004",
+            "en": "luggage",
+            "ko": "짐, 수하물",
+            "pron": "러기지",
+            "example_en": "My luggage is very heavy.",
+            "example_ko": "내 짐이 매우 무겁다.",
+            "related": "suitcase",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0005",
+            "en": "hotel",
+            "ko": "호텔",
+            "pron": "호텔",
+            "example_en": "We stayed at a nice hotel.",
+            "example_ko": "우리는 좋은 호텔에 묵었다.",
+            "related": "room",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0006",
+            "en": "map",
+            "ko": "지도",
+            "pron": "맵",
+            "example_en": "Can you show me the map?",
+            "example_ko": "지도를 보여주시겠어요?",
+            "related": "direction",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0007",
+            "en": "taxi",
+            "ko": "택시",
+            "pron": "택시",
+            "example_en": "Let's take a taxi to the hotel.",
+            "example_ko": "택시를 타고 호텔로 갑시다.",
+            "related": "driver",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0008",
+            "en": "train",
+            "ko": "기차",
+            "pron": "트레인",
+            "example_en": "The train leaves at nine.",
+            "example_ko": "기차는 9시에 출발한다.",
+            "related": "station",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0009",
+            "en": "airplane",
+            "ko": "비행기",
+            "pron": "에어플레인",
+            "example_en": "The airplane landed safely.",
+            "example_ko": "비행기가 안전하게 착륙했다.",
+            "related": "airport",
+            "category": "travel",
+            "level": "basic"
+          },
+          {
+            "id": "w0010",
+            "en": "vacation",
+            "ko": "휴가",
+            "pron": "베케이션",
+            "example_en": "We are planning a vacation.",
+            "example_ko": "우리는 휴가를 계획하고 있다.",
+            "related": "trip",
+            "category": "travel",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0011",
+            "en": "reservation",
+            "ko": "예약",
+            "pron": "레저베이션",
+            "example_en": "I made a hotel reservation.",
+            "example_ko": "나는 호텔을 예약했다.",
+            "related": "booking",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0012",
+            "en": "departure",
+            "ko": "출발",
+            "pron": "디파처",
+            "example_en": "The departure time changed.",
+            "example_ko": "출발 시간이 바뀌었다.",
+            "related": "arrival",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0013",
+            "en": "arrival",
+            "ko": "도착",
+            "pron": "어라이벌",
+            "example_en": "Check the arrival gate.",
+            "example_ko": "도착 게이트를 확인하세요.",
+            "related": "departure",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0014",
+            "en": "customs",
+            "ko": "세관",
+            "pron": "커스텀즈",
+            "example_en": "We passed through customs quickly.",
+            "example_ko": "우리는 빠르게 세관을 통과했다.",
+            "related": "passport",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0015",
+            "en": "currency",
+            "ko": "화폐, 통화",
+            "pron": "커런시",
+            "example_en": "I need to exchange currency.",
+            "example_ko": "나는 환전을 해야 한다.",
+            "related": "exchange",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0016",
+            "en": "destination",
+            "ko": "목적지",
+            "pron": "데스티네이션",
+            "example_en": "What is your final destination?",
+            "example_ko": "최종 목적지가 어디인가요?",
+            "related": "journey",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0017",
+            "en": "journey",
+            "ko": "여정",
+            "pron": "저니",
+            "example_en": "It was a long journey.",
+            "example_ko": "긴 여정이었다.",
+            "related": "trip",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0018",
+            "en": "boarding",
+            "ko": "탑승",
+            "pron": "보딩",
+            "example_en": "Boarding starts in ten minutes.",
+            "example_ko": "탑승은 10분 후에 시작합니다.",
+            "related": "gate",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0019",
+            "en": "layover",
+            "ko": "경유",
+            "pron": "레이오버",
+            "example_en": "We had a two hour layover.",
+            "example_ko": "우리는 두 시간 경유했다.",
+            "related": "flight",
+            "category": "travel",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0020",
+            "en": "sightseeing",
+            "ko": "관광",
+            "pron": "사이트시잉",
+            "example_en": "We went sightseeing all day.",
+            "example_ko": "우리는 하루 종일 관광했다.",
+            "related": "tourist",
+            "category": "travel",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0021",
+            "en": "itinerary",
+            "ko": "여행 일정표",
+            "pron": "아이티너러리",
+            "example_en": "Please check the itinerary carefully.",
+            "example_ko": "여행 일정표를 꼼꼼히 확인하세요.",
+            "related": "schedule",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0022",
+            "en": "accommodation",
+            "ko": "숙박시설",
+            "pron": "어카머데이션",
+            "example_en": "We booked our accommodation online.",
+            "example_ko": "우리는 숙박시설을 온라인으로 예약했다.",
+            "related": "hotel",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0023",
+            "en": "embark",
+            "ko": "시작하다, 승선하다",
+            "pron": "임바크",
+            "example_en": "We embarked on a new adventure.",
+            "example_ko": "우리는 새로운 모험을 시작했다.",
+            "related": "journey",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0024",
+            "en": "excursion",
+            "ko": "짧은 여행, 소풍",
+            "pron": "익스커전",
+            "example_en": "We took a short excursion to the coast.",
+            "example_ko": "우리는 해안으로 짧은 여행을 갔다.",
+            "related": "trip",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0025",
+            "en": "wanderlust",
+            "ko": "여행에 대한 갈망",
+            "pron": "원더러스트",
+            "example_en": "She has always had wanderlust.",
+            "example_ko": "그녀는 항상 여행을 갈망해왔다.",
+            "related": "travel",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0026",
+            "en": "transit",
+            "ko": "환승, 경유",
+            "pron": "트랜짓",
+            "example_en": "We are in transit to Paris.",
+            "example_ko": "우리는 파리로 가는 중에 경유하고 있다.",
+            "related": "layover",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0027",
+            "en": "voyage",
+            "ko": "항해, 긴 여행",
+            "pron": "보이지",
+            "example_en": "It was a long sea voyage.",
+            "example_ko": "긴 바다 항해였다.",
+            "related": "journey",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0028",
+            "en": "immersion",
+            "ko": "몰입, 심취",
+            "pron": "이머전",
+            "example_en": "Language immersion helps you learn faster.",
+            "example_ko": "언어 몰입은 더 빨리 배우게 도와준다.",
+            "related": "culture",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0029",
+            "en": "landmark",
+            "ko": "랜드마크, 명소",
+            "pron": "랜드마크",
+            "example_en": "The tower is a famous landmark.",
+            "example_ko": "그 탑은 유명한 랜드마크이다.",
+            "related": "sightseeing",
+            "category": "travel",
+            "level": "advanced"
+          },
+          {
+            "id": "w0030",
+            "en": "backpacking",
+            "ko": "배낭여행",
+            "pron": "백패킹",
+            "example_en": "They went backpacking across Europe.",
+            "example_ko": "그들은 유럽을 배낭여행했다.",
+            "related": "hostel",
+            "category": "travel",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meals",
+      "name": "식사",
+      "icon": "🍽️",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0031",
+            "en": "breakfast",
+            "ko": "아침식사",
+            "pron": "브렉퍼스트",
+            "example_en": "I eat breakfast at seven.",
+            "example_ko": "나는 7시에 아침을 먹는다.",
+            "related": "meal",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0032",
+            "en": "lunch",
+            "ko": "점심식사",
+            "pron": "런치",
+            "example_en": "Let's have lunch together.",
+            "example_ko": "같이 점심 먹읍시다.",
+            "related": "meal",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0033",
+            "en": "dinner",
+            "ko": "저녁식사",
+            "pron": "디너",
+            "example_en": "Dinner is ready.",
+            "example_ko": "저녁 준비 다 됐어요.",
+            "related": "meal",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0034",
+            "en": "snack",
+            "ko": "간식",
+            "pron": "스낵",
+            "example_en": "She had a snack in the afternoon.",
+            "example_ko": "그녀는 오후에 간식을 먹었다.",
+            "related": "cookie",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0035",
+            "en": "meal",
+            "ko": "식사, 끼니",
+            "pron": "밀",
+            "example_en": "This is a healthy meal.",
+            "example_ko": "이것은 건강한 식사이다.",
+            "related": "dish",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0036",
+            "en": "spoon",
+            "ko": "숟가락",
+            "pron": "스푼",
+            "example_en": "Use a spoon to eat soup.",
+            "example_ko": "국을 먹을 때 숟가락을 쓰세요.",
+            "related": "fork",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0037",
+            "en": "fork",
+            "ko": "포크",
+            "pron": "포크",
+            "example_en": "Please pass me the fork.",
+            "example_ko": "포크 좀 건네주세요.",
+            "related": "spoon",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0038",
+            "en": "chopsticks",
+            "ko": "젓가락",
+            "pron": "찹스틱스",
+            "example_en": "He eats with chopsticks.",
+            "example_ko": "그는 젓가락으로 먹는다.",
+            "related": "spoon",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0039",
+            "en": "plate",
+            "ko": "접시",
+            "pron": "플레이트",
+            "example_en": "Put the food on the plate.",
+            "example_ko": "음식을 접시에 담으세요.",
+            "related": "bowl",
+            "category": "meals",
+            "level": "basic"
+          },
+          {
+            "id": "w0040",
+            "en": "cup",
+            "ko": "컵, 잔",
+            "pron": "컵",
+            "example_en": "She poured tea into the cup.",
+            "example_ko": "그녀는 컵에 차를 따랐다.",
+            "related": "glass",
+            "category": "meals",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0041",
+            "en": "appetite",
+            "ko": "식욕",
+            "pron": "애퍼타이트",
+            "example_en": "I have a big appetite today.",
+            "example_ko": "오늘은 식욕이 좋다.",
+            "related": "hungry",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0042",
+            "en": "portion",
+            "ko": "1인분, 분량",
+            "pron": "포션",
+            "example_en": "This is a small portion.",
+            "example_ko": "이것은 적은 분량이다.",
+            "related": "serving",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0043",
+            "en": "leftovers",
+            "ko": "남은 음식",
+            "pron": "레프트오버즈",
+            "example_en": "We ate the leftovers for lunch.",
+            "example_ko": "우리는 남은 음식을 점심으로 먹었다.",
+            "related": "fridge",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0044",
+            "en": "dessert",
+            "ko": "디저트, 후식",
+            "pron": "디저트",
+            "example_en": "What's for dessert?",
+            "example_ko": "디저트는 뭐예요?",
+            "related": "sweet",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0045",
+            "en": "beverage",
+            "ko": "음료",
+            "pron": "베버리지",
+            "example_en": "Please choose a beverage.",
+            "example_ko": "음료를 골라주세요.",
+            "related": "drink",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0046",
+            "en": "utensil",
+            "ko": "식기, 도구",
+            "pron": "유텐실",
+            "example_en": "Wash the utensils after eating.",
+            "example_ko": "식사 후 식기를 씻으세요.",
+            "related": "spoon",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0047",
+            "en": "napkin",
+            "ko": "냅킨",
+            "pron": "냅킨",
+            "example_en": "Please use a napkin.",
+            "example_ko": "냅킨을 사용하세요.",
+            "related": "tissue",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0048",
+            "en": "course",
+            "ko": "코스 요리",
+            "pron": "코스",
+            "example_en": "This restaurant serves a five course meal.",
+            "example_ko": "이 식당은 5코스 요리를 낸다.",
+            "related": "menu",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0049",
+            "en": "buffet",
+            "ko": "뷔페",
+            "pron": "뷔페",
+            "example_en": "We went to a buffet for dinner.",
+            "example_ko": "우리는 저녁에 뷔페에 갔다.",
+            "related": "restaurant",
+            "category": "meals",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0050",
+            "en": "serving",
+            "ko": "한 그릇, 제공량",
+            "pron": "서빙",
+            "example_en": "One serving is enough for me.",
+            "example_ko": "한 그릇이면 나에게 충분하다.",
+            "related": "portion",
+            "category": "meals",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0051",
+            "en": "palatable",
+            "ko": "맛좋은, 입에 맞는",
+            "pron": "팰러터블",
+            "example_en": "The soup was very palatable.",
+            "example_ko": "그 수프는 아주 맛이 좋았다.",
+            "related": "tasty",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0052",
+            "en": "culinary",
+            "ko": "요리의",
+            "pron": "큘리너리",
+            "example_en": "She has great culinary skills.",
+            "example_ko": "그녀는 훌륭한 요리 솜씨를 가지고 있다.",
+            "related": "cooking",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0053",
+            "en": "garnish",
+            "ko": "고명, 장식하다",
+            "pron": "가니시",
+            "example_en": "The chef added a garnish to the dish.",
+            "example_ko": "셰프는 요리에 고명을 얹었다.",
+            "related": "decorate",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0054",
+            "en": "delicacy",
+            "ko": "진미, 별미",
+            "pron": "델리커시",
+            "example_en": "This dish is a local delicacy.",
+            "example_ko": "이 요리는 지역 별미이다.",
+            "related": "specialty",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0055",
+            "en": "gourmet",
+            "ko": "미식가, 고급요리의",
+            "pron": "고메이",
+            "example_en": "He is a gourmet who loves fine food.",
+            "example_ko": "그는 고급 음식을 좋아하는 미식가이다.",
+            "related": "cuisine",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0056",
+            "en": "savor",
+            "ko": "음미하다",
+            "pron": "세이버",
+            "example_en": "Take time to savor your meal.",
+            "example_ko": "시간을 들여 식사를 음미하세요.",
+            "related": "enjoy",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0057",
+            "en": "indulge",
+            "ko": "마음껏 즐기다",
+            "pron": "인덜지",
+            "example_en": "We indulged in dessert tonight.",
+            "example_ko": "우리는 오늘 밤 디저트를 마음껏 즐겼다.",
+            "related": "enjoy",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0058",
+            "en": "wholesome",
+            "ko": "건강에 좋은",
+            "pron": "홀섬",
+            "example_en": "This is a wholesome breakfast.",
+            "example_ko": "이것은 건강에 좋은 아침식사이다.",
+            "related": "healthy",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0059",
+            "en": "nourishment",
+            "ko": "영양분, 자양분",
+            "pron": "너리시먼트",
+            "example_en": "The soup provides good nourishment.",
+            "example_ko": "그 수프는 좋은 영양분을 제공한다.",
+            "related": "nutrition",
+            "category": "meals",
+            "level": "advanced"
+          },
+          {
+            "id": "w0060",
+            "en": "epicurean",
+            "ko": "미식의, 미식가",
+            "pron": "에피큐리언",
+            "example_en": "He has epicurean tastes.",
+            "example_ko": "그는 미식가의 입맛을 가지고 있다.",
+            "related": "gourmet",
+            "category": "meals",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "food",
+      "name": "음식",
+      "icon": "🍎",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0061",
+            "en": "rice",
+            "ko": "쌀, 밥",
+            "pron": "라이스",
+            "example_en": "We eat rice every day.",
+            "example_ko": "우리는 매일 밥을 먹는다.",
+            "related": "meal",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0062",
+            "en": "bread",
+            "ko": "빵",
+            "pron": "브레드",
+            "example_en": "She baked fresh bread.",
+            "example_ko": "그녀는 신선한 빵을 구웠다.",
+            "related": "toast",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0063",
+            "en": "meat",
+            "ko": "고기",
+            "pron": "미트",
+            "example_en": "He doesn't eat meat.",
+            "example_ko": "그는 고기를 먹지 않는다.",
+            "related": "chicken",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0064",
+            "en": "fish",
+            "ko": "생선",
+            "pron": "피시",
+            "example_en": "We had fish for dinner.",
+            "example_ko": "우리는 저녁에 생선을 먹었다.",
+            "related": "seafood",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0065",
+            "en": "vegetable",
+            "ko": "채소",
+            "pron": "베지터블",
+            "example_en": "Eat more vegetables.",
+            "example_ko": "채소를 더 드세요.",
+            "related": "carrot",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0066",
+            "en": "fruit",
+            "ko": "과일",
+            "pron": "프룻",
+            "example_en": "Fruit is good for your health.",
+            "example_ko": "과일은 건강에 좋다.",
+            "related": "apple",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0067",
+            "en": "egg",
+            "ko": "달걀",
+            "pron": "에그",
+            "example_en": "I boiled an egg for breakfast.",
+            "example_ko": "나는 아침으로 달걀을 삶았다.",
+            "related": "chicken",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0068",
+            "en": "milk",
+            "ko": "우유",
+            "pron": "밀크",
+            "example_en": "Drink a glass of milk.",
+            "example_ko": "우유 한 잔 마시세요.",
+            "related": "dairy",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0069",
+            "en": "water",
+            "ko": "물",
+            "pron": "워터",
+            "example_en": "Drink plenty of water.",
+            "example_ko": "물을 충분히 마시세요.",
+            "related": "drink",
+            "category": "food",
+            "level": "basic"
+          },
+          {
+            "id": "w0070",
+            "en": "soup",
+            "ko": "수프, 국",
+            "pron": "숲",
+            "example_en": "The soup is still hot.",
+            "example_ko": "수프가 아직 뜨겁다.",
+            "related": "broth",
+            "category": "food",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0071",
+            "en": "seasoning",
+            "ko": "양념, 조미료",
+            "pron": "시즈닝",
+            "example_en": "Add some seasoning to the soup.",
+            "example_ko": "수프에 양념을 좀 더하세요.",
+            "related": "spice",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0072",
+            "en": "ingredient",
+            "ko": "재료, 성분",
+            "pron": "인그리디언트",
+            "example_en": "What ingredients do you need?",
+            "example_ko": "어떤 재료가 필요하세요?",
+            "related": "recipe",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0073",
+            "en": "recipe",
+            "ko": "조리법",
+            "pron": "레시피",
+            "example_en": "She shared her favorite recipe.",
+            "example_ko": "그녀는 자신이 좋아하는 조리법을 공유했다.",
+            "related": "cook",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0074",
+            "en": "flavor",
+            "ko": "맛, 풍미",
+            "pron": "플레이버",
+            "example_en": "This dish has a rich flavor.",
+            "example_ko": "이 요리는 풍미가 진하다.",
+            "related": "taste",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0075",
+            "en": "spicy",
+            "ko": "매운",
+            "pron": "스파이시",
+            "example_en": "I love spicy food.",
+            "example_ko": "나는 매운 음식을 좋아한다.",
+            "related": "hot",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0076",
+            "en": "sweet",
+            "ko": "단, 달콤한",
+            "pron": "스위트",
+            "example_en": "This cake is very sweet.",
+            "example_ko": "이 케이크는 매우 달다.",
+            "related": "sugar",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0077",
+            "en": "sour",
+            "ko": "신, 시큼한",
+            "pron": "사워",
+            "example_en": "The lemon tastes sour.",
+            "example_ko": "레몬은 신맛이 난다.",
+            "related": "lemon",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0078",
+            "en": "bitter",
+            "ko": "쓴, 씁쓸한",
+            "pron": "비터",
+            "example_en": "Coffee can taste bitter.",
+            "example_ko": "커피는 쓴맛이 날 수 있다.",
+            "related": "coffee",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0079",
+            "en": "fresh",
+            "ko": "신선한",
+            "pron": "프레시",
+            "example_en": "These vegetables are very fresh.",
+            "example_ko": "이 채소들은 매우 신선하다.",
+            "related": "ripe",
+            "category": "food",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0080",
+            "en": "roasted",
+            "ko": "구운, 볶은",
+            "pron": "로스티드",
+            "example_en": "I love roasted chicken.",
+            "example_ko": "나는 구운 치킨을 좋아한다.",
+            "related": "grilled",
+            "category": "food",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0081",
+            "en": "cuisine",
+            "ko": "요리, 요리법",
+            "pron": "퀴진",
+            "example_en": "Korean cuisine is famous worldwide.",
+            "example_ko": "한국 요리는 세계적으로 유명하다.",
+            "related": "dish",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0082",
+            "en": "texture",
+            "ko": "식감, 질감",
+            "pron": "텍스처",
+            "example_en": "I love the crunchy texture.",
+            "example_ko": "나는 바삭한 식감을 좋아한다.",
+            "related": "crunchy",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0083",
+            "en": "aromatic",
+            "ko": "향긋한, 향이 좋은",
+            "pron": "어로매틱",
+            "example_en": "The soup smells aromatic.",
+            "example_ko": "그 수프는 향긋한 냄새가 난다.",
+            "related": "fragrant",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0084",
+            "en": "savory",
+            "ko": "짭짤한, 감칠맛 나는",
+            "pron": "세이버리",
+            "example_en": "This pancake is savory, not sweet.",
+            "example_ko": "이 팬케이크는 달지 않고 짭짤하다.",
+            "related": "salty",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0085",
+            "en": "marinate",
+            "ko": "양념에 재우다",
+            "pron": "매리네이트",
+            "example_en": "Marinate the meat overnight.",
+            "example_ko": "고기를 하룻밤 양념에 재우세요.",
+            "related": "season",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0086",
+            "en": "simmer",
+            "ko": "약불로 끓이다",
+            "pron": "시머",
+            "example_en": "Let the soup simmer for an hour.",
+            "example_ko": "수프를 한 시간 동안 약불로 끓이세요.",
+            "related": "boil",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0087",
+            "en": "fermented",
+            "ko": "발효된",
+            "pron": "퍼멘티드",
+            "example_en": "Kimchi is a fermented food.",
+            "example_ko": "김치는 발효 식품이다.",
+            "related": "pickled",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0088",
+            "en": "exquisite",
+            "ko": "최고급의, 정교한",
+            "pron": "익스퀴짓",
+            "example_en": "The dessert had an exquisite taste.",
+            "example_ko": "그 디저트는 최고급의 맛이 났다.",
+            "related": "fine",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0089",
+            "en": "palate",
+            "ko": "미각, 입맛",
+            "pron": "팰럿",
+            "example_en": "This wine will please your palate.",
+            "example_ko": "이 와인은 당신의 미각을 만족시킬 것이다.",
+            "related": "taste",
+            "category": "food",
+            "level": "advanced"
+          },
+          {
+            "id": "w0090",
+            "en": "delectable",
+            "ko": "아주 맛있는",
+            "pron": "딜렉터블",
+            "example_en": "We enjoyed a delectable dinner.",
+            "example_ko": "우리는 아주 맛있는 저녁을 즐겼다.",
+            "related": "delicious",
+            "category": "food",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kids_edu",
+      "name": "유아 교육",
+      "icon": "🧸",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0091",
+            "en": "toy",
+            "ko": "장난감",
+            "pron": "토이",
+            "example_en": "The baby loves this toy.",
+            "example_ko": "아기는 이 장난감을 좋아한다.",
+            "related": "play",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0092",
+            "en": "book",
+            "ko": "책",
+            "pron": "북",
+            "example_en": "Let's read a book together.",
+            "example_ko": "같이 책을 읽어요.",
+            "related": "story",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0093",
+            "en": "color",
+            "ko": "색깔",
+            "pron": "컬러",
+            "example_en": "What color do you like?",
+            "example_ko": "어떤 색깔을 좋아하니?",
+            "related": "crayon",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0094",
+            "en": "shape",
+            "ko": "모양",
+            "pron": "쉐입",
+            "example_en": "This block is a square shape.",
+            "example_ko": "이 블록은 네모 모양이다.",
+            "related": "circle",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0095",
+            "en": "alphabet",
+            "ko": "알파벳",
+            "pron": "앨퍼벳",
+            "example_en": "She is learning the alphabet.",
+            "example_ko": "그녀는 알파벳을 배우고 있다.",
+            "related": "letter",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0096",
+            "en": "number",
+            "ko": "숫자",
+            "pron": "넘버",
+            "example_en": "Count the numbers one to ten.",
+            "example_ko": "1부터 10까지 숫자를 세어보세요.",
+            "related": "count",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0097",
+            "en": "sing",
+            "ko": "노래하다",
+            "pron": "싱",
+            "example_en": "Let's sing a song together.",
+            "example_ko": "같이 노래를 불러요.",
+            "related": "song",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0098",
+            "en": "draw",
+            "ko": "그리다",
+            "pron": "드로우",
+            "example_en": "The child likes to draw pictures.",
+            "example_ko": "아이는 그림 그리기를 좋아한다.",
+            "related": "paint",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0099",
+            "en": "play",
+            "ko": "놀다",
+            "pron": "플레이",
+            "example_en": "Children love to play outside.",
+            "example_ko": "아이들은 밖에서 노는 것을 좋아한다.",
+            "related": "toy",
+            "category": "kids_edu",
+            "level": "basic"
+          },
+          {
+            "id": "w0100",
+            "en": "story",
+            "ko": "이야기",
+            "pron": "스토리",
+            "example_en": "Grandpa told a bedtime story.",
+            "example_ko": "할아버지가 잠자리 이야기를 해주셨다.",
+            "related": "book",
+            "category": "kids_edu",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0101",
+            "en": "creativity",
+            "ko": "창의력",
+            "pron": "크리에이티비티",
+            "example_en": "Drawing helps develop creativity.",
+            "example_ko": "그림 그리기는 창의력을 키우는 데 도움이 된다.",
+            "related": "imagination",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0102",
+            "en": "curiosity",
+            "ko": "호기심",
+            "pron": "큐리오시티",
+            "example_en": "Children are full of curiosity.",
+            "example_ko": "아이들은 호기심이 가득하다.",
+            "related": "wonder",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0103",
+            "en": "imagination",
+            "ko": "상상력",
+            "pron": "이매지네이션",
+            "example_en": "Stories spark a child's imagination.",
+            "example_ko": "이야기는 아이의 상상력을 자극한다.",
+            "related": "creativity",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0104",
+            "en": "vocabulary",
+            "ko": "어휘",
+            "pron": "보캐뷸러리",
+            "example_en": "Reading builds vocabulary.",
+            "example_ko": "독서는 어휘력을 키운다.",
+            "related": "word",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0105",
+            "en": "milestone",
+            "ko": "발달 단계",
+            "pron": "마일스톤",
+            "example_en": "Walking is an important milestone.",
+            "example_ko": "걷기는 중요한 발달 단계이다.",
+            "related": "development",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0106",
+            "en": "development",
+            "ko": "발달, 성장",
+            "pron": "디벨롭먼트",
+            "example_en": "This toy supports brain development.",
+            "example_ko": "이 장난감은 두뇌 발달을 돕는다.",
+            "related": "growth",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0107",
+            "en": "encourage",
+            "ko": "격려하다",
+            "pron": "인커리지",
+            "example_en": "Encourage your child to try new things.",
+            "example_ko": "아이가 새로운 것을 시도하도록 격려하세요.",
+            "related": "support",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0108",
+            "en": "patience",
+            "ko": "인내심",
+            "pron": "페이션스",
+            "example_en": "Teaching children requires patience.",
+            "example_ko": "아이를 가르치는 것은 인내심이 필요하다.",
+            "related": "calm",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0109",
+            "en": "routine",
+            "ko": "일과, 규칙적인 습관",
+            "pron": "루틴",
+            "example_en": "A bedtime routine helps children sleep well.",
+            "example_ko": "취침 일과는 아이들이 잘 자게 돕는다.",
+            "related": "habit",
+            "category": "kids_edu",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0110",
+            "en": "bond",
+            "ko": "유대감, 유대를 맺다",
+            "pron": "본드",
+            "example_en": "Reading together builds a strong bond.",
+            "example_ko": "함께 책 읽기는 강한 유대감을 만든다.",
+            "related": "connection",
+            "category": "kids_edu",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0111",
+            "en": "cognitive",
+            "ko": "인지의",
+            "pron": "코그니티브",
+            "example_en": "Puzzles improve cognitive skills.",
+            "example_ko": "퍼즐은 인지 능력을 향상시킨다.",
+            "related": "mental",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0112",
+            "en": "nurture",
+            "ko": "양육하다, 기르다",
+            "pron": "너처",
+            "example_en": "Parents nurture their children with love.",
+            "example_ko": "부모는 사랑으로 아이를 양육한다.",
+            "related": "raise",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0113",
+            "en": "stimulate",
+            "ko": "자극하다",
+            "pron": "스티뮬레이트",
+            "example_en": "Colorful toys stimulate the senses.",
+            "example_ko": "알록달록한 장난감은 감각을 자극한다.",
+            "related": "excite",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0114",
+            "en": "toddler",
+            "ko": "걸음마 아기, 유아",
+            "pron": "토들러",
+            "example_en": "The toddler is learning to walk.",
+            "example_ko": "그 유아는 걷는 법을 배우고 있다.",
+            "related": "infant",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0115",
+            "en": "preschool",
+            "ko": "유치원, 미취학의",
+            "pron": "프리스쿨",
+            "example_en": "She goes to preschool every morning.",
+            "example_ko": "그녀는 매일 아침 유치원에 간다.",
+            "related": "kindergarten",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0116",
+            "en": "motor skills",
+            "ko": "운동 능력",
+            "pron": "모터 스킬즈",
+            "example_en": "Blocks help develop motor skills.",
+            "example_ko": "블록은 운동 능력 발달을 돕는다.",
+            "related": "coordination",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0117",
+            "en": "empathy",
+            "ko": "공감 능력",
+            "pron": "엠퍼시",
+            "example_en": "Reading stories can teach empathy.",
+            "example_ko": "이야기를 읽는 것은 공감 능력을 가르칠 수 있다.",
+            "related": "compassion",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0118",
+            "en": "resilience",
+            "ko": "회복력, 회복탄력성",
+            "pron": "리질리언스",
+            "example_en": "Children build resilience through challenges.",
+            "example_ko": "아이들은 도전을 통해 회복력을 기른다.",
+            "related": "strength",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0119",
+            "en": "scaffold",
+            "ko": "단계적으로 지원하다",
+            "pron": "스캐폴드",
+            "example_en": "Teachers scaffold learning step by step.",
+            "example_ko": "교사는 학습을 단계적으로 지원한다.",
+            "related": "support",
+            "category": "kids_edu",
+            "level": "advanced"
+          },
+          {
+            "id": "w0120",
+            "en": "holistic",
+            "ko": "전인적인, 전체적인",
+            "pron": "홀리스틱",
+            "example_en": "This program takes a holistic approach.",
+            "example_ko": "이 프로그램은 전인적인 접근을 취한다.",
+            "related": "whole",
+            "category": "kids_edu",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family",
+      "name": "가족",
+      "icon": "👨‍👩‍👧",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0121",
+            "en": "mother",
+            "ko": "어머니",
+            "pron": "마더",
+            "example_en": "My mother is very kind.",
+            "example_ko": "우리 어머니는 매우 친절하시다.",
+            "related": "parent",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0122",
+            "en": "father",
+            "ko": "아버지",
+            "pron": "파더",
+            "example_en": "My father works hard.",
+            "example_ko": "우리 아버지는 열심히 일하신다.",
+            "related": "parent",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0123",
+            "en": "sister",
+            "ko": "여자 형제",
+            "pron": "시스터",
+            "example_en": "I have one sister.",
+            "example_ko": "나는 여자 형제가 한 명 있다.",
+            "related": "brother",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0124",
+            "en": "brother",
+            "ko": "남자 형제",
+            "pron": "브라더",
+            "example_en": "My brother lives in Seoul.",
+            "example_ko": "내 남동생은 서울에 산다.",
+            "related": "sister",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0125",
+            "en": "grandmother",
+            "ko": "할머니",
+            "pron": "그랜마더",
+            "example_en": "My grandmother tells great stories.",
+            "example_ko": "우리 할머니는 이야기를 정말 잘 하신다.",
+            "related": "grandfather",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0126",
+            "en": "grandfather",
+            "ko": "할아버지",
+            "pron": "그랜파더",
+            "example_en": "My grandfather loves gardening.",
+            "example_ko": "우리 할아버지는 정원 가꾸기를 좋아하신다.",
+            "related": "grandmother",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0127",
+            "en": "baby",
+            "ko": "아기",
+            "pron": "베이비",
+            "example_en": "The baby is sleeping now.",
+            "example_ko": "아기가 지금 자고 있다.",
+            "related": "child",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0128",
+            "en": "family",
+            "ko": "가족",
+            "pron": "패밀리",
+            "example_en": "We are a happy family.",
+            "example_ko": "우리는 행복한 가족이다.",
+            "related": "home",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0129",
+            "en": "son",
+            "ko": "아들",
+            "pron": "선",
+            "example_en": "Their son is a doctor.",
+            "example_ko": "그들의 아들은 의사이다.",
+            "related": "daughter",
+            "category": "family",
+            "level": "basic"
+          },
+          {
+            "id": "w0130",
+            "en": "daughter",
+            "ko": "딸",
+            "pron": "도터",
+            "example_en": "My daughter loves to read.",
+            "example_ko": "내 딸은 독서를 좋아한다.",
+            "related": "son",
+            "category": "family",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0131",
+            "en": "relative",
+            "ko": "친척",
+            "pron": "렐러티브",
+            "example_en": "We invited all our relatives.",
+            "example_ko": "우리는 모든 친척을 초대했다.",
+            "related": "family",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0132",
+            "en": "sibling",
+            "ko": "형제자매",
+            "pron": "시블링",
+            "example_en": "She has two siblings.",
+            "example_ko": "그녀는 형제자매가 두 명 있다.",
+            "related": "brother",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0133",
+            "en": "spouse",
+            "ko": "배우자",
+            "pron": "스파우스",
+            "example_en": "He introduced his spouse at the party.",
+            "example_ko": "그는 파티에서 배우자를 소개했다.",
+            "related": "husband",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0134",
+            "en": "generation",
+            "ko": "세대",
+            "pron": "제너레이션",
+            "example_en": "Three generations live together.",
+            "example_ko": "3대가 함께 산다.",
+            "related": "era",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0135",
+            "en": "household",
+            "ko": "가정, 가구",
+            "pron": "하우스홀드",
+            "example_en": "Every household has its own rules.",
+            "example_ko": "모든 가정은 자기만의 규칙이 있다.",
+            "related": "home",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0136",
+            "en": "raise",
+            "ko": "기르다, 키우다",
+            "pron": "레이즈",
+            "example_en": "They raised three children.",
+            "example_ko": "그들은 세 자녀를 길렀다.",
+            "related": "nurture",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0137",
+            "en": "ancestor",
+            "ko": "조상",
+            "pron": "앤세스터",
+            "example_en": "We honor our ancestors.",
+            "example_ko": "우리는 조상을 공경한다.",
+            "related": "descendant",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0138",
+            "en": "in-law",
+            "ko": "인척, 시댁·처가 식구",
+            "pron": "인로",
+            "example_en": "My mother-in-law is very kind.",
+            "example_ko": "우리 시어머니는 매우 친절하시다.",
+            "related": "relative",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0139",
+            "en": "reunion",
+            "ko": "재회, 모임",
+            "pron": "리유니언",
+            "example_en": "We had a big family reunion.",
+            "example_ko": "우리는 큰 가족 모임을 가졌다.",
+            "related": "gathering",
+            "category": "family",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0140",
+            "en": "upbringing",
+            "ko": "양육, 가정교육",
+            "pron": "업브링잉",
+            "example_en": "She had a strict upbringing.",
+            "example_ko": "그녀는 엄격한 가정교육을 받았다.",
+            "related": "raise",
+            "category": "family",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0141",
+            "en": "kinship",
+            "ko": "혈연, 친족 관계",
+            "pron": "킨십",
+            "example_en": "They share a strong sense of kinship.",
+            "example_ko": "그들은 강한 혈연 유대감을 공유한다.",
+            "related": "family",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0142",
+            "en": "lineage",
+            "ko": "혈통, 가계",
+            "pron": "리니지",
+            "example_en": "He is proud of his family lineage.",
+            "example_ko": "그는 자신의 가문 혈통을 자랑스러워한다.",
+            "related": "ancestry",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0143",
+            "en": "heritage",
+            "ko": "유산, 전통",
+            "pron": "헤리티지",
+            "example_en": "We should preserve our cultural heritage.",
+            "example_ko": "우리는 문화유산을 보존해야 한다.",
+            "related": "tradition",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0144",
+            "en": "nostalgia",
+            "ko": "향수, 그리움",
+            "pron": "노스탤지어",
+            "example_en": "Old photos bring back nostalgia.",
+            "example_ko": "오래된 사진은 향수를 불러일으킨다.",
+            "related": "memory",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0145",
+            "en": "cherish",
+            "ko": "소중히 여기다",
+            "pron": "체리시",
+            "example_en": "We cherish our family time.",
+            "example_ko": "우리는 가족과 보내는 시간을 소중히 여긴다.",
+            "related": "treasure",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0146",
+            "en": "sentimental",
+            "ko": "감상적인, 정서적인",
+            "pron": "센티멘털",
+            "example_en": "This gift has sentimental value.",
+            "example_ko": "이 선물은 정서적인 가치가 있다.",
+            "related": "emotional",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0147",
+            "en": "legacy",
+            "ko": "유산, 업적",
+            "pron": "레거시",
+            "example_en": "He left a great legacy for his family.",
+            "example_ko": "그는 가족에게 훌륭한 유산을 남겼다.",
+            "related": "inheritance",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0148",
+            "en": "affection",
+            "ko": "애정",
+            "pron": "어펙션",
+            "example_en": "She shows great affection for her grandchildren.",
+            "example_ko": "그녀는 손주들에게 큰 애정을 보인다.",
+            "related": "love",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0149",
+            "en": "devotion",
+            "ko": "헌신, 헌신적 사랑",
+            "pron": "디보션",
+            "example_en": "His devotion to his family is admirable.",
+            "example_ko": "그의 가족에 대한 헌신은 존경스럽다.",
+            "related": "dedication",
+            "category": "family",
+            "level": "advanced"
+          },
+          {
+            "id": "w0150",
+            "en": "intergenerational",
+            "ko": "세대 간의",
+            "pron": "인터제너레이셔널",
+            "example_en": "This is an intergenerational tradition.",
+            "example_ko": "이것은 세대 간에 이어지는 전통이다.",
+            "related": "generational",
+            "category": "family",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "weather",
+      "name": "날씨",
+      "icon": "☀️",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0151",
+            "en": "sunny",
+            "ko": "맑은, 화창한",
+            "pron": "서니",
+            "example_en": "It's sunny today.",
+            "example_ko": "오늘은 맑다.",
+            "related": "clear",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0152",
+            "en": "rainy",
+            "ko": "비 오는",
+            "pron": "레이니",
+            "example_en": "It's rainy outside.",
+            "example_ko": "밖에 비가 온다.",
+            "related": "rain",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0153",
+            "en": "cloudy",
+            "ko": "흐린, 구름 낀",
+            "pron": "클라우디",
+            "example_en": "The sky is cloudy today.",
+            "example_ko": "오늘 하늘이 흐리다.",
+            "related": "overcast",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0154",
+            "en": "windy",
+            "ko": "바람 부는",
+            "pron": "윈디",
+            "example_en": "It's very windy today.",
+            "example_ko": "오늘 바람이 매우 많이 분다.",
+            "related": "breeze",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0155",
+            "en": "snow",
+            "ko": "눈",
+            "pron": "스노우",
+            "example_en": "It started to snow.",
+            "example_ko": "눈이 내리기 시작했다.",
+            "related": "winter",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0156",
+            "en": "hot",
+            "ko": "더운",
+            "pron": "핫",
+            "example_en": "It's very hot in summer.",
+            "example_ko": "여름에는 매우 덥다.",
+            "related": "warm",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0157",
+            "en": "cold",
+            "ko": "추운",
+            "pron": "콜드",
+            "example_en": "It's cold in winter.",
+            "example_ko": "겨울에는 춥다.",
+            "related": "cool",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0158",
+            "en": "warm",
+            "ko": "따뜻한",
+            "pron": "웜",
+            "example_en": "Today feels warm.",
+            "example_ko": "오늘은 따뜻하게 느껴진다.",
+            "related": "hot",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0159",
+            "en": "cool",
+            "ko": "시원한, 서늘한",
+            "pron": "쿨",
+            "example_en": "The evening air is cool.",
+            "example_ko": "저녁 공기가 시원하다.",
+            "related": "chilly",
+            "category": "weather",
+            "level": "basic"
+          },
+          {
+            "id": "w0160",
+            "en": "storm",
+            "ko": "폭풍",
+            "pron": "스톰",
+            "example_en": "A storm is coming.",
+            "example_ko": "폭풍이 오고 있다.",
+            "related": "thunder",
+            "category": "weather",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0161",
+            "en": "temperature",
+            "ko": "기온, 온도",
+            "pron": "템퍼러처",
+            "example_en": "The temperature dropped suddenly.",
+            "example_ko": "기온이 갑자기 떨어졌다.",
+            "related": "degree",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0162",
+            "en": "forecast",
+            "ko": "일기예보",
+            "pron": "포캐스트",
+            "example_en": "Check the weather forecast.",
+            "example_ko": "일기예보를 확인하세요.",
+            "related": "prediction",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0163",
+            "en": "humidity",
+            "ko": "습도",
+            "pron": "휴미디티",
+            "example_en": "The humidity is high today.",
+            "example_ko": "오늘 습도가 높다.",
+            "related": "moisture",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0164",
+            "en": "breeze",
+            "ko": "산들바람",
+            "pron": "브리즈",
+            "example_en": "A gentle breeze is blowing.",
+            "example_ko": "산들바람이 불고 있다.",
+            "related": "wind",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0165",
+            "en": "drizzle",
+            "ko": "이슬비",
+            "pron": "드리즐",
+            "example_en": "It's only a light drizzle.",
+            "example_ko": "이건 그냥 가벼운 이슬비이다.",
+            "related": "rain",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0166",
+            "en": "thunder",
+            "ko": "천둥",
+            "pron": "썬더",
+            "example_en": "We heard thunder last night.",
+            "example_ko": "어젯밤 천둥소리를 들었다.",
+            "related": "lightning",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0167",
+            "en": "lightning",
+            "ko": "번개",
+            "pron": "라이트닝",
+            "example_en": "Lightning flashed across the sky.",
+            "example_ko": "번개가 하늘을 가로질러 번쩍였다.",
+            "related": "thunder",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0168",
+            "en": "foggy",
+            "ko": "안개 낀",
+            "pron": "포기",
+            "example_en": "It's too foggy to drive.",
+            "example_ko": "운전하기엔 안개가 너무 심하다.",
+            "related": "mist",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0169",
+            "en": "frost",
+            "ko": "서리",
+            "pron": "프로스트",
+            "example_en": "There was frost on the grass.",
+            "example_ko": "잔디에 서리가 내렸다.",
+            "related": "freeze",
+            "category": "weather",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0170",
+            "en": "climate",
+            "ko": "기후",
+            "pron": "클라이밋",
+            "example_en": "The climate here is mild.",
+            "example_ko": "이곳의 기후는 온화하다.",
+            "related": "weather",
+            "category": "weather",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0171",
+            "en": "meteorology",
+            "ko": "기상학",
+            "pron": "미티어롤러지",
+            "example_en": "He studies meteorology at university.",
+            "example_ko": "그는 대학에서 기상학을 공부한다.",
+            "related": "weather",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0172",
+            "en": "precipitation",
+            "ko": "강수량, 강수",
+            "pron": "프리시피테이션",
+            "example_en": "Precipitation is expected tomorrow.",
+            "example_ko": "내일 강수가 예상된다.",
+            "related": "rainfall",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0173",
+            "en": "atmospheric",
+            "ko": "대기의",
+            "pron": "앳모스페릭",
+            "example_en": "Atmospheric pressure is dropping.",
+            "example_ko": "대기압이 떨어지고 있다.",
+            "related": "air",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0174",
+            "en": "overcast",
+            "ko": "흐린, 잔뜩 찌푸린",
+            "pron": "오버캐스트",
+            "example_en": "The sky was overcast all day.",
+            "example_ko": "하루 종일 하늘이 흐렸다.",
+            "related": "cloudy",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0175",
+            "en": "torrential",
+            "ko": "폭우 같은, 억수 같은",
+            "pron": "토렌셜",
+            "example_en": "Torrential rain flooded the streets.",
+            "example_ko": "억수 같은 비로 거리가 침수됐다.",
+            "related": "heavy rain",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0176",
+            "en": "gale",
+            "ko": "강풍",
+            "pron": "게일",
+            "example_en": "A gale swept through the town.",
+            "example_ko": "강풍이 마을을 휩쓸었다.",
+            "related": "strong wind",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0177",
+            "en": "blizzard",
+            "ko": "눈보라",
+            "pron": "블리자드",
+            "example_en": "The blizzard closed all the roads.",
+            "example_ko": "눈보라로 모든 도로가 폐쇄됐다.",
+            "related": "snowstorm",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0178",
+            "en": "heatwave",
+            "ko": "폭염",
+            "pron": "히트웨이브",
+            "example_en": "A heatwave hit the country.",
+            "example_ko": "폭염이 그 나라를 덮쳤다.",
+            "related": "hot",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0179",
+            "en": "monsoon",
+            "ko": "장마, 우기",
+            "pron": "몬순",
+            "example_en": "The monsoon season starts in July.",
+            "example_ko": "장마철은 7월에 시작된다.",
+            "related": "rainy season",
+            "category": "weather",
+            "level": "advanced"
+          },
+          {
+            "id": "w0180",
+            "en": "drought",
+            "ko": "가뭄",
+            "pron": "드라우트",
+            "example_en": "The drought damaged the crops.",
+            "example_ko": "가뭄이 농작물에 피해를 줬다.",
+            "related": "dry spell",
+            "category": "weather",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "병원",
+      "icon": "🏥",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0181",
+            "en": "doctor",
+            "ko": "의사",
+            "pron": "닥터",
+            "example_en": "The doctor examined the patient.",
+            "example_ko": "의사가 환자를 진찰했다.",
+            "related": "nurse",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0182",
+            "en": "nurse",
+            "ko": "간호사",
+            "pron": "너스",
+            "example_en": "The nurse gave me an injection.",
+            "example_ko": "간호사가 나에게 주사를 놓았다.",
+            "related": "doctor",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0183",
+            "en": "medicine",
+            "ko": "약",
+            "pron": "메디신",
+            "example_en": "Take this medicine after meals.",
+            "example_ko": "식후에 이 약을 드세요.",
+            "related": "pill",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0184",
+            "en": "sick",
+            "ko": "아픈",
+            "pron": "식",
+            "example_en": "I feel sick today.",
+            "example_ko": "오늘 몸이 아프다.",
+            "related": "ill",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0185",
+            "en": "pain",
+            "ko": "통증, 아픔",
+            "pron": "페인",
+            "example_en": "I have pain in my back.",
+            "example_ko": "등에 통증이 있다.",
+            "related": "ache",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0186",
+            "en": "fever",
+            "ko": "열",
+            "pron": "피버",
+            "example_en": "She has a high fever.",
+            "example_ko": "그녀는 열이 높다.",
+            "related": "temperature",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0187",
+            "en": "cold",
+            "ko": "감기",
+            "pron": "콜드",
+            "example_en": "I caught a cold.",
+            "example_ko": "나는 감기에 걸렸다.",
+            "related": "flu",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0188",
+            "en": "hospital",
+            "ko": "병원",
+            "pron": "하스피털",
+            "example_en": "He was taken to the hospital.",
+            "example_ko": "그는 병원으로 이송됐다.",
+            "related": "clinic",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0189",
+            "en": "appointment",
+            "ko": "진료 예약",
+            "pron": "어포인트먼트",
+            "example_en": "I have a doctor's appointment today.",
+            "example_ko": "오늘 병원 예약이 있다.",
+            "related": "schedule",
+            "category": "hospital",
+            "level": "basic"
+          },
+          {
+            "id": "w0190",
+            "en": "injection",
+            "ko": "주사",
+            "pron": "인젝션",
+            "example_en": "The nurse gave an injection.",
+            "example_ko": "간호사가 주사를 놓았다.",
+            "related": "shot",
+            "category": "hospital",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0191",
+            "en": "symptom",
+            "ko": "증상",
+            "pron": "심텀",
+            "example_en": "What symptoms do you have?",
+            "example_ko": "어떤 증상이 있으세요?",
+            "related": "sign",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0192",
+            "en": "diagnosis",
+            "ko": "진단",
+            "pron": "다이어그노시스",
+            "example_en": "The diagnosis was confirmed.",
+            "example_ko": "진단이 확정됐다.",
+            "related": "examine",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0193",
+            "en": "treatment",
+            "ko": "치료",
+            "pron": "트리트먼트",
+            "example_en": "The treatment worked well.",
+            "example_ko": "치료가 잘 됐다.",
+            "related": "therapy",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0194",
+            "en": "prescription",
+            "ko": "처방전",
+            "pron": "프리스크립션",
+            "example_en": "The doctor wrote a prescription.",
+            "example_ko": "의사가 처방전을 써줬다.",
+            "related": "medicine",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0195",
+            "en": "checkup",
+            "ko": "건강검진",
+            "pron": "체크업",
+            "example_en": "I get a checkup every year.",
+            "example_ko": "나는 매년 건강검진을 받는다.",
+            "related": "examination",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0196",
+            "en": "surgery",
+            "ko": "수술",
+            "pron": "서저리",
+            "example_en": "He needs surgery on his knee.",
+            "example_ko": "그는 무릎 수술이 필요하다.",
+            "related": "operation",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0197",
+            "en": "patient",
+            "ko": "환자",
+            "pron": "페이션트",
+            "example_en": "The patient is recovering well.",
+            "example_ko": "환자가 잘 회복하고 있다.",
+            "related": "doctor",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0198",
+            "en": "recovery",
+            "ko": "회복",
+            "pron": "리커버리",
+            "example_en": "Her recovery took two weeks.",
+            "example_ko": "그녀의 회복은 2주가 걸렸다.",
+            "related": "heal",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0199",
+            "en": "emergency",
+            "ko": "응급, 비상",
+            "pron": "이머전시",
+            "example_en": "Call an ambulance, it's an emergency.",
+            "example_ko": "구급차를 부르세요, 응급상황입니다.",
+            "related": "urgent",
+            "category": "hospital",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0200",
+            "en": "clinic",
+            "ko": "진료소, 병원",
+            "pron": "클리닉",
+            "example_en": "There is a small clinic nearby.",
+            "example_ko": "근처에 작은 병원이 있다.",
+            "related": "hospital",
+            "category": "hospital",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0201",
+            "en": "chronic",
+            "ko": "만성의",
+            "pron": "크로닉",
+            "example_en": "He has a chronic illness.",
+            "example_ko": "그는 만성 질환이 있다.",
+            "related": "persistent",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0202",
+            "en": "prognosis",
+            "ko": "예후, 예상",
+            "pron": "프로그노시스",
+            "example_en": "The prognosis is very good.",
+            "example_ko": "예후는 매우 좋다.",
+            "related": "outlook",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0203",
+            "en": "rehabilitation",
+            "ko": "재활",
+            "pron": "리해빌리테이션",
+            "example_en": "She started rehabilitation after surgery.",
+            "example_ko": "그녀는 수술 후 재활을 시작했다.",
+            "related": "recovery",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0204",
+            "en": "immunity",
+            "ko": "면역력",
+            "pron": "이뮤니티",
+            "example_en": "Exercise can boost your immunity.",
+            "example_ko": "운동은 면역력을 높일 수 있다.",
+            "related": "resistance",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0205",
+            "en": "ailment",
+            "ko": "질환, 병",
+            "pron": "에일먼트",
+            "example_en": "He suffers from a minor ailment.",
+            "example_ko": "그는 가벼운 질환을 앓고 있다.",
+            "related": "illness",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0206",
+            "en": "therapeutic",
+            "ko": "치료의, 치료 효과가 있는",
+            "pron": "세러퓨틱",
+            "example_en": "Walking has a therapeutic effect.",
+            "example_ko": "걷기는 치료 효과가 있다.",
+            "related": "healing",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0207",
+            "en": "vital signs",
+            "ko": "활력 징후",
+            "pron": "바이털 사인즈",
+            "example_en": "The nurse checked his vital signs.",
+            "example_ko": "간호사가 그의 활력 징후를 확인했다.",
+            "related": "pulse",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0208",
+            "en": "anesthesia",
+            "ko": "마취",
+            "pron": "애너스시지어",
+            "example_en": "He was under anesthesia during surgery.",
+            "example_ko": "그는 수술 중 마취 상태였다.",
+            "related": "numb",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0209",
+            "en": "referral",
+            "ko": "의뢰, 소개",
+            "pron": "리퍼럴",
+            "example_en": "The doctor gave a referral to a specialist.",
+            "example_ko": "의사가 전문의에게 의뢰서를 써줬다.",
+            "related": "recommend",
+            "category": "hospital",
+            "level": "advanced"
+          },
+          {
+            "id": "w0210",
+            "en": "consultation",
+            "ko": "진찰, 상담",
+            "pron": "컨설테이션",
+            "example_en": "The consultation took thirty minutes.",
+            "example_ko": "진찰은 30분이 걸렸다.",
+            "related": "appointment",
+            "category": "hospital",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shopping",
+      "name": "쇼핑",
+      "icon": "🛍️",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0211",
+            "en": "store",
+            "ko": "가게, 상점",
+            "pron": "스토어",
+            "example_en": "The store opens at nine.",
+            "example_ko": "그 가게는 9시에 문을 연다.",
+            "related": "shop",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0212",
+            "en": "price",
+            "ko": "가격",
+            "pron": "프라이스",
+            "example_en": "The price is too high.",
+            "example_ko": "가격이 너무 비싸다.",
+            "related": "cost",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0213",
+            "en": "money",
+            "ko": "돈",
+            "pron": "머니",
+            "example_en": "I don't have enough money.",
+            "example_ko": "돈이 충분하지 않다.",
+            "related": "cash",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0214",
+            "en": "buy",
+            "ko": "사다",
+            "pron": "바이",
+            "example_en": "I want to buy new shoes.",
+            "example_ko": "새 신발을 사고 싶다.",
+            "related": "purchase",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0215",
+            "en": "sell",
+            "ko": "팔다",
+            "pron": "셀",
+            "example_en": "They sell fresh vegetables here.",
+            "example_ko": "여기서 신선한 채소를 판다.",
+            "related": "trade",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0216",
+            "en": "cash",
+            "ko": "현금",
+            "pron": "캐시",
+            "example_en": "I paid in cash.",
+            "example_ko": "현금으로 지불했다.",
+            "related": "money",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0217",
+            "en": "receipt",
+            "ko": "영수증",
+            "pron": "리시트",
+            "example_en": "Please keep the receipt.",
+            "example_ko": "영수증을 보관하세요.",
+            "related": "proof",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0218",
+            "en": "discount",
+            "ko": "할인",
+            "pron": "디스카운트",
+            "example_en": "This item is on discount.",
+            "example_ko": "이 물건은 할인 중이다.",
+            "related": "sale",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0219",
+            "en": "bag",
+            "ko": "가방, 봉투",
+            "pron": "백",
+            "example_en": "Put the items in the bag.",
+            "example_ko": "물건을 가방에 넣으세요.",
+            "related": "basket",
+            "category": "shopping",
+            "level": "basic"
+          },
+          {
+            "id": "w0220",
+            "en": "cart",
+            "ko": "카트, 손수레",
+            "pron": "카트",
+            "example_en": "Push the cart carefully.",
+            "example_ko": "카트를 조심히 미세요.",
+            "related": "basket",
+            "category": "shopping",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0221",
+            "en": "budget",
+            "ko": "예산",
+            "pron": "버짓",
+            "example_en": "We have a small budget for shopping.",
+            "example_ko": "우리는 쇼핑 예산이 적다.",
+            "related": "cost",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0222",
+            "en": "refund",
+            "ko": "환불",
+            "pron": "리펀드",
+            "example_en": "I asked for a refund.",
+            "example_ko": "나는 환불을 요청했다.",
+            "related": "return",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0223",
+            "en": "exchange",
+            "ko": "교환",
+            "pron": "익스체인지",
+            "example_en": "Can I exchange this shirt?",
+            "example_ko": "이 셔츠를 교환할 수 있나요?",
+            "related": "return",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0224",
+            "en": "warranty",
+            "ko": "보증, 보증서",
+            "pron": "워런티",
+            "example_en": "This product has a two year warranty.",
+            "example_ko": "이 제품은 2년 보증이다.",
+            "related": "guarantee",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0225",
+            "en": "checkout",
+            "ko": "계산대, 결제",
+            "pron": "체크아웃",
+            "example_en": "There is a long line at checkout.",
+            "example_ko": "계산대에 긴 줄이 있다.",
+            "related": "pay",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0226",
+            "en": "membership",
+            "ko": "회원권, 멤버십",
+            "pron": "멤버십",
+            "example_en": "She has a store membership.",
+            "example_ko": "그녀는 상점 멤버십이 있다.",
+            "related": "member",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0227",
+            "en": "coupon",
+            "ko": "쿠폰",
+            "pron": "쿠폰",
+            "example_en": "I used a coupon for the discount.",
+            "example_ko": "할인을 위해 쿠폰을 사용했다.",
+            "related": "voucher",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0228",
+            "en": "bargain",
+            "ko": "싸게 사는 물건, 흥정하다",
+            "pron": "바겐",
+            "example_en": "This is a real bargain.",
+            "example_ko": "이건 정말 싸게 산 것이다.",
+            "related": "deal",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0229",
+            "en": "inventory",
+            "ko": "재고",
+            "pron": "인벤토리",
+            "example_en": "The store checked its inventory.",
+            "example_ko": "상점은 재고를 확인했다.",
+            "related": "stock",
+            "category": "shopping",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0230",
+            "en": "customer",
+            "ko": "고객",
+            "pron": "커스터머",
+            "example_en": "The customer was very satisfied.",
+            "example_ko": "고객은 매우 만족했다.",
+            "related": "client",
+            "category": "shopping",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0231",
+            "en": "consumer",
+            "ko": "소비자",
+            "pron": "컨슈머",
+            "example_en": "Consumers want better quality.",
+            "example_ko": "소비자는 더 나은 품질을 원한다.",
+            "related": "buyer",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0232",
+            "en": "retail",
+            "ko": "소매(업)",
+            "pron": "리테일",
+            "example_en": "She works in retail.",
+            "example_ko": "그녀는 소매업에서 일한다.",
+            "related": "store",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0233",
+            "en": "merchandise",
+            "ko": "상품",
+            "pron": "머천다이즈",
+            "example_en": "The store sells a variety of merchandise.",
+            "example_ko": "그 상점은 다양한 상품을 판다.",
+            "related": "goods",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0234",
+            "en": "transaction",
+            "ko": "거래",
+            "pron": "트랜잭션",
+            "example_en": "The transaction was completed successfully.",
+            "example_ko": "거래가 성공적으로 완료됐다.",
+            "related": "deal",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0235",
+            "en": "installment",
+            "ko": "할부",
+            "pron": "인스톨먼트",
+            "example_en": "I paid for it in installments.",
+            "example_ko": "나는 그것을 할부로 지불했다.",
+            "related": "payment",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0236",
+            "en": "wholesale",
+            "ko": "도매(의)",
+            "pron": "홀세일",
+            "example_en": "We buy products at wholesale price.",
+            "example_ko": "우리는 도매가로 제품을 산다.",
+            "related": "bulk",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0237",
+            "en": "promotion",
+            "ko": "판촉, 프로모션",
+            "pron": "프로모션",
+            "example_en": "The store is running a promotion.",
+            "example_ko": "그 상점은 프로모션을 진행 중이다.",
+            "related": "sale",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0238",
+            "en": "loyalty",
+            "ko": "충성도, 단골",
+            "pron": "로열티",
+            "example_en": "The card offers loyalty points.",
+            "example_ko": "그 카드는 단골 포인트를 제공한다.",
+            "related": "membership",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0239",
+            "en": "impulse",
+            "ko": "충동",
+            "pron": "임펄스",
+            "example_en": "She made an impulse purchase.",
+            "example_ko": "그녀는 충동구매를 했다.",
+            "related": "sudden",
+            "category": "shopping",
+            "level": "advanced"
+          },
+          {
+            "id": "w0240",
+            "en": "sustainable",
+            "ko": "지속가능한",
+            "pron": "서스테이너블",
+            "example_en": "More people choose sustainable products.",
+            "example_ko": "더 많은 사람들이 지속가능한 제품을 선택한다.",
+            "related": "eco-friendly",
+            "category": "shopping",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jobs",
+      "name": "직업",
+      "icon": "💼",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0241",
+            "en": "teacher",
+            "ko": "교사",
+            "pron": "티처",
+            "example_en": "She is a kind teacher.",
+            "example_ko": "그녀는 친절한 교사이다.",
+            "related": "school",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0242",
+            "en": "farmer",
+            "ko": "농부",
+            "pron": "파머",
+            "example_en": "The farmer grows rice.",
+            "example_ko": "그 농부는 벼를 재배한다.",
+            "related": "farm",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0243",
+            "en": "worker",
+            "ko": "근로자, 노동자",
+            "pron": "워커",
+            "example_en": "The worker finished the job.",
+            "example_ko": "그 근로자는 일을 끝냈다.",
+            "related": "job",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0244",
+            "en": "engineer",
+            "ko": "기술자, 엔지니어",
+            "pron": "엔지니어",
+            "example_en": "He works as an engineer.",
+            "example_ko": "그는 엔지니어로 일한다.",
+            "related": "technology",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0245",
+            "en": "police officer",
+            "ko": "경찰관",
+            "pron": "폴리스 오피서",
+            "example_en": "The police officer helped us.",
+            "example_ko": "경찰관이 우리를 도와줬다.",
+            "related": "police",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0246",
+            "en": "chef",
+            "ko": "요리사, 주방장",
+            "pron": "셰프",
+            "example_en": "The chef cooked a great meal.",
+            "example_ko": "셰프가 훌륭한 요리를 만들었다.",
+            "related": "cook",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0247",
+            "en": "driver",
+            "ko": "운전기사",
+            "pron": "드라이버",
+            "example_en": "The bus driver was very careful.",
+            "example_ko": "버스 기사는 매우 조심스러웠다.",
+            "related": "bus",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0248",
+            "en": "employee",
+            "ko": "직원",
+            "pron": "임플로이",
+            "example_en": "She is a good employee.",
+            "example_ko": "그녀는 좋은 직원이다.",
+            "related": "company",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0249",
+            "en": "boss",
+            "ko": "상사, 사장",
+            "pron": "보스",
+            "example_en": "My boss is very fair.",
+            "example_ko": "우리 상사는 매우 공정하다.",
+            "related": "manager",
+            "category": "jobs",
+            "level": "basic"
+          },
+          {
+            "id": "w0250",
+            "en": "salary",
+            "ko": "월급, 급여",
+            "pron": "샐러리",
+            "example_en": "He receives a monthly salary.",
+            "example_ko": "그는 매달 월급을 받는다.",
+            "related": "pay",
+            "category": "jobs",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0251",
+            "en": "profession",
+            "ko": "직업, 전문직",
+            "pron": "프로페션",
+            "example_en": "Teaching is a respected profession.",
+            "example_ko": "교직은 존경받는 직업이다.",
+            "related": "career",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0252",
+            "en": "colleague",
+            "ko": "동료",
+            "pron": "컬리그",
+            "example_en": "My colleague helped me finish the report.",
+            "example_ko": "내 동료가 보고서 끝내는 것을 도왔다.",
+            "related": "coworker",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0253",
+            "en": "promotion",
+            "ko": "승진",
+            "pron": "프로모션",
+            "example_en": "He got a promotion last month.",
+            "example_ko": "그는 지난달 승진했다.",
+            "related": "raise",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0254",
+            "en": "resume",
+            "ko": "이력서",
+            "pron": "레주메",
+            "example_en": "She updated her resume.",
+            "example_ko": "그녀는 이력서를 업데이트했다.",
+            "related": "cv",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0255",
+            "en": "interview",
+            "ko": "면접",
+            "pron": "인터뷰",
+            "example_en": "The interview went very well.",
+            "example_ko": "면접이 아주 잘 됐다.",
+            "related": "apply",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0256",
+            "en": "deadline",
+            "ko": "마감일, 마감기한",
+            "pron": "데드라인",
+            "example_en": "We must meet the deadline.",
+            "example_ko": "우리는 마감기한을 지켜야 한다.",
+            "related": "due date",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0257",
+            "en": "workplace",
+            "ko": "직장, 일터",
+            "pron": "워크플레이스",
+            "example_en": "The workplace is very friendly.",
+            "example_ko": "그 직장은 매우 우호적이다.",
+            "related": "office",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0258",
+            "en": "negotiation",
+            "ko": "협상",
+            "pron": "니고시에이션",
+            "example_en": "The negotiation took a long time.",
+            "example_ko": "그 협상은 시간이 오래 걸렸다.",
+            "related": "discuss",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0259",
+            "en": "contract",
+            "ko": "계약, 계약서",
+            "pron": "컨트랙트",
+            "example_en": "They signed a new contract.",
+            "example_ko": "그들은 새 계약서에 서명했다.",
+            "related": "agreement",
+            "category": "jobs",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0260",
+            "en": "overtime",
+            "ko": "초과 근무, 야근",
+            "pron": "오버타임",
+            "example_en": "He worked overtime last night.",
+            "example_ko": "그는 어젯밤 야근을 했다.",
+            "related": "extra work",
+            "category": "jobs",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0261",
+            "en": "entrepreneur",
+            "ko": "기업가, 사업가",
+            "pron": "앙트러프러너",
+            "example_en": "She became a successful entrepreneur.",
+            "example_ko": "그녀는 성공한 사업가가 되었다.",
+            "related": "business owner",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0262",
+            "en": "expertise",
+            "ko": "전문 지식, 전문성",
+            "pron": "엑스퍼티즈",
+            "example_en": "He has expertise in finance.",
+            "example_ko": "그는 금융 분야에 전문성이 있다.",
+            "related": "skill",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0263",
+            "en": "occupation",
+            "ko": "직업, 업무",
+            "pron": "아큐페이션",
+            "example_en": "What is your occupation?",
+            "example_ko": "당신의 직업은 무엇인가요?",
+            "related": "job",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0264",
+            "en": "versatile",
+            "ko": "다재다능한",
+            "pron": "버서타일",
+            "example_en": "She is a versatile worker.",
+            "example_ko": "그녀는 다재다능한 근로자이다.",
+            "related": "flexible",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0265",
+            "en": "proficient",
+            "ko": "능숙한, 숙달된",
+            "pron": "프로피션트",
+            "example_en": "He is proficient in English.",
+            "example_ko": "그는 영어에 능숙하다.",
+            "related": "skilled",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0266",
+            "en": "initiative",
+            "ko": "주도권, 진취성",
+            "pron": "이니셔티브",
+            "example_en": "She showed great initiative at work.",
+            "example_ko": "그녀는 직장에서 큰 진취성을 보였다.",
+            "related": "leadership",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0267",
+            "en": "accountability",
+            "ko": "책임감",
+            "pron": "어카운터빌리티",
+            "example_en": "Accountability is important in any job.",
+            "example_ko": "어떤 직업에서든 책임감이 중요하다.",
+            "related": "responsibility",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0268",
+            "en": "collaboration",
+            "ko": "협업, 협력",
+            "pron": "컬래버레이션",
+            "example_en": "The project needed strong collaboration.",
+            "example_ko": "그 프로젝트는 강력한 협업이 필요했다.",
+            "related": "teamwork",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0269",
+            "en": "leadership",
+            "ko": "리더십",
+            "pron": "리더십",
+            "example_en": "Good leadership motivates the team.",
+            "example_ko": "좋은 리더십은 팀에 동기를 부여한다.",
+            "related": "guidance",
+            "category": "jobs",
+            "level": "advanced"
+          },
+          {
+            "id": "w0270",
+            "en": "work-life balance",
+            "ko": "일과 삶의 균형",
+            "pron": "워크라이프 밸런스",
+            "example_en": "She values work-life balance.",
+            "example_ko": "그녀는 일과 삶의 균형을 중요시한다.",
+            "related": "balance",
+            "category": "jobs",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "emotions",
+      "name": "감정",
+      "icon": "😊",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0271",
+            "en": "happy",
+            "ko": "행복한, 기쁜",
+            "pron": "해피",
+            "example_en": "She looks happy today.",
+            "example_ko": "그녀는 오늘 행복해 보인다.",
+            "related": "glad",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0272",
+            "en": "sad",
+            "ko": "슬픈",
+            "pron": "새드",
+            "example_en": "He feels sad about the news.",
+            "example_ko": "그는 그 소식에 슬퍼한다.",
+            "related": "unhappy",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0273",
+            "en": "angry",
+            "ko": "화난",
+            "pron": "앵그리",
+            "example_en": "She was angry with him.",
+            "example_ko": "그녀는 그에게 화가 났다.",
+            "related": "mad",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0274",
+            "en": "tired",
+            "ko": "피곤한",
+            "pron": "타이어드",
+            "example_en": "I am very tired today.",
+            "example_ko": "오늘 정말 피곤하다.",
+            "related": "sleepy",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0275",
+            "en": "scared",
+            "ko": "무서운, 겁먹은",
+            "pron": "스케어드",
+            "example_en": "The child was scared of the dark.",
+            "example_ko": "그 아이는 어둠을 무서워했다.",
+            "related": "afraid",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0276",
+            "en": "excited",
+            "ko": "신난, 흥분한",
+            "pron": "익사이티드",
+            "example_en": "We are excited about the trip.",
+            "example_ko": "우리는 여행에 대해 신이 났다.",
+            "related": "thrilled",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0277",
+            "en": "surprised",
+            "ko": "놀란",
+            "pron": "서프라이즈드",
+            "example_en": "I was surprised by the gift.",
+            "example_ko": "나는 그 선물에 놀랐다.",
+            "related": "shocked",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0278",
+            "en": "bored",
+            "ko": "지루한, 심심한",
+            "pron": "보어드",
+            "example_en": "The kids were bored at home.",
+            "example_ko": "아이들은 집에서 심심해했다.",
+            "related": "dull",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0279",
+            "en": "worried",
+            "ko": "걱정하는",
+            "pron": "워리드",
+            "example_en": "She is worried about the exam.",
+            "example_ko": "그녀는 시험에 대해 걱정하고 있다.",
+            "related": "anxious",
+            "category": "emotions",
+            "level": "basic"
+          },
+          {
+            "id": "w0280",
+            "en": "proud",
+            "ko": "자랑스러운",
+            "pron": "프라우드",
+            "example_en": "I am proud of my daughter.",
+            "example_ko": "나는 내 딸이 자랑스럽다.",
+            "related": "satisfied",
+            "category": "emotions",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0281",
+            "en": "nervous",
+            "ko": "긴장한, 불안한",
+            "pron": "너버스",
+            "example_en": "He felt nervous before the interview.",
+            "example_ko": "그는 면접 전에 긴장했다.",
+            "related": "anxious",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0282",
+            "en": "jealous",
+            "ko": "질투하는",
+            "pron": "젤러스",
+            "example_en": "She felt jealous of her friend.",
+            "example_ko": "그녀는 친구를 질투했다.",
+            "related": "envious",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0283",
+            "en": "grateful",
+            "ko": "감사하는",
+            "pron": "그레이트풀",
+            "example_en": "I am grateful for your help.",
+            "example_ko": "도와주셔서 감사합니다.",
+            "related": "thankful",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0284",
+            "en": "embarrassed",
+            "ko": "당황한, 창피한",
+            "pron": "임배러스트",
+            "example_en": "He was embarrassed by the mistake.",
+            "example_ko": "그는 그 실수에 당황했다.",
+            "related": "ashamed",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0285",
+            "en": "confident",
+            "ko": "자신감 있는",
+            "pron": "컨피던트",
+            "example_en": "She spoke with confidence.",
+            "example_ko": "그녀는 자신감 있게 말했다.",
+            "related": "sure",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0286",
+            "en": "disappointed",
+            "ko": "실망한",
+            "pron": "디스어포인티드",
+            "example_en": "I was disappointed with the result.",
+            "example_ko": "나는 그 결과에 실망했다.",
+            "related": "let down",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0287",
+            "en": "relieved",
+            "ko": "안도하는",
+            "pron": "릴리브드",
+            "example_en": "We felt relieved after the test.",
+            "example_ko": "우리는 시험 후 안도했다.",
+            "related": "calm",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0288",
+            "en": "anxious",
+            "ko": "불안한, 초조한",
+            "pron": "앵셔스",
+            "example_en": "She felt anxious before the trip.",
+            "example_ko": "그녀는 여행 전에 불안했다.",
+            "related": "nervous",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0289",
+            "en": "content",
+            "ko": "만족하는",
+            "pron": "컨텐트",
+            "example_en": "He is content with his life.",
+            "example_ko": "그는 자신의 삶에 만족한다.",
+            "related": "satisfied",
+            "category": "emotions",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0290",
+            "en": "hopeful",
+            "ko": "희망적인",
+            "pron": "호프풀",
+            "example_en": "We remain hopeful about the future.",
+            "example_ko": "우리는 미래에 대해 희망적이다.",
+            "related": "optimistic",
+            "category": "emotions",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0291",
+            "en": "melancholy",
+            "ko": "우울, 서글픔",
+            "pron": "멜랑콜리",
+            "example_en": "A sense of melancholy filled the room.",
+            "example_ko": "방 안에 우울함이 가득했다.",
+            "related": "sadness",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0292",
+            "en": "euphoria",
+            "ko": "행복감, 도취감",
+            "pron": "유포리아",
+            "example_en": "She felt euphoria after winning.",
+            "example_ko": "그녀는 우승 후 행복감을 느꼈다.",
+            "related": "joy",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0293",
+            "en": "empathetic",
+            "ko": "공감하는",
+            "pron": "엠퍼세틱",
+            "example_en": "He is very empathetic toward others.",
+            "example_ko": "그는 다른 사람들에게 매우 공감적이다.",
+            "related": "compassionate",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0294",
+            "en": "overwhelmed",
+            "ko": "압도된, 벅찬",
+            "pron": "오버윌름드",
+            "example_en": "She felt overwhelmed by the workload.",
+            "example_ko": "그녀는 업무량에 압도됐다.",
+            "related": "stressed",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0295",
+            "en": "nostalgic",
+            "ko": "향수를 느끼는",
+            "pron": "노스탤직",
+            "example_en": "He felt nostalgic looking at old photos.",
+            "example_ko": "그는 옛 사진을 보며 향수를 느꼈다.",
+            "related": "sentimental",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0296",
+            "en": "apprehensive",
+            "ko": "걱정하는, 불안한",
+            "pron": "애프리헨시브",
+            "example_en": "She was apprehensive about the surgery.",
+            "example_ko": "그녀는 수술에 대해 불안해했다.",
+            "related": "worried",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0297",
+            "en": "exhilarated",
+            "ko": "들뜬, 짜릿한",
+            "pron": "이그질러레이티드",
+            "example_en": "He felt exhilarated after the race.",
+            "example_ko": "그는 경주 후 들떴다.",
+            "related": "thrilled",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0298",
+            "en": "vulnerable",
+            "ko": "취약한, 상처받기 쉬운",
+            "pron": "벌너러블",
+            "example_en": "She felt vulnerable after sharing her feelings.",
+            "example_ko": "그녀는 감정을 나눈 후 취약함을 느꼈다.",
+            "related": "fragile",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0299",
+            "en": "ambivalent",
+            "ko": "양가적인, 애매한 감정의",
+            "pron": "앰비벌런트",
+            "example_en": "He felt ambivalent about the decision.",
+            "example_ko": "그는 그 결정에 대해 양가적인 감정을 느꼈다.",
+            "related": "uncertain",
+            "category": "emotions",
+            "level": "advanced"
+          },
+          {
+            "id": "w0300",
+            "en": "serene",
+            "ko": "평온한, 고요한",
+            "pron": "서린",
+            "example_en": "The lake looked serene at sunset.",
+            "example_ko": "그 호수는 석양에 평온해 보였다.",
+            "related": "peaceful",
+            "category": "emotions",
+            "level": "advanced"
+          }
+        ]
+      }
+    },
+    {
+      "id": "daily_talk",
+      "name": "생활 회화",
+      "icon": "💬",
+      "levels": {
+        "basic": [
+          {
+            "id": "w0301",
+            "en": "hello",
+            "ko": "안녕하세요",
+            "pron": "헬로",
+            "example_en": "Hello, how are you?",
+            "example_ko": "안녕하세요, 어떻게 지내세요?",
+            "related": "hi",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0302",
+            "en": "thank you",
+            "ko": "감사합니다",
+            "pron": "땡큐",
+            "example_en": "Thank you for your help.",
+            "example_ko": "도와주셔서 감사합니다.",
+            "related": "thanks",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0303",
+            "en": "sorry",
+            "ko": "미안합니다, 죄송합니다",
+            "pron": "쏘리",
+            "example_en": "I'm sorry for being late.",
+            "example_ko": "늦어서 죄송합니다.",
+            "related": "apology",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0304",
+            "en": "please",
+            "ko": "부탁합니다, ~해 주세요",
+            "pron": "플리즈",
+            "example_en": "Please sit down.",
+            "example_ko": "앉아 주세요.",
+            "related": "request",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0305",
+            "en": "yes",
+            "ko": "네, 예",
+            "pron": "예스",
+            "example_en": "Yes, I understand.",
+            "example_ko": "네, 이해했습니다.",
+            "related": "okay",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0306",
+            "en": "no",
+            "ko": "아니요",
+            "pron": "노",
+            "example_en": "No, thank you.",
+            "example_ko": "아니요, 괜찮습니다.",
+            "related": "not",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0307",
+            "en": "goodbye",
+            "ko": "안녕히 가세요",
+            "pron": "굿바이",
+            "example_en": "Goodbye, see you tomorrow.",
+            "example_ko": "안녕히 가세요, 내일 봬요.",
+            "related": "bye",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0308",
+            "en": "excuse me",
+            "ko": "실례합니다",
+            "pron": "익스큐즈 미",
+            "example_en": "Excuse me, where is the station?",
+            "example_ko": "실례합니다, 역이 어디인가요?",
+            "related": "pardon",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0309",
+            "en": "welcome",
+            "ko": "환영합니다",
+            "pron": "웰컴",
+            "example_en": "Welcome to our home.",
+            "example_ko": "우리 집에 오신 것을 환영합니다.",
+            "related": "greet",
+            "category": "daily_talk",
+            "level": "basic"
+          },
+          {
+            "id": "w0310",
+            "en": "okay",
+            "ko": "좋아요, 알겠어요",
+            "pron": "오케이",
+            "example_en": "Okay, let's go.",
+            "example_ko": "좋아요, 갑시다.",
+            "related": "alright",
+            "category": "daily_talk",
+            "level": "basic"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "w0311",
+            "en": "favor",
+            "ko": "부탁",
+            "pron": "페이버",
+            "example_en": "Can I ask you a favor?",
+            "example_ko": "부탁 하나 드려도 될까요?",
+            "related": "request",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0312",
+            "en": "suggestion",
+            "ko": "제안",
+            "pron": "서제스천",
+            "example_en": "I have a suggestion for you.",
+            "example_ko": "당신에게 제안이 하나 있어요.",
+            "related": "idea",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0313",
+            "en": "opinion",
+            "ko": "의견",
+            "pron": "오피니언",
+            "example_en": "What is your opinion on this?",
+            "example_ko": "이것에 대한 당신의 의견은 무엇인가요?",
+            "related": "view",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0314",
+            "en": "agreement",
+            "ko": "동의, 합의",
+            "pron": "어그리먼트",
+            "example_en": "We reached an agreement.",
+            "example_ko": "우리는 합의에 도달했다.",
+            "related": "consent",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0315",
+            "en": "apology",
+            "ko": "사과",
+            "pron": "어팔러지",
+            "example_en": "He made a sincere apology.",
+            "example_ko": "그는 진심 어린 사과를 했다.",
+            "related": "sorry",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0316",
+            "en": "compliment",
+            "ko": "칭찬",
+            "pron": "컴플리먼트",
+            "example_en": "She gave me a nice compliment.",
+            "example_ko": "그녀는 나에게 멋진 칭찬을 해줬다.",
+            "related": "praise",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0317",
+            "en": "invitation",
+            "ko": "초대",
+            "pron": "인비테이션",
+            "example_en": "We received an invitation to the party.",
+            "example_ko": "우리는 파티 초대장을 받았다.",
+            "related": "invite",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0318",
+            "en": "reminder",
+            "ko": "알림, 상기시키는 것",
+            "pron": "리마인더",
+            "example_en": "This is just a friendly reminder.",
+            "example_ko": "이건 그냥 친절한 알림이에요.",
+            "related": "note",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0319",
+            "en": "request",
+            "ko": "요청",
+            "pron": "리퀘스트",
+            "example_en": "She made a simple request.",
+            "example_ko": "그녀는 간단한 요청을 했다.",
+            "related": "ask",
+            "category": "daily_talk",
+            "level": "intermediate"
+          },
+          {
+            "id": "w0320",
+            "en": "response",
+            "ko": "답변, 대답",
+            "pron": "리스판스",
+            "example_en": "I'm waiting for your response.",
+            "example_ko": "당신의 답변을 기다리고 있어요.",
+            "related": "reply",
+            "category": "daily_talk",
+            "level": "intermediate"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "w0321",
+            "en": "elaborate",
+            "ko": "자세히 설명하다",
+            "pron": "일래버레이트",
+            "example_en": "Could you elaborate on that?",
+            "example_ko": "그것에 대해 좀 더 자세히 설명해 주시겠어요?",
+            "related": "explain",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0322",
+            "en": "clarify",
+            "ko": "명확히 하다",
+            "pron": "클래리파이",
+            "example_en": "Let me clarify what I meant.",
+            "example_ko": "제가 의미한 것을 명확히 하겠습니다.",
+            "related": "explain",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0323",
+            "en": "negotiate",
+            "ko": "협상하다",
+            "pron": "니고시에이트",
+            "example_en": "They negotiated a better price.",
+            "example_ko": "그들은 더 나은 가격을 협상했다.",
+            "related": "bargain",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0324",
+            "en": "empathize",
+            "ko": "공감하다",
+            "pron": "엠퍼사이즈",
+            "example_en": "I really empathize with your situation.",
+            "example_ko": "저는 당신의 상황에 정말 공감합니다.",
+            "related": "understand",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0325",
+            "en": "articulate",
+            "ko": "분명히 표현하다",
+            "pron": "아티큘레이트",
+            "example_en": "She articulated her thoughts clearly.",
+            "example_ko": "그녀는 자신의 생각을 명확히 표현했다.",
+            "related": "express",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0326",
+            "en": "reconcile",
+            "ko": "화해하다",
+            "pron": "레컨사일",
+            "example_en": "They reconciled after the argument.",
+            "example_ko": "그들은 다툼 후 화해했다.",
+            "related": "make up",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0327",
+            "en": "acknowledge",
+            "ko": "인정하다",
+            "pron": "어크날리지",
+            "example_en": "He acknowledged his mistake.",
+            "example_ko": "그는 자신의 실수를 인정했다.",
+            "related": "admit",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0328",
+            "en": "paraphrase",
+            "ko": "다른 말로 바꾸어 표현하다",
+            "pron": "패러프레이즈",
+            "example_en": "Can you paraphrase that sentence?",
+            "example_ko": "그 문장을 다른 말로 바꿔 말해줄 수 있나요?",
+            "related": "rephrase",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0329",
+            "en": "digress",
+            "ko": "주제에서 벗어나다",
+            "pron": "다이그레스",
+            "example_en": "Sorry, I digress from the topic.",
+            "example_ko": "죄송해요, 주제에서 벗어났네요.",
+            "related": "stray",
+            "category": "daily_talk",
+            "level": "advanced"
+          },
+          {
+            "id": "w0330",
+            "en": "convey",
+            "ko": "전달하다",
+            "pron": "컨베이",
+            "example_en": "Words cannot convey my gratitude.",
+            "example_ko": "말로는 제 감사함을 다 전달할 수 없어요.",
+            "related": "express",
+            "category": "daily_talk",
+            "level": "advanced"
+          }
+        ]
+      }
+    }
+  ]
+}
