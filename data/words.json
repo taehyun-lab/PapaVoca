@@ -13,7 +13,10 @@
             "pron": "에어포트",
             "example_en": "The airport is very busy today.",
             "example_ko": "오늘 공항이 매우 붐빈다.",
-            "related": "plane",
+            "related": {
+              "en": "plane",
+              "ko": "비행기"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -24,7 +27,10 @@
             "pron": "티킷",
             "example_en": "I bought a ticket for the train.",
             "example_ko": "나는 기차표를 샀다.",
-            "related": "train",
+            "related": {
+              "en": "train",
+              "ko": "기차"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -35,7 +41,10 @@
             "pron": "패스포트",
             "example_en": "Don't forget your passport.",
             "example_ko": "여권을 잊지 마세요.",
-            "related": "visa",
+            "related": {
+              "en": "visa",
+              "ko": "비자"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -46,7 +55,10 @@
             "pron": "러기지",
             "example_en": "My luggage is very heavy.",
             "example_ko": "내 짐이 매우 무겁다.",
-            "related": "suitcase",
+            "related": {
+              "en": "suitcase",
+              "ko": "여행 가방"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -57,7 +69,10 @@
             "pron": "호텔",
             "example_en": "We stayed at a nice hotel.",
             "example_ko": "우리는 좋은 호텔에 묵었다.",
-            "related": "room",
+            "related": {
+              "en": "room",
+              "ko": "방"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -68,7 +83,10 @@
             "pron": "맵",
             "example_en": "Can you show me the map?",
             "example_ko": "지도를 보여주시겠어요?",
-            "related": "direction",
+            "related": {
+              "en": "direction",
+              "ko": "방향"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -79,7 +97,10 @@
             "pron": "택시",
             "example_en": "Let's take a taxi to the hotel.",
             "example_ko": "택시를 타고 호텔로 갑시다.",
-            "related": "driver",
+            "related": {
+              "en": "driver",
+              "ko": "운전자"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -90,7 +111,10 @@
             "pron": "트레인",
             "example_en": "The train leaves at nine.",
             "example_ko": "기차는 9시에 출발한다.",
-            "related": "station",
+            "related": {
+              "en": "station",
+              "ko": "역"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -101,7 +125,10 @@
             "pron": "에어플레인",
             "example_en": "The airplane landed safely.",
             "example_ko": "비행기가 안전하게 착륙했다.",
-            "related": "airport",
+            "related": {
+              "en": "airport",
+              "ko": "공항"
+            },
             "category": "travel",
             "level": "basic"
           },
@@ -112,7 +139,10 @@
             "pron": "베케이션",
             "example_en": "We are planning a vacation.",
             "example_ko": "우리는 휴가를 계획하고 있다.",
-            "related": "trip",
+            "related": {
+              "en": "trip",
+              "ko": "여행"
+            },
             "category": "travel",
             "level": "basic"
           }
@@ -125,7 +155,10 @@
             "pron": "레저베이션",
             "example_en": "I made a hotel reservation.",
             "example_ko": "나는 호텔을 예약했다.",
-            "related": "booking",
+            "related": {
+              "en": "booking",
+              "ko": "예약"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -136,7 +169,10 @@
             "pron": "디파처",
             "example_en": "The departure time changed.",
             "example_ko": "출발 시간이 바뀌었다.",
-            "related": "arrival",
+            "related": {
+              "en": "arrival",
+              "ko": "도착"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -147,7 +183,10 @@
             "pron": "어라이벌",
             "example_en": "Check the arrival gate.",
             "example_ko": "도착 게이트를 확인하세요.",
-            "related": "departure",
+            "related": {
+              "en": "departure",
+              "ko": "출발"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -158,7 +197,10 @@
             "pron": "커스텀즈",
             "example_en": "We passed through customs quickly.",
             "example_ko": "우리는 빠르게 세관을 통과했다.",
-            "related": "passport",
+            "related": {
+              "en": "passport",
+              "ko": "여권"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -169,7 +211,10 @@
             "pron": "커런시",
             "example_en": "I need to exchange currency.",
             "example_ko": "나는 환전을 해야 한다.",
-            "related": "exchange",
+            "related": {
+              "en": "exchange",
+              "ko": "교환"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -180,7 +225,10 @@
             "pron": "데스티네이션",
             "example_en": "What is your final destination?",
             "example_ko": "최종 목적지가 어디인가요?",
-            "related": "journey",
+            "related": {
+              "en": "journey",
+              "ko": "여정"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -191,7 +239,10 @@
             "pron": "저니",
             "example_en": "It was a long journey.",
             "example_ko": "긴 여정이었다.",
-            "related": "trip",
+            "related": {
+              "en": "trip",
+              "ko": "여행"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -202,7 +253,10 @@
             "pron": "보딩",
             "example_en": "Boarding starts in ten minutes.",
             "example_ko": "탑승은 10분 후에 시작합니다.",
-            "related": "gate",
+            "related": {
+              "en": "gate",
+              "ko": "탑승구"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -213,7 +267,10 @@
             "pron": "레이오버",
             "example_en": "We had a two hour layover.",
             "example_ko": "우리는 두 시간 경유했다.",
-            "related": "flight",
+            "related": {
+              "en": "flight",
+              "ko": "항공편"
+            },
             "category": "travel",
             "level": "intermediate"
           },
@@ -224,7 +281,10 @@
             "pron": "사이트시잉",
             "example_en": "We went sightseeing all day.",
             "example_ko": "우리는 하루 종일 관광했다.",
-            "related": "tourist",
+            "related": {
+              "en": "tourist",
+              "ko": "관광객"
+            },
             "category": "travel",
             "level": "intermediate"
           }
@@ -237,7 +297,10 @@
             "pron": "아이티너러리",
             "example_en": "Please check the itinerary carefully.",
             "example_ko": "여행 일정표를 꼼꼼히 확인하세요.",
-            "related": "schedule",
+            "related": {
+              "en": "schedule",
+              "ko": "일정"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -248,7 +311,10 @@
             "pron": "어카머데이션",
             "example_en": "We booked our accommodation online.",
             "example_ko": "우리는 숙박시설을 온라인으로 예약했다.",
-            "related": "hotel",
+            "related": {
+              "en": "hotel",
+              "ko": "호텔"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -259,7 +325,10 @@
             "pron": "임바크",
             "example_en": "We embarked on a new adventure.",
             "example_ko": "우리는 새로운 모험을 시작했다.",
-            "related": "journey",
+            "related": {
+              "en": "journey",
+              "ko": "여정"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -270,7 +339,10 @@
             "pron": "익스커전",
             "example_en": "We took a short excursion to the coast.",
             "example_ko": "우리는 해안으로 짧은 여행을 갔다.",
-            "related": "trip",
+            "related": {
+              "en": "trip",
+              "ko": "여행"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -281,7 +353,10 @@
             "pron": "원더러스트",
             "example_en": "She has always had wanderlust.",
             "example_ko": "그녀는 항상 여행을 갈망해왔다.",
-            "related": "travel",
+            "related": {
+              "en": "travel",
+              "ko": "여행하다"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -292,7 +367,10 @@
             "pron": "트랜짓",
             "example_en": "We are in transit to Paris.",
             "example_ko": "우리는 파리로 가는 중에 경유하고 있다.",
-            "related": "layover",
+            "related": {
+              "en": "layover",
+              "ko": "경유"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -303,7 +381,10 @@
             "pron": "보이지",
             "example_en": "It was a long sea voyage.",
             "example_ko": "긴 바다 항해였다.",
-            "related": "journey",
+            "related": {
+              "en": "journey",
+              "ko": "여정"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -314,7 +395,10 @@
             "pron": "이머전",
             "example_en": "Language immersion helps you learn faster.",
             "example_ko": "언어 몰입은 더 빨리 배우게 도와준다.",
-            "related": "culture",
+            "related": {
+              "en": "culture",
+              "ko": "문화"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -325,7 +409,10 @@
             "pron": "랜드마크",
             "example_en": "The tower is a famous landmark.",
             "example_ko": "그 탑은 유명한 랜드마크이다.",
-            "related": "sightseeing",
+            "related": {
+              "en": "sightseeing",
+              "ko": "관광"
+            },
             "category": "travel",
             "level": "advanced"
           },
@@ -336,7 +423,10 @@
             "pron": "백패킹",
             "example_en": "They went backpacking across Europe.",
             "example_ko": "그들은 유럽을 배낭여행했다.",
-            "related": "hostel",
+            "related": {
+              "en": "hostel",
+              "ko": "호스텔"
+            },
             "category": "travel",
             "level": "advanced"
           }
@@ -356,7 +446,10 @@
             "pron": "브렉퍼스트",
             "example_en": "I eat breakfast at seven.",
             "example_ko": "나는 7시에 아침을 먹는다.",
-            "related": "meal",
+            "related": {
+              "en": "meal",
+              "ko": "식사"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -367,7 +460,10 @@
             "pron": "런치",
             "example_en": "Let's have lunch together.",
             "example_ko": "같이 점심 먹읍시다.",
-            "related": "meal",
+            "related": {
+              "en": "meal",
+              "ko": "식사"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -378,7 +474,10 @@
             "pron": "디너",
             "example_en": "Dinner is ready.",
             "example_ko": "저녁 준비 다 됐어요.",
-            "related": "meal",
+            "related": {
+              "en": "meal",
+              "ko": "식사"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -389,7 +488,10 @@
             "pron": "스낵",
             "example_en": "She had a snack in the afternoon.",
             "example_ko": "그녀는 오후에 간식을 먹었다.",
-            "related": "cookie",
+            "related": {
+              "en": "cookie",
+              "ko": "쿠키"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -400,7 +502,10 @@
             "pron": "밀",
             "example_en": "This is a healthy meal.",
             "example_ko": "이것은 건강한 식사이다.",
-            "related": "dish",
+            "related": {
+              "en": "dish",
+              "ko": "요리, 접시"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -411,7 +516,10 @@
             "pron": "스푼",
             "example_en": "Use a spoon to eat soup.",
             "example_ko": "국을 먹을 때 숟가락을 쓰세요.",
-            "related": "fork",
+            "related": {
+              "en": "fork",
+              "ko": "포크"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -422,7 +530,10 @@
             "pron": "포크",
             "example_en": "Please pass me the fork.",
             "example_ko": "포크 좀 건네주세요.",
-            "related": "spoon",
+            "related": {
+              "en": "spoon",
+              "ko": "숟가락"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -433,7 +544,10 @@
             "pron": "찹스틱스",
             "example_en": "He eats with chopsticks.",
             "example_ko": "그는 젓가락으로 먹는다.",
-            "related": "spoon",
+            "related": {
+              "en": "spoon",
+              "ko": "숟가락"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -444,7 +558,10 @@
             "pron": "플레이트",
             "example_en": "Put the food on the plate.",
             "example_ko": "음식을 접시에 담으세요.",
-            "related": "bowl",
+            "related": {
+              "en": "bowl",
+              "ko": "그릇"
+            },
             "category": "meals",
             "level": "basic"
           },
@@ -455,7 +572,10 @@
             "pron": "컵",
             "example_en": "She poured tea into the cup.",
             "example_ko": "그녀는 컵에 차를 따랐다.",
-            "related": "glass",
+            "related": {
+              "en": "glass",
+              "ko": "유리잔"
+            },
             "category": "meals",
             "level": "basic"
           }
@@ -468,7 +588,10 @@
             "pron": "애퍼타이트",
             "example_en": "I have a big appetite today.",
             "example_ko": "오늘은 식욕이 좋다.",
-            "related": "hungry",
+            "related": {
+              "en": "hungry",
+              "ko": "배고픈"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -479,7 +602,10 @@
             "pron": "포션",
             "example_en": "This is a small portion.",
             "example_ko": "이것은 적은 분량이다.",
-            "related": "serving",
+            "related": {
+              "en": "serving",
+              "ko": "1인분"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -490,7 +616,10 @@
             "pron": "레프트오버즈",
             "example_en": "We ate the leftovers for lunch.",
             "example_ko": "우리는 남은 음식을 점심으로 먹었다.",
-            "related": "fridge",
+            "related": {
+              "en": "fridge",
+              "ko": "냉장고"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -501,7 +630,10 @@
             "pron": "디저트",
             "example_en": "What's for dessert?",
             "example_ko": "디저트는 뭐예요?",
-            "related": "sweet",
+            "related": {
+              "en": "sweet",
+              "ko": "단, 달콤한"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -512,7 +644,10 @@
             "pron": "베버리지",
             "example_en": "Please choose a beverage.",
             "example_ko": "음료를 골라주세요.",
-            "related": "drink",
+            "related": {
+              "en": "drink",
+              "ko": "음료, 마시다"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -523,7 +658,10 @@
             "pron": "유텐실",
             "example_en": "Wash the utensils after eating.",
             "example_ko": "식사 후 식기를 씻으세요.",
-            "related": "spoon",
+            "related": {
+              "en": "spoon",
+              "ko": "숟가락"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -534,7 +672,10 @@
             "pron": "냅킨",
             "example_en": "Please use a napkin.",
             "example_ko": "냅킨을 사용하세요.",
-            "related": "tissue",
+            "related": {
+              "en": "tissue",
+              "ko": "화장지"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -545,7 +686,10 @@
             "pron": "코스",
             "example_en": "This restaurant serves a five course meal.",
             "example_ko": "이 식당은 5코스 요리를 낸다.",
-            "related": "menu",
+            "related": {
+              "en": "menu",
+              "ko": "메뉴"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -556,7 +700,10 @@
             "pron": "뷔페",
             "example_en": "We went to a buffet for dinner.",
             "example_ko": "우리는 저녁에 뷔페에 갔다.",
-            "related": "restaurant",
+            "related": {
+              "en": "restaurant",
+              "ko": "식당"
+            },
             "category": "meals",
             "level": "intermediate"
           },
@@ -567,7 +714,10 @@
             "pron": "서빙",
             "example_en": "One serving is enough for me.",
             "example_ko": "한 그릇이면 나에게 충분하다.",
-            "related": "portion",
+            "related": {
+              "en": "portion",
+              "ko": "1인분"
+            },
             "category": "meals",
             "level": "intermediate"
           }
@@ -580,7 +730,10 @@
             "pron": "팰러터블",
             "example_en": "The soup was very palatable.",
             "example_ko": "그 수프는 아주 맛이 좋았다.",
-            "related": "tasty",
+            "related": {
+              "en": "tasty",
+              "ko": "맛있는"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -591,7 +744,10 @@
             "pron": "큘리너리",
             "example_en": "She has great culinary skills.",
             "example_ko": "그녀는 훌륭한 요리 솜씨를 가지고 있다.",
-            "related": "cooking",
+            "related": {
+              "en": "cooking",
+              "ko": "요리"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -602,7 +758,10 @@
             "pron": "가니시",
             "example_en": "The chef added a garnish to the dish.",
             "example_ko": "셰프는 요리에 고명을 얹었다.",
-            "related": "decorate",
+            "related": {
+              "en": "decorate",
+              "ko": "장식하다"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -613,7 +772,10 @@
             "pron": "델리커시",
             "example_en": "This dish is a local delicacy.",
             "example_ko": "이 요리는 지역 별미이다.",
-            "related": "specialty",
+            "related": {
+              "en": "specialty",
+              "ko": "특산품"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -624,7 +786,10 @@
             "pron": "고메이",
             "example_en": "He is a gourmet who loves fine food.",
             "example_ko": "그는 고급 음식을 좋아하는 미식가이다.",
-            "related": "cuisine",
+            "related": {
+              "en": "cuisine",
+              "ko": "요리(법)"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -635,7 +800,10 @@
             "pron": "세이버",
             "example_en": "Take time to savor your meal.",
             "example_ko": "시간을 들여 식사를 음미하세요.",
-            "related": "enjoy",
+            "related": {
+              "en": "enjoy",
+              "ko": "즐기다"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -646,7 +814,10 @@
             "pron": "인덜지",
             "example_en": "We indulged in dessert tonight.",
             "example_ko": "우리는 오늘 밤 디저트를 마음껏 즐겼다.",
-            "related": "enjoy",
+            "related": {
+              "en": "enjoy",
+              "ko": "즐기다"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -657,7 +828,10 @@
             "pron": "홀섬",
             "example_en": "This is a wholesome breakfast.",
             "example_ko": "이것은 건강에 좋은 아침식사이다.",
-            "related": "healthy",
+            "related": {
+              "en": "healthy",
+              "ko": "건강한"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -668,7 +842,10 @@
             "pron": "너리시먼트",
             "example_en": "The soup provides good nourishment.",
             "example_ko": "그 수프는 좋은 영양분을 제공한다.",
-            "related": "nutrition",
+            "related": {
+              "en": "nutrition",
+              "ko": "영양"
+            },
             "category": "meals",
             "level": "advanced"
           },
@@ -679,7 +856,10 @@
             "pron": "에피큐리언",
             "example_en": "He has epicurean tastes.",
             "example_ko": "그는 미식가의 입맛을 가지고 있다.",
-            "related": "gourmet",
+            "related": {
+              "en": "gourmet",
+              "ko": "미식가"
+            },
             "category": "meals",
             "level": "advanced"
           }
@@ -699,7 +879,10 @@
             "pron": "라이스",
             "example_en": "We eat rice every day.",
             "example_ko": "우리는 매일 밥을 먹는다.",
-            "related": "meal",
+            "related": {
+              "en": "meal",
+              "ko": "식사"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -710,7 +893,10 @@
             "pron": "브레드",
             "example_en": "She baked fresh bread.",
             "example_ko": "그녀는 신선한 빵을 구웠다.",
-            "related": "toast",
+            "related": {
+              "en": "toast",
+              "ko": "토스트, 건배"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -721,7 +907,10 @@
             "pron": "미트",
             "example_en": "He doesn't eat meat.",
             "example_ko": "그는 고기를 먹지 않는다.",
-            "related": "chicken",
+            "related": {
+              "en": "chicken",
+              "ko": "닭, 닭고기"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -732,7 +921,10 @@
             "pron": "피시",
             "example_en": "We had fish for dinner.",
             "example_ko": "우리는 저녁에 생선을 먹었다.",
-            "related": "seafood",
+            "related": {
+              "en": "seafood",
+              "ko": "해산물"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -743,7 +935,10 @@
             "pron": "베지터블",
             "example_en": "Eat more vegetables.",
             "example_ko": "채소를 더 드세요.",
-            "related": "carrot",
+            "related": {
+              "en": "carrot",
+              "ko": "당근"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -754,7 +949,10 @@
             "pron": "프룻",
             "example_en": "Fruit is good for your health.",
             "example_ko": "과일은 건강에 좋다.",
-            "related": "apple",
+            "related": {
+              "en": "apple",
+              "ko": "사과"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -765,7 +963,10 @@
             "pron": "에그",
             "example_en": "I boiled an egg for breakfast.",
             "example_ko": "나는 아침으로 달걀을 삶았다.",
-            "related": "chicken",
+            "related": {
+              "en": "chicken",
+              "ko": "닭, 닭고기"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -776,7 +977,10 @@
             "pron": "밀크",
             "example_en": "Drink a glass of milk.",
             "example_ko": "우유 한 잔 마시세요.",
-            "related": "dairy",
+            "related": {
+              "en": "dairy",
+              "ko": "유제품"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -787,7 +991,10 @@
             "pron": "워터",
             "example_en": "Drink plenty of water.",
             "example_ko": "물을 충분히 마시세요.",
-            "related": "drink",
+            "related": {
+              "en": "drink",
+              "ko": "음료, 마시다"
+            },
             "category": "food",
             "level": "basic"
           },
@@ -798,7 +1005,10 @@
             "pron": "숲",
             "example_en": "The soup is still hot.",
             "example_ko": "수프가 아직 뜨겁다.",
-            "related": "broth",
+            "related": {
+              "en": "broth",
+              "ko": "육수"
+            },
             "category": "food",
             "level": "basic"
           }
@@ -811,7 +1021,10 @@
             "pron": "시즈닝",
             "example_en": "Add some seasoning to the soup.",
             "example_ko": "수프에 양념을 좀 더하세요.",
-            "related": "spice",
+            "related": {
+              "en": "spice",
+              "ko": "향신료"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -822,7 +1035,10 @@
             "pron": "인그리디언트",
             "example_en": "What ingredients do you need?",
             "example_ko": "어떤 재료가 필요하세요?",
-            "related": "recipe",
+            "related": {
+              "en": "recipe",
+              "ko": "조리법"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -833,7 +1049,10 @@
             "pron": "레시피",
             "example_en": "She shared her favorite recipe.",
             "example_ko": "그녀는 자신이 좋아하는 조리법을 공유했다.",
-            "related": "cook",
+            "related": {
+              "en": "cook",
+              "ko": "요리하다"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -844,7 +1063,10 @@
             "pron": "플레이버",
             "example_en": "This dish has a rich flavor.",
             "example_ko": "이 요리는 풍미가 진하다.",
-            "related": "taste",
+            "related": {
+              "en": "taste",
+              "ko": "맛"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -855,7 +1077,10 @@
             "pron": "스파이시",
             "example_en": "I love spicy food.",
             "example_ko": "나는 매운 음식을 좋아한다.",
-            "related": "hot",
+            "related": {
+              "en": "hot",
+              "ko": "더운"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -866,7 +1091,10 @@
             "pron": "스위트",
             "example_en": "This cake is very sweet.",
             "example_ko": "이 케이크는 매우 달다.",
-            "related": "sugar",
+            "related": {
+              "en": "sugar",
+              "ko": "설탕"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -877,7 +1105,10 @@
             "pron": "사워",
             "example_en": "The lemon tastes sour.",
             "example_ko": "레몬은 신맛이 난다.",
-            "related": "lemon",
+            "related": {
+              "en": "lemon",
+              "ko": "레몬"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -888,7 +1119,10 @@
             "pron": "비터",
             "example_en": "Coffee can taste bitter.",
             "example_ko": "커피는 쓴맛이 날 수 있다.",
-            "related": "coffee",
+            "related": {
+              "en": "coffee",
+              "ko": "커피"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -899,7 +1133,10 @@
             "pron": "프레시",
             "example_en": "These vegetables are very fresh.",
             "example_ko": "이 채소들은 매우 신선하다.",
-            "related": "ripe",
+            "related": {
+              "en": "ripe",
+              "ko": "익은"
+            },
             "category": "food",
             "level": "intermediate"
           },
@@ -910,7 +1147,10 @@
             "pron": "로스티드",
             "example_en": "I love roasted chicken.",
             "example_ko": "나는 구운 치킨을 좋아한다.",
-            "related": "grilled",
+            "related": {
+              "en": "grilled",
+              "ko": "구운"
+            },
             "category": "food",
             "level": "intermediate"
           }
@@ -923,7 +1163,10 @@
             "pron": "퀴진",
             "example_en": "Korean cuisine is famous worldwide.",
             "example_ko": "한국 요리는 세계적으로 유명하다.",
-            "related": "dish",
+            "related": {
+              "en": "dish",
+              "ko": "요리, 접시"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -934,7 +1177,10 @@
             "pron": "텍스처",
             "example_en": "I love the crunchy texture.",
             "example_ko": "나는 바삭한 식감을 좋아한다.",
-            "related": "crunchy",
+            "related": {
+              "en": "crunchy",
+              "ko": "바삭한"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -945,7 +1191,10 @@
             "pron": "어로매틱",
             "example_en": "The soup smells aromatic.",
             "example_ko": "그 수프는 향긋한 냄새가 난다.",
-            "related": "fragrant",
+            "related": {
+              "en": "fragrant",
+              "ko": "향긋한"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -956,7 +1205,10 @@
             "pron": "세이버리",
             "example_en": "This pancake is savory, not sweet.",
             "example_ko": "이 팬케이크는 달지 않고 짭짤하다.",
-            "related": "salty",
+            "related": {
+              "en": "salty",
+              "ko": "짠"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -967,7 +1219,10 @@
             "pron": "매리네이트",
             "example_en": "Marinate the meat overnight.",
             "example_ko": "고기를 하룻밤 양념에 재우세요.",
-            "related": "season",
+            "related": {
+              "en": "season",
+              "ko": "양념하다, 계절"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -978,7 +1233,10 @@
             "pron": "시머",
             "example_en": "Let the soup simmer for an hour.",
             "example_ko": "수프를 한 시간 동안 약불로 끓이세요.",
-            "related": "boil",
+            "related": {
+              "en": "boil",
+              "ko": "끓이다"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -989,7 +1247,10 @@
             "pron": "퍼멘티드",
             "example_en": "Kimchi is a fermented food.",
             "example_ko": "김치는 발효 식품이다.",
-            "related": "pickled",
+            "related": {
+              "en": "pickled",
+              "ko": "절인"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -1000,7 +1261,10 @@
             "pron": "익스퀴짓",
             "example_en": "The dessert had an exquisite taste.",
             "example_ko": "그 디저트는 최고급의 맛이 났다.",
-            "related": "fine",
+            "related": {
+              "en": "fine",
+              "ko": "좋은, 고급의"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -1011,7 +1275,10 @@
             "pron": "팰럿",
             "example_en": "This wine will please your palate.",
             "example_ko": "이 와인은 당신의 미각을 만족시킬 것이다.",
-            "related": "taste",
+            "related": {
+              "en": "taste",
+              "ko": "맛"
+            },
             "category": "food",
             "level": "advanced"
           },
@@ -1022,7 +1289,10 @@
             "pron": "딜렉터블",
             "example_en": "We enjoyed a delectable dinner.",
             "example_ko": "우리는 아주 맛있는 저녁을 즐겼다.",
-            "related": "delicious",
+            "related": {
+              "en": "delicious",
+              "ko": "맛있는"
+            },
             "category": "food",
             "level": "advanced"
           }
@@ -1042,7 +1312,10 @@
             "pron": "토이",
             "example_en": "The baby loves this toy.",
             "example_ko": "아기는 이 장난감을 좋아한다.",
-            "related": "play",
+            "related": {
+              "en": "play",
+              "ko": "놀다"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1053,7 +1326,10 @@
             "pron": "북",
             "example_en": "Let's read a book together.",
             "example_ko": "같이 책을 읽어요.",
-            "related": "story",
+            "related": {
+              "en": "story",
+              "ko": "이야기"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1064,7 +1340,10 @@
             "pron": "컬러",
             "example_en": "What color do you like?",
             "example_ko": "어떤 색깔을 좋아하니?",
-            "related": "crayon",
+            "related": {
+              "en": "crayon",
+              "ko": "크레용"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1075,7 +1354,10 @@
             "pron": "쉐입",
             "example_en": "This block is a square shape.",
             "example_ko": "이 블록은 네모 모양이다.",
-            "related": "circle",
+            "related": {
+              "en": "circle",
+              "ko": "원"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1086,7 +1368,10 @@
             "pron": "앨퍼벳",
             "example_en": "She is learning the alphabet.",
             "example_ko": "그녀는 알파벳을 배우고 있다.",
-            "related": "letter",
+            "related": {
+              "en": "letter",
+              "ko": "글자, 편지"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1097,7 +1382,10 @@
             "pron": "넘버",
             "example_en": "Count the numbers one to ten.",
             "example_ko": "1부터 10까지 숫자를 세어보세요.",
-            "related": "count",
+            "related": {
+              "en": "count",
+              "ko": "세다"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1108,7 +1396,10 @@
             "pron": "싱",
             "example_en": "Let's sing a song together.",
             "example_ko": "같이 노래를 불러요.",
-            "related": "song",
+            "related": {
+              "en": "song",
+              "ko": "노래"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1119,7 +1410,10 @@
             "pron": "드로우",
             "example_en": "The child likes to draw pictures.",
             "example_ko": "아이는 그림 그리기를 좋아한다.",
-            "related": "paint",
+            "related": {
+              "en": "paint",
+              "ko": "그리다, 페인트"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1130,7 +1424,10 @@
             "pron": "플레이",
             "example_en": "Children love to play outside.",
             "example_ko": "아이들은 밖에서 노는 것을 좋아한다.",
-            "related": "toy",
+            "related": {
+              "en": "toy",
+              "ko": "장난감"
+            },
             "category": "kids_edu",
             "level": "basic"
           },
@@ -1141,7 +1438,10 @@
             "pron": "스토리",
             "example_en": "Grandpa told a bedtime story.",
             "example_ko": "할아버지가 잠자리 이야기를 해주셨다.",
-            "related": "book",
+            "related": {
+              "en": "book",
+              "ko": "책"
+            },
             "category": "kids_edu",
             "level": "basic"
           }
@@ -1154,7 +1454,10 @@
             "pron": "크리에이티비티",
             "example_en": "Drawing helps develop creativity.",
             "example_ko": "그림 그리기는 창의력을 키우는 데 도움이 된다.",
-            "related": "imagination",
+            "related": {
+              "en": "imagination",
+              "ko": "상상력"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1165,7 +1468,10 @@
             "pron": "큐리오시티",
             "example_en": "Children are full of curiosity.",
             "example_ko": "아이들은 호기심이 가득하다.",
-            "related": "wonder",
+            "related": {
+              "en": "wonder",
+              "ko": "궁금해하다"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1176,7 +1482,10 @@
             "pron": "이매지네이션",
             "example_en": "Stories spark a child's imagination.",
             "example_ko": "이야기는 아이의 상상력을 자극한다.",
-            "related": "creativity",
+            "related": {
+              "en": "creativity",
+              "ko": "창의력"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1187,7 +1496,10 @@
             "pron": "보캐뷸러리",
             "example_en": "Reading builds vocabulary.",
             "example_ko": "독서는 어휘력을 키운다.",
-            "related": "word",
+            "related": {
+              "en": "word",
+              "ko": "단어"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1198,7 +1510,10 @@
             "pron": "마일스톤",
             "example_en": "Walking is an important milestone.",
             "example_ko": "걷기는 중요한 발달 단계이다.",
-            "related": "development",
+            "related": {
+              "en": "development",
+              "ko": "발달"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1209,7 +1524,10 @@
             "pron": "디벨롭먼트",
             "example_en": "This toy supports brain development.",
             "example_ko": "이 장난감은 두뇌 발달을 돕는다.",
-            "related": "growth",
+            "related": {
+              "en": "growth",
+              "ko": "성장"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1220,7 +1538,10 @@
             "pron": "인커리지",
             "example_en": "Encourage your child to try new things.",
             "example_ko": "아이가 새로운 것을 시도하도록 격려하세요.",
-            "related": "support",
+            "related": {
+              "en": "support",
+              "ko": "지원하다"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1231,7 +1552,10 @@
             "pron": "페이션스",
             "example_en": "Teaching children requires patience.",
             "example_ko": "아이를 가르치는 것은 인내심이 필요하다.",
-            "related": "calm",
+            "related": {
+              "en": "calm",
+              "ko": "차분한"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1242,7 +1566,10 @@
             "pron": "루틴",
             "example_en": "A bedtime routine helps children sleep well.",
             "example_ko": "취침 일과는 아이들이 잘 자게 돕는다.",
-            "related": "habit",
+            "related": {
+              "en": "habit",
+              "ko": "습관"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           },
@@ -1253,7 +1580,10 @@
             "pron": "본드",
             "example_en": "Reading together builds a strong bond.",
             "example_ko": "함께 책 읽기는 강한 유대감을 만든다.",
-            "related": "connection",
+            "related": {
+              "en": "connection",
+              "ko": "연결, 유대"
+            },
             "category": "kids_edu",
             "level": "intermediate"
           }
@@ -1266,7 +1596,10 @@
             "pron": "코그니티브",
             "example_en": "Puzzles improve cognitive skills.",
             "example_ko": "퍼즐은 인지 능력을 향상시킨다.",
-            "related": "mental",
+            "related": {
+              "en": "mental",
+              "ko": "정신의"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1277,7 +1610,10 @@
             "pron": "너처",
             "example_en": "Parents nurture their children with love.",
             "example_ko": "부모는 사랑으로 아이를 양육한다.",
-            "related": "raise",
+            "related": {
+              "en": "raise",
+              "ko": "기르다, 올리다"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1288,7 +1624,10 @@
             "pron": "스티뮬레이트",
             "example_en": "Colorful toys stimulate the senses.",
             "example_ko": "알록달록한 장난감은 감각을 자극한다.",
-            "related": "excite",
+            "related": {
+              "en": "excite",
+              "ko": "흥분시키다"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1299,7 +1638,10 @@
             "pron": "토들러",
             "example_en": "The toddler is learning to walk.",
             "example_ko": "그 유아는 걷는 법을 배우고 있다.",
-            "related": "infant",
+            "related": {
+              "en": "infant",
+              "ko": "유아"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1310,7 +1652,10 @@
             "pron": "프리스쿨",
             "example_en": "She goes to preschool every morning.",
             "example_ko": "그녀는 매일 아침 유치원에 간다.",
-            "related": "kindergarten",
+            "related": {
+              "en": "kindergarten",
+              "ko": "유치원"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1321,7 +1666,10 @@
             "pron": "모터 스킬즈",
             "example_en": "Blocks help develop motor skills.",
             "example_ko": "블록은 운동 능력 발달을 돕는다.",
-            "related": "coordination",
+            "related": {
+              "en": "coordination",
+              "ko": "협응력"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1332,7 +1680,10 @@
             "pron": "엠퍼시",
             "example_en": "Reading stories can teach empathy.",
             "example_ko": "이야기를 읽는 것은 공감 능력을 가르칠 수 있다.",
-            "related": "compassion",
+            "related": {
+              "en": "compassion",
+              "ko": "연민"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1343,7 +1694,10 @@
             "pron": "리질리언스",
             "example_en": "Children build resilience through challenges.",
             "example_ko": "아이들은 도전을 통해 회복력을 기른다.",
-            "related": "strength",
+            "related": {
+              "en": "strength",
+              "ko": "힘"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1354,7 +1708,10 @@
             "pron": "스캐폴드",
             "example_en": "Teachers scaffold learning step by step.",
             "example_ko": "교사는 학습을 단계적으로 지원한다.",
-            "related": "support",
+            "related": {
+              "en": "support",
+              "ko": "지원하다"
+            },
             "category": "kids_edu",
             "level": "advanced"
           },
@@ -1365,7 +1722,10 @@
             "pron": "홀리스틱",
             "example_en": "This program takes a holistic approach.",
             "example_ko": "이 프로그램은 전인적인 접근을 취한다.",
-            "related": "whole",
+            "related": {
+              "en": "whole",
+              "ko": "전체의"
+            },
             "category": "kids_edu",
             "level": "advanced"
           }
@@ -1385,7 +1745,10 @@
             "pron": "마더",
             "example_en": "My mother is very kind.",
             "example_ko": "우리 어머니는 매우 친절하시다.",
-            "related": "parent",
+            "related": {
+              "en": "parent",
+              "ko": "부모"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1396,7 +1759,10 @@
             "pron": "파더",
             "example_en": "My father works hard.",
             "example_ko": "우리 아버지는 열심히 일하신다.",
-            "related": "parent",
+            "related": {
+              "en": "parent",
+              "ko": "부모"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1407,7 +1773,10 @@
             "pron": "시스터",
             "example_en": "I have one sister.",
             "example_ko": "나는 여자 형제가 한 명 있다.",
-            "related": "brother",
+            "related": {
+              "en": "brother",
+              "ko": "남자 형제"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1418,7 +1787,10 @@
             "pron": "브라더",
             "example_en": "My brother lives in Seoul.",
             "example_ko": "내 남동생은 서울에 산다.",
-            "related": "sister",
+            "related": {
+              "en": "sister",
+              "ko": "여자 형제"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1429,7 +1801,10 @@
             "pron": "그랜마더",
             "example_en": "My grandmother tells great stories.",
             "example_ko": "우리 할머니는 이야기를 정말 잘 하신다.",
-            "related": "grandfather",
+            "related": {
+              "en": "grandfather",
+              "ko": "할아버지"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1440,7 +1815,10 @@
             "pron": "그랜파더",
             "example_en": "My grandfather loves gardening.",
             "example_ko": "우리 할아버지는 정원 가꾸기를 좋아하신다.",
-            "related": "grandmother",
+            "related": {
+              "en": "grandmother",
+              "ko": "할머니"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1451,7 +1829,10 @@
             "pron": "베이비",
             "example_en": "The baby is sleeping now.",
             "example_ko": "아기가 지금 자고 있다.",
-            "related": "child",
+            "related": {
+              "en": "child",
+              "ko": "아이"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1462,7 +1843,10 @@
             "pron": "패밀리",
             "example_en": "We are a happy family.",
             "example_ko": "우리는 행복한 가족이다.",
-            "related": "home",
+            "related": {
+              "en": "home",
+              "ko": "집"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1473,7 +1857,10 @@
             "pron": "선",
             "example_en": "Their son is a doctor.",
             "example_ko": "그들의 아들은 의사이다.",
-            "related": "daughter",
+            "related": {
+              "en": "daughter",
+              "ko": "딸"
+            },
             "category": "family",
             "level": "basic"
           },
@@ -1484,7 +1871,10 @@
             "pron": "도터",
             "example_en": "My daughter loves to read.",
             "example_ko": "내 딸은 독서를 좋아한다.",
-            "related": "son",
+            "related": {
+              "en": "son",
+              "ko": "아들"
+            },
             "category": "family",
             "level": "basic"
           }
@@ -1497,7 +1887,10 @@
             "pron": "렐러티브",
             "example_en": "We invited all our relatives.",
             "example_ko": "우리는 모든 친척을 초대했다.",
-            "related": "family",
+            "related": {
+              "en": "family",
+              "ko": "가족"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1508,7 +1901,10 @@
             "pron": "시블링",
             "example_en": "She has two siblings.",
             "example_ko": "그녀는 형제자매가 두 명 있다.",
-            "related": "brother",
+            "related": {
+              "en": "brother",
+              "ko": "남자 형제"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1519,7 +1915,10 @@
             "pron": "스파우스",
             "example_en": "He introduced his spouse at the party.",
             "example_ko": "그는 파티에서 배우자를 소개했다.",
-            "related": "husband",
+            "related": {
+              "en": "husband",
+              "ko": "남편"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1530,7 +1929,10 @@
             "pron": "제너레이션",
             "example_en": "Three generations live together.",
             "example_ko": "3대가 함께 산다.",
-            "related": "era",
+            "related": {
+              "en": "era",
+              "ko": "시대"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1541,7 +1943,10 @@
             "pron": "하우스홀드",
             "example_en": "Every household has its own rules.",
             "example_ko": "모든 가정은 자기만의 규칙이 있다.",
-            "related": "home",
+            "related": {
+              "en": "home",
+              "ko": "집"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1552,7 +1957,10 @@
             "pron": "레이즈",
             "example_en": "They raised three children.",
             "example_ko": "그들은 세 자녀를 길렀다.",
-            "related": "nurture",
+            "related": {
+              "en": "nurture",
+              "ko": "양육하다"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1563,7 +1971,10 @@
             "pron": "앤세스터",
             "example_en": "We honor our ancestors.",
             "example_ko": "우리는 조상을 공경한다.",
-            "related": "descendant",
+            "related": {
+              "en": "descendant",
+              "ko": "후손"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1574,7 +1985,10 @@
             "pron": "인로",
             "example_en": "My mother-in-law is very kind.",
             "example_ko": "우리 시어머니는 매우 친절하시다.",
-            "related": "relative",
+            "related": {
+              "en": "relative",
+              "ko": "친척"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1585,7 +1999,10 @@
             "pron": "리유니언",
             "example_en": "We had a big family reunion.",
             "example_ko": "우리는 큰 가족 모임을 가졌다.",
-            "related": "gathering",
+            "related": {
+              "en": "gathering",
+              "ko": "모임"
+            },
             "category": "family",
             "level": "intermediate"
           },
@@ -1596,7 +2013,10 @@
             "pron": "업브링잉",
             "example_en": "She had a strict upbringing.",
             "example_ko": "그녀는 엄격한 가정교육을 받았다.",
-            "related": "raise",
+            "related": {
+              "en": "raise",
+              "ko": "기르다, 올리다"
+            },
             "category": "family",
             "level": "intermediate"
           }
@@ -1609,7 +2029,10 @@
             "pron": "킨십",
             "example_en": "They share a strong sense of kinship.",
             "example_ko": "그들은 강한 혈연 유대감을 공유한다.",
-            "related": "family",
+            "related": {
+              "en": "family",
+              "ko": "가족"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1620,7 +2043,10 @@
             "pron": "리니지",
             "example_en": "He is proud of his family lineage.",
             "example_ko": "그는 자신의 가문 혈통을 자랑스러워한다.",
-            "related": "ancestry",
+            "related": {
+              "en": "ancestry",
+              "ko": "혈통"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1631,7 +2057,10 @@
             "pron": "헤리티지",
             "example_en": "We should preserve our cultural heritage.",
             "example_ko": "우리는 문화유산을 보존해야 한다.",
-            "related": "tradition",
+            "related": {
+              "en": "tradition",
+              "ko": "전통"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1642,7 +2071,10 @@
             "pron": "노스탤지어",
             "example_en": "Old photos bring back nostalgia.",
             "example_ko": "오래된 사진은 향수를 불러일으킨다.",
-            "related": "memory",
+            "related": {
+              "en": "memory",
+              "ko": "기억"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1653,7 +2085,10 @@
             "pron": "체리시",
             "example_en": "We cherish our family time.",
             "example_ko": "우리는 가족과 보내는 시간을 소중히 여긴다.",
-            "related": "treasure",
+            "related": {
+              "en": "treasure",
+              "ko": "소중히 여기다"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1664,7 +2099,10 @@
             "pron": "센티멘털",
             "example_en": "This gift has sentimental value.",
             "example_ko": "이 선물은 정서적인 가치가 있다.",
-            "related": "emotional",
+            "related": {
+              "en": "emotional",
+              "ko": "감정적인"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1675,7 +2113,10 @@
             "pron": "레거시",
             "example_en": "He left a great legacy for his family.",
             "example_ko": "그는 가족에게 훌륭한 유산을 남겼다.",
-            "related": "inheritance",
+            "related": {
+              "en": "inheritance",
+              "ko": "유산"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1686,7 +2127,10 @@
             "pron": "어펙션",
             "example_en": "She shows great affection for her grandchildren.",
             "example_ko": "그녀는 손주들에게 큰 애정을 보인다.",
-            "related": "love",
+            "related": {
+              "en": "love",
+              "ko": "사랑"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1697,7 +2141,10 @@
             "pron": "디보션",
             "example_en": "His devotion to his family is admirable.",
             "example_ko": "그의 가족에 대한 헌신은 존경스럽다.",
-            "related": "dedication",
+            "related": {
+              "en": "dedication",
+              "ko": "헌신"
+            },
             "category": "family",
             "level": "advanced"
           },
@@ -1708,7 +2155,10 @@
             "pron": "인터제너레이셔널",
             "example_en": "This is an intergenerational tradition.",
             "example_ko": "이것은 세대 간에 이어지는 전통이다.",
-            "related": "generational",
+            "related": {
+              "en": "generational",
+              "ko": "세대의"
+            },
             "category": "family",
             "level": "advanced"
           }
@@ -1728,7 +2178,10 @@
             "pron": "서니",
             "example_en": "It's sunny today.",
             "example_ko": "오늘은 맑다.",
-            "related": "clear",
+            "related": {
+              "en": "clear",
+              "ko": "맑은"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1739,7 +2192,10 @@
             "pron": "레이니",
             "example_en": "It's rainy outside.",
             "example_ko": "밖에 비가 온다.",
-            "related": "rain",
+            "related": {
+              "en": "rain",
+              "ko": "비"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1750,7 +2206,10 @@
             "pron": "클라우디",
             "example_en": "The sky is cloudy today.",
             "example_ko": "오늘 하늘이 흐리다.",
-            "related": "overcast",
+            "related": {
+              "en": "overcast",
+              "ko": "흐린"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1761,7 +2220,10 @@
             "pron": "윈디",
             "example_en": "It's very windy today.",
             "example_ko": "오늘 바람이 매우 많이 분다.",
-            "related": "breeze",
+            "related": {
+              "en": "breeze",
+              "ko": "산들바람"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1772,7 +2234,10 @@
             "pron": "스노우",
             "example_en": "It started to snow.",
             "example_ko": "눈이 내리기 시작했다.",
-            "related": "winter",
+            "related": {
+              "en": "winter",
+              "ko": "겨울"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1783,7 +2248,10 @@
             "pron": "핫",
             "example_en": "It's very hot in summer.",
             "example_ko": "여름에는 매우 덥다.",
-            "related": "warm",
+            "related": {
+              "en": "warm",
+              "ko": "따뜻한"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1794,7 +2262,10 @@
             "pron": "콜드",
             "example_en": "It's cold in winter.",
             "example_ko": "겨울에는 춥다.",
-            "related": "cool",
+            "related": {
+              "en": "cool",
+              "ko": "시원한"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1805,7 +2276,10 @@
             "pron": "웜",
             "example_en": "Today feels warm.",
             "example_ko": "오늘은 따뜻하게 느껴진다.",
-            "related": "hot",
+            "related": {
+              "en": "hot",
+              "ko": "더운"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1816,7 +2290,10 @@
             "pron": "쿨",
             "example_en": "The evening air is cool.",
             "example_ko": "저녁 공기가 시원하다.",
-            "related": "chilly",
+            "related": {
+              "en": "chilly",
+              "ko": "쌀쌀한"
+            },
             "category": "weather",
             "level": "basic"
           },
@@ -1827,7 +2304,10 @@
             "pron": "스톰",
             "example_en": "A storm is coming.",
             "example_ko": "폭풍이 오고 있다.",
-            "related": "thunder",
+            "related": {
+              "en": "thunder",
+              "ko": "천둥"
+            },
             "category": "weather",
             "level": "basic"
           }
@@ -1840,7 +2320,10 @@
             "pron": "템퍼러처",
             "example_en": "The temperature dropped suddenly.",
             "example_ko": "기온이 갑자기 떨어졌다.",
-            "related": "degree",
+            "related": {
+              "en": "degree",
+              "ko": "정도, 온도 단위"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1851,7 +2334,10 @@
             "pron": "포캐스트",
             "example_en": "Check the weather forecast.",
             "example_ko": "일기예보를 확인하세요.",
-            "related": "prediction",
+            "related": {
+              "en": "prediction",
+              "ko": "예측"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1862,7 +2348,10 @@
             "pron": "휴미디티",
             "example_en": "The humidity is high today.",
             "example_ko": "오늘 습도가 높다.",
-            "related": "moisture",
+            "related": {
+              "en": "moisture",
+              "ko": "습기"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1873,7 +2362,10 @@
             "pron": "브리즈",
             "example_en": "A gentle breeze is blowing.",
             "example_ko": "산들바람이 불고 있다.",
-            "related": "wind",
+            "related": {
+              "en": "wind",
+              "ko": "바람"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1884,7 +2376,10 @@
             "pron": "드리즐",
             "example_en": "It's only a light drizzle.",
             "example_ko": "이건 그냥 가벼운 이슬비이다.",
-            "related": "rain",
+            "related": {
+              "en": "rain",
+              "ko": "비"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1895,7 +2390,10 @@
             "pron": "썬더",
             "example_en": "We heard thunder last night.",
             "example_ko": "어젯밤 천둥소리를 들었다.",
-            "related": "lightning",
+            "related": {
+              "en": "lightning",
+              "ko": "번개"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1906,7 +2404,10 @@
             "pron": "라이트닝",
             "example_en": "Lightning flashed across the sky.",
             "example_ko": "번개가 하늘을 가로질러 번쩍였다.",
-            "related": "thunder",
+            "related": {
+              "en": "thunder",
+              "ko": "천둥"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1917,7 +2418,10 @@
             "pron": "포기",
             "example_en": "It's too foggy to drive.",
             "example_ko": "운전하기엔 안개가 너무 심하다.",
-            "related": "mist",
+            "related": {
+              "en": "mist",
+              "ko": "옅은 안개"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1928,7 +2432,10 @@
             "pron": "프로스트",
             "example_en": "There was frost on the grass.",
             "example_ko": "잔디에 서리가 내렸다.",
-            "related": "freeze",
+            "related": {
+              "en": "freeze",
+              "ko": "얼다"
+            },
             "category": "weather",
             "level": "intermediate"
           },
@@ -1939,7 +2446,10 @@
             "pron": "클라이밋",
             "example_en": "The climate here is mild.",
             "example_ko": "이곳의 기후는 온화하다.",
-            "related": "weather",
+            "related": {
+              "en": "weather",
+              "ko": "날씨"
+            },
             "category": "weather",
             "level": "intermediate"
           }
@@ -1952,7 +2462,10 @@
             "pron": "미티어롤러지",
             "example_en": "He studies meteorology at university.",
             "example_ko": "그는 대학에서 기상학을 공부한다.",
-            "related": "weather",
+            "related": {
+              "en": "weather",
+              "ko": "날씨"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -1963,7 +2476,10 @@
             "pron": "프리시피테이션",
             "example_en": "Precipitation is expected tomorrow.",
             "example_ko": "내일 강수가 예상된다.",
-            "related": "rainfall",
+            "related": {
+              "en": "rainfall",
+              "ko": "강우량"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -1974,7 +2490,10 @@
             "pron": "앳모스페릭",
             "example_en": "Atmospheric pressure is dropping.",
             "example_ko": "대기압이 떨어지고 있다.",
-            "related": "air",
+            "related": {
+              "en": "air",
+              "ko": "공기"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -1985,7 +2504,10 @@
             "pron": "오버캐스트",
             "example_en": "The sky was overcast all day.",
             "example_ko": "하루 종일 하늘이 흐렸다.",
-            "related": "cloudy",
+            "related": {
+              "en": "cloudy",
+              "ko": "흐린"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -1996,7 +2518,10 @@
             "pron": "토렌셜",
             "example_en": "Torrential rain flooded the streets.",
             "example_ko": "억수 같은 비로 거리가 침수됐다.",
-            "related": "heavy rain",
+            "related": {
+              "en": "heavy rain",
+              "ko": "폭우"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -2007,7 +2532,10 @@
             "pron": "게일",
             "example_en": "A gale swept through the town.",
             "example_ko": "강풍이 마을을 휩쓸었다.",
-            "related": "strong wind",
+            "related": {
+              "en": "strong wind",
+              "ko": "강풍"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -2018,7 +2546,10 @@
             "pron": "블리자드",
             "example_en": "The blizzard closed all the roads.",
             "example_ko": "눈보라로 모든 도로가 폐쇄됐다.",
-            "related": "snowstorm",
+            "related": {
+              "en": "snowstorm",
+              "ko": "눈보라"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -2029,7 +2560,10 @@
             "pron": "히트웨이브",
             "example_en": "A heatwave hit the country.",
             "example_ko": "폭염이 그 나라를 덮쳤다.",
-            "related": "hot",
+            "related": {
+              "en": "hot",
+              "ko": "더운"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -2040,7 +2574,10 @@
             "pron": "몬순",
             "example_en": "The monsoon season starts in July.",
             "example_ko": "장마철은 7월에 시작된다.",
-            "related": "rainy season",
+            "related": {
+              "en": "rainy season",
+              "ko": "우기"
+            },
             "category": "weather",
             "level": "advanced"
           },
@@ -2051,7 +2588,10 @@
             "pron": "드라우트",
             "example_en": "The drought damaged the crops.",
             "example_ko": "가뭄이 농작물에 피해를 줬다.",
-            "related": "dry spell",
+            "related": {
+              "en": "dry spell",
+              "ko": "건조한 기간"
+            },
             "category": "weather",
             "level": "advanced"
           }
@@ -2071,7 +2611,10 @@
             "pron": "닥터",
             "example_en": "The doctor examined the patient.",
             "example_ko": "의사가 환자를 진찰했다.",
-            "related": "nurse",
+            "related": {
+              "en": "nurse",
+              "ko": "간호사"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2082,7 +2625,10 @@
             "pron": "너스",
             "example_en": "The nurse gave me an injection.",
             "example_ko": "간호사가 나에게 주사를 놓았다.",
-            "related": "doctor",
+            "related": {
+              "en": "doctor",
+              "ko": "의사"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2093,7 +2639,10 @@
             "pron": "메디신",
             "example_en": "Take this medicine after meals.",
             "example_ko": "식후에 이 약을 드세요.",
-            "related": "pill",
+            "related": {
+              "en": "pill",
+              "ko": "알약"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2104,7 +2653,10 @@
             "pron": "식",
             "example_en": "I feel sick today.",
             "example_ko": "오늘 몸이 아프다.",
-            "related": "ill",
+            "related": {
+              "en": "ill",
+              "ko": "아픈"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2115,7 +2667,10 @@
             "pron": "페인",
             "example_en": "I have pain in my back.",
             "example_ko": "등에 통증이 있다.",
-            "related": "ache",
+            "related": {
+              "en": "ache",
+              "ko": "아픔, 통증"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2126,7 +2681,10 @@
             "pron": "피버",
             "example_en": "She has a high fever.",
             "example_ko": "그녀는 열이 높다.",
-            "related": "temperature",
+            "related": {
+              "en": "temperature",
+              "ko": "기온"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2137,7 +2695,10 @@
             "pron": "콜드",
             "example_en": "I caught a cold.",
             "example_ko": "나는 감기에 걸렸다.",
-            "related": "flu",
+            "related": {
+              "en": "flu",
+              "ko": "독감"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2148,7 +2709,10 @@
             "pron": "하스피털",
             "example_en": "He was taken to the hospital.",
             "example_ko": "그는 병원으로 이송됐다.",
-            "related": "clinic",
+            "related": {
+              "en": "clinic",
+              "ko": "병원, 진료소"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2159,7 +2723,10 @@
             "pron": "어포인트먼트",
             "example_en": "I have a doctor's appointment today.",
             "example_ko": "오늘 병원 예약이 있다.",
-            "related": "schedule",
+            "related": {
+              "en": "schedule",
+              "ko": "일정"
+            },
             "category": "hospital",
             "level": "basic"
           },
@@ -2170,7 +2737,10 @@
             "pron": "인젝션",
             "example_en": "The nurse gave an injection.",
             "example_ko": "간호사가 주사를 놓았다.",
-            "related": "shot",
+            "related": {
+              "en": "shot",
+              "ko": "주사"
+            },
             "category": "hospital",
             "level": "basic"
           }
@@ -2183,7 +2753,10 @@
             "pron": "심텀",
             "example_en": "What symptoms do you have?",
             "example_ko": "어떤 증상이 있으세요?",
-            "related": "sign",
+            "related": {
+              "en": "sign",
+              "ko": "징후, 표지판"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2194,7 +2767,10 @@
             "pron": "다이어그노시스",
             "example_en": "The diagnosis was confirmed.",
             "example_ko": "진단이 확정됐다.",
-            "related": "examine",
+            "related": {
+              "en": "examine",
+              "ko": "진찰하다"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2205,7 +2781,10 @@
             "pron": "트리트먼트",
             "example_en": "The treatment worked well.",
             "example_ko": "치료가 잘 됐다.",
-            "related": "therapy",
+            "related": {
+              "en": "therapy",
+              "ko": "치료"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2216,7 +2795,10 @@
             "pron": "프리스크립션",
             "example_en": "The doctor wrote a prescription.",
             "example_ko": "의사가 처방전을 써줬다.",
-            "related": "medicine",
+            "related": {
+              "en": "medicine",
+              "ko": "약"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2227,7 +2809,10 @@
             "pron": "체크업",
             "example_en": "I get a checkup every year.",
             "example_ko": "나는 매년 건강검진을 받는다.",
-            "related": "examination",
+            "related": {
+              "en": "examination",
+              "ko": "검사, 시험"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2238,7 +2823,10 @@
             "pron": "서저리",
             "example_en": "He needs surgery on his knee.",
             "example_ko": "그는 무릎 수술이 필요하다.",
-            "related": "operation",
+            "related": {
+              "en": "operation",
+              "ko": "수술"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2249,7 +2837,10 @@
             "pron": "페이션트",
             "example_en": "The patient is recovering well.",
             "example_ko": "환자가 잘 회복하고 있다.",
-            "related": "doctor",
+            "related": {
+              "en": "doctor",
+              "ko": "의사"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2260,7 +2851,10 @@
             "pron": "리커버리",
             "example_en": "Her recovery took two weeks.",
             "example_ko": "그녀의 회복은 2주가 걸렸다.",
-            "related": "heal",
+            "related": {
+              "en": "heal",
+              "ko": "치유하다"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2271,7 +2865,10 @@
             "pron": "이머전시",
             "example_en": "Call an ambulance, it's an emergency.",
             "example_ko": "구급차를 부르세요, 응급상황입니다.",
-            "related": "urgent",
+            "related": {
+              "en": "urgent",
+              "ko": "긴급한"
+            },
             "category": "hospital",
             "level": "intermediate"
           },
@@ -2282,7 +2879,10 @@
             "pron": "클리닉",
             "example_en": "There is a small clinic nearby.",
             "example_ko": "근처에 작은 병원이 있다.",
-            "related": "hospital",
+            "related": {
+              "en": "hospital",
+              "ko": "병원"
+            },
             "category": "hospital",
             "level": "intermediate"
           }
@@ -2295,7 +2895,10 @@
             "pron": "크로닉",
             "example_en": "He has a chronic illness.",
             "example_ko": "그는 만성 질환이 있다.",
-            "related": "persistent",
+            "related": {
+              "en": "persistent",
+              "ko": "지속적인"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2306,7 +2909,10 @@
             "pron": "프로그노시스",
             "example_en": "The prognosis is very good.",
             "example_ko": "예후는 매우 좋다.",
-            "related": "outlook",
+            "related": {
+              "en": "outlook",
+              "ko": "전망"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2317,7 +2923,10 @@
             "pron": "리해빌리테이션",
             "example_en": "She started rehabilitation after surgery.",
             "example_ko": "그녀는 수술 후 재활을 시작했다.",
-            "related": "recovery",
+            "related": {
+              "en": "recovery",
+              "ko": "회복"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2328,7 +2937,10 @@
             "pron": "이뮤니티",
             "example_en": "Exercise can boost your immunity.",
             "example_ko": "운동은 면역력을 높일 수 있다.",
-            "related": "resistance",
+            "related": {
+              "en": "resistance",
+              "ko": "저항력"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2339,7 +2951,10 @@
             "pron": "에일먼트",
             "example_en": "He suffers from a minor ailment.",
             "example_ko": "그는 가벼운 질환을 앓고 있다.",
-            "related": "illness",
+            "related": {
+              "en": "illness",
+              "ko": "질병"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2350,7 +2965,10 @@
             "pron": "세러퓨틱",
             "example_en": "Walking has a therapeutic effect.",
             "example_ko": "걷기는 치료 효과가 있다.",
-            "related": "healing",
+            "related": {
+              "en": "healing",
+              "ko": "치유"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2361,7 +2979,10 @@
             "pron": "바이털 사인즈",
             "example_en": "The nurse checked his vital signs.",
             "example_ko": "간호사가 그의 활력 징후를 확인했다.",
-            "related": "pulse",
+            "related": {
+              "en": "pulse",
+              "ko": "맥박"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2372,7 +2993,10 @@
             "pron": "애너스시지어",
             "example_en": "He was under anesthesia during surgery.",
             "example_ko": "그는 수술 중 마취 상태였다.",
-            "related": "numb",
+            "related": {
+              "en": "numb",
+              "ko": "감각이 없는"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2383,7 +3007,10 @@
             "pron": "리퍼럴",
             "example_en": "The doctor gave a referral to a specialist.",
             "example_ko": "의사가 전문의에게 의뢰서를 써줬다.",
-            "related": "recommend",
+            "related": {
+              "en": "recommend",
+              "ko": "추천하다"
+            },
             "category": "hospital",
             "level": "advanced"
           },
@@ -2394,7 +3021,10 @@
             "pron": "컨설테이션",
             "example_en": "The consultation took thirty minutes.",
             "example_ko": "진찰은 30분이 걸렸다.",
-            "related": "appointment",
+            "related": {
+              "en": "appointment",
+              "ko": "예약"
+            },
             "category": "hospital",
             "level": "advanced"
           }
@@ -2414,7 +3044,10 @@
             "pron": "스토어",
             "example_en": "The store opens at nine.",
             "example_ko": "그 가게는 9시에 문을 연다.",
-            "related": "shop",
+            "related": {
+              "en": "shop",
+              "ko": "가게"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2425,7 +3058,10 @@
             "pron": "프라이스",
             "example_en": "The price is too high.",
             "example_ko": "가격이 너무 비싸다.",
-            "related": "cost",
+            "related": {
+              "en": "cost",
+              "ko": "비용"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2436,7 +3072,10 @@
             "pron": "머니",
             "example_en": "I don't have enough money.",
             "example_ko": "돈이 충분하지 않다.",
-            "related": "cash",
+            "related": {
+              "en": "cash",
+              "ko": "현금"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2447,7 +3086,10 @@
             "pron": "바이",
             "example_en": "I want to buy new shoes.",
             "example_ko": "새 신발을 사고 싶다.",
-            "related": "purchase",
+            "related": {
+              "en": "purchase",
+              "ko": "구매"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2458,7 +3100,10 @@
             "pron": "셀",
             "example_en": "They sell fresh vegetables here.",
             "example_ko": "여기서 신선한 채소를 판다.",
-            "related": "trade",
+            "related": {
+              "en": "trade",
+              "ko": "거래하다"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2469,7 +3114,10 @@
             "pron": "캐시",
             "example_en": "I paid in cash.",
             "example_ko": "현금으로 지불했다.",
-            "related": "money",
+            "related": {
+              "en": "money",
+              "ko": "돈"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2480,7 +3128,10 @@
             "pron": "리시트",
             "example_en": "Please keep the receipt.",
             "example_ko": "영수증을 보관하세요.",
-            "related": "proof",
+            "related": {
+              "en": "proof",
+              "ko": "증거"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2491,7 +3142,10 @@
             "pron": "디스카운트",
             "example_en": "This item is on discount.",
             "example_ko": "이 물건은 할인 중이다.",
-            "related": "sale",
+            "related": {
+              "en": "sale",
+              "ko": "할인, 판매"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2502,7 +3156,10 @@
             "pron": "백",
             "example_en": "Put the items in the bag.",
             "example_ko": "물건을 가방에 넣으세요.",
-            "related": "basket",
+            "related": {
+              "en": "basket",
+              "ko": "바구니"
+            },
             "category": "shopping",
             "level": "basic"
           },
@@ -2513,7 +3170,10 @@
             "pron": "카트",
             "example_en": "Push the cart carefully.",
             "example_ko": "카트를 조심히 미세요.",
-            "related": "basket",
+            "related": {
+              "en": "basket",
+              "ko": "바구니"
+            },
             "category": "shopping",
             "level": "basic"
           }
@@ -2526,7 +3186,10 @@
             "pron": "버짓",
             "example_en": "We have a small budget for shopping.",
             "example_ko": "우리는 쇼핑 예산이 적다.",
-            "related": "cost",
+            "related": {
+              "en": "cost",
+              "ko": "비용"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2537,7 +3200,10 @@
             "pron": "리펀드",
             "example_en": "I asked for a refund.",
             "example_ko": "나는 환불을 요청했다.",
-            "related": "return",
+            "related": {
+              "en": "return",
+              "ko": "반품, 돌아오다"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2548,7 +3214,10 @@
             "pron": "익스체인지",
             "example_en": "Can I exchange this shirt?",
             "example_ko": "이 셔츠를 교환할 수 있나요?",
-            "related": "return",
+            "related": {
+              "en": "return",
+              "ko": "반품, 돌아오다"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2559,7 +3228,10 @@
             "pron": "워런티",
             "example_en": "This product has a two year warranty.",
             "example_ko": "이 제품은 2년 보증이다.",
-            "related": "guarantee",
+            "related": {
+              "en": "guarantee",
+              "ko": "보증"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2570,7 +3242,10 @@
             "pron": "체크아웃",
             "example_en": "There is a long line at checkout.",
             "example_ko": "계산대에 긴 줄이 있다.",
-            "related": "pay",
+            "related": {
+              "en": "pay",
+              "ko": "지불하다"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2581,7 +3256,10 @@
             "pron": "멤버십",
             "example_en": "She has a store membership.",
             "example_ko": "그녀는 상점 멤버십이 있다.",
-            "related": "member",
+            "related": {
+              "en": "member",
+              "ko": "회원"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2592,7 +3270,10 @@
             "pron": "쿠폰",
             "example_en": "I used a coupon for the discount.",
             "example_ko": "할인을 위해 쿠폰을 사용했다.",
-            "related": "voucher",
+            "related": {
+              "en": "voucher",
+              "ko": "상품권"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2603,7 +3284,10 @@
             "pron": "바겐",
             "example_en": "This is a real bargain.",
             "example_ko": "이건 정말 싸게 산 것이다.",
-            "related": "deal",
+            "related": {
+              "en": "deal",
+              "ko": "거래"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2614,7 +3298,10 @@
             "pron": "인벤토리",
             "example_en": "The store checked its inventory.",
             "example_ko": "상점은 재고를 확인했다.",
-            "related": "stock",
+            "related": {
+              "en": "stock",
+              "ko": "재고"
+            },
             "category": "shopping",
             "level": "intermediate"
           },
@@ -2625,7 +3312,10 @@
             "pron": "커스터머",
             "example_en": "The customer was very satisfied.",
             "example_ko": "고객은 매우 만족했다.",
-            "related": "client",
+            "related": {
+              "en": "client",
+              "ko": "고객"
+            },
             "category": "shopping",
             "level": "intermediate"
           }
@@ -2638,7 +3328,10 @@
             "pron": "컨슈머",
             "example_en": "Consumers want better quality.",
             "example_ko": "소비자는 더 나은 품질을 원한다.",
-            "related": "buyer",
+            "related": {
+              "en": "buyer",
+              "ko": "구매자"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2649,7 +3342,10 @@
             "pron": "리테일",
             "example_en": "She works in retail.",
             "example_ko": "그녀는 소매업에서 일한다.",
-            "related": "store",
+            "related": {
+              "en": "store",
+              "ko": "가게"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2660,7 +3356,10 @@
             "pron": "머천다이즈",
             "example_en": "The store sells a variety of merchandise.",
             "example_ko": "그 상점은 다양한 상품을 판다.",
-            "related": "goods",
+            "related": {
+              "en": "goods",
+              "ko": "상품"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2671,7 +3370,10 @@
             "pron": "트랜잭션",
             "example_en": "The transaction was completed successfully.",
             "example_ko": "거래가 성공적으로 완료됐다.",
-            "related": "deal",
+            "related": {
+              "en": "deal",
+              "ko": "거래"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2682,7 +3384,10 @@
             "pron": "인스톨먼트",
             "example_en": "I paid for it in installments.",
             "example_ko": "나는 그것을 할부로 지불했다.",
-            "related": "payment",
+            "related": {
+              "en": "payment",
+              "ko": "지불"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2693,7 +3398,10 @@
             "pron": "홀세일",
             "example_en": "We buy products at wholesale price.",
             "example_ko": "우리는 도매가로 제품을 산다.",
-            "related": "bulk",
+            "related": {
+              "en": "bulk",
+              "ko": "대량"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2704,7 +3412,10 @@
             "pron": "프로모션",
             "example_en": "The store is running a promotion.",
             "example_ko": "그 상점은 프로모션을 진행 중이다.",
-            "related": "sale",
+            "related": {
+              "en": "sale",
+              "ko": "할인, 판매"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2715,7 +3426,10 @@
             "pron": "로열티",
             "example_en": "The card offers loyalty points.",
             "example_ko": "그 카드는 단골 포인트를 제공한다.",
-            "related": "membership",
+            "related": {
+              "en": "membership",
+              "ko": "회원권"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2726,7 +3440,10 @@
             "pron": "임펄스",
             "example_en": "She made an impulse purchase.",
             "example_ko": "그녀는 충동구매를 했다.",
-            "related": "sudden",
+            "related": {
+              "en": "sudden",
+              "ko": "갑작스러운"
+            },
             "category": "shopping",
             "level": "advanced"
           },
@@ -2737,7 +3454,10 @@
             "pron": "서스테이너블",
             "example_en": "More people choose sustainable products.",
             "example_ko": "더 많은 사람들이 지속가능한 제품을 선택한다.",
-            "related": "eco-friendly",
+            "related": {
+              "en": "eco-friendly",
+              "ko": "친환경적인"
+            },
             "category": "shopping",
             "level": "advanced"
           }
@@ -2757,7 +3477,10 @@
             "pron": "티처",
             "example_en": "She is a kind teacher.",
             "example_ko": "그녀는 친절한 교사이다.",
-            "related": "school",
+            "related": {
+              "en": "school",
+              "ko": "학교"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2768,7 +3491,10 @@
             "pron": "파머",
             "example_en": "The farmer grows rice.",
             "example_ko": "그 농부는 벼를 재배한다.",
-            "related": "farm",
+            "related": {
+              "en": "farm",
+              "ko": "농장"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2779,7 +3505,10 @@
             "pron": "워커",
             "example_en": "The worker finished the job.",
             "example_ko": "그 근로자는 일을 끝냈다.",
-            "related": "job",
+            "related": {
+              "en": "job",
+              "ko": "직업"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2790,7 +3519,10 @@
             "pron": "엔지니어",
             "example_en": "He works as an engineer.",
             "example_ko": "그는 엔지니어로 일한다.",
-            "related": "technology",
+            "related": {
+              "en": "technology",
+              "ko": "기술"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2801,7 +3533,10 @@
             "pron": "폴리스 오피서",
             "example_en": "The police officer helped us.",
             "example_ko": "경찰관이 우리를 도와줬다.",
-            "related": "police",
+            "related": {
+              "en": "police",
+              "ko": "경찰"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2812,7 +3547,10 @@
             "pron": "셰프",
             "example_en": "The chef cooked a great meal.",
             "example_ko": "셰프가 훌륭한 요리를 만들었다.",
-            "related": "cook",
+            "related": {
+              "en": "cook",
+              "ko": "요리하다"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2823,7 +3561,10 @@
             "pron": "드라이버",
             "example_en": "The bus driver was very careful.",
             "example_ko": "버스 기사는 매우 조심스러웠다.",
-            "related": "bus",
+            "related": {
+              "en": "bus",
+              "ko": "버스"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2834,7 +3575,10 @@
             "pron": "임플로이",
             "example_en": "She is a good employee.",
             "example_ko": "그녀는 좋은 직원이다.",
-            "related": "company",
+            "related": {
+              "en": "company",
+              "ko": "회사"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2845,7 +3589,10 @@
             "pron": "보스",
             "example_en": "My boss is very fair.",
             "example_ko": "우리 상사는 매우 공정하다.",
-            "related": "manager",
+            "related": {
+              "en": "manager",
+              "ko": "관리자"
+            },
             "category": "jobs",
             "level": "basic"
           },
@@ -2856,7 +3603,10 @@
             "pron": "샐러리",
             "example_en": "He receives a monthly salary.",
             "example_ko": "그는 매달 월급을 받는다.",
-            "related": "pay",
+            "related": {
+              "en": "pay",
+              "ko": "지불하다"
+            },
             "category": "jobs",
             "level": "basic"
           }
@@ -2869,7 +3619,10 @@
             "pron": "프로페션",
             "example_en": "Teaching is a respected profession.",
             "example_ko": "교직은 존경받는 직업이다.",
-            "related": "career",
+            "related": {
+              "en": "career",
+              "ko": "경력"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2880,7 +3633,10 @@
             "pron": "컬리그",
             "example_en": "My colleague helped me finish the report.",
             "example_ko": "내 동료가 보고서 끝내는 것을 도왔다.",
-            "related": "coworker",
+            "related": {
+              "en": "coworker",
+              "ko": "동료"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2891,7 +3647,10 @@
             "pron": "프로모션",
             "example_en": "He got a promotion last month.",
             "example_ko": "그는 지난달 승진했다.",
-            "related": "raise",
+            "related": {
+              "en": "raise",
+              "ko": "기르다, 올리다"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2902,7 +3661,10 @@
             "pron": "레주메",
             "example_en": "She updated her resume.",
             "example_ko": "그녀는 이력서를 업데이트했다.",
-            "related": "cv",
+            "related": {
+              "en": "cv",
+              "ko": "이력서"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2913,7 +3675,10 @@
             "pron": "인터뷰",
             "example_en": "The interview went very well.",
             "example_ko": "면접이 아주 잘 됐다.",
-            "related": "apply",
+            "related": {
+              "en": "apply",
+              "ko": "지원하다"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2924,7 +3689,10 @@
             "pron": "데드라인",
             "example_en": "We must meet the deadline.",
             "example_ko": "우리는 마감기한을 지켜야 한다.",
-            "related": "due date",
+            "related": {
+              "en": "due date",
+              "ko": "마감일"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2935,7 +3703,10 @@
             "pron": "워크플레이스",
             "example_en": "The workplace is very friendly.",
             "example_ko": "그 직장은 매우 우호적이다.",
-            "related": "office",
+            "related": {
+              "en": "office",
+              "ko": "사무실"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2946,7 +3717,10 @@
             "pron": "니고시에이션",
             "example_en": "The negotiation took a long time.",
             "example_ko": "그 협상은 시간이 오래 걸렸다.",
-            "related": "discuss",
+            "related": {
+              "en": "discuss",
+              "ko": "논의하다"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2957,7 +3731,10 @@
             "pron": "컨트랙트",
             "example_en": "They signed a new contract.",
             "example_ko": "그들은 새 계약서에 서명했다.",
-            "related": "agreement",
+            "related": {
+              "en": "agreement",
+              "ko": "합의"
+            },
             "category": "jobs",
             "level": "intermediate"
           },
@@ -2968,7 +3745,10 @@
             "pron": "오버타임",
             "example_en": "He worked overtime last night.",
             "example_ko": "그는 어젯밤 야근을 했다.",
-            "related": "extra work",
+            "related": {
+              "en": "extra work",
+              "ko": "추가 근무"
+            },
             "category": "jobs",
             "level": "intermediate"
           }
@@ -2981,7 +3761,10 @@
             "pron": "앙트러프러너",
             "example_en": "She became a successful entrepreneur.",
             "example_ko": "그녀는 성공한 사업가가 되었다.",
-            "related": "business owner",
+            "related": {
+              "en": "business owner",
+              "ko": "사업주"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -2992,7 +3775,10 @@
             "pron": "엑스퍼티즈",
             "example_en": "He has expertise in finance.",
             "example_ko": "그는 금융 분야에 전문성이 있다.",
-            "related": "skill",
+            "related": {
+              "en": "skill",
+              "ko": "기술, 능력"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3003,7 +3789,10 @@
             "pron": "아큐페이션",
             "example_en": "What is your occupation?",
             "example_ko": "당신의 직업은 무엇인가요?",
-            "related": "job",
+            "related": {
+              "en": "job",
+              "ko": "직업"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3014,7 +3803,10 @@
             "pron": "버서타일",
             "example_en": "She is a versatile worker.",
             "example_ko": "그녀는 다재다능한 근로자이다.",
-            "related": "flexible",
+            "related": {
+              "en": "flexible",
+              "ko": "유연한"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3025,7 +3817,10 @@
             "pron": "프로피션트",
             "example_en": "He is proficient in English.",
             "example_ko": "그는 영어에 능숙하다.",
-            "related": "skilled",
+            "related": {
+              "en": "skilled",
+              "ko": "숙련된"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3036,7 +3831,10 @@
             "pron": "이니셔티브",
             "example_en": "She showed great initiative at work.",
             "example_ko": "그녀는 직장에서 큰 진취성을 보였다.",
-            "related": "leadership",
+            "related": {
+              "en": "leadership",
+              "ko": "리더십"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3047,7 +3845,10 @@
             "pron": "어카운터빌리티",
             "example_en": "Accountability is important in any job.",
             "example_ko": "어떤 직업에서든 책임감이 중요하다.",
-            "related": "responsibility",
+            "related": {
+              "en": "responsibility",
+              "ko": "책임"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3058,7 +3859,10 @@
             "pron": "컬래버레이션",
             "example_en": "The project needed strong collaboration.",
             "example_ko": "그 프로젝트는 강력한 협업이 필요했다.",
-            "related": "teamwork",
+            "related": {
+              "en": "teamwork",
+              "ko": "팀워크"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3069,7 +3873,10 @@
             "pron": "리더십",
             "example_en": "Good leadership motivates the team.",
             "example_ko": "좋은 리더십은 팀에 동기를 부여한다.",
-            "related": "guidance",
+            "related": {
+              "en": "guidance",
+              "ko": "지도, 안내"
+            },
             "category": "jobs",
             "level": "advanced"
           },
@@ -3080,7 +3887,10 @@
             "pron": "워크라이프 밸런스",
             "example_en": "She values work-life balance.",
             "example_ko": "그녀는 일과 삶의 균형을 중요시한다.",
-            "related": "balance",
+            "related": {
+              "en": "balance",
+              "ko": "균형"
+            },
             "category": "jobs",
             "level": "advanced"
           }
@@ -3100,7 +3910,10 @@
             "pron": "해피",
             "example_en": "She looks happy today.",
             "example_ko": "그녀는 오늘 행복해 보인다.",
-            "related": "glad",
+            "related": {
+              "en": "glad",
+              "ko": "기쁜"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3111,7 +3924,10 @@
             "pron": "새드",
             "example_en": "He feels sad about the news.",
             "example_ko": "그는 그 소식에 슬퍼한다.",
-            "related": "unhappy",
+            "related": {
+              "en": "unhappy",
+              "ko": "불행한"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3122,7 +3938,10 @@
             "pron": "앵그리",
             "example_en": "She was angry with him.",
             "example_ko": "그녀는 그에게 화가 났다.",
-            "related": "mad",
+            "related": {
+              "en": "mad",
+              "ko": "화난"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3133,7 +3952,10 @@
             "pron": "타이어드",
             "example_en": "I am very tired today.",
             "example_ko": "오늘 정말 피곤하다.",
-            "related": "sleepy",
+            "related": {
+              "en": "sleepy",
+              "ko": "졸린"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3144,7 +3966,10 @@
             "pron": "스케어드",
             "example_en": "The child was scared of the dark.",
             "example_ko": "그 아이는 어둠을 무서워했다.",
-            "related": "afraid",
+            "related": {
+              "en": "afraid",
+              "ko": "무서워하는"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3155,7 +3980,10 @@
             "pron": "익사이티드",
             "example_en": "We are excited about the trip.",
             "example_ko": "우리는 여행에 대해 신이 났다.",
-            "related": "thrilled",
+            "related": {
+              "en": "thrilled",
+              "ko": "짜릿한"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3166,7 +3994,10 @@
             "pron": "서프라이즈드",
             "example_en": "I was surprised by the gift.",
             "example_ko": "나는 그 선물에 놀랐다.",
-            "related": "shocked",
+            "related": {
+              "en": "shocked",
+              "ko": "충격받은"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3177,7 +4008,10 @@
             "pron": "보어드",
             "example_en": "The kids were bored at home.",
             "example_ko": "아이들은 집에서 심심해했다.",
-            "related": "dull",
+            "related": {
+              "en": "dull",
+              "ko": "지루한"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3188,7 +4022,10 @@
             "pron": "워리드",
             "example_en": "She is worried about the exam.",
             "example_ko": "그녀는 시험에 대해 걱정하고 있다.",
-            "related": "anxious",
+            "related": {
+              "en": "anxious",
+              "ko": "불안한"
+            },
             "category": "emotions",
             "level": "basic"
           },
@@ -3199,7 +4036,10 @@
             "pron": "프라우드",
             "example_en": "I am proud of my daughter.",
             "example_ko": "나는 내 딸이 자랑스럽다.",
-            "related": "satisfied",
+            "related": {
+              "en": "satisfied",
+              "ko": "만족한"
+            },
             "category": "emotions",
             "level": "basic"
           }
@@ -3212,7 +4052,10 @@
             "pron": "너버스",
             "example_en": "He felt nervous before the interview.",
             "example_ko": "그는 면접 전에 긴장했다.",
-            "related": "anxious",
+            "related": {
+              "en": "anxious",
+              "ko": "불안한"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3223,7 +4066,10 @@
             "pron": "젤러스",
             "example_en": "She felt jealous of her friend.",
             "example_ko": "그녀는 친구를 질투했다.",
-            "related": "envious",
+            "related": {
+              "en": "envious",
+              "ko": "질투하는"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3234,7 +4080,10 @@
             "pron": "그레이트풀",
             "example_en": "I am grateful for your help.",
             "example_ko": "도와주셔서 감사합니다.",
-            "related": "thankful",
+            "related": {
+              "en": "thankful",
+              "ko": "감사하는"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3245,7 +4094,10 @@
             "pron": "임배러스트",
             "example_en": "He was embarrassed by the mistake.",
             "example_ko": "그는 그 실수에 당황했다.",
-            "related": "ashamed",
+            "related": {
+              "en": "ashamed",
+              "ko": "부끄러운"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3256,7 +4108,10 @@
             "pron": "컨피던트",
             "example_en": "She spoke with confidence.",
             "example_ko": "그녀는 자신감 있게 말했다.",
-            "related": "sure",
+            "related": {
+              "en": "sure",
+              "ko": "확신하는"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3267,7 +4122,10 @@
             "pron": "디스어포인티드",
             "example_en": "I was disappointed with the result.",
             "example_ko": "나는 그 결과에 실망했다.",
-            "related": "let down",
+            "related": {
+              "en": "let down",
+              "ko": "실망시키다"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3278,7 +4136,10 @@
             "pron": "릴리브드",
             "example_en": "We felt relieved after the test.",
             "example_ko": "우리는 시험 후 안도했다.",
-            "related": "calm",
+            "related": {
+              "en": "calm",
+              "ko": "차분한"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3289,7 +4150,10 @@
             "pron": "앵셔스",
             "example_en": "She felt anxious before the trip.",
             "example_ko": "그녀는 여행 전에 불안했다.",
-            "related": "nervous",
+            "related": {
+              "en": "nervous",
+              "ko": "긴장한"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3300,7 +4164,10 @@
             "pron": "컨텐트",
             "example_en": "He is content with his life.",
             "example_ko": "그는 자신의 삶에 만족한다.",
-            "related": "satisfied",
+            "related": {
+              "en": "satisfied",
+              "ko": "만족한"
+            },
             "category": "emotions",
             "level": "intermediate"
           },
@@ -3311,7 +4178,10 @@
             "pron": "호프풀",
             "example_en": "We remain hopeful about the future.",
             "example_ko": "우리는 미래에 대해 희망적이다.",
-            "related": "optimistic",
+            "related": {
+              "en": "optimistic",
+              "ko": "낙관적인"
+            },
             "category": "emotions",
             "level": "intermediate"
           }
@@ -3324,7 +4194,10 @@
             "pron": "멜랑콜리",
             "example_en": "A sense of melancholy filled the room.",
             "example_ko": "방 안에 우울함이 가득했다.",
-            "related": "sadness",
+            "related": {
+              "en": "sadness",
+              "ko": "슬픔"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3335,7 +4208,10 @@
             "pron": "유포리아",
             "example_en": "She felt euphoria after winning.",
             "example_ko": "그녀는 우승 후 행복감을 느꼈다.",
-            "related": "joy",
+            "related": {
+              "en": "joy",
+              "ko": "기쁨"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3346,7 +4222,10 @@
             "pron": "엠퍼세틱",
             "example_en": "He is very empathetic toward others.",
             "example_ko": "그는 다른 사람들에게 매우 공감적이다.",
-            "related": "compassionate",
+            "related": {
+              "en": "compassionate",
+              "ko": "연민 어린"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3357,7 +4236,10 @@
             "pron": "오버윌름드",
             "example_en": "She felt overwhelmed by the workload.",
             "example_ko": "그녀는 업무량에 압도됐다.",
-            "related": "stressed",
+            "related": {
+              "en": "stressed",
+              "ko": "스트레스 받는"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3368,7 +4250,10 @@
             "pron": "노스탤직",
             "example_en": "He felt nostalgic looking at old photos.",
             "example_ko": "그는 옛 사진을 보며 향수를 느꼈다.",
-            "related": "sentimental",
+            "related": {
+              "en": "sentimental",
+              "ko": "감상적인"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3379,7 +4264,10 @@
             "pron": "애프리헨시브",
             "example_en": "She was apprehensive about the surgery.",
             "example_ko": "그녀는 수술에 대해 불안해했다.",
-            "related": "worried",
+            "related": {
+              "en": "worried",
+              "ko": "걱정하는"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3390,7 +4278,10 @@
             "pron": "이그질러레이티드",
             "example_en": "He felt exhilarated after the race.",
             "example_ko": "그는 경주 후 들떴다.",
-            "related": "thrilled",
+            "related": {
+              "en": "thrilled",
+              "ko": "짜릿한"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3401,7 +4292,10 @@
             "pron": "벌너러블",
             "example_en": "She felt vulnerable after sharing her feelings.",
             "example_ko": "그녀는 감정을 나눈 후 취약함을 느꼈다.",
-            "related": "fragile",
+            "related": {
+              "en": "fragile",
+              "ko": "연약한"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3412,7 +4306,10 @@
             "pron": "앰비벌런트",
             "example_en": "He felt ambivalent about the decision.",
             "example_ko": "그는 그 결정에 대해 양가적인 감정을 느꼈다.",
-            "related": "uncertain",
+            "related": {
+              "en": "uncertain",
+              "ko": "불확실한"
+            },
             "category": "emotions",
             "level": "advanced"
           },
@@ -3423,7 +4320,10 @@
             "pron": "서린",
             "example_en": "The lake looked serene at sunset.",
             "example_ko": "그 호수는 석양에 평온해 보였다.",
-            "related": "peaceful",
+            "related": {
+              "en": "peaceful",
+              "ko": "평화로운"
+            },
             "category": "emotions",
             "level": "advanced"
           }
@@ -3443,7 +4343,10 @@
             "pron": "헬로",
             "example_en": "Hello, how are you?",
             "example_ko": "안녕하세요, 어떻게 지내세요?",
-            "related": "hi",
+            "related": {
+              "en": "hi",
+              "ko": "안녕"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3454,7 +4357,10 @@
             "pron": "땡큐",
             "example_en": "Thank you for your help.",
             "example_ko": "도와주셔서 감사합니다.",
-            "related": "thanks",
+            "related": {
+              "en": "thanks",
+              "ko": "감사"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3465,7 +4371,10 @@
             "pron": "쏘리",
             "example_en": "I'm sorry for being late.",
             "example_ko": "늦어서 죄송합니다.",
-            "related": "apology",
+            "related": {
+              "en": "apology",
+              "ko": "사과"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3476,7 +4385,10 @@
             "pron": "플리즈",
             "example_en": "Please sit down.",
             "example_ko": "앉아 주세요.",
-            "related": "request",
+            "related": {
+              "en": "request",
+              "ko": "요청"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3487,7 +4399,10 @@
             "pron": "예스",
             "example_en": "Yes, I understand.",
             "example_ko": "네, 이해했습니다.",
-            "related": "okay",
+            "related": {
+              "en": "okay",
+              "ko": "좋아, 괜찮아"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3498,7 +4413,10 @@
             "pron": "노",
             "example_en": "No, thank you.",
             "example_ko": "아니요, 괜찮습니다.",
-            "related": "not",
+            "related": {
+              "en": "not",
+              "ko": "아닌"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3509,7 +4427,10 @@
             "pron": "굿바이",
             "example_en": "Goodbye, see you tomorrow.",
             "example_ko": "안녕히 가세요, 내일 봬요.",
-            "related": "bye",
+            "related": {
+              "en": "bye",
+              "ko": "안녕(작별)"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3520,7 +4441,10 @@
             "pron": "익스큐즈 미",
             "example_en": "Excuse me, where is the station?",
             "example_ko": "실례합니다, 역이 어디인가요?",
-            "related": "pardon",
+            "related": {
+              "en": "pardon",
+              "ko": "용서하다, 실례합니다"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3531,7 +4455,10 @@
             "pron": "웰컴",
             "example_en": "Welcome to our home.",
             "example_ko": "우리 집에 오신 것을 환영합니다.",
-            "related": "greet",
+            "related": {
+              "en": "greet",
+              "ko": "인사하다"
+            },
             "category": "daily_talk",
             "level": "basic"
           },
@@ -3542,7 +4469,10 @@
             "pron": "오케이",
             "example_en": "Okay, let's go.",
             "example_ko": "좋아요, 갑시다.",
-            "related": "alright",
+            "related": {
+              "en": "alright",
+              "ko": "괜찮은"
+            },
             "category": "daily_talk",
             "level": "basic"
           }
@@ -3555,7 +4485,10 @@
             "pron": "페이버",
             "example_en": "Can I ask you a favor?",
             "example_ko": "부탁 하나 드려도 될까요?",
-            "related": "request",
+            "related": {
+              "en": "request",
+              "ko": "요청"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3566,7 +4499,10 @@
             "pron": "서제스천",
             "example_en": "I have a suggestion for you.",
             "example_ko": "당신에게 제안이 하나 있어요.",
-            "related": "idea",
+            "related": {
+              "en": "idea",
+              "ko": "생각, 아이디어"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3577,7 +4513,10 @@
             "pron": "오피니언",
             "example_en": "What is your opinion on this?",
             "example_ko": "이것에 대한 당신의 의견은 무엇인가요?",
-            "related": "view",
+            "related": {
+              "en": "view",
+              "ko": "견해, 전망"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3588,7 +4527,10 @@
             "pron": "어그리먼트",
             "example_en": "We reached an agreement.",
             "example_ko": "우리는 합의에 도달했다.",
-            "related": "consent",
+            "related": {
+              "en": "consent",
+              "ko": "동의"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3599,7 +4541,10 @@
             "pron": "어팔러지",
             "example_en": "He made a sincere apology.",
             "example_ko": "그는 진심 어린 사과를 했다.",
-            "related": "sorry",
+            "related": {
+              "en": "sorry",
+              "ko": "미안한"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3610,7 +4555,10 @@
             "pron": "컴플리먼트",
             "example_en": "She gave me a nice compliment.",
             "example_ko": "그녀는 나에게 멋진 칭찬을 해줬다.",
-            "related": "praise",
+            "related": {
+              "en": "praise",
+              "ko": "칭찬"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3621,7 +4569,10 @@
             "pron": "인비테이션",
             "example_en": "We received an invitation to the party.",
             "example_ko": "우리는 파티 초대장을 받았다.",
-            "related": "invite",
+            "related": {
+              "en": "invite",
+              "ko": "초대하다"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3632,7 +4583,10 @@
             "pron": "리마인더",
             "example_en": "This is just a friendly reminder.",
             "example_ko": "이건 그냥 친절한 알림이에요.",
-            "related": "note",
+            "related": {
+              "en": "note",
+              "ko": "메모"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3643,7 +4597,10 @@
             "pron": "리퀘스트",
             "example_en": "She made a simple request.",
             "example_ko": "그녀는 간단한 요청을 했다.",
-            "related": "ask",
+            "related": {
+              "en": "ask",
+              "ko": "요청하다"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           },
@@ -3654,7 +4611,10 @@
             "pron": "리스판스",
             "example_en": "I'm waiting for your response.",
             "example_ko": "당신의 답변을 기다리고 있어요.",
-            "related": "reply",
+            "related": {
+              "en": "reply",
+              "ko": "답장"
+            },
             "category": "daily_talk",
             "level": "intermediate"
           }
@@ -3667,7 +4627,10 @@
             "pron": "일래버레이트",
             "example_en": "Could you elaborate on that?",
             "example_ko": "그것에 대해 좀 더 자세히 설명해 주시겠어요?",
-            "related": "explain",
+            "related": {
+              "en": "explain",
+              "ko": "설명하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3678,7 +4641,10 @@
             "pron": "클래리파이",
             "example_en": "Let me clarify what I meant.",
             "example_ko": "제가 의미한 것을 명확히 하겠습니다.",
-            "related": "explain",
+            "related": {
+              "en": "explain",
+              "ko": "설명하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3689,7 +4655,10 @@
             "pron": "니고시에이트",
             "example_en": "They negotiated a better price.",
             "example_ko": "그들은 더 나은 가격을 협상했다.",
-            "related": "bargain",
+            "related": {
+              "en": "bargain",
+              "ko": "흥정, 싸게 산 물건"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3700,7 +4669,10 @@
             "pron": "엠퍼사이즈",
             "example_en": "I really empathize with your situation.",
             "example_ko": "저는 당신의 상황에 정말 공감합니다.",
-            "related": "understand",
+            "related": {
+              "en": "understand",
+              "ko": "이해하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3711,7 +4683,10 @@
             "pron": "아티큘레이트",
             "example_en": "She articulated her thoughts clearly.",
             "example_ko": "그녀는 자신의 생각을 명확히 표현했다.",
-            "related": "express",
+            "related": {
+              "en": "express",
+              "ko": "표현하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3722,7 +4697,10 @@
             "pron": "레컨사일",
             "example_en": "They reconciled after the argument.",
             "example_ko": "그들은 다툼 후 화해했다.",
-            "related": "make up",
+            "related": {
+              "en": "make up",
+              "ko": "화해하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3733,7 +4711,10 @@
             "pron": "어크날리지",
             "example_en": "He acknowledged his mistake.",
             "example_ko": "그는 자신의 실수를 인정했다.",
-            "related": "admit",
+            "related": {
+              "en": "admit",
+              "ko": "인정하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3744,7 +4725,10 @@
             "pron": "패러프레이즈",
             "example_en": "Can you paraphrase that sentence?",
             "example_ko": "그 문장을 다른 말로 바꿔 말해줄 수 있나요?",
-            "related": "rephrase",
+            "related": {
+              "en": "rephrase",
+              "ko": "다르게 말하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3755,7 +4739,10 @@
             "pron": "다이그레스",
             "example_en": "Sorry, I digress from the topic.",
             "example_ko": "죄송해요, 주제에서 벗어났네요.",
-            "related": "stray",
+            "related": {
+              "en": "stray",
+              "ko": "벗어나다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           },
@@ -3766,7 +4753,10 @@
             "pron": "컨베이",
             "example_en": "Words cannot convey my gratitude.",
             "example_ko": "말로는 제 감사함을 다 전달할 수 없어요.",
-            "related": "express",
+            "related": {
+              "en": "express",
+              "ko": "표현하다"
+            },
             "category": "daily_talk",
             "level": "advanced"
           }

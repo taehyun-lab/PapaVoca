@@ -29,7 +29,7 @@ let ALL_WORDS = {};       // id -> word
 let CATS = [];            // 카테고리 목록
 let ORDERED = {basic:[], intermediate:[], advanced:[]}; // 레벨별 라운드로빈 id 순서
 
-let settings = LS.get(KEYS.settings, {level:'basic', fontScale:'normal', rate:0.85});
+let settings = LS.get(KEYS.settings, {level:'basic', fontScale:'normal', rate:0.85, voiceURI:null});
 let learned = new Set(LS.get(KEYS.learned, []));
 let favs = new Set(LS.get(KEYS.fav, []));
 let wrongs = LS.get(KEYS.wrong, []); // 배열(순서 유지)
@@ -109,32 +109,64 @@ async function loadData(){
 }
 
 /* ---------- TTS ---------- */
-let voicesReady = false, enVoice = null;
-function pickVoice(){
+let voicesReady = false, enVoices = [], enVoice = null, koVoice = null;
+
+function pickVoices(){
   const voices = speechSynthesis.getVoices();
   if(!voices.length) return;
-  enVoice = voices.find(v=>v.lang==='en-US' && /Samantha|Siri|Google US/i.test(v.name))
-        || voices.find(v=>v.lang==='en-US')
-        || voices.find(v=>v.lang && v.lang.startsWith('en'));
+
+  enVoices = voices.filter(v=> v.lang && v.lang.startsWith('en'));
+
+  const preferByName = (list, re) => list.find(v=>re.test(v.name));
+  // 저장된 사용자 선택이 있으면 최우선
+  if(settings.voiceURI){
+    enVoice = voices.find(v=>v.voiceURI===settings.voiceURI) || null;
+  }
+  if(!enVoice){
+    enVoice = preferByName(enVoices, /Premium|Enhanced|Neural/i)
+          || preferByName(enVoices, /Samantha|Ava|Evan|Nathan|Siri|Google US/i)
+          || enVoices.find(v=>v.lang==='en-US')
+          || enVoices[0] || null;
+  }
+  const koVoices = voices.filter(v=> v.lang && v.lang.startsWith('ko'));
+  koVoice = preferByName(koVoices, /Premium|Enhanced|Neural/i)
+        || preferByName(koVoices, /Yuna|Sora|Google/i)
+        || koVoices[0] || null;
+
   voicesReady = true;
 }
 if('speechSynthesis' in window){
-  pickVoice();
-  speechSynthesis.onvoiceschanged = pickVoice;
+  pickVoices();
+  speechSynthesis.onvoiceschanged = ()=>{ pickVoices(); if(STATE.screen==='settings') render(); };
 }
-function speak(text, onend){
+
+function speak(text, lang, onend){
   if(!('speechSynthesis' in window)){ onend && onend(); return; }
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-US';
-  u.rate = settings.rate || 0.85;
-  if(enVoice) u.voice = enVoice;
+  const isKo = lang.startsWith('ko');
+  u.lang = lang;
+  u.rate = isKo ? 0.95 : (settings.rate || 0.85);
+  const v = isKo ? koVoice : enVoice;
+  if(v) u.voice = v;
   if(onend) u.onend = onend;
   speechSynthesis.speak(u);
 }
-function speakWord(w){ speak(w.en); }
-function speakExample(w){ speak(w.example_en); }
-function speakAll(w){ speak(w.en, ()=> setTimeout(()=>speak(w.example_en), 250)); }
+function chain(steps){
+  // steps: [[text,lang], ...] 순서대로 이어서 발음, 각 사이 살짝 쉬는 시간
+  let i = 0;
+  function next(){
+    if(i >= steps.length) return;
+    const [text, lang] = steps[i++];
+    speak(text, lang, ()=> setTimeout(next, 300));
+  }
+  next();
+}
+function speakWord(w){ speak(w.en, 'en-US'); }
+function speakExample(w){ speak(w.example_en, 'en-US'); }
+function speakAll(w){
+  chain([[w.en,'en-US'], [w.ko,'ko-KR'], [w.example_en,'en-US'], [w.example_ko,'ko-KR']]);
+}
 
 /* ---------- 유틸 ---------- */
 function el(id){ return document.getElementById(id); }
@@ -152,6 +184,7 @@ function nextDay(lv){
   return maxDays(lv); // 모두 완료 시 마지막 회차 재표시
 }
 function allDone(lv){ return daysProgress[lv].completed.length >= maxDays(lv); }
+function alreadyDoneToday(lv){ return daysProgress[lv].lastDate === todayStr(); }
 
 /* ---------- 렌더 라우터 ---------- */
 function render(){
@@ -203,6 +236,7 @@ function renderHome(){
 
   const day = nextDay(lv);
   const done = allDone(lv);
+  const doneToday = alreadyDoneToday(lv);
   const todayCount = dailyStats[todayStr()] || 0;
 
   const dayPickerBlock = STATE.dayPicker ? renderDayPicker(lv) : '';
@@ -217,7 +251,7 @@ function renderHome(){
         `).join('')}
       </div>
       <div style="text-align:center;">
-        <div style="font-size:16px;color:#5c6b78;">${done ? '모든 회차를 학습했어요 🎉' : `오늘의 학습 · ${day}회차`}</div>
+        <div style="font-size:16px;color:#5c6b78;">${done ? '모든 회차를 학습했어요 🎉' : doneToday ? '오늘치 학습 완료 ✅' : `오늘의 학습 · ${day}회차`}</div>
         <div style="font-size:32px;font-weight:700;margin:6px 0 2px;">${todayCount} <span style="font-size:16px;color:#7a8794;">/ 20 단어</span></div>
       </div>
       <button class="big-btn" style="margin-top:14px;" data-action="start-today">오늘 학습 시작</button>
@@ -278,7 +312,7 @@ function renderWordCard(w, showSound){
         <div>${w.example_en}</div>
         <div class="ex-ko">${w.example_ko}</div>
       </div>
-      <div class="related">💡 함께 외우면 좋은 단어: <b>${w.related}</b></div>
+      <div class="related">💡 함께 외우면 좋은 단어: <b>${w.related.en}</b> (${w.related.ko})</div>
       ${showSound !== false ? `
       <div class="sound-row">
         <button class="icon-btn" data-action="speak-word" data-id="${w.id}">🔊 단어 듣기</button>
@@ -515,10 +549,21 @@ function renderSettings(){
       </div>
     </div>
     <div class="card">
-      <div style="font-weight:700;margin-bottom:6px;">🔊 더 자연스러운 목소리를 원하신다면</div>
+      <div style="font-weight:700;margin-bottom:10px;">🔊 영어 음성 선택</div>
+      ${enVoices.length ? `
+      <select id="voice-select" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:16px;background:var(--white);color:var(--text);">
+        <option value="">자동 (기본 추천 음성)</option>
+        ${enVoices.map(v=>`<option value="${v.voiceURI}" ${settings.voiceURI===v.voiceURI?'selected':''}>${v.name} (${v.lang})</option>`).join('')}
+      </select>
+      <button class="icon-btn" style="margin-top:10px;width:100%;" data-action="test-voice">🔊 선택한 음성으로 들어보기</button>
+      ` : `<div style="color:#5c6b78;font-size:14px;">사용 가능한 음성 목록을 불러오는 중이에요. 잠시 후 다시 열어보세요.</div>`}
+    </div>
+    <div class="card">
+      <div style="font-weight:700;margin-bottom:6px;">더 자연스러운 목소리를 원하신다면</div>
       <div style="color:#5c6b78;font-size:14px;line-height:1.6;">
         아이폰의 <b>설정 → 손쉬운 사용 → 음성 콘텐츠 → 음성</b>에서 영어(미국) 음성을
-        "고급/향상된 품질"로 다운로드하면, 이 앱의 음성이 훨씬 더 자연스럽게 들려요. 무료 기능입니다.
+        "고급/향상된 품질"로 다운로드한 뒤, 위 목록에서 다시 선택해보세요. 무료 기능이고
+        훨씬 자연스럽게 들려요.
       </div>
     </div>
     <button class="big-btn ghost" data-action="reset-data">학습 데이터 초기화</button>
@@ -539,6 +584,7 @@ function completeSession(){
   if(!daysProgress[session.level].completed.includes(session.day)){
     daysProgress[session.level].completed.push(session.day);
   }
+  daysProgress[session.level].lastDate = todayStr();
   session.completed = true;
   LS.set(KEYS.session, session);
   saveAll();
@@ -548,6 +594,14 @@ function completeSession(){
   toast('오늘의 학습을 완료했어요! 🎉');
   render();
 }
+
+document.addEventListener('change', function(e){
+  if(e.target.id === 'voice-select'){
+    settings.voiceURI = e.target.value || null;
+    saveAll();
+    pickVoices();
+  }
+});
 
 document.addEventListener('click', function(e){
   const t = e.target.closest('[data-action]');
@@ -565,12 +619,14 @@ document.addEventListener('click', function(e){
     case 'toggle-day-picker':
       STATE.dayPicker = !STATE.dayPicker; render(); break;
     case 'pick-day': {
+      if(alreadyDoneToday(settings.level)){ toast('아빠! 오늘치 단어공부는 다했어유 🦭'); break; }
       const d = parseInt(t.dataset.day,10);
       session = {level:settings.level, day:d, wordIds:getDayWords(settings.level,d), index:0, date:todayStr(), completed:false};
       LS.set(KEYS.session, session);
       STATE.dayPicker=false; STATE.screen='studying'; render(); break;
     }
     case 'start-today': {
+      if(alreadyDoneToday(settings.level)){ toast('아빠! 오늘치 단어공부는 다했어유 🦭'); break; }
       const d = nextDay(settings.level);
       session = {level:settings.level, day:d, wordIds:getDayWords(settings.level,d), index:0, date:todayStr(), completed:false};
       LS.set(KEYS.session, session);
@@ -648,6 +704,7 @@ document.addEventListener('click', function(e){
       break;
     }
     case 'close-quiz': STATE.quiz = null; render(); break;
+    case 'test-voice': speak('Hello, this is a sample sentence for you.', 'en-US'); break;
     case 'reset-data': {
       if(confirm('학습 기록, 즐겨찾기, 통계가 모두 초기화됩니다. 계속할까요?')){
         learned = new Set(); favs = new Set(); wrongs = [];
