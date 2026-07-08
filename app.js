@@ -323,12 +323,12 @@ function renderStudy(){
       <div class="progress-track"><div class="progress-fill" style="width:${pct}%;"></div><div class="gull-marker" style="left:calc(${pct}% - 10px);">🕊️</div></div>
       <div class="progress-label">${session.index+1} / ${total} 단어 · ${levelLabel(session.level)} · 좌우로 넘겨보세요</div>
     </div>
-    <div id="swipe-zone">${renderWordCard(w, true)}</div>
-    <div class="btn-row">
-      <button class="big-btn ghost small" data-action="prev-word" ${isFirst?'disabled':''}>← 이전 단어</button>
-      <button class="big-btn small" data-action="next-word" ${isLast?'disabled':''}>${isLast ? '마지막 단어예요' : '다음 단어 →'}</button>
+    <div id="swipe-zone" style="position:relative;">
+      <button class="card-arrow left" data-action="prev-word" ${isFirst?'disabled':''} aria-label="이전 단어">‹</button>
+      ${renderWordCard(w, true)}
+      <button class="card-arrow right" data-action="next-word" ${isLast?'disabled':''} aria-label="다음 단어">›</button>
     </div>
-    <button class="big-btn" style="margin-top:12px;" data-action="finish-today">🎉 오늘 학습 완료</button>
+    <button class="big-btn" style="margin-top:16px;" data-action="finish-today">🎉 오늘 학습 완료</button>
   `;
 }
 
@@ -336,7 +336,7 @@ function renderWordCard(w, showSound){
   const isFav = favs.has(w.id);
   return `
     <div class="wordcard">
-      <button class="star-btn ${isFav?'active':''}" style="float:right;" data-action="toggle-fav" data-id="${w.id}">${isFav?'★':'☆'}</button>
+      <button class="star-btn ${isFav?'active':''}" style="position:absolute;top:18px;right:18px;" data-action="toggle-fav" data-id="${w.id}">${isFav?'★':'☆'}</button>
       <div class="en">${w.en}</div>
       <div class="pron">[${w.pron}]</div>
       <div class="ko">${w.ko}</div>
