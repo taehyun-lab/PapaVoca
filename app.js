@@ -29,7 +29,7 @@ let ALL_WORDS = {};       // id -> word
 let CATS = [];            // 카테고리 목록
 let ORDERED = {basic:[], intermediate:[], advanced:[]}; // 레벨별 라운드로빈 id 순서
 
-let settings = LS.get(KEYS.settings, {level:'basic', fontScale:'normal', rate:0.85, voiceURI:null});
+let settings = LS.get(KEYS.settings, {level:'basic', fontScale:'normal', rate:0.85, voiceURI:null, koVoiceURI:null});
 let learned = new Set(LS.get(KEYS.learned, []));
 let favs = new Set(LS.get(KEYS.fav, []));
 let wrongs = LS.get(KEYS.wrong, []); // 배열(순서 유지)
@@ -109,16 +109,18 @@ async function loadData(){
 }
 
 /* ---------- TTS ---------- */
-let voicesReady = false, enVoices = [], enVoice = null, koVoice = null;
+let voicesReady = false, enVoices = [], koVoices = [], enVoice = null, koVoice = null;
 
 function pickVoices(){
   const voices = speechSynthesis.getVoices();
   if(!voices.length) return;
 
   enVoices = voices.filter(v=> v.lang && v.lang.startsWith('en'));
+  koVoices = voices.filter(v=> v.lang && v.lang.startsWith('ko'));
 
   const preferByName = (list, re) => list.find(v=>re.test(v.name));
-  // 저장된 사용자 선택이 있으면 최우선
+
+  // 영어 음성: 저장된 사용자 선택 우선, 없으면 고품질 음성 추정
   if(settings.voiceURI){
     enVoice = voices.find(v=>v.voiceURI===settings.voiceURI) || null;
   }
@@ -128,10 +130,19 @@ function pickVoices(){
           || enVoices.find(v=>v.lang==='en-US')
           || enVoices[0] || null;
   }
-  const koVoices = voices.filter(v=> v.lang && v.lang.startsWith('ko'));
-  koVoice = preferByName(koVoices, /Premium|Enhanced|Neural/i)
-        || preferByName(koVoices, /Yuna|Sora|Google/i)
-        || koVoices[0] || null;
+
+  // 한국어 음성: 저장된 사용자 선택 우선, 없으면 정확히 ko-KR + 고품질/기본 여성 음성 우선
+  if(settings.koVoiceURI){
+    koVoice = voices.find(v=>v.voiceURI===settings.koVoiceURI) || null;
+  }
+  if(!koVoice){
+    const exactKo = koVoices.filter(v=>v.lang==='ko-KR');
+    const pool = exactKo.length ? exactKo : koVoices;
+    koVoice = preferByName(pool, /Premium|Enhanced|Neural/i)
+          || preferByName(pool, /Yuna/i)
+          || preferByName(pool, /Sora|Google/i)
+          || pool[0] || null;
+  }
 
   voicesReady = true;
 }
@@ -146,7 +157,7 @@ function speak(text, lang, onend){
   const u = new SpeechSynthesisUtterance(text);
   const isKo = lang.startsWith('ko');
   u.lang = lang;
-  u.rate = isKo ? 0.95 : (settings.rate || 0.85);
+  u.rate = isKo ? 1.0 : (settings.rate || 0.85);
   const v = isKo ? koVoice : enVoice;
   if(v) u.voice = v;
   if(onend) u.onend = onend;
@@ -174,6 +185,25 @@ function shuffle(arr){ const a=[...arr]; for(let i=a.length-1;i>0;i--){ const j=
 function toast(msg){
   const t = el('toast'); t.textContent = msg; t.classList.add('show');
   clearTimeout(toast._h); toast._h = setTimeout(()=>t.classList.remove('show'), 1600);
+}
+function starBurst(callback){
+  const layer = document.createElement('div');
+  layer.className = 'star-burst-layer';
+  const emojis = ['⭐','🌟','✨'];
+  const count = 28;
+  for(let i=0;i<count;i++){
+    const s = document.createElement('span');
+    s.className = 'star-particle';
+    s.textContent = emojis[Math.floor(Math.random()*emojis.length)];
+    s.style.left = (Math.random()*100) + '%';
+    s.style.fontSize = (18 + Math.random()*22) + 'px';
+    s.style.animationDuration = (0.9 + Math.random()*0.6) + 's';
+    s.style.animationDelay = (Math.random()*0.35) + 's';
+    layer.appendChild(s);
+  }
+  document.body.appendChild(layer);
+  setTimeout(()=>{ layer.remove(); }, 1700);
+  setTimeout(()=>{ callback && callback(); }, 650);
 }
 function levelLabel(lv){ return {basic:'기본', intermediate:'중급', advanced:'심화'}[lv]; }
 function maxDays(lv){ return Math.ceil(ORDERED[lv].length/20); }
@@ -287,16 +317,18 @@ function renderStudy(){
   const total = session.wordIds.length;
   const pct = Math.round(((session.index)/total)*100);
   const isLast = session.index === total-1;
+  const isFirst = session.index === 0;
   return `
     <div class="progress-wrap">
       <div class="progress-track"><div class="progress-fill" style="width:${pct}%;"></div><div class="gull-marker" style="left:calc(${pct}% - 10px);">🕊️</div></div>
-      <div class="progress-label">${session.index+1} / ${total} 단어 · ${levelLabel(session.level)}</div>
+      <div class="progress-label">${session.index+1} / ${total} 단어 · ${levelLabel(session.level)} · 좌우로 넘겨보세요</div>
     </div>
-    ${renderWordCard(w, true)}
+    <div id="swipe-zone">${renderWordCard(w, true)}</div>
     <div class="btn-row">
-      <button class="big-btn ghost small" data-action="finish-today">오늘 학습 완료</button>
-      <button class="big-btn small" data-action="next-word" ${isLast?'disabled':''}>${isLast ? '마지막 단어예요' : '다음 단어'}</button>
+      <button class="big-btn ghost small" data-action="prev-word" ${isFirst?'disabled':''}>← 이전 단어</button>
+      <button class="big-btn small" data-action="next-word" ${isLast?'disabled':''}>${isLast ? '마지막 단어예요' : '다음 단어 →'}</button>
     </div>
+    <button class="big-btn" style="margin-top:12px;" data-action="finish-today">🎉 오늘 학습 완료</button>
   `;
 }
 
@@ -443,9 +475,10 @@ function renderFlash(){
 }
 
 /* ---------- 퀴즈 ---------- */
-function buildQuizRound(mode, source){
+function buildQuizRound(mode, source, explicitPool){
   let pool;
-  if(source==='wrong') pool = [...new Set(wrongs)];
+  if(explicitPool) pool = [...explicitPool];
+  else if(source==='wrong') pool = [...new Set(wrongs)];
   else if(source==='due') pool = dueWords();
   else pool = [...learned];
   pool = shuffle(pool).slice(0, Math.min(10, pool.length));
@@ -559,9 +592,19 @@ function renderSettings(){
       ` : `<div style="color:#5c6b78;font-size:14px;">사용 가능한 음성 목록을 불러오는 중이에요. 잠시 후 다시 열어보세요.</div>`}
     </div>
     <div class="card">
+      <div style="font-weight:700;margin-bottom:10px;">🔊 한국어 음성 선택</div>
+      ${koVoices.length ? `
+      <select id="voice-select-ko" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:16px;background:var(--white);color:var(--text);">
+        <option value="">자동 (기본 추천 음성)</option>
+        ${koVoices.map(v=>`<option value="${v.voiceURI}" ${settings.koVoiceURI===v.voiceURI?'selected':''}>${v.name} (${v.lang})</option>`).join('')}
+      </select>
+      <button class="icon-btn" style="margin-top:10px;width:100%;" data-action="test-voice-ko">🔊 선택한 음성으로 들어보기</button>
+      ` : `<div style="color:#5c6b78;font-size:14px;">사용 가능한 한국어 음성이 없어요.</div>`}
+    </div>
+    <div class="card">
       <div style="font-weight:700;margin-bottom:6px;">더 자연스러운 목소리를 원하신다면</div>
       <div style="color:#5c6b78;font-size:14px;line-height:1.6;">
-        아이폰의 <b>설정 → 손쉬운 사용 → 음성 콘텐츠 → 음성</b>에서 영어(미국) 음성을
+        아이폰의 <b>설정 → 손쉬운 사용 → 음성 콘텐츠 → 음성</b>에서 영어(미국)·한국어 음성을
         "고급/향상된 품질"로 다운로드한 뒤, 위 목록에서 다시 선택해보세요. 무료 기능이고
         훨씬 자연스럽게 들려요.
       </div>
@@ -580,6 +623,7 @@ function markLearned(ids){
 }
 
 function completeSession(){
+  const finishedIds = [...session.wordIds];
   markLearned(session.wordIds);
   if(!daysProgress[session.level].completed.includes(session.day)){
     daysProgress[session.level].completed.push(session.day);
@@ -592,13 +636,21 @@ function completeSession(){
   STATE.screen = 'home';
   session = null;
   LS.set(KEYS.session, null);
-  toast('오늘의 학습을 완료했어요! 🎉');
+  toast('오늘의 학습을 완료했어요! 🎉 바로 간단 퀴즈 풀어볼까요?');
+  if(finishedIds.length >= 2){
+    STATE.quiz = buildQuizRound('en2ko', null, finishedIds);
+  }
   render();
 }
 
 document.addEventListener('change', function(e){
   if(e.target.id === 'voice-select'){
     settings.voiceURI = e.target.value || null;
+    saveAll();
+    pickVoices();
+  }
+  if(e.target.id === 'voice-select-ko'){
+    settings.koVoiceURI = e.target.value || null;
     saveAll();
     pickVoices();
   }
@@ -634,10 +686,16 @@ document.addEventListener('click', function(e){
     }
     case 'resume-session': STATE.screen='studying'; render(); break;
     case 'discard-session': session=null; LS.set(KEYS.session,null); render(); break;
+    case 'prev-word':
+      if(session.index > 0){ session.index--; LS.set(KEYS.session, session); render(); }
+      break;
     case 'next-word':
       if(session.index < session.wordIds.length-1){ session.index++; LS.set(KEYS.session, session); render(); }
       break;
-    case 'finish-today': completeSession(); break;
+    case 'finish-today':
+      t.disabled = true;
+      starBurst(()=> completeSession());
+      break;
     case 'toggle-fav': {
       const id = t.dataset.id;
       if(favs.has(id)) favs.delete(id); else favs.add(id);
@@ -704,6 +762,7 @@ document.addEventListener('click', function(e){
     }
     case 'close-quiz': STATE.quiz = null; render(); break;
     case 'test-voice': speak('Hello, this is a sample sentence for you.', 'en-US'); break;
+    case 'test-voice-ko': speak('안녕하세요, 이렇게 들려요.', 'ko-KR'); break;
     case 'reset-data': {
       if(confirm('학습 기록, 즐겨찾기, 통계가 모두 초기화됩니다. 계속할까요?')){
         learned = new Set(); favs = new Set(); wrongs = [];
@@ -732,6 +791,32 @@ function applyFontScale(){
   const map = {normal:'17px', large:'19px', xlarge:'21px'};
   document.documentElement.style.fontSize = map[settings.fontScale] || '17px';
 }
+
+/* ---------- 스와이프 제스처 (오늘의 학습 화면 전용) ---------- */
+(function(){
+  let startX = 0, startY = 0, tracking = false;
+  const THRESHOLD = 55;
+  document.addEventListener('touchstart', (e)=>{
+    if(STATE.screen !== 'studying' || !session) return;
+    const zone = e.target.closest('#swipe-zone');
+    if(!zone) return;
+    tracking = true;
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+  }, {passive:true});
+  document.addEventListener('touchend', (e)=>{
+    if(!tracking) return;
+    tracking = false;
+    const dx = e.changedTouches[0].clientX - startX;
+    const dy = e.changedTouches[0].clientY - startY;
+    if(Math.abs(dx) < THRESHOLD || Math.abs(dx) < Math.abs(dy)*1.2) return;
+    if(dx < 0){ // 왼쪽으로 스와이프 = 다음 단어
+      if(session.index < session.wordIds.length-1){ session.index++; LS.set(KEYS.session, session); render(); }
+    } else { // 오른쪽으로 스와이프 = 이전 단어
+      if(session.index > 0){ session.index--; LS.set(KEYS.session, session); render(); }
+    }
+  }, {passive:true});
+})();
 
 /* ---------- 시작 ---------- */
 async function init(){
