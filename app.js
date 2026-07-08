@@ -295,7 +295,7 @@ function renderStudy(){
     ${renderWordCard(w, true)}
     <div class="btn-row">
       <button class="big-btn ghost small" data-action="finish-today">오늘 학습 완료</button>
-      <button class="big-btn small" data-action="next-word">${isLast ? '학습 완료하기' : '다음 단어'}</button>
+      <button class="big-btn small" data-action="next-word" ${isLast?'disabled':''}>${isLast ? '마지막 단어예요' : '다음 단어'}</button>
     </div>
   `;
 }
@@ -585,6 +585,7 @@ function completeSession(){
     daysProgress[session.level].completed.push(session.day);
   }
   daysProgress[session.level].lastDate = todayStr();
+  daysProgress[session.level].lastDay = session.day;
   session.completed = true;
   LS.set(KEYS.session, session);
   saveAll();
@@ -619,24 +620,22 @@ document.addEventListener('click', function(e){
     case 'toggle-day-picker':
       STATE.dayPicker = !STATE.dayPicker; render(); break;
     case 'pick-day': {
-      if(alreadyDoneToday(settings.level)){ toast('아빠! 오늘치 단어공부는 다했어유 🦭'); break; }
       const d = parseInt(t.dataset.day,10);
       session = {level:settings.level, day:d, wordIds:getDayWords(settings.level,d), index:0, date:todayStr(), completed:false};
       LS.set(KEYS.session, session);
       STATE.dayPicker=false; STATE.screen='studying'; render(); break;
     }
     case 'start-today': {
-      if(alreadyDoneToday(settings.level)){ toast('아빠! 오늘치 단어공부는 다했어유 🦭'); break; }
-      const d = nextDay(settings.level);
-      session = {level:settings.level, day:d, wordIds:getDayWords(settings.level,d), index:0, date:todayStr(), completed:false};
+      const lv = settings.level;
+      const d = alreadyDoneToday(lv) ? (daysProgress[lv].lastDay || nextDay(lv)) : nextDay(lv);
+      session = {level:lv, day:d, wordIds:getDayWords(lv,d), index:0, date:todayStr(), completed:false};
       LS.set(KEYS.session, session);
       STATE.screen='studying'; render(); break;
     }
     case 'resume-session': STATE.screen='studying'; render(); break;
     case 'discard-session': session=null; LS.set(KEYS.session,null); render(); break;
     case 'next-word':
-      if(session.index >= session.wordIds.length-1){ completeSession(); }
-      else { session.index++; LS.set(KEYS.session, session); render(); }
+      if(session.index < session.wordIds.length-1){ session.index++; LS.set(KEYS.session, session); render(); }
       break;
     case 'finish-today': completeSession(); break;
     case 'toggle-fav': {
