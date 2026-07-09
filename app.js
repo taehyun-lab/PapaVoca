@@ -396,19 +396,20 @@ function renderSearchBox(){
       <input id="word-search-input" type="text" value="${escapeAttr(q)}"
         placeholder="영단어·뜻·발음·초성 검색 (전체 난이도)"
         style="width:100%;padding:1.4rem 4.2rem 1.4rem 1.6rem;border-radius:12px;border:1.5px solid var(--line);font-size:1.6rem;background:var(--white);color:var(--text);box-sizing:border-box;">
-      ${q ? `<button data-action="clear-search" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1.8rem;color:var(--text-sub);cursor:pointer;padding:6px;">✕</button>` : ''}
+      <button data-action="clear-search" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1.8rem;color:var(--text-sub);cursor:pointer;padding:6px;">✕</button>
     </div>
+    <div id="search-results-area">${renderBrowseBody()}</div>
   `;
 }
 
-/* ---------- 단어장(카테고리) ---------- */
-function renderBrowse(){
+/* 검색어/카테고리 상태에 따라 바뀌는 부분만 담당 (검색창 자체는 다시 그리지 않음) */
+function renderBrowseBody(){
   const lv = settings.level;
   const q = STATE.searchQuery.trim();
 
   if(q){
     const results = searchWords(q);
-    return renderSearchBox() + (results.length ? `
+    return results.length ? `
       <div class="section-title">검색 결과 ${results.length}개</div>
       ${results.map(w=>{
         const cat = CATS.find(c=>c.id===w.category);
@@ -421,12 +422,11 @@ function renderBrowse(){
           <button class="star-btn ${favs.has(w.id)?'active':''}" data-action="toggle-fav" data-id="${w.id}" data-stop="1">${favs.has(w.id)?'★':'☆'}</button>
         </div>`;
       }).join('')}
-    ` : emptyState('🔍','검색 결과가 없어요','다른 단어로 찾아보세요.'));
+    ` : emptyState('🔍','검색 결과가 없어요','다른 단어로 찾아보세요.');
   }
 
   if(!STATE.browseCat){
     return `
-      ${renderSearchBox()}
       <div class="level-pills">
         ${['basic','intermediate','advanced'].map(l=>`
           <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
@@ -458,6 +458,11 @@ function renderBrowse(){
       </div>
     `).join('')}
   `;
+}
+
+/* ---------- 단어장(카테고리) ---------- */
+function renderBrowse(){
+  return renderSearchBox();
 }
 
 /* ---------- 단어 상세 ---------- */
@@ -709,31 +714,16 @@ function completeSession(){
   render();
 }
 
-let isComposingSearch = false;
 function refreshSearchInput(){
-  STATE.searchQuery = document.getElementById('word-search-input').value;
-  render();
-  requestAnimationFrame(()=>{
-    const el2 = document.getElementById('word-search-input');
-    if(el2){
-      el2.focus();
-      const pos = el2.value.length;
-      try{ el2.setSelectionRange(pos, pos); }catch(err){}
-    }
-  });
+  const input = document.getElementById('word-search-input');
+  if(!input) return;
+  STATE.searchQuery = input.value;
+  const area = document.getElementById('search-results-area');
+  if(area) area.innerHTML = renderBrowseBody();
+  // input 요소 자체는 건드리지 않으므로 포커스/커서/한글 조합 상태가 그대로 유지됨
 }
-document.addEventListener('compositionstart', function(e){
-  if(e.target.id === 'word-search-input') isComposingSearch = true;
-});
-document.addEventListener('compositionend', function(e){
-  if(e.target.id === 'word-search-input'){
-    isComposingSearch = false;
-    refreshSearchInput();
-  }
-});
 document.addEventListener('input', function(e){
   if(e.target.id === 'word-search-input'){
-    if(isComposingSearch) return; // 한글 조합 중에는 리렌더링 보류 (자모 분리 방지)
     refreshSearchInput();
   }
 });
@@ -801,7 +791,11 @@ document.addEventListener('click', function(e){
     case 'speak-all': speakAll(ALL_WORDS[t.dataset.id]); break;
     case 'open-cat': STATE.browseCat = t.dataset.cat; render(); break;
     case 'back-to-cats': STATE.browseCat = null; render(); break;
-    case 'clear-search': STATE.searchQuery = ''; render(); break;
+    case 'clear-search':
+      STATE.searchQuery = '';
+      render();
+      requestAnimationFrame(()=>{ const inp = document.getElementById('word-search-input'); if(inp) inp.focus(); });
+      break;
     case 'open-detail': STATE.detail = {wordId:t.dataset.id, back:t.dataset.back}; render(); break;
     case 'close-detail': STATE.detail = null; render(); break;
     case 'go-review': STATE.screen='review'; STATE.reviewTab='quiz'; render(); break;

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'papavoca-v17';
+const CACHE_NAME = 'papavoca-v18';
 const ASSETS = [
   './',
   './index.html',
