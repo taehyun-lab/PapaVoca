@@ -86,6 +86,7 @@ const STATE = {
   quiz:null,           // active quiz session
   flash:null,          // {pool:[ids], index, flipped, source}
   dayPicker:false,
+  searchQuery:'',
 };
 
 /* ---------- 데이터 로드 ---------- */
@@ -248,7 +249,7 @@ function renderHome(){
   let banner = '';
   if(session && !session.completed){
     banner = `<div class="banner">
-      <div class="msg">🌊 지난 학습을 이어서 하시겠습니까?<br><span style="color:#7a8794;font-size:13px;">${levelLabel(session.level)} · ${session.index}/${session.wordIds.length} 단어 진행됨</span></div>
+      <div class="msg">🌊 지난 학습을 이어서 하시겠습니까?<br><span style="color:#7a8794;font-size:1.3rem;">${levelLabel(session.level)} · ${session.index}/${session.wordIds.length} 단어 진행됨</span></div>
     </div>
     <div class="btn-row" style="margin-bottom:16px;">
       <button class="big-btn small" data-action="resume-session">이어서 하기</button>
@@ -281,8 +282,8 @@ function renderHome(){
         `).join('')}
       </div>
       <div style="text-align:center;">
-        <div style="font-size:16px;color:#5c6b78;">${done ? '모든 회차를 학습했어요 🎉' : doneToday ? '오늘치 학습 완료 ✅' : `오늘의 학습 · ${day}회차`}</div>
-        <div style="font-size:32px;font-weight:700;margin:6px 0 2px;">${todayCount} <span style="font-size:16px;color:#7a8794;">/ 20 단어</span></div>
+        <div style="font-size:1.6rem;color:#5c6b78;">${done ? '모든 회차를 학습했어요 🎉' : doneToday ? '오늘치 학습 완료 ✅' : `오늘의 학습 · ${day}회차`}</div>
+        <div style="font-size:3.2rem;font-weight:700;margin:6px 0 2px;">${todayCount} <span style="font-size:1.6rem;color:#7a8794;">/ 20 단어</span></div>
       </div>
       <button class="big-btn" style="margin-top:14px;" data-action="start-today">오늘 학습 시작</button>
       <button class="big-btn ghost small" style="margin-top:10px;" data-action="toggle-day-picker">${STATE.dayPicker ? '회차 목록 닫기' : '다른 회차 선택'}</button>
@@ -304,7 +305,7 @@ function renderDayPicker(lv){
     const isDone = daysProgress[lv].completed.includes(d);
     const cnt = getDayWords(lv,d).length;
     items += `<div class="word-row" data-action="pick-day" data-day="${d}">
-      <div class="en" style="font-size:17px;">${d}회차 <span style="color:#7a8794;font-size:13px;">(${cnt}단어)</span></div>
+      <div class="en" style="font-size:1.7rem;">${d}회차 <span style="color:#7a8794;font-size:1.3rem;">(${cnt}단어)</span></div>
       <div>${isDone?'✅':'▶️'}</div>
     </div>`;
   }
@@ -356,11 +357,76 @@ function renderWordCard(w, showSound){
   `;
 }
 
+/* ---------- 검색 ---------- */
+function escapeAttr(s){
+  return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function toChosung(str){
+  const CHO = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ'];
+  let out = '';
+  for(const ch of str){
+    const code = ch.charCodeAt(0);
+    if(code>=0xAC00 && code<=0xD7A3){
+      out += CHO[Math.floor((code-0xAC00)/588)];
+    } else if(ch !== ' '){
+      out += ch;
+    }
+  }
+  return out;
+}
+function searchWords(query){
+  const q = query.trim();
+  if(!q) return [];
+  const isChosung = /^[ㄱ-ㅎ]+$/.test(q);
+  const qLower = q.toLowerCase();
+  const results = [];
+  Object.values(ALL_WORDS).forEach(w=>{
+    const match = isChosung
+      ? toChosung(w.ko).includes(q)
+      : (w.en.toLowerCase().includes(qLower) || w.ko.includes(q) || w.pron.includes(q));
+    if(match) results.push(w);
+  });
+  results.sort((a,b)=>a.en.localeCompare(b.en));
+  return results.slice(0, 60);
+}
+function renderSearchBox(){
+  const q = STATE.searchQuery;
+  return `
+    <div style="position:relative;margin-bottom:16px;">
+      <input id="word-search-input" type="text" value="${escapeAttr(q)}"
+        placeholder="영단어·뜻·발음·초성 검색 (전체 난이도)"
+        style="width:100%;padding:1.4rem 4.2rem 1.4rem 1.6rem;border-radius:12px;border:1.5px solid var(--line);font-size:1.6rem;background:var(--white);color:var(--text);box-sizing:border-box;">
+      ${q ? `<button data-action="clear-search" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1.8rem;color:var(--text-sub);cursor:pointer;padding:6px;">✕</button>` : ''}
+    </div>
+  `;
+}
+
 /* ---------- 단어장(카테고리) ---------- */
 function renderBrowse(){
   const lv = settings.level;
+  const q = STATE.searchQuery.trim();
+
+  if(q){
+    const results = searchWords(q);
+    return renderSearchBox() + (results.length ? `
+      <div class="section-title">검색 결과 ${results.length}개</div>
+      ${results.map(w=>{
+        const cat = CATS.find(c=>c.id===w.category);
+        return `
+        <div class="word-row" data-action="open-detail" data-id="${w.id}" data-back="browse">
+          <div style="flex:1;">
+            <div class="en">${w.en}</div>
+            <div class="ko">${w.ko} · ${cat ? cat.icon+' '+cat.name : ''} · ${levelLabel(w.level)}</div>
+          </div>
+          <button class="star-btn ${favs.has(w.id)?'active':''}" data-action="toggle-fav" data-id="${w.id}" data-stop="1">${favs.has(w.id)?'★':'☆'}</button>
+        </div>`;
+      }).join('')}
+    ` : emptyState('🔍','검색 결과가 없어요','다른 단어로 찾아보세요.'));
+  }
+
   if(!STATE.browseCat){
     return `
+      ${renderSearchBox()}
       <div class="level-pills">
         ${['basic','intermediate','advanced'].map(l=>`
           <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
@@ -455,7 +521,7 @@ function renderReview(){
 }
 
 function emptyState(emoji, title, desc){
-  return `<div class="empty-state"><span class="emoji">${emoji}</span><div style="font-size:18px;font-weight:700;color:var(--navy);">${title}</div><div style="margin-top:6px;">${desc}</div></div>`;
+  return `<div class="empty-state"><span class="emoji">${emoji}</span><div style="font-size:1.8rem;font-weight:700;color:var(--navy);">${title}</div><div style="margin-top:6px;">${desc}</div></div>`;
 }
 
 /* ---------- 플래시카드 ---------- */
@@ -500,7 +566,7 @@ function renderQuiz(){
   const q = STATE.quiz;
   const cur = q.questions[q.index];
   const w = ALL_WORDS[cur.wordId];
-  const prompt = q.mode==='en2ko' ? `<div class="en">${w.en}</div><div class="pron">[${w.pron}]</div>` : `<div class="ko" style="font-size:26px;">${w.ko}</div>`;
+  const prompt = q.mode==='en2ko' ? `<div class="en">${w.en}</div><div class="pron">[${w.pron}]</div>` : `<div class="ko" style="font-size:2.6rem;">${w.ko}</div>`;
   return `
     <button class="icon-btn" data-action="close-quiz" style="margin-bottom:14px;">← 그만하기</button>
     <div class="progress-label">${q.index+1} / ${q.questions.length} 문제</div>
@@ -584,26 +650,26 @@ function renderSettings(){
     <div class="card">
       <div style="font-weight:700;margin-bottom:10px;">🔊 영어 음성 선택</div>
       ${enVoices.length ? `
-      <select id="voice-select" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:16px;background:var(--white);color:var(--text);">
+      <select id="voice-select" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:1.6rem;background:var(--white);color:var(--text);">
         <option value="">자동 (기본 추천 음성)</option>
         ${enVoices.map(v=>`<option value="${v.voiceURI}" ${settings.voiceURI===v.voiceURI?'selected':''}>${v.name} (${v.lang})</option>`).join('')}
       </select>
       <button class="icon-btn" style="margin-top:10px;width:100%;" data-action="test-voice">🔊 선택한 음성으로 들어보기</button>
-      ` : `<div style="color:#5c6b78;font-size:14px;">사용 가능한 음성 목록을 불러오는 중이에요. 잠시 후 다시 열어보세요.</div>`}
+      ` : `<div style="color:#5c6b78;font-size:1.4rem;">사용 가능한 음성 목록을 불러오는 중이에요. 잠시 후 다시 열어보세요.</div>`}
     </div>
     <div class="card">
       <div style="font-weight:700;margin-bottom:10px;">🔊 한국어 음성 선택</div>
       ${koVoices.length ? `
-      <select id="voice-select-ko" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:16px;background:var(--white);color:var(--text);">
+      <select id="voice-select-ko" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:1.6rem;background:var(--white);color:var(--text);">
         <option value="">자동 (기본 추천 음성)</option>
         ${koVoices.map(v=>`<option value="${v.voiceURI}" ${settings.koVoiceURI===v.voiceURI?'selected':''}>${v.name} (${v.lang})</option>`).join('')}
       </select>
       <button class="icon-btn" style="margin-top:10px;width:100%;" data-action="test-voice-ko">🔊 선택한 음성으로 들어보기</button>
-      ` : `<div style="color:#5c6b78;font-size:14px;">사용 가능한 한국어 음성이 없어요.</div>`}
+      ` : `<div style="color:#5c6b78;font-size:1.4rem;">사용 가능한 한국어 음성이 없어요.</div>`}
     </div>
     <div class="card">
       <div style="font-weight:700;margin-bottom:6px;">더 자연스러운 목소리를 원하신다면</div>
-      <div style="color:#5c6b78;font-size:14px;line-height:1.6;">
+      <div style="color:#5c6b78;font-size:1.4rem;line-height:1.6;">
         아이폰의 <b>설정 → 손쉬운 사용 → 음성 콘텐츠 → 음성</b>에서 영어(미국)·한국어 음성을
         "고급/향상된 품질"로 다운로드한 뒤, 위 목록에서 다시 선택해보세요. 무료 기능이고
         훨씬 자연스럽게 들려요.
@@ -642,6 +708,35 @@ function completeSession(){
   }
   render();
 }
+
+let isComposingSearch = false;
+function refreshSearchInput(){
+  STATE.searchQuery = document.getElementById('word-search-input').value;
+  render();
+  requestAnimationFrame(()=>{
+    const el2 = document.getElementById('word-search-input');
+    if(el2){
+      el2.focus();
+      const pos = el2.value.length;
+      try{ el2.setSelectionRange(pos, pos); }catch(err){}
+    }
+  });
+}
+document.addEventListener('compositionstart', function(e){
+  if(e.target.id === 'word-search-input') isComposingSearch = true;
+});
+document.addEventListener('compositionend', function(e){
+  if(e.target.id === 'word-search-input'){
+    isComposingSearch = false;
+    refreshSearchInput();
+  }
+});
+document.addEventListener('input', function(e){
+  if(e.target.id === 'word-search-input'){
+    if(isComposingSearch) return; // 한글 조합 중에는 리렌더링 보류 (자모 분리 방지)
+    refreshSearchInput();
+  }
+});
 
 document.addEventListener('change', function(e){
   if(e.target.id === 'voice-select'){
@@ -706,6 +801,7 @@ document.addEventListener('click', function(e){
     case 'speak-all': speakAll(ALL_WORDS[t.dataset.id]); break;
     case 'open-cat': STATE.browseCat = t.dataset.cat; render(); break;
     case 'back-to-cats': STATE.browseCat = null; render(); break;
+    case 'clear-search': STATE.searchQuery = ''; render(); break;
     case 'open-detail': STATE.detail = {wordId:t.dataset.id, back:t.dataset.back}; render(); break;
     case 'close-detail': STATE.detail = null; render(); break;
     case 'go-review': STATE.screen='review'; STATE.reviewTab='quiz'; render(); break;
@@ -782,14 +878,14 @@ document.querySelectorAll('.nav-item').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     STATE.screen = btn.dataset.nav;
     STATE.detail=null; STATE.quiz=null; STATE.flash=null; STATE.dayPicker=false;
-    if(STATE.screen!=='browse') STATE.browseCat=null;
+    if(STATE.screen!=='browse'){ STATE.browseCat=null; STATE.searchQuery=''; }
     render();
   });
 });
 
 function applyFontScale(){
-  const map = {normal:'17px', large:'19px', xlarge:'21px'};
-  document.documentElement.style.fontSize = map[settings.fontScale] || '17px';
+  const map = {normal:'10px', large:'11.5px', xlarge:'13px'};
+  document.documentElement.style.fontSize = map[settings.fontScale] || '10px';
 }
 
 /* ---------- 스와이프 제스처 (오늘의 학습 화면 전용) ---------- */
