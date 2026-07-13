@@ -562,21 +562,12 @@ function renderReview(){
     `;
   }
   // quiz tab
-  const lv = settings.level;
-  const learnedIdsForLevel = [...learned].filter(id => ALL_WORDS[id] && ALL_WORDS[id].level === lv);
-  const learnedCount = learnedIdsForLevel.length;
-  const levelPills = `
-    <div class="level-pills">
-      ${['basic','intermediate','advanced'].map(l=>`
-        <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
-      `).join('')}
-    </div>
-  `;
-  if(!learnedCount) return tabRow + levelPills + emptyState('📚',`아직 ${levelLabel(lv)} 난이도로 학습한 단어가 없어요`,'오늘의 학습을 먼저 완료해보세요.');
+  const learnedCount = learned.size;
+  if(!learnedCount) return tabRow + emptyState('📚','아직 학습한 단어가 없어요','오늘의 학습을 먼저 완료해보세요.');
   const acc = quizStats.total ? Math.round(quizStats.correct/quizStats.total*100) : 0;
-  return tabRow + levelPills + `
+  return tabRow + `
     <div class="card">
-      <div style="text-align:center;color:#5c6b78;font-size:1.6rem;">${levelLabel(lv)} 학습한 단어 <b style="color:var(--navy);">${learnedCount}</b>개 · 퀴즈 정답률 <b style="color:var(--navy);">${acc}%</b></div>
+      <div style="text-align:center;color:#5c6b78;font-size:1.6rem;">학습한 단어 <b style="color:var(--navy);">${learnedCount}</b>개 · 퀴즈 정답률 <b style="color:var(--navy);">${acc}%</b></div>
     </div>
     ${renderDueSection()}
     <button class="big-btn secondary" style="margin-bottom:12px;" data-action="start-flash" data-source="learned">단어 보기 (플래시카드)</button>
@@ -874,9 +865,7 @@ document.addEventListener('click', function(e){
     case 'remove-wrong': wrongs = wrongs.filter(id=>id!==t.dataset.id); saveAll(); render(); break;
     case 'start-flash': {
       const src = t.dataset.source;
-      const pool = src==='fav' ? [...favs]
-        : src==='learned' ? [...learned].filter(id=>ALL_WORDS[id] && ALL_WORDS[id].level===settings.level)
-        : [...learned];
+      const pool = src==='fav' ? [...favs] : [...learned];
       if(!pool.length){ toast('학습한 단어가 없어요'); break; }
       STATE.flash = {pool: shuffle(pool), index:0, source:src};
       render(); break;
@@ -900,8 +889,7 @@ document.addEventListener('click', function(e){
     case 'start-quiz': {
       const mode = t.dataset.mode;
       const source = t.dataset.source || 'all';
-      const pool = source==='wrong' ? wrongs
-        : [...learned].filter(id=>ALL_WORDS[id] && ALL_WORDS[id].level===settings.level);
+      const pool = source==='wrong' ? wrongs : [...learned];
       if(pool.length < 2){ toast('학습한 단어가 더 필요해요'); break; }
       STATE.quiz = buildQuizRound(mode, source, pool);
       render(); break;

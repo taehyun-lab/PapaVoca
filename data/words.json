@@ -21,10 +21,7 @@
             "level": "basic",
             "ipa": "ˈɛərpɔːrt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "hit the road",
-              "ko": "여행길을 떠나다"
-            }
+            "idiom": null
           },
           {
             "id": "w0002",
@@ -41,10 +38,7 @@
             "level": "basic",
             "ipa": "ˈtɪkɪt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "off the beaten path",
-              "ko": "사람들이 잘 안 가는 곳"
-            }
+            "idiom": null
           },
           {
             "id": "w0003",
@@ -68,8 +62,8 @@
               }
             ],
             "idiom": {
-              "en": "make yourself at home",
-              "ko": "편하게 계세요"
+              "en": "a passport to success",
+              "ko": "성공으로 가는 열쇠, 지름길"
             }
           },
           {
@@ -88,8 +82,8 @@
             "ipa": "ˈlʌɡɪdʒ",
             "grammar_tips": [],
             "idiom": {
-              "en": "pack your bags",
-              "ko": "짐을 싸다, 떠날 준비를 하다"
+              "en": "emotional baggage",
+              "ko": "마음의 짐, 해묵은 감정"
             }
           },
           {
@@ -107,10 +101,7 @@
             "level": "basic",
             "ipa": "hoʊˈtɛl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a home away from home",
-              "ko": "제2의 집처럼 편안한 곳"
-            }
+            "idiom": null
           },
           {
             "id": "w0006",
@@ -134,8 +125,8 @@
               }
             ],
             "idiom": {
-              "en": "catch a flight",
-              "ko": "비행기 시간에 맞추다"
+              "en": "put something on the map",
+              "ko": "유명하게 만들다"
             }
           },
           {
@@ -159,10 +150,7 @@
                 "desc": "'우리 ~하자'라고 제안할 때 쓰는 표현이에요. Let's 뒤에는 항상 동사원형이 와요."
               }
             ],
-            "idiom": {
-              "en": "live out of a suitcase",
-              "ko": "여행을 자주 다니다"
-            }
+            "idiom": null
           },
           {
             "id": "w0008",
@@ -186,8 +174,8 @@
               }
             ],
             "idiom": {
-              "en": "get away from it all",
-              "ko": "모든 것에서 벗어나다"
+              "en": "go off the rails",
+              "ko": "탈선하다, 궤도를 벗어나다"
             }
           },
           {
@@ -206,8 +194,8 @@
             "ipa": "ˈɛərpleɪn",
             "grammar_tips": [],
             "idiom": {
-              "en": "see the world",
-              "ko": "세상을 구경하다"
+              "en": "on autopilot",
+              "ko": "별생각 없이 습관적으로"
             }
           },
           {
@@ -231,10 +219,7 @@
                 "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
               }
             ],
-            "idiom": {
-              "en": "have the travel bug",
-              "ko": "여행을 무척 좋아하다"
-            }
+            "idiom": null
           }
         ],
         "intermediate": [
@@ -243,8 +228,8 @@
             "en": "reservation",
             "ko": "예약",
             "pron": "레저베이션",
-            "example_en": "I made a hotel reservation.",
-            "example_ko": "나는 호텔을 예약했다.",
+            "example_en": "I have already made a reservation.",
+            "example_ko": "나는 이미 예약을 해뒀다.",
             "related": {
               "en": "booking",
               "ko": "예약"
@@ -252,11 +237,14 @@
             "category": "travel",
             "level": "intermediate",
             "ipa": "ˌrɛzərˈveɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "hit the road",
-              "ko": "여행길을 떠나다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have already made",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0012",
@@ -274,8 +262,8 @@
             "ipa": "dɪˈpɑːrtʃər",
             "grammar_tips": [],
             "idiom": {
-              "en": "off the beaten path",
-              "ko": "사람들이 잘 안 가는 곳"
+              "en": "a departure from the norm",
+              "ko": "일반적인 것에서 벗어남"
             }
           },
           {
@@ -283,8 +271,8 @@
             "en": "arrival",
             "ko": "도착",
             "pron": "어라이벌",
-            "example_en": "Check the arrival gate.",
-            "example_ko": "도착 게이트를 확인하세요.",
+            "example_en": "Her arrival was earlier than expected.",
+            "example_ko": "그녀의 도착은 예상보다 빨랐다.",
             "related": {
               "en": "departure",
               "ko": "출발"
@@ -292,19 +280,22 @@
             "category": "travel",
             "level": "intermediate",
             "ipa": "əˈraɪvəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "make yourself at home",
-              "ko": "편하게 계세요"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "earlier than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0014",
             "en": "customs",
             "ko": "세관",
             "pron": "커스텀즈",
-            "example_en": "We passed through customs quickly.",
-            "example_ko": "우리는 빠르게 세관을 통과했다.",
+            "example_en": "Our bags were checked at customs.",
+            "example_ko": "우리 가방은 세관에서 검사받았다.",
             "related": {
               "en": "passport",
               "ko": "여권"
@@ -312,11 +303,14 @@
             "category": "travel",
             "level": "intermediate",
             "ipa": "ˈkʌstəmz",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "pack your bags",
-              "ko": "짐을 싸다, 떠날 준비를 하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "were checked",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0015",
@@ -334,8 +328,8 @@
             "ipa": "ˈkɜːrənsi",
             "grammar_tips": [],
             "idiom": {
-              "en": "a home away from home",
-              "ko": "제2의 집처럼 편안한 곳"
+              "en": "gain currency",
+              "ko": "(생각·유행이) 통용되다, 인기를 얻다"
             }
           },
           {
@@ -343,8 +337,8 @@
             "en": "destination",
             "ko": "목적지",
             "pron": "데스티네이션",
-            "example_en": "What is your final destination?",
-            "example_ko": "최종 목적지가 어디인가요?",
+            "example_en": "We need more time to reach our destination.",
+            "example_ko": "목적지에 도착하려면 시간이 더 필요하다.",
             "related": {
               "en": "journey",
               "ko": "여정"
@@ -352,11 +346,14 @@
             "category": "travel",
             "level": "intermediate",
             "ipa": "ˌdɛstɪˈneɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "catch a flight",
-              "ko": "비행기 시간에 맞추다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "to reach",
+                "title": "to부정사 (목적)",
+                "desc": "to + 동사원형은 '~하기 위해서'라는 목적을 나타낼 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0017",
@@ -374,8 +371,8 @@
             "ipa": "ˈdʒɜːrni",
             "grammar_tips": [],
             "idiom": {
-              "en": "live out of a suitcase",
-              "ko": "여행을 자주 다니다"
+              "en": "a journey of a thousand miles begins with a single step",
+              "ko": "천 리 길도 한 걸음부터"
             }
           },
           {
@@ -393,18 +390,15 @@
             "level": "intermediate",
             "ipa": "ˈbɔːrdɪŋ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get away from it all",
-              "ko": "모든 것에서 벗어나다"
-            }
+            "idiom": null
           },
           {
             "id": "w0019",
             "en": "layover",
             "ko": "경유",
             "pron": "레이오버",
-            "example_en": "We had a two hour layover.",
-            "example_ko": "우리는 두 시간 경유했다.",
+            "example_en": "If you have a layover, explore the airport shops.",
+            "example_ko": "경유 시간이 있다면 공항 상점을 구경해보세요.",
             "related": {
               "en": "flight",
               "ko": "항공편"
@@ -412,11 +406,14 @@
             "category": "travel",
             "level": "intermediate",
             "ipa": "ˈleɪˌoʊvər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "see the world",
-              "ko": "세상을 구경하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "If you have",
+                "title": "조건문 (If ~)",
+                "desc": "If절은 조건을 나타내고, 그 조건이 이루어지면 결과가 일어난다는 뜻이에요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0020",
@@ -433,10 +430,7 @@
             "level": "intermediate",
             "ipa": "ˈsaɪtˌsiːɪŋ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "have the travel bug",
-              "ko": "여행을 무척 좋아하다"
-            }
+            "idiom": null
           }
         ],
         "advanced": [
@@ -445,8 +439,8 @@
             "en": "itinerary",
             "ko": "여행 일정표",
             "pron": "아이티너러리",
-            "example_en": "Please check the itinerary carefully.",
-            "example_ko": "여행 일정표를 꼼꼼히 확인하세요.",
+            "example_en": "This is the itinerary that I planned for our trip.",
+            "example_ko": "이것이 내가 우리 여행을 위해 짠 일정표다.",
             "related": {
               "en": "schedule",
               "ko": "일정"
@@ -454,19 +448,22 @@
             "category": "travel",
             "level": "advanced",
             "ipa": "aɪˈtɪnəˌrɛri",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "hit the road",
-              "ko": "여행길을 떠나다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that I planned",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0022",
             "en": "accommodation",
             "ko": "숙박시설",
             "pron": "어카머데이션",
-            "example_en": "We booked our accommodation online.",
-            "example_ko": "우리는 숙박시설을 온라인으로 예약했다.",
+            "example_en": "This is the best accommodation in town.",
+            "example_ko": "이곳은 시내에서 가장 좋은 숙박시설이다.",
             "related": {
               "en": "hotel",
               "ko": "호텔"
@@ -474,11 +471,14 @@
             "category": "travel",
             "level": "advanced",
             "ipa": "əˌkɒməˈdeɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "off the beaten path",
-              "ko": "사람들이 잘 안 가는 곳"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the best",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0023",
@@ -495,18 +495,15 @@
             "level": "advanced",
             "ipa": "ɪmˈbɑːrk",
             "grammar_tips": [],
-            "idiom": {
-              "en": "make yourself at home",
-              "ko": "편하게 계세요"
-            }
+            "idiom": null
           },
           {
             "id": "w0024",
             "en": "excursion",
             "ko": "짧은 여행, 소풍",
             "pron": "익스커전",
-            "example_en": "We took a short excursion to the coast.",
-            "example_ko": "우리는 해안으로 짧은 여행을 갔다.",
+            "example_en": "We went on an excursion to the old town.",
+            "example_ko": "우리는 구시가지로 짧은 여행을 갔다.",
             "related": {
               "en": "trip",
               "ko": "여행"
@@ -514,11 +511,14 @@
             "category": "travel",
             "level": "advanced",
             "ipa": "ɪkˈskɜːrʒən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "pack your bags",
-              "ko": "짐을 싸다, 떠날 준비를 하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "an excursion",
+                "title": "관사 a/an",
+                "desc": "처음 언급되거나 특정하지 않은 하나를 말할 때 a/an을 써요. 모음 발음으로 시작하면 an을 씁니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0025",
@@ -535,18 +535,15 @@
             "level": "advanced",
             "ipa": "ˈwɒndərlʌst",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a home away from home",
-              "ko": "제2의 집처럼 편안한 곳"
-            }
+            "idiom": null
           },
           {
             "id": "w0026",
             "en": "transit",
             "ko": "환승, 경유",
             "pron": "트랜짓",
-            "example_en": "We are in transit to Paris.",
-            "example_ko": "우리는 파리로 가는 중에 경유하고 있다.",
+            "example_en": "We have been in transit for six hours.",
+            "example_ko": "우리는 6시간째 경유 중이다.",
             "related": {
               "en": "layover",
               "ko": "경유"
@@ -554,11 +551,14 @@
             "category": "travel",
             "level": "advanced",
             "ipa": "ˈtrænzɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "catch a flight",
-              "ko": "비행기 시간에 맞추다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have been",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0027",
@@ -575,10 +575,7 @@
             "level": "advanced",
             "ipa": "ˈvɔɪɪdʒ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "live out of a suitcase",
-              "ko": "여행을 자주 다니다"
-            }
+            "idiom": null
           },
           {
             "id": "w0028",
@@ -595,18 +592,15 @@
             "level": "advanced",
             "ipa": "ɪˈmɜːrʒən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get away from it all",
-              "ko": "모든 것에서 벗어나다"
-            }
+            "idiom": null
           },
           {
             "id": "w0029",
             "en": "landmark",
             "ko": "랜드마크, 명소",
             "pron": "랜드마크",
-            "example_en": "The tower is a famous landmark.",
-            "example_ko": "그 탑은 유명한 랜드마크이다.",
+            "example_en": "The tower, which is a famous landmark, attracts many tourists.",
+            "example_ko": "유명한 랜드마크인 그 탑은 많은 관광객을 끌어모은다.",
             "related": {
               "en": "sightseeing",
               "ko": "관광"
@@ -614,11 +608,14 @@
             "category": "travel",
             "level": "advanced",
             "ipa": "ˈlændmɑːrk",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "see the world",
-              "ko": "세상을 구경하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "which is",
+                "title": "관계대명사 which",
+                "desc": "사물을 꾸며주는 관계대명사예요. 추가 설명을 덧붙일 때 자주 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0030",
@@ -635,10 +632,7 @@
             "level": "advanced",
             "ipa": "ˈbækpækɪŋ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "have the travel bug",
-              "ko": "여행을 무척 좋아하다"
-            }
+            "idiom": null
           }
         ]
       }
@@ -654,8 +648,8 @@
             "en": "breakfast",
             "ko": "아침식사",
             "pron": "브렉퍼스트",
-            "example_en": "I eat breakfast at seven.",
-            "example_ko": "나는 7시에 아침을 먹는다.",
+            "example_en": "I have already eaten breakfast.",
+            "example_ko": "나는 이미 아침을 먹었다.",
             "related": {
               "en": "meal",
               "ko": "식사"
@@ -663,11 +657,14 @@
             "category": "meals",
             "level": "basic",
             "ipa": "ˈbrɛkfəst",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "grab a bite",
-              "ko": "간단히 요기하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have already eaten",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0032",
@@ -691,8 +688,8 @@
               }
             ],
             "idiom": {
-              "en": "eat like a horse",
-              "ko": "많이 먹다"
+              "en": "there's no such thing as a free lunch",
+              "ko": "세상에 공짜는 없다"
             }
           },
           {
@@ -700,8 +697,8 @@
             "en": "dinner",
             "ko": "저녁식사",
             "pron": "디너",
-            "example_en": "Dinner is ready.",
-            "example_ko": "저녁 준비 다 됐어요.",
+            "example_en": "We should have dinner together sometime.",
+            "example_ko": "언젠가 같이 저녁 먹어요.",
             "related": {
               "en": "meal",
               "ko": "식사"
@@ -709,11 +706,14 @@
             "category": "meals",
             "level": "basic",
             "ipa": "ˈdɪnər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "have a sweet tooth",
-              "ko": "단것을 좋아하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should have",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0034",
@@ -736,10 +736,7 @@
                 "desc": "morning, afternoon, evening이나 계절 앞에는 in을 써요."
               }
             ],
-            "idiom": {
-              "en": "food for thought",
-              "ko": "생각할 거리"
-            }
+            "idiom": null
           },
           {
             "id": "w0035",
@@ -756,10 +753,7 @@
             "level": "basic",
             "ipa": "miːl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "the icing on the cake",
-              "ko": "금상첨화"
-            }
+            "idiom": null
           },
           {
             "id": "w0036",
@@ -777,8 +771,8 @@
             "ipa": "spuːn",
             "grammar_tips": [],
             "idiom": {
-              "en": "a piece of cake",
-              "ko": "식은 죽 먹기"
+              "en": "born with a silver spoon in your mouth",
+              "ko": "부유하게 태어나다"
             }
           },
           {
@@ -797,8 +791,8 @@
             "ipa": "fɔːrk",
             "grammar_tips": [],
             "idiom": {
-              "en": "eat your heart out",
-              "ko": "부러워해라"
+              "en": "a fork in the road",
+              "ko": "갈림길, 중요한 선택의 기로"
             }
           },
           {
@@ -816,18 +810,15 @@
             "level": "basic",
             "ipa": "ˈtʃɒpstɪks",
             "grammar_tips": [],
-            "idiom": {
-              "en": "second helping",
-              "ko": "한 그릇 더"
-            }
+            "idiom": null
           },
           {
             "id": "w0039",
             "en": "plate",
             "ko": "접시",
             "pron": "플레이트",
-            "example_en": "Put the food on the plate.",
-            "example_ko": "음식을 접시에 담으세요.",
+            "example_en": "Put the food on a clean plate.",
+            "example_ko": "깨끗한 접시에 음식을 담으세요.",
             "related": {
               "en": "bowl",
               "ko": "그릇"
@@ -835,10 +826,16 @@
             "category": "meals",
             "level": "basic",
             "ipa": "pleɪt",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "a clean plate",
+                "title": "관사 a/an",
+                "desc": "처음 언급되거나 특정하지 않은 하나를 말할 때 a/an을 써요. 모음 발음으로 시작하면 an을 씁니다."
+              }
+            ],
             "idiom": {
-              "en": "on an empty stomach",
-              "ko": "공복에"
+              "en": "have a lot on your plate",
+              "ko": "할 일이 많다, 부담이 크다"
             }
           },
           {
@@ -857,8 +854,8 @@
             "ipa": "kʌp",
             "grammar_tips": [],
             "idiom": {
-              "en": "for starters",
-              "ko": "우선, 첫째로"
+              "en": "not my cup of tea",
+              "ko": "내 취향이 아니다"
             }
           }
         ],
@@ -868,8 +865,8 @@
             "en": "appetite",
             "ko": "식욕",
             "pron": "애퍼타이트",
-            "example_en": "I have a big appetite today.",
-            "example_ko": "오늘은 식욕이 좋다.",
+            "example_en": "She has lost her appetite.",
+            "example_ko": "그녀는 식욕을 잃었다.",
             "related": {
               "en": "hungry",
               "ko": "배고픈"
@@ -877,10 +874,16 @@
             "category": "meals",
             "level": "intermediate",
             "ipa": "ˈæpɪtaɪt",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "has lost",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
             "idiom": {
-              "en": "grab a bite",
-              "ko": "간단히 요기하다"
+              "en": "whet your appetite",
+              "ko": "흥미를 돋우다"
             }
           },
           {
@@ -898,18 +901,15 @@
             "level": "intermediate",
             "ipa": "ˈpɔːrʃən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "eat like a horse",
-              "ko": "많이 먹다"
-            }
+            "idiom": null
           },
           {
             "id": "w0043",
             "en": "leftovers",
             "ko": "남은 음식",
             "pron": "레프트오버즈",
-            "example_en": "We ate the leftovers for lunch.",
-            "example_ko": "우리는 남은 음식을 점심으로 먹었다.",
+            "example_en": "If you have leftovers, put them in the fridge.",
+            "example_ko": "남은 음식이 있으면 냉장고에 넣으세요.",
             "related": {
               "en": "fridge",
               "ko": "냉장고"
@@ -917,19 +917,22 @@
             "category": "meals",
             "level": "intermediate",
             "ipa": "ˈlɛftˌoʊvərz",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "have a sweet tooth",
-              "ko": "단것을 좋아하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "If you have",
+                "title": "조건문 (If ~)",
+                "desc": "If절은 조건을 나타내고, 그 조건이 이루어지면 결과가 일어난다는 뜻이에요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0044",
             "en": "dessert",
             "ko": "디저트, 후식",
             "pron": "디저트",
-            "example_en": "What's for dessert?",
-            "example_ko": "디저트는 뭐예요?",
+            "example_en": "Would you like some dessert?",
+            "example_ko": "디저트 좀 드시겠어요?",
             "related": {
               "en": "sweet",
               "ko": "단, 달콤한"
@@ -937,19 +940,22 @@
             "category": "meals",
             "level": "intermediate",
             "ipa": "dɪˈzɜːrt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "food for thought",
-              "ko": "생각할 거리"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "Would you like",
+                "title": "의문문",
+                "desc": "궁금한 것을 물어볼 때 쓰는 문장이에요. 조동사나 be동사가 문장 맨 앞에 와요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0045",
             "en": "beverage",
             "ko": "음료",
             "pron": "베버리지",
-            "example_en": "Please choose a beverage.",
-            "example_ko": "음료를 골라주세요.",
+            "example_en": "This beverage is sweeter than that one.",
+            "example_ko": "이 음료가 저것보다 더 달다.",
             "related": {
               "en": "drink",
               "ko": "음료, 마시다"
@@ -957,11 +963,14 @@
             "category": "meals",
             "level": "intermediate",
             "ipa": "ˈbɛvərɪdʒ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "the icing on the cake",
-              "ko": "금상첨화"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "sweeter than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0046",
@@ -978,10 +987,7 @@
             "level": "intermediate",
             "ipa": "juːˈtɛnsəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a piece of cake",
-              "ko": "식은 죽 먹기"
-            }
+            "idiom": null
           },
           {
             "id": "w0047",
@@ -998,10 +1004,7 @@
             "level": "intermediate",
             "ipa": "ˈnæpkɪn",
             "grammar_tips": [],
-            "idiom": {
-              "en": "eat your heart out",
-              "ko": "부러워해라"
-            }
+            "idiom": null
           },
           {
             "id": "w0048",
@@ -1019,8 +1022,8 @@
             "ipa": "kɔːrs",
             "grammar_tips": [],
             "idiom": {
-              "en": "second helping",
-              "ko": "한 그릇 더"
+              "en": "par for the course",
+              "ko": "늘 있는 일, 예상되는 일"
             }
           },
           {
@@ -1028,8 +1031,8 @@
             "en": "buffet",
             "ko": "뷔페",
             "pron": "뷔페",
-            "example_en": "We went to a buffet for dinner.",
-            "example_ko": "우리는 저녁에 뷔페에 갔다.",
+            "example_en": "This is the buffet that everyone recommends.",
+            "example_ko": "다들 추천하는 뷔페가 바로 여기다.",
             "related": {
               "en": "restaurant",
               "ko": "식당"
@@ -1037,11 +1040,14 @@
             "category": "meals",
             "level": "intermediate",
             "ipa": "bəˈfeɪ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "on an empty stomach",
-              "ko": "공복에"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that everyone recommends",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0050",
@@ -1058,10 +1064,7 @@
             "level": "intermediate",
             "ipa": "ˈsɜːrvɪŋ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "for starters",
-              "ko": "우선, 첫째로"
-            }
+            "idiom": null
           }
         ],
         "advanced": [
@@ -1080,10 +1083,7 @@
             "level": "advanced",
             "ipa": "ˈpælətəbəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "grab a bite",
-              "ko": "간단히 요기하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0052",
@@ -1100,10 +1100,7 @@
             "level": "advanced",
             "ipa": "ˈkʌlɪnɛri",
             "grammar_tips": [],
-            "idiom": {
-              "en": "eat like a horse",
-              "ko": "많이 먹다"
-            }
+            "idiom": null
           },
           {
             "id": "w0053",
@@ -1120,18 +1117,15 @@
             "level": "advanced",
             "ipa": "ˈɡɑːrnɪʃ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "have a sweet tooth",
-              "ko": "단것을 좋아하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0054",
             "en": "delicacy",
             "ko": "진미, 별미",
             "pron": "델리커시",
-            "example_en": "This dish is a local delicacy.",
-            "example_ko": "이 요리는 지역 별미이다.",
+            "example_en": "This is the most famous delicacy in the region.",
+            "example_ko": "이것은 이 지역에서 가장 유명한 별미다.",
             "related": {
               "en": "specialty",
               "ko": "특산품"
@@ -1139,11 +1133,14 @@
             "category": "meals",
             "level": "advanced",
             "ipa": "ˈdɛlɪkəsi",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "food for thought",
-              "ko": "생각할 거리"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most famous",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0055",
@@ -1166,10 +1163,7 @@
                 "desc": "사람을 꾸며주는 절을 이끌며, '~하는 사람'이라고 해석해요."
               }
             ],
-            "idiom": {
-              "en": "the icing on the cake",
-              "ko": "금상첨화"
-            }
+            "idiom": null
           },
           {
             "id": "w0056",
@@ -1185,19 +1179,22 @@
             "category": "meals",
             "level": "advanced",
             "ipa": "ˈseɪvər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "a piece of cake",
-              "ko": "식은 죽 먹기"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "to savor",
+                "title": "to부정사 (목적)",
+                "desc": "to + 동사원형은 '~하기 위해서'라는 목적을 나타낼 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0057",
             "en": "indulge",
             "ko": "마음껏 즐기다",
             "pron": "인덜지",
-            "example_en": "We indulged in dessert tonight.",
-            "example_ko": "우리는 오늘 밤 디저트를 마음껏 즐겼다.",
+            "example_en": "We enjoyed indulging in dessert.",
+            "example_ko": "우리는 디저트를 마음껏 즐겼다.",
             "related": {
               "en": "enjoy",
               "ko": "즐기다"
@@ -1205,19 +1202,22 @@
             "category": "meals",
             "level": "advanced",
             "ipa": "ɪnˈdʌldʒ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "eat your heart out",
-              "ko": "부러워해라"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "indulging",
+                "title": "동명사 (동사 + -ing)",
+                "desc": "동사 뒤에서 명사처럼 쓰이는 -ing형이에요. enjoy, keep 같은 동사 뒤에 자주 와요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0058",
             "en": "wholesome",
             "ko": "건강에 좋은",
             "pron": "홀섬",
-            "example_en": "This is a wholesome breakfast.",
-            "example_ko": "이것은 건강에 좋은 아침식사이다.",
+            "example_en": "This meal is considered wholesome by nutritionists.",
+            "example_ko": "이 식사는 영양학자들에게 건강에 좋다고 여겨진다.",
             "related": {
               "en": "healthy",
               "ko": "건강한"
@@ -1225,11 +1225,14 @@
             "category": "meals",
             "level": "advanced",
             "ipa": "ˈhoʊlsəm",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "second helping",
-              "ko": "한 그릇 더"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "is considered",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0059",
@@ -1246,10 +1249,7 @@
             "level": "advanced",
             "ipa": "ˈnɜːrɪʃmənt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "on an empty stomach",
-              "ko": "공복에"
-            }
+            "idiom": null
           },
           {
             "id": "w0060",
@@ -1266,10 +1266,7 @@
             "level": "advanced",
             "ipa": "ˌɛpɪkjʊˈriːən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "for starters",
-              "ko": "우선, 첫째로"
-            }
+            "idiom": null
           }
         ]
       }
@@ -1285,8 +1282,8 @@
             "en": "rice",
             "ko": "쌀, 밥",
             "pron": "라이스",
-            "example_en": "We eat rice every day.",
-            "example_ko": "우리는 매일 밥을 먹는다.",
+            "example_en": "She is cooking rice for dinner.",
+            "example_ko": "그녀는 저녁으로 밥을 짓고 있다.",
             "related": {
               "en": "meal",
               "ko": "식사"
@@ -1294,11 +1291,14 @@
             "category": "food",
             "level": "basic",
             "ipa": "raɪs",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "spice things up",
-              "ko": "활기를 더하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "is cooking",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0062",
@@ -1316,8 +1316,8 @@
             "ipa": "brɛd",
             "grammar_tips": [],
             "idiom": {
-              "en": "too many cooks spoil the broth",
-              "ko": "사공이 많으면 배가 산으로 간다"
+              "en": "bread and butter",
+              "ko": "생계수단, 주 수입원"
             }
           },
           {
@@ -1336,8 +1336,8 @@
             "ipa": "miːt",
             "grammar_tips": [],
             "idiom": {
-              "en": "the whole enchilada",
-              "ko": "전부 다"
+              "en": "meat and potatoes",
+              "ko": "가장 중요한 부분, 본질"
             }
           },
           {
@@ -1356,8 +1356,8 @@
             "ipa": "fɪʃ",
             "grammar_tips": [],
             "idiom": {
-              "en": "sour grapes",
-              "ko": "억지 부리는 것"
+              "en": "a big fish in a small pond",
+              "ko": "작은 물에서 노는 큰 물고기"
             }
           },
           {
@@ -1365,8 +1365,8 @@
             "en": "vegetable",
             "ko": "채소",
             "pron": "베지터블",
-            "example_en": "Eat more vegetables.",
-            "example_ko": "채소를 더 드세요.",
+            "example_en": "You should eat more vegetables.",
+            "example_ko": "채소를 더 먹어야 해요.",
             "related": {
               "en": "carrot",
               "ko": "당근"
@@ -1374,11 +1374,14 @@
             "category": "food",
             "level": "basic",
             "ipa": "ˈvɛdʒtəbəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "in a nutshell",
-              "ko": "간단히 말해서"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should eat",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0066",
@@ -1396,8 +1399,8 @@
             "ipa": "fruːt",
             "grammar_tips": [],
             "idiom": {
-              "en": "cool as a cucumber",
-              "ko": "매우 침착한"
+              "en": "the fruit of your labor",
+              "ko": "노력의 결실"
             }
           },
           {
@@ -1405,8 +1408,8 @@
             "en": "egg",
             "ko": "달걀",
             "pron": "에그",
-            "example_en": "I boiled an egg for breakfast.",
-            "example_ko": "나는 아침으로 달걀을 삶았다.",
+            "example_en": "If you boil the egg too long, it becomes hard.",
+            "example_ko": "달걀을 너무 오래 삶으면 딱딱해진다.",
             "related": {
               "en": "chicken",
               "ko": "닭, 닭고기"
@@ -1414,10 +1417,16 @@
             "category": "food",
             "level": "basic",
             "ipa": "ɛɡ",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "If you boil",
+                "title": "조건문 (If ~)",
+                "desc": "If절은 조건을 나타내고, 그 조건이 이루어지면 결과가 일어난다는 뜻이에요."
+              }
+            ],
             "idiom": {
-              "en": "as easy as pie",
-              "ko": "아주 쉬운"
+              "en": "don't put all your eggs in one basket",
+              "ko": "한 곳에 모든 걸 걸지 마라"
             }
           },
           {
@@ -1425,8 +1434,8 @@
             "en": "milk",
             "ko": "우유",
             "pron": "밀크",
-            "example_en": "Drink a glass of milk.",
-            "example_ko": "우유 한 잔 마시세요.",
+            "example_en": "I have already drunk my milk.",
+            "example_ko": "나는 이미 우유를 다 마셨다.",
             "related": {
               "en": "dairy",
               "ko": "유제품"
@@ -1434,10 +1443,16 @@
             "category": "food",
             "level": "basic",
             "ipa": "mɪlk",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "have already drunk",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
             "idiom": {
-              "en": "add fuel to the fire",
-              "ko": "불난 집에 부채질하다"
+              "en": "cry over spilled milk",
+              "ko": "이미 엎질러진 물, 후회해도 소용없다"
             }
           },
           {
@@ -1445,8 +1460,8 @@
             "en": "water",
             "ko": "물",
             "pron": "워터",
-            "example_en": "Drink plenty of water.",
-            "example_ko": "물을 충분히 마시세요.",
+            "example_en": "Don't forget to drink water.",
+            "example_ko": "물 마시는 거 잊지 마세요.",
             "related": {
               "en": "drink",
               "ko": "음료, 마시다"
@@ -1454,10 +1469,16 @@
             "category": "food",
             "level": "basic",
             "ipa": "ˈwɔːtər",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "Don't forget",
+                "title": "명령문",
+                "desc": "주어 없이 동사원형으로 시작해서 지시나 권유를 나타내요."
+              }
+            ],
             "idiom": {
-              "en": "have your cake and eat it too",
-              "ko": "두 마리 토끼를 다 잡으려 하다"
+              "en": "like water off a duck's back",
+              "ko": "전혀 영향받지 않는"
             }
           },
           {
@@ -1476,8 +1497,8 @@
             "ipa": "suːp",
             "grammar_tips": [],
             "idiom": {
-              "en": "out of the frying pan into the fire",
-              "ko": "갈수록 태산"
+              "en": "in the soup",
+              "ko": "곤란한 상황에 처한"
             }
           }
         ],
@@ -1497,18 +1518,15 @@
             "level": "intermediate",
             "ipa": "ˈsiːzənɪŋ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "spice things up",
-              "ko": "활기를 더하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0072",
             "en": "ingredient",
             "ko": "재료, 성분",
             "pron": "인그리디언트",
-            "example_en": "What ingredients do you need?",
-            "example_ko": "어떤 재료가 필요하세요?",
+            "example_en": "Flour is an ingredient that you always need.",
+            "example_ko": "밀가루는 항상 필요한 재료다.",
             "related": {
               "en": "recipe",
               "ko": "조리법"
@@ -1516,11 +1534,14 @@
             "category": "food",
             "level": "intermediate",
             "ipa": "ɪnˈɡriːdiənt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "too many cooks spoil the broth",
-              "ko": "사공이 많으면 배가 산으로 간다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that you always need",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0073",
@@ -1538,8 +1559,8 @@
             "ipa": "ˈrɛsɪpi",
             "grammar_tips": [],
             "idiom": {
-              "en": "the whole enchilada",
-              "ko": "전부 다"
+              "en": "a recipe for disaster",
+              "ko": "재앙을 부르는 지름길"
             }
           },
           {
@@ -1547,8 +1568,8 @@
             "en": "flavor",
             "ko": "맛, 풍미",
             "pron": "플레이버",
-            "example_en": "This dish has a rich flavor.",
-            "example_ko": "이 요리는 풍미가 진하다.",
+            "example_en": "This flavor is stronger than the last one.",
+            "example_ko": "이 맛이 지난번 것보다 더 강하다.",
             "related": {
               "en": "taste",
               "ko": "맛"
@@ -1556,11 +1577,14 @@
             "category": "food",
             "level": "intermediate",
             "ipa": "ˈfleɪvər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "sour grapes",
-              "ko": "억지 부리는 것"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "stronger than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0075",
@@ -1577,10 +1601,7 @@
             "level": "intermediate",
             "ipa": "ˈspaɪsi",
             "grammar_tips": [],
-            "idiom": {
-              "en": "in a nutshell",
-              "ko": "간단히 말해서"
-            }
+            "idiom": null
           },
           {
             "id": "w0076",
@@ -1597,10 +1618,7 @@
             "level": "intermediate",
             "ipa": "swiːt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "cool as a cucumber",
-              "ko": "매우 침착한"
-            }
+            "idiom": null
           },
           {
             "id": "w0077",
@@ -1618,8 +1636,8 @@
             "ipa": "ˈsaʊər",
             "grammar_tips": [],
             "idiom": {
-              "en": "as easy as pie",
-              "ko": "아주 쉬운"
+              "en": "sour grapes",
+              "ko": "억지 부리는 것 (신 포도)"
             }
           },
           {
@@ -1643,18 +1661,15 @@
                 "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "add fuel to the fire",
-              "ko": "불난 집에 부채질하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0079",
             "en": "fresh",
             "ko": "신선한",
             "pron": "프레시",
-            "example_en": "These vegetables are very fresh.",
-            "example_ko": "이 채소들은 매우 신선하다.",
+            "example_en": "These are the freshest vegetables in the market.",
+            "example_ko": "이것들은 시장에서 가장 신선한 채소다.",
             "related": {
               "en": "ripe",
               "ko": "익은"
@@ -1662,19 +1677,22 @@
             "category": "food",
             "level": "intermediate",
             "ipa": "frɛʃ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "have your cake and eat it too",
-              "ko": "두 마리 토끼를 다 잡으려 하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the freshest",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0080",
             "en": "roasted",
             "ko": "구운, 볶은",
             "pron": "로스티드",
-            "example_en": "I love roasted chicken.",
-            "example_ko": "나는 구운 치킨을 좋아한다.",
+            "example_en": "The chicken was roasted for an hour.",
+            "example_ko": "그 치킨은 한 시간 동안 구워졌다.",
             "related": {
               "en": "grilled",
               "ko": "구운"
@@ -1682,11 +1700,14 @@
             "category": "food",
             "level": "intermediate",
             "ipa": "ˈroʊstɪd",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "out of the frying pan into the fire",
-              "ko": "갈수록 태산"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "was roasted",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "advanced": [
@@ -1695,8 +1716,8 @@
             "en": "cuisine",
             "ko": "요리, 요리법",
             "pron": "퀴진",
-            "example_en": "Korean cuisine is famous worldwide.",
-            "example_ko": "한국 요리는 세계적으로 유명하다.",
+            "example_en": "Korean cuisine, which is famous worldwide, uses many vegetables.",
+            "example_ko": "한국 요리는 세계적으로 유명한데 채소를 많이 사용한다.",
             "related": {
               "en": "dish",
               "ko": "요리, 접시"
@@ -1704,11 +1725,14 @@
             "category": "food",
             "level": "advanced",
             "ipa": "kwɪˈziːn",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "spice things up",
-              "ko": "활기를 더하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "which is famous worldwide",
+                "title": "관계대명사 which",
+                "desc": "사물을 꾸며주는 관계대명사예요. 추가 설명을 덧붙일 때 자주 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0082",
@@ -1725,10 +1749,7 @@
             "level": "advanced",
             "ipa": "ˈtɛkstʃər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "too many cooks spoil the broth",
-              "ko": "사공이 많으면 배가 산으로 간다"
-            }
+            "idiom": null
           },
           {
             "id": "w0083",
@@ -1745,10 +1766,7 @@
             "level": "advanced",
             "ipa": "ˌærəˈmætɪk",
             "grammar_tips": [],
-            "idiom": {
-              "en": "the whole enchilada",
-              "ko": "전부 다"
-            }
+            "idiom": null
           },
           {
             "id": "w0084",
@@ -1765,10 +1783,7 @@
             "level": "advanced",
             "ipa": "ˈseɪvəri",
             "grammar_tips": [],
-            "idiom": {
-              "en": "sour grapes",
-              "ko": "억지 부리는 것"
-            }
+            "idiom": null
           },
           {
             "id": "w0085",
@@ -1784,19 +1799,22 @@
             "category": "food",
             "level": "advanced",
             "ipa": "ˈmærɪneɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "in a nutshell",
-              "ko": "간단히 말해서"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "Marinate",
+                "title": "명령문",
+                "desc": "주어 없이 동사원형으로 시작해서 지시나 권유를 나타내요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0086",
             "en": "simmer",
             "ko": "약불로 끓이다",
             "pron": "시머",
-            "example_en": "Let the soup simmer for an hour.",
-            "example_ko": "수프를 한 시간 동안 약불로 끓이세요.",
+            "example_en": "The soup has simmered for an hour.",
+            "example_ko": "수프가 한 시간 동안 약불로 끓여졌다.",
             "related": {
               "en": "boil",
               "ko": "끓이다"
@@ -1804,10 +1822,16 @@
             "category": "food",
             "level": "advanced",
             "ipa": "ˈsɪmər",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "has simmered",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
             "idiom": {
-              "en": "cool as a cucumber",
-              "ko": "매우 침착한"
+              "en": "let something simmer",
+              "ko": "(감정·문제가) 서서히 커지다"
             }
           },
           {
@@ -1825,18 +1849,15 @@
             "level": "advanced",
             "ipa": "fərˈmɛntɪd",
             "grammar_tips": [],
-            "idiom": {
-              "en": "as easy as pie",
-              "ko": "아주 쉬운"
-            }
+            "idiom": null
           },
           {
             "id": "w0088",
             "en": "exquisite",
             "ko": "최고급의, 정교한",
             "pron": "익스퀴짓",
-            "example_en": "The dessert had an exquisite taste.",
-            "example_ko": "그 디저트는 최고급의 맛이 났다.",
+            "example_en": "This is the most exquisite dish I've tried.",
+            "example_ko": "이것은 내가 먹어본 것 중 가장 고급스러운 요리다.",
             "related": {
               "en": "fine",
               "ko": "좋은, 고급의"
@@ -1844,11 +1865,14 @@
             "category": "food",
             "level": "advanced",
             "ipa": "ɪkˈskwɪzɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "add fuel to the fire",
-              "ko": "불난 집에 부채질하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most exquisite",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0089",
@@ -1871,10 +1895,7 @@
                 "desc": "will은 미래의 일이나 그 자리에서 결정한 일을 말할 때 써요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "have your cake and eat it too",
-              "ko": "두 마리 토끼를 다 잡으려 하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0090",
@@ -1891,10 +1912,7 @@
             "level": "advanced",
             "ipa": "dɪˈlɛktəbəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "out of the frying pan into the fire",
-              "ko": "갈수록 태산"
-            }
+            "idiom": null
           }
         ]
       }
@@ -1910,8 +1928,8 @@
             "en": "toy",
             "ko": "장난감",
             "pron": "토이",
-            "example_en": "The baby loves this toy.",
-            "example_ko": "아기는 이 장난감을 좋아한다.",
+            "example_en": "This toy is my son's favorite.",
+            "example_ko": "이 장난감은 내 아들이 가장 좋아하는 것이다.",
             "related": {
               "en": "play",
               "ko": "놀다"
@@ -1919,11 +1937,14 @@
             "category": "kids_edu",
             "level": "basic",
             "ipa": "tɔɪ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "learn the ropes",
-              "ko": "요령을 배우다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "son's",
+                "title": "소유격 's",
+                "desc": "사람 이름이나 명사 뒤에 's를 붙이면 '~의'라는 소유의 뜻이 돼요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0092",
@@ -1947,8 +1968,8 @@
               }
             ],
             "idiom": {
-              "en": "practice makes perfect",
-              "ko": "연습이 완벽을 만든다"
+              "en": "read someone like a book",
+              "ko": "속을 훤히 꿰뚫어보다"
             }
           },
           {
@@ -1966,10 +1987,7 @@
             "level": "basic",
             "ipa": "ˈkʌlər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "back to basics",
-              "ko": "기본으로 돌아가다"
-            }
+            "idiom": null
           },
           {
             "id": "w0094",
@@ -1987,8 +2005,8 @@
             "ipa": "ʃeɪp",
             "grammar_tips": [],
             "idiom": {
-              "en": "a quick learner",
-              "ko": "빨리 배우는 사람"
+              "en": "in good shape",
+              "ko": "상태가 좋은"
             }
           },
           {
@@ -2012,17 +2030,14 @@
                 "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
               }
             ],
-            "idiom": {
-              "en": "think outside the box",
-              "ko": "창의적으로 생각하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0096",
             "en": "number",
             "ko": "숫자",
             "pron": "넘버",
-            "example_en": "Count the numbers one to ten.",
+            "example_en": "Count the numbers from one to ten.",
             "example_ko": "1부터 10까지 숫자를 세어보세요.",
             "related": {
               "en": "count",
@@ -2031,11 +2046,14 @@
             "category": "kids_edu",
             "level": "basic",
             "ipa": "ˈnʌmbər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "learn by heart",
-              "ko": "외우다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "Count",
+                "title": "명령문",
+                "desc": "주어 없이 동사원형으로 시작해서 지시나 권유를 나타내요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0097",
@@ -2058,10 +2076,7 @@
                 "desc": "'우리 ~하자'라고 제안할 때 쓰는 표현이에요. Let's 뒤에는 항상 동사원형이 와요."
               }
             ],
-            "idiom": {
-              "en": "grow like a weed",
-              "ko": "무럭무럭 자라다"
-            }
+            "idiom": null
           },
           {
             "id": "w0098",
@@ -2079,8 +2094,8 @@
             "ipa": "drɔː",
             "grammar_tips": [],
             "idiom": {
-              "en": "step by step",
-              "ko": "차근차근"
+              "en": "draw the line",
+              "ko": "선을 긋다, 한계를 정하다"
             }
           },
           {
@@ -2099,8 +2114,8 @@
             "ipa": "pleɪ",
             "grammar_tips": [],
             "idiom": {
-              "en": "the sky's the limit",
-              "ko": "한계가 없다"
+              "en": "child's play",
+              "ko": "아주 쉬운 일"
             }
           },
           {
@@ -2119,8 +2134,8 @@
             "ipa": "ˈstɔːri",
             "grammar_tips": [],
             "idiom": {
-              "en": "hit the books",
-              "ko": "열심히 공부하다"
+              "en": "the same old story",
+              "ko": "늘 그렇고 그런 이야기"
             }
           }
         ],
@@ -2130,8 +2145,8 @@
             "en": "creativity",
             "ko": "창의력",
             "pron": "크리에이티비티",
-            "example_en": "Drawing helps develop creativity.",
-            "example_ko": "그림 그리기는 창의력을 키우는 데 도움이 된다.",
+            "example_en": "Drawing has helped her creativity grow.",
+            "example_ko": "그림 그리기가 그녀의 창의력이 자라도록 도왔다.",
             "related": {
               "en": "imagination",
               "ko": "상상력"
@@ -2139,11 +2154,14 @@
             "category": "kids_edu",
             "level": "intermediate",
             "ipa": "ˌkriːeɪˈtɪvɪti",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "learn the ropes",
-              "ko": "요령을 배우다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has helped",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0102",
@@ -2161,8 +2179,8 @@
             "ipa": "ˌkjʊəriˈɒsɪti",
             "grammar_tips": [],
             "idiom": {
-              "en": "practice makes perfect",
-              "ko": "연습이 완벽을 만든다"
+              "en": "curiosity killed the cat",
+              "ko": "지나친 호기심은 위험하다"
             }
           },
           {
@@ -2170,8 +2188,8 @@
             "en": "imagination",
             "ko": "상상력",
             "pron": "이매지네이션",
-            "example_en": "Stories spark a child's imagination.",
-            "example_ko": "이야기는 아이의 상상력을 자극한다.",
+            "example_en": "Stories can spark a child's imagination.",
+            "example_ko": "이야기는 아이의 상상력을 자극할 수 있다.",
             "related": {
               "en": "creativity",
               "ko": "창의력"
@@ -2179,19 +2197,22 @@
             "category": "kids_edu",
             "level": "intermediate",
             "ipa": "ɪˌmædʒɪˈneɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "back to basics",
-              "ko": "기본으로 돌아가다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "can spark",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0104",
             "en": "vocabulary",
             "ko": "어휘",
             "pron": "보캐뷸러리",
-            "example_en": "Reading builds vocabulary.",
-            "example_ko": "독서는 어휘력을 키운다.",
+            "example_en": "Reading builds vocabulary faster than watching TV.",
+            "example_ko": "독서는 TV 시청보다 어휘력을 더 빨리 키운다.",
             "related": {
               "en": "word",
               "ko": "단어"
@@ -2199,11 +2220,14 @@
             "category": "kids_edu",
             "level": "intermediate",
             "ipa": "voʊˈkæbjəlɛri",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "a quick learner",
-              "ko": "빨리 배우는 사람"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "faster than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0105",
@@ -2220,10 +2244,7 @@
             "level": "intermediate",
             "ipa": "ˈmaɪlstoʊn",
             "grammar_tips": [],
-            "idiom": {
-              "en": "think outside the box",
-              "ko": "창의적으로 생각하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0106",
@@ -2240,10 +2261,7 @@
             "level": "intermediate",
             "ipa": "dɪˈvɛləpmənt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "learn by heart",
-              "ko": "외우다"
-            }
+            "idiom": null
           },
           {
             "id": "w0107",
@@ -2259,11 +2277,14 @@
             "category": "kids_edu",
             "level": "intermediate",
             "ipa": "ɪnˈkɜːrɪdʒ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "grow like a weed",
-              "ko": "무럭무럭 자라다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "to try",
+                "title": "to부정사",
+                "desc": "encourage + 목적어 + to부정사는 '~하도록 격려하다'라는 뜻이에요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0108",
@@ -2281,8 +2302,8 @@
             "ipa": "ˈpeɪʃəns",
             "grammar_tips": [],
             "idiom": {
-              "en": "step by step",
-              "ko": "차근차근"
+              "en": "patience is a virtue",
+              "ko": "인내는 미덕이다"
             }
           },
           {
@@ -2290,8 +2311,8 @@
             "en": "routine",
             "ko": "일과, 규칙적인 습관",
             "pron": "루틴",
-            "example_en": "A bedtime routine helps children sleep well.",
-            "example_ko": "취침 일과는 아이들이 잘 자게 돕는다.",
+            "example_en": "There is a bedtime routine every night.",
+            "example_ko": "매일 밤 취침 일과가 있다.",
             "related": {
               "en": "habit",
               "ko": "습관"
@@ -2299,11 +2320,14 @@
             "category": "kids_edu",
             "level": "intermediate",
             "ipa": "ruːˈtiːn",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "the sky's the limit",
-              "ko": "한계가 없다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "There is",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0110",
@@ -2320,10 +2344,7 @@
             "level": "intermediate",
             "ipa": "bɒnd",
             "grammar_tips": [],
-            "idiom": {
-              "en": "hit the books",
-              "ko": "열심히 공부하다"
-            }
+            "idiom": null
           }
         ],
         "advanced": [
@@ -2342,10 +2363,7 @@
             "level": "advanced",
             "ipa": "ˈkɒɡnɪtɪv",
             "grammar_tips": [],
-            "idiom": {
-              "en": "learn the ropes",
-              "ko": "요령을 배우다"
-            }
+            "idiom": null
           },
           {
             "id": "w0112",
@@ -2362,18 +2380,15 @@
             "level": "advanced",
             "ipa": "ˈnɜːrtʃər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "practice makes perfect",
-              "ko": "연습이 완벽을 만든다"
-            }
+            "idiom": null
           },
           {
             "id": "w0113",
             "en": "stimulate",
             "ko": "자극하다",
             "pron": "스티뮬레이트",
-            "example_en": "Colorful toys stimulate the senses.",
-            "example_ko": "알록달록한 장난감은 감각을 자극한다.",
+            "example_en": "The senses are stimulated by colorful toys.",
+            "example_ko": "감각은 알록달록한 장난감에 의해 자극된다.",
             "related": {
               "en": "excite",
               "ko": "흥분시키다"
@@ -2381,11 +2396,14 @@
             "category": "kids_edu",
             "level": "advanced",
             "ipa": "ˈstɪmjəleɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "back to basics",
-              "ko": "기본으로 돌아가다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "are stimulated",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0114",
@@ -2408,18 +2426,15 @@
                 "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
               }
             ],
-            "idiom": {
-              "en": "a quick learner",
-              "ko": "빨리 배우는 사람"
-            }
+            "idiom": null
           },
           {
             "id": "w0115",
             "en": "preschool",
             "ko": "유치원, 미취학의",
             "pron": "프리스쿨",
-            "example_en": "She goes to preschool every morning.",
-            "example_ko": "그녀는 매일 아침 유치원에 간다.",
+            "example_en": "She goes to a preschool near our house.",
+            "example_ko": "그녀는 우리 집 근처의 한 유치원에 다닌다.",
             "related": {
               "en": "kindergarten",
               "ko": "유치원"
@@ -2427,11 +2442,14 @@
             "category": "kids_edu",
             "level": "advanced",
             "ipa": "ˈpriːskuːl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "think outside the box",
-              "ko": "창의적으로 생각하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "a preschool",
+                "title": "관사 a/an",
+                "desc": "처음 언급되거나 특정하지 않은 하나를 말할 때 a/an을 써요. 모음 발음으로 시작하면 an을 씁니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0116",
@@ -2448,10 +2466,7 @@
             "level": "advanced",
             "ipa": "ˈmoʊtər skɪlz",
             "grammar_tips": [],
-            "idiom": {
-              "en": "learn by heart",
-              "ko": "외우다"
-            }
+            "idiom": null
           },
           {
             "id": "w0117",
@@ -2474,18 +2489,15 @@
                 "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "grow like a weed",
-              "ko": "무럭무럭 자라다"
-            }
+            "idiom": null
           },
           {
             "id": "w0118",
             "en": "resilience",
             "ko": "회복력, 회복탄력성",
             "pron": "리질리언스",
-            "example_en": "Children build resilience through challenges.",
-            "example_ko": "아이들은 도전을 통해 회복력을 기른다.",
+            "example_en": "Children have built resilience through challenges.",
+            "example_ko": "아이들은 도전을 통해 회복력을 길러왔다.",
             "related": {
               "en": "strength",
               "ko": "힘"
@@ -2493,11 +2505,14 @@
             "category": "kids_edu",
             "level": "advanced",
             "ipa": "rɪˈzɪliəns",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "step by step",
-              "ko": "차근차근"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have built",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0119",
@@ -2514,10 +2529,7 @@
             "level": "advanced",
             "ipa": "ˈskæfoʊld",
             "grammar_tips": [],
-            "idiom": {
-              "en": "the sky's the limit",
-              "ko": "한계가 없다"
-            }
+            "idiom": null
           },
           {
             "id": "w0120",
@@ -2534,10 +2546,7 @@
             "level": "advanced",
             "ipa": "hoʊˈlɪstɪk",
             "grammar_tips": [],
-            "idiom": {
-              "en": "hit the books",
-              "ko": "열심히 공부하다"
-            }
+            "idiom": null
           }
         ]
       }
@@ -2553,8 +2562,8 @@
             "en": "mother",
             "ko": "어머니",
             "pron": "마더",
-            "example_en": "My mother is very kind.",
-            "example_ko": "우리 어머니는 매우 친절하시다.",
+            "example_en": "She is the kindest mother I know.",
+            "example_ko": "그녀는 내가 아는 가장 친절한 어머니다.",
             "related": {
               "en": "parent",
               "ko": "부모"
@@ -2562,10 +2571,16 @@
             "category": "family",
             "level": "basic",
             "ipa": "ˈmʌðər",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "the kindest",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
             "idiom": {
-              "en": "blood is thicker than water",
-              "ko": "피는 물보다 진하다"
+              "en": "necessity is the mother of invention",
+              "ko": "필요는 발명의 어머니"
             }
           },
           {
@@ -2573,8 +2588,8 @@
             "en": "father",
             "ko": "아버지",
             "pron": "파더",
-            "example_en": "My father works hard.",
-            "example_ko": "우리 아버지는 열심히 일하신다.",
+            "example_en": "My father has worked here for twenty years.",
+            "example_ko": "우리 아버지는 20년째 이곳에서 일해오고 있다.",
             "related": {
               "en": "parent",
               "ko": "부모"
@@ -2582,11 +2597,14 @@
             "category": "family",
             "level": "basic",
             "ipa": "ˈfɑːðər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "runs in the family",
-              "ko": "집안 내력이다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has worked",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0123",
@@ -2603,10 +2621,7 @@
             "level": "basic",
             "ipa": "ˈsɪstər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a chip off the old block",
-              "ko": "부모를 꼭 닮은 자식"
-            }
+            "idiom": null
           },
           {
             "id": "w0124",
@@ -2623,10 +2638,7 @@
             "level": "basic",
             "ipa": "ˈbrʌðər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "under the same roof",
-              "ko": "한 지붕 아래"
-            }
+            "idiom": null
           },
           {
             "id": "w0125",
@@ -2643,10 +2655,7 @@
             "level": "basic",
             "ipa": "ˈɡrænˌmʌðər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "close-knit family",
-              "ko": "화목한 가족"
-            }
+            "idiom": null
           },
           {
             "id": "w0126",
@@ -2663,10 +2672,7 @@
             "level": "basic",
             "ipa": "ˈɡrænˌfɑːðər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "black sheep of the family",
-              "ko": "집안의 골칫거리"
-            }
+            "idiom": null
           },
           {
             "id": "w0127",
@@ -2690,8 +2696,8 @@
               }
             ],
             "idiom": {
-              "en": "like father, like son",
-              "ko": "그 아버지에 그 아들"
+              "en": "throw the baby out with the bathwater",
+              "ko": "좋은 것까지 버리다"
             }
           },
           {
@@ -2699,8 +2705,8 @@
             "en": "family",
             "ko": "가족",
             "pron": "패밀리",
-            "example_en": "We are a happy family.",
-            "example_ko": "우리는 행복한 가족이다.",
+            "example_en": "There are five people in my family.",
+            "example_ko": "우리 가족은 다섯 명이다.",
             "related": {
               "en": "home",
               "ko": "집"
@@ -2708,11 +2714,14 @@
             "category": "family",
             "level": "basic",
             "ipa": "ˈfæməli",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "family ties",
-              "ko": "가족 간의 유대"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "There are",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0129",
@@ -2730,8 +2739,8 @@
             "ipa": "sʌn",
             "grammar_tips": [],
             "idiom": {
-              "en": "raise a family",
-              "ko": "가정을 꾸리다"
+              "en": "like father, like son",
+              "ko": "그 아버지에 그 아들"
             }
           },
           {
@@ -2739,8 +2748,8 @@
             "en": "daughter",
             "ko": "딸",
             "pron": "도터",
-            "example_en": "My daughter loves to read.",
-            "example_ko": "내 딸은 독서를 좋아한다.",
+            "example_en": "My daughter is a girl who loves to read.",
+            "example_ko": "내 딸은 책 읽기를 좋아하는 아이다.",
             "related": {
               "en": "son",
               "ko": "아들"
@@ -2748,11 +2757,14 @@
             "category": "family",
             "level": "basic",
             "ipa": "ˈdɔːtər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "flesh and blood",
-              "ko": "혈육"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "who loves to read",
+                "title": "관계대명사 who",
+                "desc": "사람을 꾸며주는 절을 이끌며, '~하는 사람'이라고 해석해요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "intermediate": [
@@ -2761,8 +2773,8 @@
             "en": "relative",
             "ko": "친척",
             "pron": "렐러티브",
-            "example_en": "We invited all our relatives.",
-            "example_ko": "우리는 모든 친척을 초대했다.",
+            "example_en": "We should invite all our relatives.",
+            "example_ko": "우리는 모든 친척을 초대해야 한다.",
             "related": {
               "en": "family",
               "ko": "가족"
@@ -2770,19 +2782,22 @@
             "category": "family",
             "level": "intermediate",
             "ipa": "ˈrɛlətɪv",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "blood is thicker than water",
-              "ko": "피는 물보다 진하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should invite",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0132",
             "en": "sibling",
             "ko": "형제자매",
             "pron": "시블링",
-            "example_en": "She has two siblings.",
-            "example_ko": "그녀는 형제자매가 두 명 있다.",
+            "example_en": "She is closer to her sibling than her cousin.",
+            "example_ko": "그녀는 사촌보다 형제자매와 더 가깝다.",
             "related": {
               "en": "brother",
               "ko": "남자 형제"
@@ -2790,11 +2805,14 @@
             "category": "family",
             "level": "intermediate",
             "ipa": "ˈsɪblɪŋ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "runs in the family",
-              "ko": "집안 내력이다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "closer to her sibling than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0133",
@@ -2811,18 +2829,15 @@
             "level": "intermediate",
             "ipa": "spaʊs",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a chip off the old block",
-              "ko": "부모를 꼭 닮은 자식"
-            }
+            "idiom": null
           },
           {
             "id": "w0134",
             "en": "generation",
             "ko": "세대",
             "pron": "제너레이션",
-            "example_en": "Three generations live together.",
-            "example_ko": "3대가 함께 산다.",
+            "example_en": "There are three generations living together.",
+            "example_ko": "3대가 함께 살고 있다.",
             "related": {
               "en": "era",
               "ko": "시대"
@@ -2830,11 +2845,14 @@
             "category": "family",
             "level": "intermediate",
             "ipa": "ˌdʒɛnəˈreɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "under the same roof",
-              "ko": "한 지붕 아래"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "There are",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0135",
@@ -2852,8 +2870,8 @@
             "ipa": "ˈhaʊshoʊld",
             "grammar_tips": [],
             "idiom": {
-              "en": "close-knit family",
-              "ko": "화목한 가족"
+              "en": "a household name",
+              "ko": "누구나 아는 이름"
             }
           },
           {
@@ -2871,10 +2889,7 @@
             "level": "intermediate",
             "ipa": "reɪz",
             "grammar_tips": [],
-            "idiom": {
-              "en": "black sheep of the family",
-              "ko": "집안의 골칫거리"
-            }
+            "idiom": null
           },
           {
             "id": "w0137",
@@ -2891,10 +2906,7 @@
             "level": "intermediate",
             "ipa": "ˈænsɛstər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "like father, like son",
-              "ko": "그 아버지에 그 아들"
-            }
+            "idiom": null
           },
           {
             "id": "w0138",
@@ -2911,18 +2923,15 @@
             "level": "intermediate",
             "ipa": "ˈɪn lɔː",
             "grammar_tips": [],
-            "idiom": {
-              "en": "family ties",
-              "ko": "가족 간의 유대"
-            }
+            "idiom": null
           },
           {
             "id": "w0139",
             "en": "reunion",
             "ko": "재회, 모임",
             "pron": "리유니언",
-            "example_en": "We had a big family reunion.",
-            "example_ko": "우리는 큰 가족 모임을 가졌다.",
+            "example_en": "We have planned a big family reunion.",
+            "example_ko": "우리는 큰 가족 모임을 계획해왔다.",
             "related": {
               "en": "gathering",
               "ko": "모임"
@@ -2930,19 +2939,22 @@
             "category": "family",
             "level": "intermediate",
             "ipa": "riːˈjuːnjən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "raise a family",
-              "ko": "가정을 꾸리다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have planned",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0140",
             "en": "upbringing",
             "ko": "양육, 가정교육",
             "pron": "업브링잉",
-            "example_en": "She had a strict upbringing.",
-            "example_ko": "그녀는 엄격한 가정교육을 받았다.",
+            "example_en": "She was raised with a strict upbringing.",
+            "example_ko": "그녀는 엄격한 가정교육을 받으며 자랐다.",
             "related": {
               "en": "raise",
               "ko": "기르다, 올리다"
@@ -2950,11 +2962,14 @@
             "category": "family",
             "level": "intermediate",
             "ipa": "ˈʌpˌbrɪŋɪŋ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "flesh and blood",
-              "ko": "혈육"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "was raised",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "advanced": [
@@ -2973,10 +2988,7 @@
             "level": "advanced",
             "ipa": "ˈkɪnʃɪp",
             "grammar_tips": [],
-            "idiom": {
-              "en": "blood is thicker than water",
-              "ko": "피는 물보다 진하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0142",
@@ -2993,10 +3005,7 @@
             "level": "advanced",
             "ipa": "ˈlɪniɪdʒ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "runs in the family",
-              "ko": "집안 내력이다"
-            }
+            "idiom": null
           },
           {
             "id": "w0143",
@@ -3019,10 +3028,7 @@
                 "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "a chip off the old block",
-              "ko": "부모를 꼭 닮은 자식"
-            }
+            "idiom": null
           },
           {
             "id": "w0144",
@@ -3039,18 +3045,15 @@
             "level": "advanced",
             "ipa": "nɒˈstældʒə",
             "grammar_tips": [],
-            "idiom": {
-              "en": "under the same roof",
-              "ko": "한 지붕 아래"
-            }
+            "idiom": null
           },
           {
             "id": "w0145",
             "en": "cherish",
             "ko": "소중히 여기다",
             "pron": "체리시",
-            "example_en": "We cherish our family time.",
-            "example_ko": "우리는 가족과 보내는 시간을 소중히 여긴다.",
+            "example_en": "We should cherish our family time.",
+            "example_ko": "우리는 가족과 보내는 시간을 소중히 여겨야 한다.",
             "related": {
               "en": "treasure",
               "ko": "소중히 여기다"
@@ -3058,11 +3061,14 @@
             "category": "family",
             "level": "advanced",
             "ipa": "ˈtʃɛrɪʃ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "close-knit family",
-              "ko": "화목한 가족"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should cherish",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0146",
@@ -3079,18 +3085,15 @@
             "level": "advanced",
             "ipa": "ˌsɛntɪˈmɛntəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "black sheep of the family",
-              "ko": "집안의 골칫거리"
-            }
+            "idiom": null
           },
           {
             "id": "w0147",
             "en": "legacy",
             "ko": "유산, 업적",
             "pron": "레거시",
-            "example_en": "He left a great legacy for his family.",
-            "example_ko": "그는 가족에게 훌륭한 유산을 남겼다.",
+            "example_en": "He left a legacy which inspired many people.",
+            "example_ko": "그는 많은 사람들에게 영감을 준 유산을 남겼다.",
             "related": {
               "en": "inheritance",
               "ko": "유산"
@@ -3098,19 +3101,22 @@
             "category": "family",
             "level": "advanced",
             "ipa": "ˈlɛɡəsi",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "like father, like son",
-              "ko": "그 아버지에 그 아들"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "which inspired",
+                "title": "관계대명사 which",
+                "desc": "사물을 꾸며주는 관계대명사예요. 추가 설명을 덧붙일 때 자주 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0148",
             "en": "affection",
             "ko": "애정",
             "pron": "어펙션",
-            "example_en": "She shows great affection for her grandchildren.",
-            "example_ko": "그녀는 손주들에게 큰 애정을 보인다.",
+            "example_en": "She shows the most affection for her grandchildren.",
+            "example_ko": "그녀는 손주들에게 가장 큰 애정을 보인다.",
             "related": {
               "en": "love",
               "ko": "사랑"
@@ -3118,19 +3124,22 @@
             "category": "family",
             "level": "advanced",
             "ipa": "əˈfɛkʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "family ties",
-              "ko": "가족 간의 유대"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most affection",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0149",
             "en": "devotion",
             "ko": "헌신, 헌신적 사랑",
             "pron": "디보션",
-            "example_en": "His devotion to his family is admirable.",
-            "example_ko": "그의 가족에 대한 헌신은 존경스럽다.",
+            "example_en": "His devotion to his family has never changed.",
+            "example_ko": "가족에 대한 그의 헌신은 한 번도 변한 적이 없다.",
             "related": {
               "en": "dedication",
               "ko": "헌신"
@@ -3138,11 +3147,14 @@
             "category": "family",
             "level": "advanced",
             "ipa": "dɪˈvoʊʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "raise a family",
-              "ko": "가정을 꾸리다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has never changed",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0150",
@@ -3159,10 +3171,7 @@
             "level": "advanced",
             "ipa": "ˌɪntərˌdʒɛnəˈreɪʃənəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "flesh and blood",
-              "ko": "혈육"
-            }
+            "idiom": null
           }
         ]
       }
@@ -3178,8 +3187,8 @@
             "en": "sunny",
             "ko": "맑은, 화창한",
             "pron": "서니",
-            "example_en": "It's sunny today.",
-            "example_ko": "오늘은 맑다.",
+            "example_en": "Today is the sunniest day this week.",
+            "example_ko": "오늘은 이번 주 중 가장 화창한 날이다.",
             "related": {
               "en": "clear",
               "ko": "맑은"
@@ -3187,10 +3196,16 @@
             "category": "weather",
             "level": "basic",
             "ipa": "ˈsʌni",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "the sunniest",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
             "idiom": {
-              "en": "come rain or shine",
-              "ko": "어떤 일이 있어도"
+              "en": "look on the sunny side",
+              "ko": "긍정적으로 보다"
             }
           },
           {
@@ -3209,8 +3224,8 @@
             "ipa": "ˈreɪni",
             "grammar_tips": [],
             "idiom": {
-              "en": "under the weather",
-              "ko": "몸이 안 좋은"
+              "en": "save it for a rainy day",
+              "ko": "만일을 위해 저축하다"
             }
           },
           {
@@ -3248,18 +3263,15 @@
             "level": "basic",
             "ipa": "ˈwɪndi",
             "grammar_tips": [],
-            "idiom": {
-              "en": "calm before the storm",
-              "ko": "폭풍전야"
-            }
+            "idiom": null
           },
           {
             "id": "w0155",
             "en": "snow",
             "ko": "눈",
             "pron": "스노우",
-            "example_en": "It started to snow.",
-            "example_ko": "눈이 내리기 시작했다.",
+            "example_en": "It has just started to snow.",
+            "example_ko": "방금 눈이 내리기 시작했다.",
             "related": {
               "en": "winter",
               "ko": "겨울"
@@ -3267,10 +3279,16 @@
             "category": "weather",
             "level": "basic",
             "ipa": "snoʊ",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "has just started",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
             "idiom": {
-              "en": "save for a rainy day",
-              "ko": "만일을 위해 저축하다"
+              "en": "snowed under",
+              "ko": "일에 파묻힌, 매우 바쁜"
             }
           },
           {
@@ -3295,8 +3313,8 @@
               }
             ],
             "idiom": {
-              "en": "weather the storm",
-              "ko": "어려움을 견뎌내다"
+              "en": "in hot water",
+              "ko": "곤경에 처한"
             }
           },
           {
@@ -3321,8 +3339,8 @@
               }
             ],
             "idiom": {
-              "en": "a ray of sunshine",
-              "ko": "밝은 희망"
+              "en": "give someone the cold shoulder",
+              "ko": "냉대하다, 무시하다"
             }
           },
           {
@@ -3341,8 +3359,8 @@
             "ipa": "wɔːrm",
             "grammar_tips": [],
             "idiom": {
-              "en": "chase away the clouds",
-              "ko": "걱정을 떨쳐내다"
+              "en": "warm up to someone",
+              "ko": "~에게 정이 들다"
             }
           },
           {
@@ -3361,8 +3379,8 @@
             "ipa": "kuːl",
             "grammar_tips": [],
             "idiom": {
-              "en": "when it rains it pours",
-              "ko": "엎친 데 덮친 격"
+              "en": "cool as a cucumber",
+              "ko": "매우 침착한"
             }
           },
           {
@@ -3387,8 +3405,8 @@
               }
             ],
             "idiom": {
-              "en": "once in a blue moon",
-              "ko": "아주 가끔"
+              "en": "a storm in a teacup",
+              "ko": "별것도 아닌 일에 소란 피우기"
             }
           }
         ],
@@ -3398,8 +3416,8 @@
             "en": "temperature",
             "ko": "기온, 온도",
             "pron": "템퍼러처",
-            "example_en": "The temperature dropped suddenly.",
-            "example_ko": "기온이 갑자기 떨어졌다.",
+            "example_en": "Today's temperature is higher than yesterday's.",
+            "example_ko": "오늘 기온이 어제보다 더 높다.",
             "related": {
               "en": "degree",
               "ko": "정도, 온도 단위"
@@ -3407,19 +3425,22 @@
             "category": "weather",
             "level": "intermediate",
             "ipa": "ˈtɛmpərətʃər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "come rain or shine",
-              "ko": "어떤 일이 있어도"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "higher than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0162",
             "en": "forecast",
             "ko": "일기예보",
             "pron": "포캐스트",
-            "example_en": "Check the weather forecast.",
-            "example_ko": "일기예보를 확인하세요.",
+            "example_en": "You should check the weather forecast.",
+            "example_ko": "일기예보를 확인해야 해요.",
             "related": {
               "en": "prediction",
               "ko": "예측"
@@ -3427,11 +3448,14 @@
             "category": "weather",
             "level": "intermediate",
             "ipa": "ˈfɔːrkæst",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "under the weather",
-              "ko": "몸이 안 좋은"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should check",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0163",
@@ -3448,10 +3472,7 @@
             "level": "intermediate",
             "ipa": "hjuːˈmɪdɪti",
             "grammar_tips": [],
-            "idiom": {
-              "en": "every cloud has a silver lining",
-              "ko": "괴로움 속에도 희망은 있다"
-            }
+            "idiom": null
           },
           {
             "id": "w0164",
@@ -3475,8 +3496,8 @@
               }
             ],
             "idiom": {
-              "en": "calm before the storm",
-              "ko": "폭풍전야"
+              "en": "breeze through something",
+              "ko": "수월하게 해내다"
             }
           },
           {
@@ -3494,10 +3515,7 @@
             "level": "intermediate",
             "ipa": "ˈdrɪzəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "save for a rainy day",
-              "ko": "만일을 위해 저축하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0166",
@@ -3515,8 +3533,8 @@
             "ipa": "ˈθʌndər",
             "grammar_tips": [],
             "idiom": {
-              "en": "weather the storm",
-              "ko": "어려움을 견뎌내다"
+              "en": "steal someone's thunder",
+              "ko": "공로를 가로채다"
             }
           },
           {
@@ -3535,8 +3553,8 @@
             "ipa": "ˈlaɪtnɪŋ",
             "grammar_tips": [],
             "idiom": {
-              "en": "a ray of sunshine",
-              "ko": "밝은 희망"
+              "en": "lightning never strikes twice",
+              "ko": "같은 불행이 두 번 일어나진 않는다"
             }
           },
           {
@@ -3554,10 +3572,7 @@
             "level": "intermediate",
             "ipa": "ˈfɒɡi",
             "grammar_tips": [],
-            "idiom": {
-              "en": "chase away the clouds",
-              "ko": "걱정을 떨쳐내다"
-            }
+            "idiom": null
           },
           {
             "id": "w0169",
@@ -3580,18 +3595,15 @@
                 "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
               }
             ],
-            "idiom": {
-              "en": "when it rains it pours",
-              "ko": "엎친 데 덮친 격"
-            }
+            "idiom": null
           },
           {
             "id": "w0170",
             "en": "climate",
             "ko": "기후",
             "pron": "클라이밋",
-            "example_en": "The climate here is mild.",
-            "example_ko": "이곳의 기후는 온화하다.",
+            "example_en": "This region has a climate which stays mild all year.",
+            "example_ko": "이 지역은 일년 내내 온화하게 유지되는 기후를 가지고 있다.",
             "related": {
               "en": "weather",
               "ko": "날씨"
@@ -3599,11 +3611,14 @@
             "category": "weather",
             "level": "intermediate",
             "ipa": "ˈklaɪmɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "once in a blue moon",
-              "ko": "아주 가끔"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "which stays mild",
+                "title": "관계대명사 which",
+                "desc": "사물을 꾸며주는 관계대명사예요. 추가 설명을 덧붙일 때 자주 써요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "advanced": [
@@ -3622,10 +3637,7 @@
             "level": "advanced",
             "ipa": "ˌmiːtiəˈrɒlədʒi",
             "grammar_tips": [],
-            "idiom": {
-              "en": "come rain or shine",
-              "ko": "어떤 일이 있어도"
-            }
+            "idiom": null
           },
           {
             "id": "w0172",
@@ -3648,10 +3660,7 @@
                 "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
               }
             ],
-            "idiom": {
-              "en": "under the weather",
-              "ko": "몸이 안 좋은"
-            }
+            "idiom": null
           },
           {
             "id": "w0173",
@@ -3674,10 +3683,7 @@
                 "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
               }
             ],
-            "idiom": {
-              "en": "every cloud has a silver lining",
-              "ko": "괴로움 속에도 희망은 있다"
-            }
+            "idiom": null
           },
           {
             "id": "w0174",
@@ -3694,10 +3700,7 @@
             "level": "advanced",
             "ipa": "ˈoʊvərkæst",
             "grammar_tips": [],
-            "idiom": {
-              "en": "calm before the storm",
-              "ko": "폭풍전야"
-            }
+            "idiom": null
           },
           {
             "id": "w0175",
@@ -3714,10 +3717,7 @@
             "level": "advanced",
             "ipa": "tɒˈrɛnʃəl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "save for a rainy day",
-              "ko": "만일을 위해 저축하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0176",
@@ -3734,18 +3734,15 @@
             "level": "advanced",
             "ipa": "ɡeɪl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "weather the storm",
-              "ko": "어려움을 견뎌내다"
-            }
+            "idiom": null
           },
           {
             "id": "w0177",
             "en": "blizzard",
             "ko": "눈보라",
             "pron": "블리자드",
-            "example_en": "The blizzard closed all the roads.",
-            "example_ko": "눈보라로 모든 도로가 폐쇄됐다.",
+            "example_en": "All the roads were closed by the blizzard.",
+            "example_ko": "모든 도로가 눈보라로 인해 폐쇄되었다.",
             "related": {
               "en": "snowstorm",
               "ko": "눈보라"
@@ -3753,19 +3750,22 @@
             "category": "weather",
             "level": "advanced",
             "ipa": "ˈblɪzərd",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "a ray of sunshine",
-              "ko": "밝은 희망"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "were closed",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0178",
             "en": "heatwave",
             "ko": "폭염",
             "pron": "히트웨이브",
-            "example_en": "A heatwave hit the country.",
-            "example_ko": "폭염이 그 나라를 덮쳤다.",
+            "example_en": "This is the worst heatwave in ten years.",
+            "example_ko": "이번 폭염은 10년 만에 최악이다.",
             "related": {
               "en": "hot",
               "ko": "더운"
@@ -3773,11 +3773,14 @@
             "category": "weather",
             "level": "advanced",
             "ipa": "ˈhiːtweɪv",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "chase away the clouds",
-              "ko": "걱정을 떨쳐내다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the worst",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0179",
@@ -3794,18 +3797,15 @@
             "level": "advanced",
             "ipa": "mɒnˈsuːn",
             "grammar_tips": [],
-            "idiom": {
-              "en": "when it rains it pours",
-              "ko": "엎친 데 덮친 격"
-            }
+            "idiom": null
           },
           {
             "id": "w0180",
             "en": "drought",
             "ko": "가뭄",
             "pron": "드라우트",
-            "example_en": "The drought damaged the crops.",
-            "example_ko": "가뭄이 농작물에 피해를 줬다.",
+            "example_en": "The drought has damaged the crops.",
+            "example_ko": "가뭄이 지금까지 농작물에 피해를 줬다.",
             "related": {
               "en": "dry spell",
               "ko": "건조한 기간"
@@ -3813,11 +3813,14 @@
             "category": "weather",
             "level": "advanced",
             "ipa": "draʊt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "once in a blue moon",
-              "ko": "아주 가끔"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has damaged",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           }
         ]
       }
@@ -3833,8 +3836,8 @@
             "en": "doctor",
             "ko": "의사",
             "pron": "닥터",
-            "example_en": "The doctor examined the patient.",
-            "example_ko": "의사가 환자를 진찰했다.",
+            "example_en": "I have already seen the doctor today.",
+            "example_ko": "나는 오늘 이미 의사를 만났다.",
             "related": {
               "en": "nurse",
               "ko": "간호사"
@@ -3842,10 +3845,16 @@
             "category": "hospital",
             "level": "basic",
             "ipa": "ˈdɒktər",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "have already seen",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
             "idiom": {
-              "en": "a taste of your own medicine",
-              "ko": "자업자득"
+              "en": "just what the doctor ordered",
+              "ko": "딱 필요했던 것"
             }
           },
           {
@@ -3863,10 +3872,7 @@
             "level": "basic",
             "ipa": "nɜːrs",
             "grammar_tips": [],
-            "idiom": {
-              "en": "on the mend",
-              "ko": "회복 중인"
-            }
+            "idiom": null
           },
           {
             "id": "w0183",
@@ -3884,8 +3890,8 @@
             "ipa": "ˈmɛdɪsɪn",
             "grammar_tips": [],
             "idiom": {
-              "en": "in good hands",
-              "ko": "믿을 만한 사람에게 맡겨진"
+              "en": "a taste of your own medicine",
+              "ko": "자업자득"
             }
           },
           {
@@ -3893,8 +3899,8 @@
             "en": "sick",
             "ko": "아픈",
             "pron": "식",
-            "example_en": "I feel sick today.",
-            "example_ko": "오늘 몸이 아프다.",
+            "example_en": "If you feel sick, stay home and rest.",
+            "example_ko": "몸이 아프면 집에서 쉬세요.",
             "related": {
               "en": "ill",
               "ko": "아픈"
@@ -3902,11 +3908,14 @@
             "category": "hospital",
             "level": "basic",
             "ipa": "sɪk",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "fit as a fiddle",
-              "ko": "아주 건강한"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "If you feel sick",
+                "title": "조건문 (If ~)",
+                "desc": "If절은 조건을 나타내고, 그 조건이 이루어지면 결과가 일어난다는 뜻이에요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0185",
@@ -3924,8 +3933,8 @@
             "ipa": "peɪn",
             "grammar_tips": [],
             "idiom": {
-              "en": "a bitter pill to swallow",
-              "ko": "받아들이기 힘든 사실"
+              "en": "a pain in the neck",
+              "ko": "골칫거리"
             }
           },
           {
@@ -3943,10 +3952,7 @@
             "level": "basic",
             "ipa": "ˈfiːvər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get a clean bill of health",
-              "ko": "건강하다는 진단을 받다"
-            }
+            "idiom": null
           },
           {
             "id": "w0187",
@@ -3963,10 +3969,7 @@
             "level": "basic",
             "ipa": "koʊld",
             "grammar_tips": [],
-            "idiom": {
-              "en": "back on your feet",
-              "ko": "회복하여 다시 활동하는"
-            }
+            "idiom": null
           },
           {
             "id": "w0188",
@@ -3982,19 +3985,22 @@
             "category": "hospital",
             "level": "basic",
             "ipa": "ˈhɒspɪtəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "keep at bay",
-              "ko": "막아내다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "was taken",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0189",
             "en": "appointment",
             "ko": "진료 예약",
             "pron": "어포인트먼트",
-            "example_en": "I have a doctor's appointment today.",
-            "example_ko": "오늘 병원 예약이 있다.",
+            "example_en": "You should make an appointment first.",
+            "example_ko": "먼저 예약을 하셔야 해요.",
             "related": {
               "en": "schedule",
               "ko": "일정"
@@ -4002,19 +4008,22 @@
             "category": "hospital",
             "level": "basic",
             "ipa": "əˈpɔɪntmənt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "under observation",
-              "ko": "경과를 지켜보는 중인"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should make",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0190",
             "en": "injection",
             "ko": "주사",
             "pron": "인젝션",
-            "example_en": "The nurse gave an injection.",
-            "example_ko": "간호사가 주사를 놓았다.",
+            "example_en": "There is no need for another injection.",
+            "example_ko": "또 다른 주사는 필요 없다.",
             "related": {
               "en": "shot",
               "ko": "주사"
@@ -4022,11 +4031,14 @@
             "category": "hospital",
             "level": "basic",
             "ipa": "ɪnˈdʒɛkʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "nip it in the bud",
-              "ko": "초기에 문제를 해결하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "There is",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "intermediate": [
@@ -4035,8 +4047,8 @@
             "en": "symptom",
             "ko": "증상",
             "pron": "심텀",
-            "example_en": "What symptoms do you have?",
-            "example_ko": "어떤 증상이 있으세요?",
+            "example_en": "Tell me any symptom that worries you.",
+            "example_ko": "걱정되는 증상이 있으면 말해주세요.",
             "related": {
               "en": "sign",
               "ko": "징후, 표지판"
@@ -4044,11 +4056,14 @@
             "category": "hospital",
             "level": "intermediate",
             "ipa": "ˈsɪmptəm",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "a taste of your own medicine",
-              "ko": "자업자득"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that worries you",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0192",
@@ -4071,10 +4086,7 @@
                 "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
               }
             ],
-            "idiom": {
-              "en": "on the mend",
-              "ko": "회복 중인"
-            }
+            "idiom": null
           },
           {
             "id": "w0193",
@@ -4091,10 +4103,7 @@
             "level": "intermediate",
             "ipa": "ˈtriːtmənt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "in good hands",
-              "ko": "믿을 만한 사람에게 맡겨진"
-            }
+            "idiom": null
           },
           {
             "id": "w0194",
@@ -4111,10 +4120,7 @@
             "level": "intermediate",
             "ipa": "prɪˈskrɪpʃən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "fit as a fiddle",
-              "ko": "아주 건강한"
-            }
+            "idiom": null
           },
           {
             "id": "w0195",
@@ -4131,18 +4137,15 @@
             "level": "intermediate",
             "ipa": "ˈtʃɛkʌp",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a bitter pill to swallow",
-              "ko": "받아들이기 힘든 사실"
-            }
+            "idiom": null
           },
           {
             "id": "w0196",
             "en": "surgery",
             "ko": "수술",
             "pron": "서저리",
-            "example_en": "He needs surgery on his knee.",
-            "example_ko": "그는 무릎 수술이 필요하다.",
+            "example_en": "She has recovered well after surgery.",
+            "example_ko": "그녀는 수술 후 잘 회복해왔다.",
             "related": {
               "en": "operation",
               "ko": "수술"
@@ -4150,11 +4153,14 @@
             "category": "hospital",
             "level": "intermediate",
             "ipa": "ˈsɜːrdʒəri",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "get a clean bill of health",
-              "ko": "건강하다는 진단을 받다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has recovered",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0197",
@@ -4177,10 +4183,7 @@
                 "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
               }
             ],
-            "idiom": {
-              "en": "back on your feet",
-              "ko": "회복하여 다시 활동하는"
-            }
+            "idiom": null
           },
           {
             "id": "w0198",
@@ -4197,10 +4200,7 @@
             "level": "intermediate",
             "ipa": "rɪˈkʌvəri",
             "grammar_tips": [],
-            "idiom": {
-              "en": "keep at bay",
-              "ko": "막아내다"
-            }
+            "idiom": null
           },
           {
             "id": "w0199",
@@ -4217,10 +4217,7 @@
             "level": "intermediate",
             "ipa": "ɪˈmɜːrdʒənsi",
             "grammar_tips": [],
-            "idiom": {
-              "en": "under observation",
-              "ko": "경과를 지켜보는 중인"
-            }
+            "idiom": null
           },
           {
             "id": "w0200",
@@ -4243,10 +4240,7 @@
                 "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
               }
             ],
-            "idiom": {
-              "en": "nip it in the bud",
-              "ko": "초기에 문제를 해결하다"
-            }
+            "idiom": null
           }
         ],
         "advanced": [
@@ -4265,18 +4259,15 @@
             "level": "advanced",
             "ipa": "ˈkrɒnɪk",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a taste of your own medicine",
-              "ko": "자업자득"
-            }
+            "idiom": null
           },
           {
             "id": "w0202",
             "en": "prognosis",
             "ko": "예후, 예상",
             "pron": "프로그노시스",
-            "example_en": "The prognosis is very good.",
-            "example_ko": "예후는 매우 좋다.",
+            "example_en": "This is the best prognosis the doctor has given.",
+            "example_ko": "이것이 의사가 내린 가장 좋은 예후다.",
             "related": {
               "en": "outlook",
               "ko": "전망"
@@ -4284,19 +4275,22 @@
             "category": "hospital",
             "level": "advanced",
             "ipa": "prɒɡˈnoʊsɪs",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "on the mend",
-              "ko": "회복 중인"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the best",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0203",
             "en": "rehabilitation",
             "ko": "재활",
             "pron": "리해빌리테이션",
-            "example_en": "She started rehabilitation after surgery.",
-            "example_ko": "그녀는 수술 후 재활을 시작했다.",
+            "example_en": "She has started rehabilitation after surgery.",
+            "example_ko": "그녀는 수술 후 재활을 시작해서 지금도 하고 있다.",
             "related": {
               "en": "recovery",
               "ko": "회복"
@@ -4304,11 +4298,14 @@
             "category": "hospital",
             "level": "advanced",
             "ipa": "ˌriːəˌbɪlɪˈteɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "in good hands",
-              "ko": "믿을 만한 사람에게 맡겨진"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has started",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0204",
@@ -4331,10 +4328,7 @@
                 "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "fit as a fiddle",
-              "ko": "아주 건강한"
-            }
+            "idiom": null
           },
           {
             "id": "w0205",
@@ -4371,10 +4365,7 @@
             "level": "advanced",
             "ipa": "ˌθɛrəˈpjuːtɪk",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get a clean bill of health",
-              "ko": "건강하다는 진단을 받다"
-            }
+            "idiom": null
           },
           {
             "id": "w0207",
@@ -4391,10 +4382,7 @@
             "level": "advanced",
             "ipa": "ˈvaɪtəl saɪnz",
             "grammar_tips": [],
-            "idiom": {
-              "en": "back on your feet",
-              "ko": "회복하여 다시 활동하는"
-            }
+            "idiom": null
           },
           {
             "id": "w0208",
@@ -4411,18 +4399,15 @@
             "level": "advanced",
             "ipa": "ˌænɪsˈθiːʒə",
             "grammar_tips": [],
-            "idiom": {
-              "en": "keep at bay",
-              "ko": "막아내다"
-            }
+            "idiom": null
           },
           {
             "id": "w0209",
             "en": "referral",
             "ko": "의뢰, 소개",
             "pron": "리퍼럴",
-            "example_en": "The doctor gave a referral to a specialist.",
-            "example_ko": "의사가 전문의에게 의뢰서를 써줬다.",
+            "example_en": "A referral was given to a specialist.",
+            "example_ko": "전문의에게 의뢰서가 발급되었다.",
             "related": {
               "en": "recommend",
               "ko": "추천하다"
@@ -4430,19 +4415,22 @@
             "category": "hospital",
             "level": "advanced",
             "ipa": "rɪˈfɜːrəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "under observation",
-              "ko": "경과를 지켜보는 중인"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "was given",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0210",
             "en": "consultation",
             "ko": "진찰, 상담",
             "pron": "컨설테이션",
-            "example_en": "The consultation took thirty minutes.",
-            "example_ko": "진찰은 30분이 걸렸다.",
+            "example_en": "This consultation took longer than expected.",
+            "example_ko": "이 진찰은 예상보다 더 오래 걸렸다.",
             "related": {
               "en": "appointment",
               "ko": "예약"
@@ -4450,11 +4438,14 @@
             "category": "hospital",
             "level": "advanced",
             "ipa": "ˌkɒnsəlˈteɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "nip it in the bud",
-              "ko": "초기에 문제를 해결하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "longer than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           }
         ]
       }
@@ -4486,18 +4477,15 @@
                 "desc": "정확한 시각을 말할 때는 at을 써요. (예: at nine, at noon)"
               }
             ],
-            "idiom": {
-              "en": "window shopping",
-              "ko": "아이쇼핑"
-            }
+            "idiom": null
           },
           {
             "id": "w0212",
             "en": "price",
             "ko": "가격",
             "pron": "프라이스",
-            "example_en": "The price is too high.",
-            "example_ko": "가격이 너무 비싸다.",
+            "example_en": "This price is lower than the other store's.",
+            "example_ko": "이 가격이 다른 가게보다 더 낮다.",
             "related": {
               "en": "cost",
               "ko": "비용"
@@ -4505,10 +4493,16 @@
             "category": "shopping",
             "level": "basic",
             "ipa": "praɪs",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "lower than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
             "idiom": {
-              "en": "cost an arm and a leg",
-              "ko": "매우 비싸다"
+              "en": "there's a price to pay",
+              "ko": "그에 따른 대가가 있다"
             }
           },
           {
@@ -4527,8 +4521,8 @@
             "ipa": "ˈmʌni",
             "grammar_tips": [],
             "idiom": {
-              "en": "bang for your buck",
-              "ko": "돈값을 하는"
+              "en": "money doesn't grow on trees",
+              "ko": "돈이 그냥 생기는 게 아니다"
             }
           },
           {
@@ -4547,8 +4541,8 @@
             "ipa": "baɪ",
             "grammar_tips": [],
             "idiom": {
-              "en": "in the bag",
-              "ko": "성사된 것이나 다름없는"
+              "en": "buy time",
+              "ko": "시간을 벌다"
             }
           },
           {
@@ -4567,8 +4561,8 @@
             "ipa": "sɛl",
             "grammar_tips": [],
             "idiom": {
-              "en": "break the bank",
-              "ko": "큰돈을 쓰다"
+              "en": "sell like hotcakes",
+              "ko": "불티나게 팔리다"
             }
           },
           {
@@ -4587,8 +4581,8 @@
             "ipa": "kæʃ",
             "grammar_tips": [],
             "idiom": {
-              "en": "a steal",
-              "ko": "아주 싼 물건"
+              "en": "cash in on something",
+              "ko": "~로 이득을 보다"
             }
           },
           {
@@ -4596,8 +4590,8 @@
             "en": "receipt",
             "ko": "영수증",
             "pron": "리시트",
-            "example_en": "Please keep the receipt.",
-            "example_ko": "영수증을 보관하세요.",
+            "example_en": "You should keep the receipt.",
+            "example_ko": "영수증을 보관해야 해요.",
             "related": {
               "en": "proof",
               "ko": "증거"
@@ -4605,19 +4599,22 @@
             "category": "shopping",
             "level": "basic",
             "ipa": "rɪˈsiːt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "shop till you drop",
-              "ko": "지칠 때까지 쇼핑하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should keep",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0218",
             "en": "discount",
             "ko": "할인",
             "pron": "디스카운트",
-            "example_en": "This item is on discount.",
-            "example_ko": "이 물건은 할인 중이다.",
+            "example_en": "This item is offered at a discount.",
+            "example_ko": "이 물건은 할인가로 제공된다.",
             "related": {
               "en": "sale",
               "ko": "할인, 판매"
@@ -4625,11 +4622,14 @@
             "category": "shopping",
             "level": "basic",
             "ipa": "ˈdɪskaʊnt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "money doesn't grow on trees",
-              "ko": "돈이 그냥 생기는 게 아니다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "is offered",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0219",
@@ -4645,10 +4645,16 @@
             "category": "shopping",
             "level": "basic",
             "ipa": "bæɡ",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "Put",
+                "title": "명령문",
+                "desc": "주어 없이 동사원형으로 시작해서 지시나 권유를 나타내요."
+              }
+            ],
             "idiom": {
-              "en": "worth every penny",
-              "ko": "그만한 가치가 있는"
+              "en": "in the bag",
+              "ko": "성사된 것이나 다름없는"
             }
           },
           {
@@ -4667,8 +4673,8 @@
             "ipa": "kɑːrt",
             "grammar_tips": [],
             "idiom": {
-              "en": "buy one get one free",
-              "ko": "하나 사면 하나 무료"
+              "en": "put the cart before the horse",
+              "ko": "순서가 뒤바뀌다"
             }
           }
         ],
@@ -4678,8 +4684,8 @@
             "en": "budget",
             "ko": "예산",
             "pron": "버짓",
-            "example_en": "We have a small budget for shopping.",
-            "example_ko": "우리는 쇼핑 예산이 적다.",
+            "example_en": "We have set a small budget for shopping.",
+            "example_ko": "우리는 쇼핑을 위해 적은 예산을 정해뒀다.",
             "related": {
               "en": "cost",
               "ko": "비용"
@@ -4687,11 +4693,14 @@
             "category": "shopping",
             "level": "intermediate",
             "ipa": "ˈbʌdʒɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "window shopping",
-              "ko": "아이쇼핑"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have set",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0222",
@@ -4708,10 +4717,7 @@
             "level": "intermediate",
             "ipa": "ˈriːfʌnd",
             "grammar_tips": [],
-            "idiom": {
-              "en": "cost an arm and a leg",
-              "ko": "매우 비싸다"
-            }
+            "idiom": null
           },
           {
             "id": "w0223",
@@ -4734,18 +4740,15 @@
                 "desc": "can은 '~할 수 있다' 또는 상대방에게 부탁할 때도 써요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "bang for your buck",
-              "ko": "돈값을 하는"
-            }
+            "idiom": null
           },
           {
             "id": "w0224",
             "en": "warranty",
             "ko": "보증, 보증서",
             "pron": "워런티",
-            "example_en": "This product has a two year warranty.",
-            "example_ko": "이 제품은 2년 보증이다.",
+            "example_en": "This product has a warranty that lasts two years.",
+            "example_ko": "이 제품은 2년간 유지되는 보증이 있다.",
             "related": {
               "en": "guarantee",
               "ko": "보증"
@@ -4753,11 +4756,14 @@
             "category": "shopping",
             "level": "intermediate",
             "ipa": "ˈwɒrənti",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "in the bag",
-              "ko": "성사된 것이나 다름없는"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that lasts two years",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0225",
@@ -4780,10 +4786,7 @@
                 "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
               }
             ],
-            "idiom": {
-              "en": "break the bank",
-              "ko": "큰돈을 쓰다"
-            }
+            "idiom": null
           },
           {
             "id": "w0226",
@@ -4800,10 +4803,7 @@
             "level": "intermediate",
             "ipa": "ˈmɛmbərʃɪp",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a steal",
-              "ko": "아주 싼 물건"
-            }
+            "idiom": null
           },
           {
             "id": "w0227",
@@ -4820,10 +4820,7 @@
             "level": "intermediate",
             "ipa": "ˈkuːpɒn",
             "grammar_tips": [],
-            "idiom": {
-              "en": "shop till you drop",
-              "ko": "지칠 때까지 쇼핑하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0228",
@@ -4841,8 +4838,8 @@
             "ipa": "ˈbɑːrɡɪn",
             "grammar_tips": [],
             "idiom": {
-              "en": "money doesn't grow on trees",
-              "ko": "돈이 그냥 생기는 게 아니다"
+              "en": "drive a hard bargain",
+              "ko": "자신에게 유리하게 흥정하다"
             }
           },
           {
@@ -4850,8 +4847,8 @@
             "en": "inventory",
             "ko": "재고",
             "pron": "인벤토리",
-            "example_en": "The store checked its inventory.",
-            "example_ko": "상점은 재고를 확인했다.",
+            "example_en": "The inventory was checked by the store.",
+            "example_ko": "재고가 상점에 의해 확인되었다.",
             "related": {
               "en": "stock",
               "ko": "재고"
@@ -4859,11 +4856,14 @@
             "category": "shopping",
             "level": "intermediate",
             "ipa": "ˈɪnvəntɔːri",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "worth every penny",
-              "ko": "그만한 가치가 있는"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "was checked",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0230",
@@ -4881,8 +4881,8 @@
             "ipa": "ˈkʌstəmər",
             "grammar_tips": [],
             "idiom": {
-              "en": "buy one get one free",
-              "ko": "하나 사면 하나 무료"
+              "en": "the customer is always right",
+              "ko": "고객이 항상 옳다"
             }
           }
         ],
@@ -4892,8 +4892,8 @@
             "en": "consumer",
             "ko": "소비자",
             "pron": "컨슈머",
-            "example_en": "Consumers want better quality.",
-            "example_ko": "소비자는 더 나은 품질을 원한다.",
+            "example_en": "Consumers should demand better quality.",
+            "example_ko": "소비자는 더 나은 품질을 요구해야 한다.",
             "related": {
               "en": "buyer",
               "ko": "구매자"
@@ -4901,11 +4901,14 @@
             "category": "shopping",
             "level": "advanced",
             "ipa": "kənˈsuːmər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "window shopping",
-              "ko": "아이쇼핑"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should demand",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0232",
@@ -4922,10 +4925,7 @@
             "level": "advanced",
             "ipa": "ˈriːteɪl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "cost an arm and a leg",
-              "ko": "매우 비싸다"
-            }
+            "idiom": null
           },
           {
             "id": "w0233",
@@ -4942,10 +4942,7 @@
             "level": "advanced",
             "ipa": "ˈmɜːrtʃəndaɪz",
             "grammar_tips": [],
-            "idiom": {
-              "en": "bang for your buck",
-              "ko": "돈값을 하는"
-            }
+            "idiom": null
           },
           {
             "id": "w0234",
@@ -4968,18 +4965,15 @@
                 "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
               }
             ],
-            "idiom": {
-              "en": "in the bag",
-              "ko": "성사된 것이나 다름없는"
-            }
+            "idiom": null
           },
           {
             "id": "w0235",
             "en": "installment",
             "ko": "할부",
             "pron": "인스톨먼트",
-            "example_en": "I paid for it in installments.",
-            "example_ko": "나는 그것을 할부로 지불했다.",
+            "example_en": "I have paid for it in installments.",
+            "example_ko": "나는 그것을 할부로 지불해왔다.",
             "related": {
               "en": "payment",
               "ko": "지불"
@@ -4987,11 +4981,14 @@
             "category": "shopping",
             "level": "advanced",
             "ipa": "ɪnˈstɔːlmənt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "break the bank",
-              "ko": "큰돈을 쓰다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have paid",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0236",
@@ -5008,10 +5005,7 @@
             "level": "advanced",
             "ipa": "ˈhoʊlseɪl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a steal",
-              "ko": "아주 싼 물건"
-            }
+            "idiom": null
           },
           {
             "id": "w0237",
@@ -5034,10 +5028,7 @@
                 "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
               }
             ],
-            "idiom": {
-              "en": "shop till you drop",
-              "ko": "지칠 때까지 쇼핑하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0238",
@@ -5054,10 +5045,7 @@
             "level": "advanced",
             "ipa": "ˈlɔɪəlti",
             "grammar_tips": [],
-            "idiom": {
-              "en": "money doesn't grow on trees",
-              "ko": "돈이 그냥 생기는 게 아니다"
-            }
+            "idiom": null
           },
           {
             "id": "w0239",
@@ -5074,18 +5062,15 @@
             "level": "advanced",
             "ipa": "ˈɪmpʌls",
             "grammar_tips": [],
-            "idiom": {
-              "en": "worth every penny",
-              "ko": "그만한 가치가 있는"
-            }
+            "idiom": null
           },
           {
             "id": "w0240",
             "en": "sustainable",
             "ko": "지속가능한",
             "pron": "서스테이너블",
-            "example_en": "More people choose sustainable products.",
-            "example_ko": "더 많은 사람들이 지속가능한 제품을 선택한다.",
+            "example_en": "This is the most sustainable option available.",
+            "example_ko": "이것이 가능한 것 중 가장 지속가능한 선택이다.",
             "related": {
               "en": "eco-friendly",
               "ko": "친환경적인"
@@ -5093,11 +5078,14 @@
             "category": "shopping",
             "level": "advanced",
             "ipa": "səˈsteɪnəbəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "buy one get one free",
-              "ko": "하나 사면 하나 무료"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most sustainable",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           }
         ]
       }
@@ -5113,8 +5101,8 @@
             "en": "teacher",
             "ko": "교사",
             "pron": "티처",
-            "example_en": "She is a kind teacher.",
-            "example_ko": "그녀는 친절한 교사이다.",
+            "example_en": "She is the kindest teacher in school.",
+            "example_ko": "그녀는 학교에서 가장 친절한 교사다.",
             "related": {
               "en": "school",
               "ko": "학교"
@@ -5122,11 +5110,14 @@
             "category": "jobs",
             "level": "basic",
             "ipa": "ˈtiːtʃər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "climb the corporate ladder",
-              "ko": "승진하다, 출세하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the kindest",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0242",
@@ -5143,10 +5134,7 @@
             "level": "basic",
             "ipa": "ˈfɑːrmər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "nine-to-five job",
-              "ko": "정규 근무시간의 직장"
-            }
+            "idiom": null
           },
           {
             "id": "w0243",
@@ -5163,18 +5151,15 @@
             "level": "basic",
             "ipa": "ˈwɜːrkər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "burn the midnight oil",
-              "ko": "밤늦게까지 일하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0244",
             "en": "engineer",
             "ko": "기술자, 엔지니어",
             "pron": "엔지니어",
-            "example_en": "He works as an engineer.",
-            "example_ko": "그는 엔지니어로 일한다.",
+            "example_en": "He has worked as an engineer for ten years.",
+            "example_ko": "그는 10년째 엔지니어로 일해왔다.",
             "related": {
               "en": "technology",
               "ko": "기술"
@@ -5182,11 +5167,14 @@
             "category": "jobs",
             "level": "basic",
             "ipa": "ˌɛndʒɪˈnɪər",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "get the ball rolling",
-              "ko": "일을 시작하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has worked",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0245",
@@ -5203,10 +5191,7 @@
             "level": "basic",
             "ipa": "pəˈliːs ˈɒfɪsər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "wear many hats",
-              "ko": "여러 역할을 맡다"
-            }
+            "idiom": null
           },
           {
             "id": "w0246",
@@ -5224,8 +5209,8 @@
             "ipa": "ʃɛf",
             "grammar_tips": [],
             "idiom": {
-              "en": "call it a day",
-              "ko": "하루 일을 마치다"
+              "en": "too many cooks spoil the broth",
+              "ko": "사공이 많으면 배가 산으로 간다"
             }
           },
           {
@@ -5233,8 +5218,8 @@
             "en": "driver",
             "ko": "운전기사",
             "pron": "드라이버",
-            "example_en": "The bus driver was very careful.",
-            "example_ko": "버스 기사는 매우 조심스러웠다.",
+            "example_en": "The bus driver must be very careful.",
+            "example_ko": "버스 기사는 매우 조심해야 한다.",
             "related": {
               "en": "bus",
               "ko": "버스"
@@ -5242,7 +5227,13 @@
             "category": "jobs",
             "level": "basic",
             "ipa": "ˈdraɪvər",
-            "grammar_tips": [],
+            "grammar_tips": [
+              {
+                "phrase": "must be",
+                "title": "조동사 must",
+                "desc": "must는 '반드시 ~해야 한다'는 강한 의무를 나타내요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
             "idiom": {
               "en": "in the driver's seat",
               "ko": "주도권을 쥔"
@@ -5253,8 +5244,8 @@
             "en": "employee",
             "ko": "직원",
             "pron": "임플로이",
-            "example_en": "She is a good employee.",
-            "example_ko": "그녀는 좋은 직원이다.",
+            "example_en": "She is an employee who works very hard.",
+            "example_ko": "그녀는 매우 열심히 일하는 직원이다.",
             "related": {
               "en": "company",
               "ko": "회사"
@@ -5262,11 +5253,14 @@
             "category": "jobs",
             "level": "basic",
             "ipa": "ɪmˈplɔɪiː",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "bring home the bacon",
-              "ko": "생계를 책임지다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "who works very hard",
+                "title": "관계대명사 who",
+                "desc": "사람을 꾸며주는 절을 이끌며, '~하는 사람'이라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0249",
@@ -5284,8 +5278,8 @@
             "ipa": "bɒs",
             "grammar_tips": [],
             "idiom": {
-              "en": "on the same page",
-              "ko": "의견이 일치하는"
+              "en": "be your own boss",
+              "ko": "자기 사업을 하다"
             }
           },
           {
@@ -5293,8 +5287,8 @@
             "en": "salary",
             "ko": "월급, 급여",
             "pron": "샐러리",
-            "example_en": "He receives a monthly salary.",
-            "example_ko": "그는 매달 월급을 받는다.",
+            "example_en": "There is a salary increase every year.",
+            "example_ko": "매년 급여 인상이 있다.",
             "related": {
               "en": "pay",
               "ko": "지불하다"
@@ -5302,11 +5296,14 @@
             "category": "jobs",
             "level": "basic",
             "ipa": "ˈsæləri",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "put in the hours",
-              "ko": "시간을 들여 노력하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "There is",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "intermediate": [
@@ -5315,8 +5312,8 @@
             "en": "profession",
             "ko": "직업, 전문직",
             "pron": "프로페션",
-            "example_en": "Teaching is a respected profession.",
-            "example_ko": "교직은 존경받는 직업이다.",
+            "example_en": "Teaching is one of the most respected professions.",
+            "example_ko": "교직은 가장 존경받는 직업 중 하나다.",
             "related": {
               "en": "career",
               "ko": "경력"
@@ -5324,11 +5321,14 @@
             "category": "jobs",
             "level": "intermediate",
             "ipa": "prəˈfɛʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "climb the corporate ladder",
-              "ko": "승진하다, 출세하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most respected",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0252",
@@ -5345,10 +5345,7 @@
             "level": "intermediate",
             "ipa": "ˈkɒliːɡ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "nine-to-five job",
-              "ko": "정규 근무시간의 직장"
-            }
+            "idiom": null
           },
           {
             "id": "w0253",
@@ -5365,10 +5362,7 @@
             "level": "intermediate",
             "ipa": "prəˈmoʊʃən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "burn the midnight oil",
-              "ko": "밤늦게까지 일하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0254",
@@ -5385,18 +5379,15 @@
             "level": "intermediate",
             "ipa": "ˈrɛzʊmeɪ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get the ball rolling",
-              "ko": "일을 시작하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0255",
             "en": "interview",
             "ko": "면접",
             "pron": "인터뷰",
-            "example_en": "The interview went very well.",
-            "example_ko": "면접이 아주 잘 됐다.",
+            "example_en": "She has prepared a lot for the interview.",
+            "example_ko": "그녀는 면접을 위해 많이 준비해왔다.",
             "related": {
               "en": "apply",
               "ko": "지원하다"
@@ -5404,11 +5395,14 @@
             "category": "jobs",
             "level": "intermediate",
             "ipa": "ˈɪntərvjuː",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "wear many hats",
-              "ko": "여러 역할을 맡다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has prepared",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0256",
@@ -5431,10 +5425,7 @@
                 "desc": "must는 '반드시 ~해야 한다'는 강한 의무를 나타내요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "call it a day",
-              "ko": "하루 일을 마치다"
-            }
+            "idiom": null
           },
           {
             "id": "w0257",
@@ -5451,18 +5442,15 @@
             "level": "intermediate",
             "ipa": "ˈwɜːrkpleɪs",
             "grammar_tips": [],
-            "idiom": {
-              "en": "in the driver's seat",
-              "ko": "주도권을 쥔"
-            }
+            "idiom": null
           },
           {
             "id": "w0258",
             "en": "negotiation",
             "ko": "협상",
             "pron": "니고시에이션",
-            "example_en": "The negotiation took a long time.",
-            "example_ko": "그 협상은 시간이 오래 걸렸다.",
+            "example_en": "This negotiation took longer than the last one.",
+            "example_ko": "이번 협상은 지난번보다 더 오래 걸렸다.",
             "related": {
               "en": "discuss",
               "ko": "논의하다"
@@ -5470,11 +5458,14 @@
             "category": "jobs",
             "level": "intermediate",
             "ipa": "nɪˌɡoʊʃiˈeɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "bring home the bacon",
-              "ko": "생계를 책임지다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "longer than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0259",
@@ -5491,18 +5482,15 @@
             "level": "intermediate",
             "ipa": "ˈkɒntrækt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "on the same page",
-              "ko": "의견이 일치하는"
-            }
+            "idiom": null
           },
           {
             "id": "w0260",
             "en": "overtime",
             "ko": "초과 근무, 야근",
             "pron": "오버타임",
-            "example_en": "He worked overtime last night.",
-            "example_ko": "그는 어젯밤 야근을 했다.",
+            "example_en": "If you work overtime, you get extra pay.",
+            "example_ko": "야근을 하면 추가 수당을 받는다.",
             "related": {
               "en": "extra work",
               "ko": "추가 근무"
@@ -5510,11 +5498,14 @@
             "category": "jobs",
             "level": "intermediate",
             "ipa": "ˈoʊvərtaɪm",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "put in the hours",
-              "ko": "시간을 들여 노력하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "If you work overtime",
+                "title": "조건문 (If ~)",
+                "desc": "If절은 조건을 나타내고, 그 조건이 이루어지면 결과가 일어난다는 뜻이에요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "advanced": [
@@ -5523,8 +5514,8 @@
             "en": "entrepreneur",
             "ko": "기업가, 사업가",
             "pron": "앙트러프러너",
-            "example_en": "She became a successful entrepreneur.",
-            "example_ko": "그녀는 성공한 사업가가 되었다.",
+            "example_en": "She has become a successful entrepreneur.",
+            "example_ko": "그녀는 성공한 사업가가 되어왔다.",
             "related": {
               "en": "business owner",
               "ko": "사업주"
@@ -5532,11 +5523,14 @@
             "category": "jobs",
             "level": "advanced",
             "ipa": "ˌɒntrəprəˈnɜːr",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "climb the corporate ladder",
-              "ko": "승진하다, 출세하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has become",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0262",
@@ -5553,10 +5547,7 @@
             "level": "advanced",
             "ipa": "ˌɛkspɜːrˈtiːz",
             "grammar_tips": [],
-            "idiom": {
-              "en": "nine-to-five job",
-              "ko": "정규 근무시간의 직장"
-            }
+            "idiom": null
           },
           {
             "id": "w0263",
@@ -5573,10 +5564,7 @@
             "level": "advanced",
             "ipa": "ˌɒkjʊˈpeɪʃən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "burn the midnight oil",
-              "ko": "밤늦게까지 일하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0264",
@@ -5593,18 +5581,15 @@
             "level": "advanced",
             "ipa": "ˈvɜːrsətaɪl",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get the ball rolling",
-              "ko": "일을 시작하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0265",
             "en": "proficient",
             "ko": "능숙한, 숙달된",
             "pron": "프로피션트",
-            "example_en": "He is proficient in English.",
-            "example_ko": "그는 영어에 능숙하다.",
+            "example_en": "He is more proficient in English than before.",
+            "example_ko": "그는 예전보다 영어에 더 능숙하다.",
             "related": {
               "en": "skilled",
               "ko": "숙련된"
@@ -5612,11 +5597,14 @@
             "category": "jobs",
             "level": "advanced",
             "ipa": "prəˈfɪʃənt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "wear many hats",
-              "ko": "여러 역할을 맡다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "more proficient in English than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0266",
@@ -5634,8 +5622,8 @@
             "ipa": "ɪˈnɪʃətɪv",
             "grammar_tips": [],
             "idiom": {
-              "en": "call it a day",
-              "ko": "하루 일을 마치다"
+              "en": "take the initiative",
+              "ko": "주도적으로 나서다"
             }
           },
           {
@@ -5653,18 +5641,15 @@
             "level": "advanced",
             "ipa": "əˌkaʊntəˈbɪlɪti",
             "grammar_tips": [],
-            "idiom": {
-              "en": "in the driver's seat",
-              "ko": "주도권을 쥔"
-            }
+            "idiom": null
           },
           {
             "id": "w0268",
             "en": "collaboration",
             "ko": "협업, 협력",
             "pron": "컬래버레이션",
-            "example_en": "The project needed strong collaboration.",
-            "example_ko": "그 프로젝트는 강력한 협업이 필요했다.",
+            "example_en": "Strong collaboration is needed for the project.",
+            "example_ko": "그 프로젝트에는 강력한 협업이 필요하다.",
             "related": {
               "en": "teamwork",
               "ko": "팀워크"
@@ -5672,19 +5657,22 @@
             "category": "jobs",
             "level": "advanced",
             "ipa": "kəˌlæbəˈreɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "bring home the bacon",
-              "ko": "생계를 책임지다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "is needed",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0269",
             "en": "leadership",
             "ko": "리더십",
             "pron": "리더십",
-            "example_en": "Good leadership motivates the team.",
-            "example_ko": "좋은 리더십은 팀에 동기를 부여한다.",
+            "example_en": "Good leadership is the most important skill here.",
+            "example_ko": "좋은 리더십이 여기서 가장 중요한 능력이다.",
             "related": {
               "en": "guidance",
               "ko": "지도, 안내"
@@ -5692,19 +5680,22 @@
             "category": "jobs",
             "level": "advanced",
             "ipa": "ˈliːdərʃɪp",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "on the same page",
-              "ko": "의견이 일치하는"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most important",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0270",
             "en": "work-life balance",
             "ko": "일과 삶의 균형",
             "pron": "워크라이프 밸런스",
-            "example_en": "She values work-life balance.",
-            "example_ko": "그녀는 일과 삶의 균형을 중요시한다.",
+            "example_en": "Everyone should value work-life balance.",
+            "example_ko": "모두가 일과 삶의 균형을 중요시해야 한다.",
             "related": {
               "en": "balance",
               "ko": "균형"
@@ -5712,11 +5703,14 @@
             "category": "jobs",
             "level": "advanced",
             "ipa": "ˈwɜːrk laɪf ˈbæləns",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "put in the hours",
-              "ko": "시간을 들여 노력하다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should value",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           }
         ]
       }
@@ -5743,8 +5737,8 @@
             "ipa": "ˈhæpi",
             "grammar_tips": [],
             "idiom": {
-              "en": "over the moon",
-              "ko": "매우 기쁜"
+              "en": "happy as a clam",
+              "ko": "아주 행복한"
             }
           },
           {
@@ -5762,10 +5756,7 @@
             "level": "basic",
             "ipa": "sæd",
             "grammar_tips": [],
-            "idiom": {
-              "en": "down in the dumps",
-              "ko": "우울한"
-            }
+            "idiom": null
           },
           {
             "id": "w0273",
@@ -5782,10 +5773,7 @@
             "level": "basic",
             "ipa": "ˈæŋɡri",
             "grammar_tips": [],
-            "idiom": {
-              "en": "butterflies in your stomach",
-              "ko": "긴장되어 속이 울렁거리다"
-            }
+            "idiom": null
           },
           {
             "id": "w0274",
@@ -5803,8 +5791,8 @@
             "ipa": "ˈtaɪərd",
             "grammar_tips": [],
             "idiom": {
-              "en": "at the end of your rope",
-              "ko": "인내심이 바닥난"
+              "en": "sick and tired of",
+              "ko": "지긋지긋한"
             }
           },
           {
@@ -5829,8 +5817,8 @@
               }
             ],
             "idiom": {
-              "en": "keep a stiff upper lip",
-              "ko": "감정을 억누르고 침착하게 있다"
+              "en": "scared stiff",
+              "ko": "몹시 겁먹은"
             }
           },
           {
@@ -5854,10 +5842,7 @@
                 "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
               }
             ],
-            "idiom": {
-              "en": "wear your heart on your sleeve",
-              "ko": "감정을 숨기지 않다"
-            }
+            "idiom": null
           },
           {
             "id": "w0277",
@@ -5880,10 +5865,7 @@
                 "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
               }
             ],
-            "idiom": {
-              "en": "a heavy heart",
-              "ko": "슬픈 마음"
-            }
+            "idiom": null
           },
           {
             "id": "w0278",
@@ -5906,10 +5888,7 @@
                 "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
               }
             ],
-            "idiom": {
-              "en": "walking on air",
-              "ko": "날아갈듯이 기쁜"
-            }
+            "idiom": null
           },
           {
             "id": "w0279",
@@ -5932,10 +5911,7 @@
                 "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
               }
             ],
-            "idiom": {
-              "en": "bite your tongue",
-              "ko": "하고 싶은 말을 참다"
-            }
+            "idiom": null
           },
           {
             "id": "w0280",
@@ -5953,8 +5929,8 @@
             "ipa": "praʊd",
             "grammar_tips": [],
             "idiom": {
-              "en": "on cloud nine",
-              "ko": "매우 행복한"
+              "en": "proud as a peacock",
+              "ko": "매우 자랑스러워하는"
             }
           }
         ],
@@ -5975,8 +5951,8 @@
             "ipa": "ˈnɜːrvəs",
             "grammar_tips": [],
             "idiom": {
-              "en": "over the moon",
-              "ko": "매우 기쁜"
+              "en": "a bundle of nerves",
+              "ko": "잔뜩 긴장한"
             }
           },
           {
@@ -5995,8 +5971,8 @@
             "ipa": "ˈdʒɛləs",
             "grammar_tips": [],
             "idiom": {
-              "en": "down in the dumps",
-              "ko": "우울한"
+              "en": "green with envy",
+              "ko": "몹시 부러워하는, 질투하는"
             }
           },
           {
@@ -6004,8 +5980,8 @@
             "en": "grateful",
             "ko": "감사하는",
             "pron": "그레이트풀",
-            "example_en": "I am grateful for your help.",
-            "example_ko": "도와주셔서 감사합니다.",
+            "example_en": "I have always been grateful for your help.",
+            "example_ko": "저는 당신의 도움에 항상 감사해왔어요.",
             "related": {
               "en": "thankful",
               "ko": "감사하는"
@@ -6013,11 +5989,14 @@
             "category": "emotions",
             "level": "intermediate",
             "ipa": "ˈɡreɪtfəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "butterflies in your stomach",
-              "ko": "긴장되어 속이 울렁거리다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have always been",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0284",
@@ -6040,18 +6019,15 @@
                 "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
               }
             ],
-            "idiom": {
-              "en": "at the end of your rope",
-              "ko": "인내심이 바닥난"
-            }
+            "idiom": null
           },
           {
             "id": "w0285",
             "en": "confident",
             "ko": "자신감 있는",
             "pron": "컨피던트",
-            "example_en": "She spoke with confidence.",
-            "example_ko": "그녀는 자신감 있게 말했다.",
+            "example_en": "She feels more confident than before.",
+            "example_ko": "그녀는 예전보다 더 자신감을 느낀다.",
             "related": {
               "en": "sure",
               "ko": "확신하는"
@@ -6059,11 +6035,14 @@
             "category": "emotions",
             "level": "intermediate",
             "ipa": "ˈkɒnfɪdənt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "keep a stiff upper lip",
-              "ko": "감정을 억누르고 침착하게 있다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "more confident than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0286",
@@ -6086,10 +6065,7 @@
                 "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
               }
             ],
-            "idiom": {
-              "en": "wear your heart on your sleeve",
-              "ko": "감정을 숨기지 않다"
-            }
+            "idiom": null
           },
           {
             "id": "w0287",
@@ -6106,10 +6082,7 @@
             "level": "intermediate",
             "ipa": "rɪˈliːvd",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a heavy heart",
-              "ko": "슬픈 마음"
-            }
+            "idiom": null
           },
           {
             "id": "w0288",
@@ -6126,10 +6099,7 @@
             "level": "intermediate",
             "ipa": "ˈæŋkʃəs",
             "grammar_tips": [],
-            "idiom": {
-              "en": "walking on air",
-              "ko": "날아갈듯이 기쁜"
-            }
+            "idiom": null
           },
           {
             "id": "w0289",
@@ -6146,18 +6116,15 @@
             "level": "intermediate",
             "ipa": "kənˈtɛnt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "bite your tongue",
-              "ko": "하고 싶은 말을 참다"
-            }
+            "idiom": null
           },
           {
             "id": "w0290",
             "en": "hopeful",
             "ko": "희망적인",
             "pron": "호프풀",
-            "example_en": "We remain hopeful about the future.",
-            "example_ko": "우리는 미래에 대해 희망적이다.",
+            "example_en": "We should stay hopeful about the future.",
+            "example_ko": "우리는 미래에 대해 희망적이어야 한다.",
             "related": {
               "en": "optimistic",
               "ko": "낙관적인"
@@ -6165,11 +6132,14 @@
             "category": "emotions",
             "level": "intermediate",
             "ipa": "ˈhoʊpfəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "on cloud nine",
-              "ko": "매우 행복한"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should stay",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           }
         ],
         "advanced": [
@@ -6178,8 +6148,8 @@
             "en": "melancholy",
             "ko": "우울, 서글픔",
             "pron": "멜랑콜리",
-            "example_en": "A sense of melancholy filled the room.",
-            "example_ko": "방 안에 우울함이 가득했다.",
+            "example_en": "There was a sense of melancholy in the room.",
+            "example_ko": "방 안에 우울함이 감돌았다.",
             "related": {
               "en": "sadness",
               "ko": "슬픔"
@@ -6187,11 +6157,14 @@
             "category": "emotions",
             "level": "advanced",
             "ipa": "ˈmɛlənkɒli",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "over the moon",
-              "ko": "매우 기쁜"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "There was",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0292",
@@ -6208,10 +6181,7 @@
             "level": "advanced",
             "ipa": "juːˈfɔːriə",
             "grammar_tips": [],
-            "idiom": {
-              "en": "down in the dumps",
-              "ko": "우울한"
-            }
+            "idiom": null
           },
           {
             "id": "w0293",
@@ -6228,10 +6198,7 @@
             "level": "advanced",
             "ipa": "ˌɛmpəˈθɛtɪk",
             "grammar_tips": [],
-            "idiom": {
-              "en": "butterflies in your stomach",
-              "ko": "긴장되어 속이 울렁거리다"
-            }
+            "idiom": null
           },
           {
             "id": "w0294",
@@ -6249,8 +6216,8 @@
             "ipa": "ˌoʊvərˈwɛlmd",
             "grammar_tips": [],
             "idiom": {
-              "en": "at the end of your rope",
-              "ko": "인내심이 바닥난"
+              "en": "in over your head",
+              "ko": "감당 못할 상황에 빠진"
             }
           },
           {
@@ -6258,8 +6225,8 @@
             "en": "nostalgic",
             "ko": "향수를 느끼는",
             "pron": "노스탤직",
-            "example_en": "He felt nostalgic looking at old photos.",
-            "example_ko": "그는 옛 사진을 보며 향수를 느꼈다.",
+            "example_en": "He has felt nostalgic since he saw the photos.",
+            "example_ko": "그는 사진을 본 이후로 계속 향수를 느껴왔다.",
             "related": {
               "en": "sentimental",
               "ko": "감상적인"
@@ -6267,11 +6234,14 @@
             "category": "emotions",
             "level": "advanced",
             "ipa": "nɒˈstældʒɪk",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "keep a stiff upper lip",
-              "ko": "감정을 억누르고 침착하게 있다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "has felt",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0296",
@@ -6288,18 +6258,15 @@
             "level": "advanced",
             "ipa": "ˌæprɪˈhɛnsɪv",
             "grammar_tips": [],
-            "idiom": {
-              "en": "wear your heart on your sleeve",
-              "ko": "감정을 숨기지 않다"
-            }
+            "idiom": null
           },
           {
             "id": "w0297",
             "en": "exhilarated",
             "ko": "들뜬, 짜릿한",
             "pron": "이그질러레이티드",
-            "example_en": "He felt exhilarated after the race.",
-            "example_ko": "그는 경주 후 들떴다.",
+            "example_en": "It was a race that left him exhilarated.",
+            "example_ko": "그를 들뜨게 만든 경주였다.",
             "related": {
               "en": "thrilled",
               "ko": "짜릿한"
@@ -6307,19 +6274,22 @@
             "category": "emotions",
             "level": "advanced",
             "ipa": "ɪɡˈzɪləreɪtɪd",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "a heavy heart",
-              "ko": "슬픈 마음"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that left him exhilarated",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0298",
             "en": "vulnerable",
             "ko": "취약한, 상처받기 쉬운",
             "pron": "벌너러블",
-            "example_en": "She felt vulnerable after sharing her feelings.",
-            "example_ko": "그녀는 감정을 나눈 후 취약함을 느꼈다.",
+            "example_en": "She felt more vulnerable than usual.",
+            "example_ko": "그녀는 평소보다 더 취약함을 느꼈다.",
             "related": {
               "en": "fragile",
               "ko": "연약한"
@@ -6327,11 +6297,14 @@
             "category": "emotions",
             "level": "advanced",
             "ipa": "ˈvʌlnərəbəl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "walking on air",
-              "ko": "날아갈듯이 기쁜"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "more vulnerable than",
+                "title": "비교급 (-er than / more ~ than)",
+                "desc": "두 대상을 비교할 때 형용사에 -er을 붙이거나 more를 붙이고 than을 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0299",
@@ -6348,18 +6321,15 @@
             "level": "advanced",
             "ipa": "æmˈbɪvələnt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "bite your tongue",
-              "ko": "하고 싶은 말을 참다"
-            }
+            "idiom": null
           },
           {
             "id": "w0300",
             "en": "serene",
             "ko": "평온한, 고요한",
             "pron": "서린",
-            "example_en": "The lake looked serene at sunset.",
-            "example_ko": "그 호수는 석양에 평온해 보였다.",
+            "example_en": "This is the most serene lake I've seen.",
+            "example_ko": "이곳은 내가 본 것 중 가장 평온한 호수다.",
             "related": {
               "en": "peaceful",
               "ko": "평화로운"
@@ -6367,11 +6337,14 @@
             "category": "emotions",
             "level": "advanced",
             "ipa": "səˈriːn",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "on cloud nine",
-              "ko": "매우 행복한"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "the most serene",
+                "title": "최상급 (the -est / the most)",
+                "desc": "여러 대상 중 하나가 가장 ~하다고 할 때 써요. 형용사 앞에 the를 붙입니다."
+              }
+            ],
+            "idiom": null
           }
         ]
       }
@@ -6397,10 +6370,7 @@
             "level": "basic",
             "ipa": "həˈloʊ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "break the ice",
-              "ko": "어색한 분위기를 깨다"
-            }
+            "idiom": null
           },
           {
             "id": "w0302",
@@ -6417,18 +6387,15 @@
             "level": "basic",
             "ipa": "ˈθæŋk juː",
             "grammar_tips": [],
-            "idiom": {
-              "en": "long time no see",
-              "ko": "오랜만이야"
-            }
+            "idiom": null
           },
           {
             "id": "w0303",
             "en": "sorry",
             "ko": "미안합니다, 죄송합니다",
             "pron": "쏘리",
-            "example_en": "I'm sorry for being late.",
-            "example_ko": "늦어서 죄송합니다.",
+            "example_en": "I have already said I'm sorry.",
+            "example_ko": "나는 이미 미안하다고 말했다.",
             "related": {
               "en": "apology",
               "ko": "사과"
@@ -6436,11 +6403,14 @@
             "category": "daily_talk",
             "level": "basic",
             "ipa": "ˈsɒri",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "keep in touch",
-              "ko": "계속 연락하고 지내다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have already said",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0304",
@@ -6456,11 +6426,14 @@
             "category": "daily_talk",
             "level": "basic",
             "ipa": "pliːz",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "speak of the devil",
-              "ko": "호랑이도 제 말하면 온다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "Please",
+                "title": "명령문",
+                "desc": "주어 없이 동사원형으로 시작해서 지시나 권유를 나타내요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0305",
@@ -6477,10 +6450,7 @@
             "level": "basic",
             "ipa": "jɛs",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get to the point",
-              "ko": "요점을 말하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0306",
@@ -6497,18 +6467,15 @@
             "level": "basic",
             "ipa": "noʊ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "beat around the bush",
-              "ko": "말을 빙빙 돌리다"
-            }
+            "idiom": null
           },
           {
             "id": "w0307",
             "en": "goodbye",
             "ko": "안녕히 가세요",
             "pron": "굿바이",
-            "example_en": "Goodbye, see you tomorrow.",
-            "example_ko": "안녕히 가세요, 내일 봬요.",
+            "example_en": "If it's time to go, let's say goodbye.",
+            "example_ko": "갈 시간이 되면 작별인사를 하자.",
             "related": {
               "en": "bye",
               "ko": "안녕(작별)"
@@ -6516,19 +6483,22 @@
             "category": "daily_talk",
             "level": "basic",
             "ipa": "ˌɡʊdˈbaɪ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "give someone the benefit of the doubt",
-              "ko": "일단 믿어주다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "If it's time to go",
+                "title": "조건문 (If ~)",
+                "desc": "If절은 조건을 나타내고, 그 조건이 이루어지면 결과가 일어난다는 뜻이에요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0308",
             "en": "excuse me",
             "ko": "실례합니다",
             "pron": "익스큐즈 미",
-            "example_en": "Excuse me, where is the station?",
-            "example_ko": "실례합니다, 역이 어디인가요?",
+            "example_en": "Excuse me, could you help me?",
+            "example_ko": "실례합니다, 도와주시겠어요?",
             "related": {
               "en": "pardon",
               "ko": "용서하다, 실례합니다"
@@ -6536,11 +6506,14 @@
             "category": "daily_talk",
             "level": "basic",
             "ipa": "ɪkˈskjuːz miː",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "read between the lines",
-              "ko": "행간을 읽다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "could you help me",
+                "title": "조동사 could",
+                "desc": "could는 can보다 더 정중하게 부탁할 때 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0309",
@@ -6558,8 +6531,8 @@
             "ipa": "ˈwɛlkəm",
             "grammar_tips": [],
             "idiom": {
-              "en": "a piece of my mind",
-              "ko": "따끔한 말 한마디"
+              "en": "welcome aboard",
+              "ko": "함께하게 된 걸 환영해"
             }
           },
           {
@@ -6567,8 +6540,8 @@
             "en": "okay",
             "ko": "좋아요, 알겠어요",
             "pron": "오케이",
-            "example_en": "Okay, let's go.",
-            "example_ko": "좋아요, 갑시다.",
+            "example_en": "Is it okay if I sit here?",
+            "example_ko": "여기 앉아도 될까요?",
             "related": {
               "en": "alright",
               "ko": "괜찮은"
@@ -6576,11 +6549,14 @@
             "category": "daily_talk",
             "level": "basic",
             "ipa": "ˌoʊˈkeɪ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "small talk",
-              "ko": "가벼운 잡담"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "Is it okay",
+                "title": "의문문",
+                "desc": "궁금한 것을 물어볼 때 쓰는 문장이에요. 조동사나 be동사가 문장 맨 앞에 와요."
+              }
+            ],
+            "idiom": null
           }
         ],
         "intermediate": [
@@ -6606,8 +6582,8 @@
               }
             ],
             "idiom": {
-              "en": "break the ice",
-              "ko": "어색한 분위기를 깨다"
+              "en": "return the favor",
+              "ko": "은혜를 갚다"
             }
           },
           {
@@ -6625,10 +6601,7 @@
             "level": "intermediate",
             "ipa": "səˈdʒɛstʃən",
             "grammar_tips": [],
-            "idiom": {
-              "en": "long time no see",
-              "ko": "오랜만이야"
-            }
+            "idiom": null
           },
           {
             "id": "w0313",
@@ -6644,18 +6617,21 @@
             "category": "daily_talk",
             "level": "intermediate",
             "ipa": "əˈpɪnjən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "keep in touch",
-              "ko": "계속 연락하고 지내다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "What is",
+                "title": "의문사 의문문",
+                "desc": "what으로 시작하는 의문문은 구체적인 정보를 물어볼 때 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0314",
             "en": "agreement",
             "ko": "동의, 합의",
             "pron": "어그리먼트",
-            "example_en": "We reached an agreement.",
+            "example_en": "We have reached an agreement.",
             "example_ko": "우리는 합의에 도달했다.",
             "related": {
               "en": "consent",
@@ -6664,11 +6640,14 @@
             "category": "daily_talk",
             "level": "intermediate",
             "ipa": "əˈɡriːmənt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "speak of the devil",
-              "ko": "호랑이도 제 말하면 온다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have reached",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0315",
@@ -6685,10 +6664,7 @@
             "level": "intermediate",
             "ipa": "əˈpɒlədʒi",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get to the point",
-              "ko": "요점을 말하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0316",
@@ -6706,8 +6682,8 @@
             "ipa": "ˈkɒmplɪmənt",
             "grammar_tips": [],
             "idiom": {
-              "en": "beat around the bush",
-              "ko": "말을 빙빙 돌리다"
+              "en": "fish for compliments",
+              "ko": "칭찬을 유도하다"
             }
           },
           {
@@ -6715,8 +6691,8 @@
             "en": "invitation",
             "ko": "초대",
             "pron": "인비테이션",
-            "example_en": "We received an invitation to the party.",
-            "example_ko": "우리는 파티 초대장을 받았다.",
+            "example_en": "An invitation was sent to everyone.",
+            "example_ko": "모두에게 초대장이 발송되었다.",
             "related": {
               "en": "invite",
               "ko": "초대하다"
@@ -6724,11 +6700,14 @@
             "category": "daily_talk",
             "level": "intermediate",
             "ipa": "ˌɪnvɪˈteɪʃən",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "give someone the benefit of the doubt",
-              "ko": "일단 믿어주다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "was sent",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0318",
@@ -6745,18 +6724,15 @@
             "level": "intermediate",
             "ipa": "rɪˈmaɪndər",
             "grammar_tips": [],
-            "idiom": {
-              "en": "read between the lines",
-              "ko": "행간을 읽다"
-            }
+            "idiom": null
           },
           {
             "id": "w0319",
             "en": "request",
             "ko": "요청",
             "pron": "리퀘스트",
-            "example_en": "She made a simple request.",
-            "example_ko": "그녀는 간단한 요청을 했다.",
+            "example_en": "She made a request that surprised everyone.",
+            "example_ko": "그녀는 모두를 놀라게 한 요청을 했다.",
             "related": {
               "en": "ask",
               "ko": "요청하다"
@@ -6764,11 +6740,14 @@
             "category": "daily_talk",
             "level": "intermediate",
             "ipa": "rɪˈkwɛst",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "a piece of my mind",
-              "ko": "따끔한 말 한마디"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "that surprised everyone",
+                "title": "관계대명사 that",
+                "desc": "사람과 사물 모두를 꾸며줄 수 있는 관계대명사예요. who/which 대신 쓸 수 있어요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0320",
@@ -6785,10 +6764,7 @@
             "level": "intermediate",
             "ipa": "rɪˈspɒns",
             "grammar_tips": [],
-            "idiom": {
-              "en": "small talk",
-              "ko": "가벼운 잡담"
-            }
+            "idiom": null
           }
         ],
         "advanced": [
@@ -6813,10 +6789,7 @@
                 "desc": "could는 can보다 더 정중하게 부탁할 때 써요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "break the ice",
-              "ko": "어색한 분위기를 깨다"
-            }
+            "idiom": null
           },
           {
             "id": "w0322",
@@ -6833,18 +6806,15 @@
             "level": "advanced",
             "ipa": "ˈklærɪfaɪ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "long time no see",
-              "ko": "오랜만이야"
-            }
+            "idiom": null
           },
           {
             "id": "w0323",
             "en": "negotiate",
             "ko": "협상하다",
             "pron": "니고시에이트",
-            "example_en": "They negotiated a better price.",
-            "example_ko": "그들은 더 나은 가격을 협상했다.",
+            "example_en": "They have negotiated a better price.",
+            "example_ko": "그들은 더 나은 가격을 협상해왔다.",
             "related": {
               "en": "bargain",
               "ko": "흥정, 싸게 산 물건"
@@ -6852,11 +6822,14 @@
             "category": "daily_talk",
             "level": "advanced",
             "ipa": "nɪˈɡoʊʃieɪt",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "keep in touch",
-              "ko": "계속 연락하고 지내다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "have negotiated",
+                "title": "현재완료 (have + p.p.)",
+                "desc": "과거에 시작된 일이 현재까지 이어지거나 방금 끝났다는 걸 나타내요. have/has + 과거분사 형태로 써요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0324",
@@ -6873,10 +6846,7 @@
             "level": "advanced",
             "ipa": "ˈɛmpəθaɪz",
             "grammar_tips": [],
-            "idiom": {
-              "en": "speak of the devil",
-              "ko": "호랑이도 제 말하면 온다"
-            }
+            "idiom": null
           },
           {
             "id": "w0325",
@@ -6893,17 +6863,14 @@
             "level": "advanced",
             "ipa": "ɑːrˈtɪkjəleɪt",
             "grammar_tips": [],
-            "idiom": {
-              "en": "get to the point",
-              "ko": "요점을 말하다"
-            }
+            "idiom": null
           },
           {
             "id": "w0326",
             "en": "reconcile",
             "ko": "화해하다",
             "pron": "레컨사일",
-            "example_en": "They reconciled after the argument.",
+            "example_en": "They were reconciled after the argument.",
             "example_ko": "그들은 다툼 후 화해했다.",
             "related": {
               "en": "make up",
@@ -6912,19 +6879,22 @@
             "category": "daily_talk",
             "level": "advanced",
             "ipa": "ˈrɛkənsaɪl",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "beat around the bush",
-              "ko": "말을 빙빙 돌리다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "were reconciled",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0327",
             "en": "acknowledge",
             "ko": "인정하다",
             "pron": "어크날리지",
-            "example_en": "He acknowledged his mistake.",
-            "example_ko": "그는 자신의 실수를 인정했다.",
+            "example_en": "He should acknowledge his mistake.",
+            "example_ko": "그는 자신의 실수를 인정해야 한다.",
             "related": {
               "en": "admit",
               "ko": "인정하다"
@@ -6932,11 +6902,14 @@
             "category": "daily_talk",
             "level": "advanced",
             "ipa": "əkˈnɒlɪdʒ",
-            "grammar_tips": [],
-            "idiom": {
-              "en": "give someone the benefit of the doubt",
-              "ko": "일단 믿어주다"
-            }
+            "grammar_tips": [
+              {
+                "phrase": "should acknowledge",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": null
           },
           {
             "id": "w0328",
@@ -6959,10 +6932,7 @@
                 "desc": "can은 '~할 수 있다' 또는 상대방에게 부탁할 때도 써요. 뒤에는 항상 동사원형이 옵니다."
               }
             ],
-            "idiom": {
-              "en": "read between the lines",
-              "ko": "행간을 읽다"
-            }
+            "idiom": null
           },
           {
             "id": "w0329",
@@ -6979,10 +6949,7 @@
             "level": "advanced",
             "ipa": "daɪˈɡrɛs",
             "grammar_tips": [],
-            "idiom": {
-              "en": "a piece of my mind",
-              "ko": "따끔한 말 한마디"
-            }
+            "idiom": null
           },
           {
             "id": "w0330",
@@ -6999,10 +6966,7 @@
             "level": "advanced",
             "ipa": "kənˈveɪ",
             "grammar_tips": [],
-            "idiom": {
-              "en": "small talk",
-              "ko": "가벼운 잡담"
-            }
+            "idiom": null
           }
         ]
       }
