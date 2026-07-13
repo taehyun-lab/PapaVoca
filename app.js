@@ -29,7 +29,7 @@ let ALL_WORDS = {};       // id -> word
 let CATS = [];            // 카테고리 목록
 let ORDERED = {basic:[], intermediate:[], advanced:[]}; // 레벨별 라운드로빈 id 순서
 
-let settings = LS.get(KEYS.settings, {level:'basic', fontScale:'normal', rate:0.85, voiceURI:null, koVoiceURI:null});
+let settings = LS.get(KEYS.settings, {level:'basic', rate:0.85, voiceURI:null, koVoiceURI:null});
 let learned = new Set(LS.get(KEYS.learned, []));
 let favs = new Set(LS.get(KEYS.fav, []));
 let wrongs = LS.get(KEYS.wrong, []); // 배열(순서 유지)
@@ -68,6 +68,9 @@ function dueWords(){
   const now = Date.now();
   return [...learned].filter(id => reviewMeta[id] && reviewMeta[id].nextReviewAt <= now);
 }
+function dueWordsByLevel(lv){
+  return dueWords().filter(id => ALL_WORDS[id] && ALL_WORDS[id].level === lv);
+}
 function updateReviewSchedule(id, correct){
   ensureMeta(id, false);
   const meta = reviewMeta[id];
@@ -86,6 +89,8 @@ const STATE = {
   quiz:null,           // active quiz session
   flash:null,          // {pool:[ids], index, flipped, source}
   dayPicker:false,
+  duePicker:false,
+  openTip:null, // {wordId, idx}
   searchQuery:'',
 };
 
@@ -257,13 +262,7 @@ function renderHome(){
     </div>`;
   }
 
-  const dueCount = dueWords().length;
-  const dueBanner = dueCount > 0 ? `
-    <div class="banner" style="background:var(--success-bg);">
-      <div class="msg">🔔 오늘 복습할 단어가 <b>${dueCount}개</b> 있어요</div>
-    </div>
-    <button class="big-btn" style="margin-bottom:16px;" data-action="start-quiz" data-mode="en2ko" data-source="due">지금 복습하기</button>
-  ` : '';
+  const dueBanner = renderDueSection();
 
   const day = nextDay(lv);
   const done = allDone(lv);
@@ -312,6 +311,35 @@ function renderDayPicker(lv){
   return `<div style="margin-top:14px;max-height:280px;overflow-y:auto;">${items}</div>`;
 }
 
+/* 오늘 복습할 단어 - 클릭하면 난이도를 골라 그 난이도만 복습 (홈/복습 탭 공용) */
+function renderDueSection(){
+  const counts = {
+    basic: dueWordsByLevel('basic').length,
+    intermediate: dueWordsByLevel('intermediate').length,
+    advanced: dueWordsByLevel('advanced').length,
+  };
+  const total = counts.basic + counts.intermediate + counts.advanced;
+  if(total === 0){
+    return `<div class="card" style="text-align:center;color:#5c6b78;">오늘은 복습할 단어가 없어요 🌤️</div>`;
+  }
+  const picker = STATE.duePicker ? `
+    <div style="margin-top:10px;">
+      ${['basic','intermediate','advanced'].map(lv => counts[lv] > 0 ? `
+        <div class="word-row" data-action="start-due-quiz" data-level="${lv}">
+          <div class="en" style="font-size:1.7rem;">${levelLabel(lv)} <span style="color:#7a8794;font-size:1.3rem;">(${counts[lv]}개)</span></div>
+          <div>▶️</div>
+        </div>
+      ` : '').join('')}
+    </div>
+  ` : '';
+  return `
+    <div class="card" style="background:var(--success-bg);cursor:pointer;" data-action="toggle-due-picker">
+      <div style="text-align:center;font-weight:800;font-size:1.6rem;">🔔 오늘 복습할 단어 총 ${total}개 ${STATE.duePicker ? '▲' : '▼'}</div>
+      ${picker}
+    </div>
+  `;
+}
+
 /* ---------- 오늘의 학습 진행 화면 ---------- */
 function renderStudy(){
   const w = ALL_WORDS[session.wordIds[session.index]];
@@ -333,19 +361,45 @@ function renderStudy(){
   `;
 }
 
+function renderExampleWithTips(w){
+  const tips = w.grammar_tips || [];
+  if(!tips.length) return escapeHtml(w.example_en);
+  const text = w.example_en;
+  const found = tips
+    .map((tip, idx) => ({ idx, tip, pos: text.indexOf(tip.phrase) }))
+    .filter(f => f.pos !== -1)
+    .sort((a,b) => a.pos - b.pos);
+  let result = '';
+  let cursor = 0;
+  found.forEach(f => {
+    result += escapeHtml(text.slice(cursor, f.pos));
+    result += `<span class="grammar-tip-trigger" data-action="toggle-grammar-tip" data-word="${w.id}" data-tip="${f.idx}">${escapeHtml(f.tip.phrase)}</span>`;
+    cursor = f.pos + f.tip.phrase.length;
+  });
+  result += escapeHtml(text.slice(cursor));
+  return result;
+}
+function renderGrammarTipBox(w){
+  if(!(STATE.openTip && STATE.openTip.wordId === w.id)) return '';
+  const tip = (w.grammar_tips || [])[STATE.openTip.idx];
+  if(!tip) return '';
+  return `<div class="grammar-tip-box">📘 <b>${tip.title}</b><br>${tip.desc}</div>`;
+}
 function renderWordCard(w, showSound){
   const isFav = favs.has(w.id);
   return `
     <div class="wordcard">
       <button class="star-btn ${isFav?'active':''}" style="position:absolute;top:18px;right:18px;" data-action="toggle-fav" data-id="${w.id}">${isFav?'★':'☆'}</button>
       <div class="en">${w.en}</div>
-      <div class="pron">[${w.pron}]</div>
+      <div class="pron">${w.ipa ? `/${w.ipa}/ · ` : ''}[${w.pron}]</div>
       <div class="ko">${w.ko}</div>
       <div class="example">
-        <div>${w.example_en}</div>
+        <div>${renderExampleWithTips(w)}</div>
         <div class="ex-ko">${w.example_ko}</div>
+        ${renderGrammarTipBox(w)}
       </div>
       <div class="related">💡 함께 외우면 좋은 단어: <b>${w.related.en}</b> (${w.related.ko})</div>
+      ${w.idiom ? `<div class="related" style="margin-top:6px;">📌 함께 외우면 좋은 숙어: <b>${w.idiom.en}</b> (${w.idiom.ko})</div>` : ''}
       ${showSound !== false ? `
       <div class="sound-row">
         <button class="icon-btn" data-action="speak-word" data-id="${w.id}">🔊 단어 듣기</button>
@@ -358,6 +412,9 @@ function renderWordCard(w, showSound){
 }
 
 /* ---------- 검색 ---------- */
+function escapeHtml(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
 function escapeAttr(s){
   return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -505,20 +562,23 @@ function renderReview(){
     `;
   }
   // quiz tab
-  const learnedCount = learned.size;
-  if(!learnedCount) return tabRow + emptyState('📚','아직 학습한 단어가 없어요','오늘의 학습을 먼저 완료해보세요.');
+  const lv = settings.level;
+  const learnedIdsForLevel = [...learned].filter(id => ALL_WORDS[id] && ALL_WORDS[id].level === lv);
+  const learnedCount = learnedIdsForLevel.length;
+  const levelPills = `
+    <div class="level-pills">
+      ${['basic','intermediate','advanced'].map(l=>`
+        <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
+      `).join('')}
+    </div>
+  `;
+  if(!learnedCount) return tabRow + levelPills + emptyState('📚',`아직 ${levelLabel(lv)} 난이도로 학습한 단어가 없어요`,'오늘의 학습을 먼저 완료해보세요.');
   const acc = quizStats.total ? Math.round(quizStats.correct/quizStats.total*100) : 0;
-  const dueCount = dueWords().length;
-  return tabRow + `
+  return tabRow + levelPills + `
     <div class="card">
-      <div style="text-align:center;color:#5c6b78;">학습한 단어 <b style="color:var(--navy);">${learnedCount}</b>개 · 퀴즈 정답률 <b style="color:var(--navy);">${acc}%</b></div>
+      <div style="text-align:center;color:#5c6b78;font-size:1.6rem;">${levelLabel(lv)} 학습한 단어 <b style="color:var(--navy);">${learnedCount}</b>개 · 퀴즈 정답률 <b style="color:var(--navy);">${acc}%</b></div>
     </div>
-    ${dueCount>0 ? `
-    <div class="card" style="background:var(--success-bg);">
-      <div style="text-align:center;font-weight:800;">🔔 오늘 복습할 단어 ${dueCount}개</div>
-    </div>
-    <button class="big-btn" style="margin-bottom:12px;" data-action="start-quiz" data-mode="en2ko" data-source="due">망각곡선 복습하기</button>
-    ` : `<div class="card" style="text-align:center;color:#5c6b78;">오늘은 복습할 단어가 없어요 🌤️</div>`}
+    ${renderDueSection()}
     <button class="big-btn secondary" style="margin-bottom:12px;" data-action="start-flash" data-source="learned">단어 보기 (플래시카드)</button>
     <button class="big-btn secondary" style="margin-bottom:12px;" data-action="start-quiz" data-mode="en2ko" data-source="all">뜻 맞추기 퀴즈 (전체)</button>
     <button class="big-btn secondary" data-action="start-quiz" data-mode="ko2en" data-source="all">객관식 퀴즈 (단어 맞추기, 전체)</button>
@@ -571,7 +631,7 @@ function renderQuiz(){
   const q = STATE.quiz;
   const cur = q.questions[q.index];
   const w = ALL_WORDS[cur.wordId];
-  const prompt = q.mode==='en2ko' ? `<div class="en">${w.en}</div><div class="pron">[${w.pron}]</div>` : `<div class="ko" style="font-size:2.6rem;">${w.ko}</div>`;
+  const prompt = q.mode==='en2ko' ? `<div class="en">${w.en}</div><div class="pron">${w.ipa ? `/${w.ipa}/ · ` : ''}[${w.pron}]</div>` : `<div class="ko" style="font-size:2.6rem;">${w.ko}</div>`;
   return `
     <button class="icon-btn" data-action="close-quiz" style="margin-bottom:14px;">← 그만하기</button>
     <div class="progress-label">${q.index+1} / ${q.questions.length} 문제</div>
@@ -609,8 +669,8 @@ function renderStats(){
       <div class="stat-box"><div class="num">${wrongs.length}</div><div class="label">틀린 단어</div></div>
     </div>
     <div class="card">
-      <div style="font-weight:700;margin-bottom:4px;">🏆 가장 많이 학습한 카테고리</div>
-      <div style="color:#5c6b78;">${top && top.learned>0 ? `${top.icon} ${top.name} (${top.learned}개)` : '아직 없어요'}</div>
+      <div style="font-weight:700;margin-bottom:4px;font-size:1.7rem;">🏆 가장 많이 학습한 카테고리</div>
+      <div style="color:#5c6b78;font-size:1.6rem;">${top && top.learned>0 ? `${top.icon} ${top.name} (${top.learned}개)` : '아직 없어요'}</div>
     </div>
     <div class="section-title">카테고리별 진행률</div>
     <div class="card">
@@ -637,14 +697,6 @@ function renderSettings(){
       </div>
     </div>
     <div class="setting-row">
-      <div><div class="label">글자 크기</div><div class="desc">화면 전체 글자 크기</div></div>
-      <div class="toggle-group">
-        ${[['normal','보통'],['large','크게'],['xlarge','아주 크게']].map(([id,label])=>`
-          <button class="toggle-btn ${settings.fontScale===id?'active':''}" data-action="set-font" data-font="${id}">${label}</button>
-        `).join('')}
-      </div>
-    </div>
-    <div class="setting-row">
       <div><div class="label">음성 속도</div><div class="desc">단어·예문 읽어주는 속도</div></div>
       <div class="toggle-group">
         ${[[0.7,'천천히'],[0.85,'보통'],[1.0,'빠르게']].map(([r,label])=>`
@@ -653,7 +705,7 @@ function renderSettings(){
       </div>
     </div>
     <div class="card">
-      <div style="font-weight:700;margin-bottom:10px;">🔊 영어 음성 선택</div>
+      <div style="font-weight:700;margin-bottom:10px;">영어 음성 선택</div>
       ${enVoices.length ? `
       <select id="voice-select" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:1.6rem;background:var(--white);color:var(--text);">
         <option value="">자동 (기본 추천 음성)</option>
@@ -663,7 +715,7 @@ function renderSettings(){
       ` : `<div style="color:#5c6b78;font-size:1.4rem;">사용 가능한 음성 목록을 불러오는 중이에요. 잠시 후 다시 열어보세요.</div>`}
     </div>
     <div class="card">
-      <div style="font-weight:700;margin-bottom:10px;">🔊 한국어 음성 선택</div>
+      <div style="font-weight:700;margin-bottom:10px;">한국어 음성 선택</div>
       ${koVoices.length ? `
       <select id="voice-select-ko" style="width:100%;padding:14px;border-radius:12px;border:1.5px solid var(--line);font-size:1.6rem;background:var(--white);color:var(--text);">
         <option value="">자동 (기본 추천 음성)</option>
@@ -742,16 +794,33 @@ document.addEventListener('change', function(e){
 });
 
 document.addEventListener('click', function(e){
+  // 문법 툴팁이 열려 있을 때, 트리거/툴팁 박스 바깥을 클릭하면 닫기
+  if(STATE.openTip){
+    const insideTrigger = e.target.closest('.grammar-tip-trigger');
+    const insideBox = e.target.closest('.grammar-tip-box');
+    if(!insideTrigger && !insideBox){
+      STATE.openTip = null;
+      render();
+    }
+  }
   const t = e.target.closest('[data-action]');
   if(!t) return;
   if(t.dataset.stop) e.stopPropagation();
   const a = t.dataset.action;
 
   switch(a){
+    case 'toggle-grammar-tip': {
+      const wid = t.dataset.word, idx = parseInt(t.dataset.tip, 10);
+      if(STATE.openTip && STATE.openTip.wordId === wid && STATE.openTip.idx === idx){
+        STATE.openTip = null;
+      } else {
+        STATE.openTip = {wordId: wid, idx};
+      }
+      render();
+      break;
+    }
     case 'set-level':
       settings.level = t.dataset.level; saveAll(); render(); break;
-    case 'set-font':
-      settings.fontScale = t.dataset.font; saveAll(); applyFontScale(); render(); break;
     case 'set-rate':
       settings.rate = parseFloat(t.dataset.rate); saveAll(); render(); break;
     case 'toggle-day-picker':
@@ -772,10 +841,10 @@ document.addEventListener('click', function(e){
     case 'resume-session': STATE.screen='studying'; render(); break;
     case 'discard-session': session=null; LS.set(KEYS.session,null); render(); break;
     case 'prev-word':
-      if(session.index > 0){ session.index--; LS.set(KEYS.session, session); render(); }
+      if(session.index > 0){ session.index--; STATE.openTip=null; LS.set(KEYS.session, session); render(); }
       break;
     case 'next-word':
-      if(session.index < session.wordIds.length-1){ session.index++; LS.set(KEYS.session, session); render(); }
+      if(session.index < session.wordIds.length-1){ session.index++; STATE.openTip=null; LS.set(KEYS.session, session); render(); }
       break;
     case 'finish-today':
       t.disabled = true;
@@ -796,8 +865,8 @@ document.addEventListener('click', function(e){
       render();
       requestAnimationFrame(()=>{ const inp = document.getElementById('word-search-input'); if(inp) inp.focus(); });
       break;
-    case 'open-detail': STATE.detail = {wordId:t.dataset.id, back:t.dataset.back}; render(); break;
-    case 'close-detail': STATE.detail = null; render(); break;
+    case 'open-detail': STATE.detail = {wordId:t.dataset.id, back:t.dataset.back}; STATE.openTip=null; render(); break;
+    case 'close-detail': STATE.detail = null; STATE.openTip=null; render(); break;
     case 'go-review': STATE.screen='review'; STATE.reviewTab='quiz'; render(); break;
     case 'go-fav': STATE.screen='review'; STATE.reviewTab='fav'; render(); break;
     case 'set-review-tab': STATE.reviewTab = t.dataset.tab; render(); break;
@@ -805,23 +874,36 @@ document.addEventListener('click', function(e){
     case 'remove-wrong': wrongs = wrongs.filter(id=>id!==t.dataset.id); saveAll(); render(); break;
     case 'start-flash': {
       const src = t.dataset.source;
-      const pool = src==='fav' ? [...favs] : [...learned];
+      const pool = src==='fav' ? [...favs]
+        : src==='learned' ? [...learned].filter(id=>ALL_WORDS[id] && ALL_WORDS[id].level===settings.level)
+        : [...learned];
       if(!pool.length){ toast('학습한 단어가 없어요'); break; }
       STATE.flash = {pool: shuffle(pool), index:0, source:src};
       render(); break;
     }
     case 'flash-next':
+      STATE.openTip=null;
       if(STATE.flash.index >= STATE.flash.pool.length-1){ STATE.flash=null; toast('학습을 마쳤어요 🌤️'); }
       else STATE.flash.index++;
       render(); break;
-    case 'flash-prev': if(STATE.flash.index>0) STATE.flash.index--; render(); break;
-    case 'close-flash': STATE.flash = null; render(); break;
+    case 'flash-prev': STATE.openTip=null; if(STATE.flash.index>0) STATE.flash.index--; render(); break;
+    case 'close-flash': STATE.flash = null; STATE.openTip=null; render(); break;
+    case 'toggle-due-picker': STATE.duePicker = !STATE.duePicker; render(); break;
+    case 'start-due-quiz': {
+      const lv2 = t.dataset.level;
+      const pool = dueWordsByLevel(lv2);
+      STATE.duePicker = false;
+      if(pool.length < 2){ toast('그 난이도는 지금 복습할 단어가 부족해요'); render(); break; }
+      STATE.quiz = buildQuizRound('en2ko', null, pool);
+      render(); break;
+    }
     case 'start-quiz': {
       const mode = t.dataset.mode;
       const source = t.dataset.source || 'all';
-      const pool = source==='due' ? dueWords() : source==='wrong' ? wrongs : [...learned];
-      if(pool.length < 2){ toast(source==='due' ? '지금은 복습할 단어가 없어요' : '학습한 단어가 더 필요해요'); break; }
-      STATE.quiz = buildQuizRound(mode, source);
+      const pool = source==='wrong' ? wrongs
+        : [...learned].filter(id=>ALL_WORDS[id] && ALL_WORDS[id].level===settings.level);
+      if(pool.length < 2){ toast('학습한 단어가 더 필요해요'); break; }
+      STATE.quiz = buildQuizRound(mode, source, pool);
       render(); break;
     }
     case 'answer-quiz': {
@@ -871,15 +953,14 @@ document.addEventListener('click', function(e){
 document.querySelectorAll('.nav-item').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     STATE.screen = btn.dataset.nav;
-    STATE.detail=null; STATE.quiz=null; STATE.flash=null; STATE.dayPicker=false;
+    STATE.detail=null; STATE.quiz=null; STATE.flash=null; STATE.dayPicker=false; STATE.openTip=null;
     if(STATE.screen!=='browse'){ STATE.browseCat=null; STATE.searchQuery=''; }
     render();
   });
 });
 
 function applyFontScale(){
-  const map = {normal:'10px', large:'11.5px', xlarge:'13px'};
-  document.documentElement.style.fontSize = map[settings.fontScale] || '10px';
+  document.documentElement.style.fontSize = '10px'; // 항상 보통 크기로 고정
 }
 
 /* ---------- 스와이프 제스처 (오늘의 학습 화면 전용) ---------- */

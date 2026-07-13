@@ -28,6 +28,7 @@ html,body{
   background:var(--bg);
   color:var(--text);
   font-family:'Pretendard','Noto Sans KR',sans-serif;
+  font-size:1.6rem; /* 스타일 지정을 깜빡한 요소도 기본적으로 정상 크기로 보이도록 함 */
   -webkit-tap-highlight-color:transparent;
   overscroll-behavior-y:none;
 }
@@ -81,6 +82,7 @@ button{font-family:inherit;}
   border-radius:var(--radius-lg);
   padding:20px;
   margin-bottom:16px;
+  font-size:1.6rem;
 }
 
 /* ===== 큰 버튼 ===== */
@@ -177,6 +179,24 @@ button{font-family:inherit;}
   padding:16px;text-align:left;font-size:1.5rem;line-height:1.6;
 }
 .wordcard .example .ex-ko{color:var(--text-sub);margin-top:6px;}
+.grammar-tip-trigger{
+  border-bottom:2px dotted var(--primary);
+  color:var(--primary-deep);
+  font-weight:700;
+  cursor:pointer;
+  padding-bottom:1px;
+}
+.grammar-tip-trigger:active{background:var(--primary-tint);}
+.grammar-tip-box{
+  margin-top:12px;
+  background:var(--primary-tint);
+  border:1px solid var(--primary);
+  border-radius:10px;
+  padding:12px 14px;
+  font-size:1.4rem;
+  line-height:1.6;
+  color:var(--text);
+}
 .wordcard .related{margin-top:14px;font-size:1.3rem;color:var(--text-sub);font-weight:500;}
 .wordcard .sound-row{display:flex;gap:10px;margin-top:18px;}
 .wordcard .sound-row button{flex:1;}
@@ -265,7 +285,7 @@ button{font-family:inherit;}
 .toggle-btn.active{background:var(--primary);color:var(--white);border-color:var(--primary);}
 
 .empty-state{
-  text-align:center;padding:50px 20px;color:var(--text-sub);
+  text-align:center;padding:50px 20px;color:var(--text-sub);font-size:1.5rem;
 }
 .empty-state .emoji{font-size:4.2rem;display:block;margin-bottom:12px;}
 

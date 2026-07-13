@@ -18,7 +18,13 @@
               "ko": "비행기"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈɛərpɔːrt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "hit the road",
+              "ko": "여행길을 떠나다"
+            }
           },
           {
             "id": "w0002",
@@ -32,7 +38,13 @@
               "ko": "기차"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈtɪkɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "off the beaten path",
+              "ko": "사람들이 잘 안 가는 곳"
+            }
           },
           {
             "id": "w0003",
@@ -46,7 +58,19 @@
               "ko": "비자"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈpæspɔːrt",
+            "grammar_tips": [
+              {
+                "phrase": "Don't",
+                "title": "부정 명령문 (Don't + 동사원형)",
+                "desc": "'~하지 마'라고 말하는 표현이에요. Don't 뒤에는 항상 동사원형을 씁니다."
+              }
+            ],
+            "idiom": {
+              "en": "make yourself at home",
+              "ko": "편하게 계세요"
+            }
           },
           {
             "id": "w0004",
@@ -60,7 +84,13 @@
               "ko": "여행 가방"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈlʌɡɪdʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "pack your bags",
+              "ko": "짐을 싸다, 떠날 준비를 하다"
+            }
           },
           {
             "id": "w0005",
@@ -74,7 +104,13 @@
               "ko": "방"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "hoʊˈtɛl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a home away from home",
+              "ko": "제2의 집처럼 편안한 곳"
+            }
           },
           {
             "id": "w0006",
@@ -88,7 +124,19 @@
               "ko": "방향"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "mæp",
+            "grammar_tips": [
+              {
+                "phrase": "Can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다(능력)' 또는 부탁할 때도 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "catch a flight",
+              "ko": "비행기 시간에 맞추다"
+            }
           },
           {
             "id": "w0007",
@@ -102,7 +150,19 @@
               "ko": "운전자"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈtæksi",
+            "grammar_tips": [
+              {
+                "phrase": "Let's",
+                "title": "Let's + 동사원형",
+                "desc": "'우리 ~하자'라고 제안할 때 쓰는 표현이에요. Let's 뒤에는 항상 동사원형이 와요."
+              }
+            ],
+            "idiom": {
+              "en": "live out of a suitcase",
+              "ko": "여행을 자주 다니다"
+            }
           },
           {
             "id": "w0008",
@@ -116,7 +176,19 @@
               "ko": "역"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "treɪn",
+            "grammar_tips": [
+              {
+                "phrase": "at nine",
+                "title": "전치사 at + 시각",
+                "desc": "정확한 시각을 말할 때는 at을 써요. (예: at nine, at noon)"
+              }
+            ],
+            "idiom": {
+              "en": "get away from it all",
+              "ko": "모든 것에서 벗어나다"
+            }
           },
           {
             "id": "w0009",
@@ -130,7 +202,13 @@
               "ko": "공항"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈɛərpleɪn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "see the world",
+              "ko": "세상을 구경하다"
+            }
           },
           {
             "id": "w0010",
@@ -144,7 +222,19 @@
               "ko": "여행"
             },
             "category": "travel",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "veɪˈkeɪʃən",
+            "grammar_tips": [
+              {
+                "phrase": "are planning",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "have the travel bug",
+              "ko": "여행을 무척 좋아하다"
+            }
           }
         ],
         "intermediate": [
@@ -160,7 +250,13 @@
               "ko": "예약"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌrɛzərˈveɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "hit the road",
+              "ko": "여행길을 떠나다"
+            }
           },
           {
             "id": "w0012",
@@ -174,7 +270,13 @@
               "ko": "도착"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "dɪˈpɑːrtʃər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "off the beaten path",
+              "ko": "사람들이 잘 안 가는 곳"
+            }
           },
           {
             "id": "w0013",
@@ -188,7 +290,13 @@
               "ko": "출발"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "əˈraɪvəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "make yourself at home",
+              "ko": "편하게 계세요"
+            }
           },
           {
             "id": "w0014",
@@ -202,7 +310,13 @@
               "ko": "여권"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkʌstəmz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "pack your bags",
+              "ko": "짐을 싸다, 떠날 준비를 하다"
+            }
           },
           {
             "id": "w0015",
@@ -216,7 +330,13 @@
               "ko": "교환"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkɜːrənsi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a home away from home",
+              "ko": "제2의 집처럼 편안한 곳"
+            }
           },
           {
             "id": "w0016",
@@ -230,7 +350,13 @@
               "ko": "여정"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌdɛstɪˈneɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "catch a flight",
+              "ko": "비행기 시간에 맞추다"
+            }
           },
           {
             "id": "w0017",
@@ -244,7 +370,13 @@
               "ko": "여행"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈdʒɜːrni",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "live out of a suitcase",
+              "ko": "여행을 자주 다니다"
+            }
           },
           {
             "id": "w0018",
@@ -258,7 +390,13 @@
               "ko": "탑승구"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈbɔːrdɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get away from it all",
+              "ko": "모든 것에서 벗어나다"
+            }
           },
           {
             "id": "w0019",
@@ -272,7 +410,13 @@
               "ko": "항공편"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈleɪˌoʊvər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "see the world",
+              "ko": "세상을 구경하다"
+            }
           },
           {
             "id": "w0020",
@@ -286,7 +430,13 @@
               "ko": "관광객"
             },
             "category": "travel",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsaɪtˌsiːɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have the travel bug",
+              "ko": "여행을 무척 좋아하다"
+            }
           }
         ],
         "advanced": [
@@ -302,7 +452,13 @@
               "ko": "일정"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "aɪˈtɪnəˌrɛri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "hit the road",
+              "ko": "여행길을 떠나다"
+            }
           },
           {
             "id": "w0022",
@@ -316,7 +472,13 @@
               "ko": "호텔"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "əˌkɒməˈdeɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "off the beaten path",
+              "ko": "사람들이 잘 안 가는 곳"
+            }
           },
           {
             "id": "w0023",
@@ -330,7 +492,13 @@
               "ko": "여정"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪmˈbɑːrk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "make yourself at home",
+              "ko": "편하게 계세요"
+            }
           },
           {
             "id": "w0024",
@@ -344,7 +512,13 @@
               "ko": "여행"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪkˈskɜːrʒən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "pack your bags",
+              "ko": "짐을 싸다, 떠날 준비를 하다"
+            }
           },
           {
             "id": "w0025",
@@ -358,7 +532,13 @@
               "ko": "여행하다"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈwɒndərlʌst",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a home away from home",
+              "ko": "제2의 집처럼 편안한 곳"
+            }
           },
           {
             "id": "w0026",
@@ -372,7 +552,13 @@
               "ko": "경유"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈtrænzɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "catch a flight",
+              "ko": "비행기 시간에 맞추다"
+            }
           },
           {
             "id": "w0027",
@@ -386,7 +572,13 @@
               "ko": "여정"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈvɔɪɪdʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "live out of a suitcase",
+              "ko": "여행을 자주 다니다"
+            }
           },
           {
             "id": "w0028",
@@ -400,7 +592,13 @@
               "ko": "문화"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪˈmɜːrʒən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get away from it all",
+              "ko": "모든 것에서 벗어나다"
+            }
           },
           {
             "id": "w0029",
@@ -414,7 +612,13 @@
               "ko": "관광"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈlændmɑːrk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "see the world",
+              "ko": "세상을 구경하다"
+            }
           },
           {
             "id": "w0030",
@@ -428,7 +632,13 @@
               "ko": "호스텔"
             },
             "category": "travel",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈbækpækɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have the travel bug",
+              "ko": "여행을 무척 좋아하다"
+            }
           }
         ]
       }
@@ -451,7 +661,13 @@
               "ko": "식사"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈbrɛkfəst",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "grab a bite",
+              "ko": "간단히 요기하다"
+            }
           },
           {
             "id": "w0032",
@@ -465,7 +681,19 @@
               "ko": "식사"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "lʌntʃ",
+            "grammar_tips": [
+              {
+                "phrase": "Let's",
+                "title": "Let's + 동사원형",
+                "desc": "'우리 ~하자'라고 제안할 때 쓰는 표현이에요. Let's 뒤에는 항상 동사원형이 와요."
+              }
+            ],
+            "idiom": {
+              "en": "eat like a horse",
+              "ko": "많이 먹다"
+            }
           },
           {
             "id": "w0033",
@@ -479,7 +707,13 @@
               "ko": "식사"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈdɪnər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have a sweet tooth",
+              "ko": "단것을 좋아하다"
+            }
           },
           {
             "id": "w0034",
@@ -493,7 +727,19 @@
               "ko": "쿠키"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "snæk",
+            "grammar_tips": [
+              {
+                "phrase": "in the afternoon",
+                "title": "전치사 in + 시간대/계절",
+                "desc": "morning, afternoon, evening이나 계절 앞에는 in을 써요."
+              }
+            ],
+            "idiom": {
+              "en": "food for thought",
+              "ko": "생각할 거리"
+            }
           },
           {
             "id": "w0035",
@@ -507,7 +753,13 @@
               "ko": "요리, 접시"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "miːl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the icing on the cake",
+              "ko": "금상첨화"
+            }
           },
           {
             "id": "w0036",
@@ -521,7 +773,13 @@
               "ko": "포크"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "spuːn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a piece of cake",
+              "ko": "식은 죽 먹기"
+            }
           },
           {
             "id": "w0037",
@@ -535,7 +793,13 @@
               "ko": "숟가락"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "fɔːrk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "eat your heart out",
+              "ko": "부러워해라"
+            }
           },
           {
             "id": "w0038",
@@ -549,7 +813,13 @@
               "ko": "숟가락"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈtʃɒpstɪks",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "second helping",
+              "ko": "한 그릇 더"
+            }
           },
           {
             "id": "w0039",
@@ -563,7 +833,13 @@
               "ko": "그릇"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "pleɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on an empty stomach",
+              "ko": "공복에"
+            }
           },
           {
             "id": "w0040",
@@ -577,7 +853,13 @@
               "ko": "유리잔"
             },
             "category": "meals",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "kʌp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "for starters",
+              "ko": "우선, 첫째로"
+            }
           }
         ],
         "intermediate": [
@@ -593,7 +875,13 @@
               "ko": "배고픈"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈæpɪtaɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "grab a bite",
+              "ko": "간단히 요기하다"
+            }
           },
           {
             "id": "w0042",
@@ -607,7 +895,13 @@
               "ko": "1인분"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈpɔːrʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "eat like a horse",
+              "ko": "많이 먹다"
+            }
           },
           {
             "id": "w0043",
@@ -621,7 +915,13 @@
               "ko": "냉장고"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈlɛftˌoʊvərz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have a sweet tooth",
+              "ko": "단것을 좋아하다"
+            }
           },
           {
             "id": "w0044",
@@ -635,7 +935,13 @@
               "ko": "단, 달콤한"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "dɪˈzɜːrt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "food for thought",
+              "ko": "생각할 거리"
+            }
           },
           {
             "id": "w0045",
@@ -649,7 +955,13 @@
               "ko": "음료, 마시다"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈbɛvərɪdʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the icing on the cake",
+              "ko": "금상첨화"
+            }
           },
           {
             "id": "w0046",
@@ -663,7 +975,13 @@
               "ko": "숟가락"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "juːˈtɛnsəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a piece of cake",
+              "ko": "식은 죽 먹기"
+            }
           },
           {
             "id": "w0047",
@@ -677,7 +995,13 @@
               "ko": "화장지"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈnæpkɪn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "eat your heart out",
+              "ko": "부러워해라"
+            }
           },
           {
             "id": "w0048",
@@ -691,7 +1015,13 @@
               "ko": "메뉴"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "kɔːrs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "second helping",
+              "ko": "한 그릇 더"
+            }
           },
           {
             "id": "w0049",
@@ -705,7 +1035,13 @@
               "ko": "식당"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "bəˈfeɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on an empty stomach",
+              "ko": "공복에"
+            }
           },
           {
             "id": "w0050",
@@ -719,7 +1055,13 @@
               "ko": "1인분"
             },
             "category": "meals",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsɜːrvɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "for starters",
+              "ko": "우선, 첫째로"
+            }
           }
         ],
         "advanced": [
@@ -735,7 +1077,13 @@
               "ko": "맛있는"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈpælətəbəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "grab a bite",
+              "ko": "간단히 요기하다"
+            }
           },
           {
             "id": "w0052",
@@ -749,7 +1097,13 @@
               "ko": "요리"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈkʌlɪnɛri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "eat like a horse",
+              "ko": "많이 먹다"
+            }
           },
           {
             "id": "w0053",
@@ -763,7 +1117,13 @@
               "ko": "장식하다"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈɡɑːrnɪʃ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have a sweet tooth",
+              "ko": "단것을 좋아하다"
+            }
           },
           {
             "id": "w0054",
@@ -777,7 +1137,13 @@
               "ko": "특산품"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈdɛlɪkəsi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "food for thought",
+              "ko": "생각할 거리"
+            }
           },
           {
             "id": "w0055",
@@ -791,7 +1157,19 @@
               "ko": "요리(법)"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɡʊərˈmeɪ",
+            "grammar_tips": [
+              {
+                "phrase": "who",
+                "title": "관계대명사 who",
+                "desc": "사람을 꾸며주는 절을 이끌며, '~하는 사람'이라고 해석해요."
+              }
+            ],
+            "idiom": {
+              "en": "the icing on the cake",
+              "ko": "금상첨화"
+            }
           },
           {
             "id": "w0056",
@@ -805,7 +1183,13 @@
               "ko": "즐기다"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈseɪvər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a piece of cake",
+              "ko": "식은 죽 먹기"
+            }
           },
           {
             "id": "w0057",
@@ -819,7 +1203,13 @@
               "ko": "즐기다"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪnˈdʌldʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "eat your heart out",
+              "ko": "부러워해라"
+            }
           },
           {
             "id": "w0058",
@@ -833,7 +1223,13 @@
               "ko": "건강한"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈhoʊlsəm",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "second helping",
+              "ko": "한 그릇 더"
+            }
           },
           {
             "id": "w0059",
@@ -847,7 +1243,13 @@
               "ko": "영양"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈnɜːrɪʃmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on an empty stomach",
+              "ko": "공복에"
+            }
           },
           {
             "id": "w0060",
@@ -861,7 +1263,13 @@
               "ko": "미식가"
             },
             "category": "meals",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌɛpɪkjʊˈriːən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "for starters",
+              "ko": "우선, 첫째로"
+            }
           }
         ]
       }
@@ -884,7 +1292,13 @@
               "ko": "식사"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "raɪs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "spice things up",
+              "ko": "활기를 더하다"
+            }
           },
           {
             "id": "w0062",
@@ -898,7 +1312,13 @@
               "ko": "토스트, 건배"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "brɛd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "too many cooks spoil the broth",
+              "ko": "사공이 많으면 배가 산으로 간다"
+            }
           },
           {
             "id": "w0063",
@@ -912,7 +1332,13 @@
               "ko": "닭, 닭고기"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "miːt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the whole enchilada",
+              "ko": "전부 다"
+            }
           },
           {
             "id": "w0064",
@@ -926,7 +1352,13 @@
               "ko": "해산물"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "fɪʃ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "sour grapes",
+              "ko": "억지 부리는 것"
+            }
           },
           {
             "id": "w0065",
@@ -940,7 +1372,13 @@
               "ko": "당근"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈvɛdʒtəbəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in a nutshell",
+              "ko": "간단히 말해서"
+            }
           },
           {
             "id": "w0066",
@@ -954,7 +1392,13 @@
               "ko": "사과"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "fruːt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "cool as a cucumber",
+              "ko": "매우 침착한"
+            }
           },
           {
             "id": "w0067",
@@ -968,7 +1412,13 @@
               "ko": "닭, 닭고기"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ɛɡ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "as easy as pie",
+              "ko": "아주 쉬운"
+            }
           },
           {
             "id": "w0068",
@@ -982,7 +1432,13 @@
               "ko": "유제품"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "mɪlk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "add fuel to the fire",
+              "ko": "불난 집에 부채질하다"
+            }
           },
           {
             "id": "w0069",
@@ -996,7 +1452,13 @@
               "ko": "음료, 마시다"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈwɔːtər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have your cake and eat it too",
+              "ko": "두 마리 토끼를 다 잡으려 하다"
+            }
           },
           {
             "id": "w0070",
@@ -1010,7 +1472,13 @@
               "ko": "육수"
             },
             "category": "food",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "suːp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "out of the frying pan into the fire",
+              "ko": "갈수록 태산"
+            }
           }
         ],
         "intermediate": [
@@ -1026,7 +1494,13 @@
               "ko": "향신료"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsiːzənɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "spice things up",
+              "ko": "활기를 더하다"
+            }
           },
           {
             "id": "w0072",
@@ -1040,7 +1514,13 @@
               "ko": "조리법"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ɪnˈɡriːdiənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "too many cooks spoil the broth",
+              "ko": "사공이 많으면 배가 산으로 간다"
+            }
           },
           {
             "id": "w0073",
@@ -1054,7 +1534,13 @@
               "ko": "요리하다"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈrɛsɪpi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the whole enchilada",
+              "ko": "전부 다"
+            }
           },
           {
             "id": "w0074",
@@ -1068,7 +1554,13 @@
               "ko": "맛"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈfleɪvər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "sour grapes",
+              "ko": "억지 부리는 것"
+            }
           },
           {
             "id": "w0075",
@@ -1082,7 +1574,13 @@
               "ko": "더운"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈspaɪsi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in a nutshell",
+              "ko": "간단히 말해서"
+            }
           },
           {
             "id": "w0076",
@@ -1096,7 +1594,13 @@
               "ko": "설탕"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "swiːt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "cool as a cucumber",
+              "ko": "매우 침착한"
+            }
           },
           {
             "id": "w0077",
@@ -1110,7 +1614,13 @@
               "ko": "레몬"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsaʊər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "as easy as pie",
+              "ko": "아주 쉬운"
+            }
           },
           {
             "id": "w0078",
@@ -1124,7 +1634,19 @@
               "ko": "커피"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈbɪtər",
+            "grammar_tips": [
+              {
+                "phrase": "can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "add fuel to the fire",
+              "ko": "불난 집에 부채질하다"
+            }
           },
           {
             "id": "w0079",
@@ -1138,7 +1660,13 @@
               "ko": "익은"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "frɛʃ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "have your cake and eat it too",
+              "ko": "두 마리 토끼를 다 잡으려 하다"
+            }
           },
           {
             "id": "w0080",
@@ -1152,7 +1680,13 @@
               "ko": "구운"
             },
             "category": "food",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈroʊstɪd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "out of the frying pan into the fire",
+              "ko": "갈수록 태산"
+            }
           }
         ],
         "advanced": [
@@ -1168,7 +1702,13 @@
               "ko": "요리, 접시"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "kwɪˈziːn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "spice things up",
+              "ko": "활기를 더하다"
+            }
           },
           {
             "id": "w0082",
@@ -1182,7 +1722,13 @@
               "ko": "바삭한"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈtɛkstʃər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "too many cooks spoil the broth",
+              "ko": "사공이 많으면 배가 산으로 간다"
+            }
           },
           {
             "id": "w0083",
@@ -1196,7 +1742,13 @@
               "ko": "향긋한"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌærəˈmætɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the whole enchilada",
+              "ko": "전부 다"
+            }
           },
           {
             "id": "w0084",
@@ -1210,7 +1762,13 @@
               "ko": "짠"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈseɪvəri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "sour grapes",
+              "ko": "억지 부리는 것"
+            }
           },
           {
             "id": "w0085",
@@ -1224,7 +1782,13 @@
               "ko": "양념하다, 계절"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈmærɪneɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in a nutshell",
+              "ko": "간단히 말해서"
+            }
           },
           {
             "id": "w0086",
@@ -1238,7 +1802,13 @@
               "ko": "끓이다"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈsɪmər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "cool as a cucumber",
+              "ko": "매우 침착한"
+            }
           },
           {
             "id": "w0087",
@@ -1252,7 +1822,13 @@
               "ko": "절인"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "fərˈmɛntɪd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "as easy as pie",
+              "ko": "아주 쉬운"
+            }
           },
           {
             "id": "w0088",
@@ -1266,7 +1842,13 @@
               "ko": "좋은, 고급의"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪkˈskwɪzɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "add fuel to the fire",
+              "ko": "불난 집에 부채질하다"
+            }
           },
           {
             "id": "w0089",
@@ -1280,7 +1862,19 @@
               "ko": "맛"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈpælət",
+            "grammar_tips": [
+              {
+                "phrase": "will",
+                "title": "조동사 will",
+                "desc": "will은 미래의 일이나 그 자리에서 결정한 일을 말할 때 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "have your cake and eat it too",
+              "ko": "두 마리 토끼를 다 잡으려 하다"
+            }
           },
           {
             "id": "w0090",
@@ -1294,7 +1888,13 @@
               "ko": "맛있는"
             },
             "category": "food",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "dɪˈlɛktəbəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "out of the frying pan into the fire",
+              "ko": "갈수록 태산"
+            }
           }
         ]
       }
@@ -1317,7 +1917,13 @@
               "ko": "놀다"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "tɔɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "learn the ropes",
+              "ko": "요령을 배우다"
+            }
           },
           {
             "id": "w0092",
@@ -1331,7 +1937,19 @@
               "ko": "이야기"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "bʊk",
+            "grammar_tips": [
+              {
+                "phrase": "Let's",
+                "title": "Let's + 동사원형",
+                "desc": "'우리 ~하자'라고 제안할 때 쓰는 표현이에요. Let's 뒤에는 항상 동사원형이 와요."
+              }
+            ],
+            "idiom": {
+              "en": "practice makes perfect",
+              "ko": "연습이 완벽을 만든다"
+            }
           },
           {
             "id": "w0093",
@@ -1345,7 +1963,13 @@
               "ko": "크레용"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈkʌlər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "back to basics",
+              "ko": "기본으로 돌아가다"
+            }
           },
           {
             "id": "w0094",
@@ -1359,7 +1983,13 @@
               "ko": "원"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ʃeɪp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a quick learner",
+              "ko": "빨리 배우는 사람"
+            }
           },
           {
             "id": "w0095",
@@ -1373,7 +2003,19 @@
               "ko": "글자, 편지"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈælfəbɛt",
+            "grammar_tips": [
+              {
+                "phrase": "is learning",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "think outside the box",
+              "ko": "창의적으로 생각하다"
+            }
           },
           {
             "id": "w0096",
@@ -1387,7 +2029,13 @@
               "ko": "세다"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈnʌmbər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "learn by heart",
+              "ko": "외우다"
+            }
           },
           {
             "id": "w0097",
@@ -1401,7 +2049,19 @@
               "ko": "노래"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "sɪŋ",
+            "grammar_tips": [
+              {
+                "phrase": "Let's",
+                "title": "Let's + 동사원형",
+                "desc": "'우리 ~하자'라고 제안할 때 쓰는 표현이에요. Let's 뒤에는 항상 동사원형이 와요."
+              }
+            ],
+            "idiom": {
+              "en": "grow like a weed",
+              "ko": "무럭무럭 자라다"
+            }
           },
           {
             "id": "w0098",
@@ -1415,7 +2075,13 @@
               "ko": "그리다, 페인트"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "drɔː",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "step by step",
+              "ko": "차근차근"
+            }
           },
           {
             "id": "w0099",
@@ -1429,7 +2095,13 @@
               "ko": "장난감"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "pleɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the sky's the limit",
+              "ko": "한계가 없다"
+            }
           },
           {
             "id": "w0100",
@@ -1443,7 +2115,13 @@
               "ko": "책"
             },
             "category": "kids_edu",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈstɔːri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "hit the books",
+              "ko": "열심히 공부하다"
+            }
           }
         ],
         "intermediate": [
@@ -1459,7 +2137,13 @@
               "ko": "상상력"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌkriːeɪˈtɪvɪti",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "learn the ropes",
+              "ko": "요령을 배우다"
+            }
           },
           {
             "id": "w0102",
@@ -1473,7 +2157,13 @@
               "ko": "궁금해하다"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌkjʊəriˈɒsɪti",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "practice makes perfect",
+              "ko": "연습이 완벽을 만든다"
+            }
           },
           {
             "id": "w0103",
@@ -1487,7 +2177,13 @@
               "ko": "창의력"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ɪˌmædʒɪˈneɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "back to basics",
+              "ko": "기본으로 돌아가다"
+            }
           },
           {
             "id": "w0104",
@@ -1501,7 +2197,13 @@
               "ko": "단어"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "voʊˈkæbjəlɛri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a quick learner",
+              "ko": "빨리 배우는 사람"
+            }
           },
           {
             "id": "w0105",
@@ -1515,7 +2217,13 @@
               "ko": "발달"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈmaɪlstoʊn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "think outside the box",
+              "ko": "창의적으로 생각하다"
+            }
           },
           {
             "id": "w0106",
@@ -1529,7 +2237,13 @@
               "ko": "성장"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "dɪˈvɛləpmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "learn by heart",
+              "ko": "외우다"
+            }
           },
           {
             "id": "w0107",
@@ -1543,7 +2257,13 @@
               "ko": "지원하다"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ɪnˈkɜːrɪdʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "grow like a weed",
+              "ko": "무럭무럭 자라다"
+            }
           },
           {
             "id": "w0108",
@@ -1557,7 +2277,13 @@
               "ko": "차분한"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈpeɪʃəns",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "step by step",
+              "ko": "차근차근"
+            }
           },
           {
             "id": "w0109",
@@ -1571,7 +2297,13 @@
               "ko": "습관"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ruːˈtiːn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the sky's the limit",
+              "ko": "한계가 없다"
+            }
           },
           {
             "id": "w0110",
@@ -1585,7 +2317,13 @@
               "ko": "연결, 유대"
             },
             "category": "kids_edu",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "bɒnd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "hit the books",
+              "ko": "열심히 공부하다"
+            }
           }
         ],
         "advanced": [
@@ -1601,7 +2339,13 @@
               "ko": "정신의"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈkɒɡnɪtɪv",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "learn the ropes",
+              "ko": "요령을 배우다"
+            }
           },
           {
             "id": "w0112",
@@ -1615,7 +2359,13 @@
               "ko": "기르다, 올리다"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈnɜːrtʃər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "practice makes perfect",
+              "ko": "연습이 완벽을 만든다"
+            }
           },
           {
             "id": "w0113",
@@ -1629,7 +2379,13 @@
               "ko": "흥분시키다"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈstɪmjəleɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "back to basics",
+              "ko": "기본으로 돌아가다"
+            }
           },
           {
             "id": "w0114",
@@ -1643,7 +2399,19 @@
               "ko": "유아"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈtɒdlər",
+            "grammar_tips": [
+              {
+                "phrase": "is learning",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "a quick learner",
+              "ko": "빨리 배우는 사람"
+            }
           },
           {
             "id": "w0115",
@@ -1657,7 +2425,13 @@
               "ko": "유치원"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈpriːskuːl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "think outside the box",
+              "ko": "창의적으로 생각하다"
+            }
           },
           {
             "id": "w0116",
@@ -1671,7 +2445,13 @@
               "ko": "협응력"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈmoʊtər skɪlz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "learn by heart",
+              "ko": "외우다"
+            }
           },
           {
             "id": "w0117",
@@ -1685,7 +2465,19 @@
               "ko": "연민"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈɛmpəθi",
+            "grammar_tips": [
+              {
+                "phrase": "can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "grow like a weed",
+              "ko": "무럭무럭 자라다"
+            }
           },
           {
             "id": "w0118",
@@ -1699,7 +2491,13 @@
               "ko": "힘"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "rɪˈzɪliəns",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "step by step",
+              "ko": "차근차근"
+            }
           },
           {
             "id": "w0119",
@@ -1713,7 +2511,13 @@
               "ko": "지원하다"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈskæfoʊld",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "the sky's the limit",
+              "ko": "한계가 없다"
+            }
           },
           {
             "id": "w0120",
@@ -1727,7 +2531,13 @@
               "ko": "전체의"
             },
             "category": "kids_edu",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "hoʊˈlɪstɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "hit the books",
+              "ko": "열심히 공부하다"
+            }
           }
         ]
       }
@@ -1750,7 +2560,13 @@
               "ko": "부모"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈmʌðər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "blood is thicker than water",
+              "ko": "피는 물보다 진하다"
+            }
           },
           {
             "id": "w0122",
@@ -1764,7 +2580,13 @@
               "ko": "부모"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈfɑːðər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "runs in the family",
+              "ko": "집안 내력이다"
+            }
           },
           {
             "id": "w0123",
@@ -1778,7 +2600,13 @@
               "ko": "남자 형제"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈsɪstər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a chip off the old block",
+              "ko": "부모를 꼭 닮은 자식"
+            }
           },
           {
             "id": "w0124",
@@ -1792,7 +2620,13 @@
               "ko": "여자 형제"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈbrʌðər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under the same roof",
+              "ko": "한 지붕 아래"
+            }
           },
           {
             "id": "w0125",
@@ -1806,7 +2640,13 @@
               "ko": "할아버지"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈɡrænˌmʌðər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "close-knit family",
+              "ko": "화목한 가족"
+            }
           },
           {
             "id": "w0126",
@@ -1820,7 +2660,13 @@
               "ko": "할머니"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈɡrænˌfɑːðər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "black sheep of the family",
+              "ko": "집안의 골칫거리"
+            }
           },
           {
             "id": "w0127",
@@ -1834,7 +2680,19 @@
               "ko": "아이"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈbeɪbi",
+            "grammar_tips": [
+              {
+                "phrase": "is sleeping",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "like father, like son",
+              "ko": "그 아버지에 그 아들"
+            }
           },
           {
             "id": "w0128",
@@ -1848,7 +2706,13 @@
               "ko": "집"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈfæməli",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "family ties",
+              "ko": "가족 간의 유대"
+            }
           },
           {
             "id": "w0129",
@@ -1862,7 +2726,13 @@
               "ko": "딸"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "sʌn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "raise a family",
+              "ko": "가정을 꾸리다"
+            }
           },
           {
             "id": "w0130",
@@ -1876,7 +2746,13 @@
               "ko": "아들"
             },
             "category": "family",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈdɔːtər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "flesh and blood",
+              "ko": "혈육"
+            }
           }
         ],
         "intermediate": [
@@ -1892,7 +2768,13 @@
               "ko": "가족"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈrɛlətɪv",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "blood is thicker than water",
+              "ko": "피는 물보다 진하다"
+            }
           },
           {
             "id": "w0132",
@@ -1906,7 +2788,13 @@
               "ko": "남자 형제"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsɪblɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "runs in the family",
+              "ko": "집안 내력이다"
+            }
           },
           {
             "id": "w0133",
@@ -1920,7 +2808,13 @@
               "ko": "남편"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "spaʊs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a chip off the old block",
+              "ko": "부모를 꼭 닮은 자식"
+            }
           },
           {
             "id": "w0134",
@@ -1934,7 +2828,13 @@
               "ko": "시대"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌdʒɛnəˈreɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under the same roof",
+              "ko": "한 지붕 아래"
+            }
           },
           {
             "id": "w0135",
@@ -1948,7 +2848,13 @@
               "ko": "집"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈhaʊshoʊld",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "close-knit family",
+              "ko": "화목한 가족"
+            }
           },
           {
             "id": "w0136",
@@ -1962,7 +2868,13 @@
               "ko": "양육하다"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "reɪz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "black sheep of the family",
+              "ko": "집안의 골칫거리"
+            }
           },
           {
             "id": "w0137",
@@ -1976,7 +2888,13 @@
               "ko": "후손"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈænsɛstər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "like father, like son",
+              "ko": "그 아버지에 그 아들"
+            }
           },
           {
             "id": "w0138",
@@ -1990,7 +2908,13 @@
               "ko": "친척"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈɪn lɔː",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "family ties",
+              "ko": "가족 간의 유대"
+            }
           },
           {
             "id": "w0139",
@@ -2004,7 +2928,13 @@
               "ko": "모임"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "riːˈjuːnjən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "raise a family",
+              "ko": "가정을 꾸리다"
+            }
           },
           {
             "id": "w0140",
@@ -2018,7 +2948,13 @@
               "ko": "기르다, 올리다"
             },
             "category": "family",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈʌpˌbrɪŋɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "flesh and blood",
+              "ko": "혈육"
+            }
           }
         ],
         "advanced": [
@@ -2034,7 +2970,13 @@
               "ko": "가족"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈkɪnʃɪp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "blood is thicker than water",
+              "ko": "피는 물보다 진하다"
+            }
           },
           {
             "id": "w0142",
@@ -2048,7 +2990,13 @@
               "ko": "혈통"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈlɪniɪdʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "runs in the family",
+              "ko": "집안 내력이다"
+            }
           },
           {
             "id": "w0143",
@@ -2062,7 +3010,19 @@
               "ko": "전통"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈhɛrɪtɪdʒ",
+            "grammar_tips": [
+              {
+                "phrase": "should",
+                "title": "조동사 should",
+                "desc": "should는 '~하는 게 좋겠다'는 충고나 약한 의무를 나타내요. 뒤에는 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "a chip off the old block",
+              "ko": "부모를 꼭 닮은 자식"
+            }
           },
           {
             "id": "w0144",
@@ -2076,7 +3036,13 @@
               "ko": "기억"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "nɒˈstældʒə",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under the same roof",
+              "ko": "한 지붕 아래"
+            }
           },
           {
             "id": "w0145",
@@ -2090,7 +3056,13 @@
               "ko": "소중히 여기다"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈtʃɛrɪʃ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "close-knit family",
+              "ko": "화목한 가족"
+            }
           },
           {
             "id": "w0146",
@@ -2104,7 +3076,13 @@
               "ko": "감정적인"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌsɛntɪˈmɛntəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "black sheep of the family",
+              "ko": "집안의 골칫거리"
+            }
           },
           {
             "id": "w0147",
@@ -2118,7 +3096,13 @@
               "ko": "유산"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈlɛɡəsi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "like father, like son",
+              "ko": "그 아버지에 그 아들"
+            }
           },
           {
             "id": "w0148",
@@ -2132,7 +3116,13 @@
               "ko": "사랑"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "əˈfɛkʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "family ties",
+              "ko": "가족 간의 유대"
+            }
           },
           {
             "id": "w0149",
@@ -2146,7 +3136,13 @@
               "ko": "헌신"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "dɪˈvoʊʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "raise a family",
+              "ko": "가정을 꾸리다"
+            }
           },
           {
             "id": "w0150",
@@ -2160,7 +3156,13 @@
               "ko": "세대의"
             },
             "category": "family",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌɪntərˌdʒɛnəˈreɪʃənəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "flesh and blood",
+              "ko": "혈육"
+            }
           }
         ]
       }
@@ -2183,7 +3185,13 @@
               "ko": "맑은"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈsʌni",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "come rain or shine",
+              "ko": "어떤 일이 있어도"
+            }
           },
           {
             "id": "w0152",
@@ -2197,7 +3205,13 @@
               "ko": "비"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈreɪni",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under the weather",
+              "ko": "몸이 안 좋은"
+            }
           },
           {
             "id": "w0153",
@@ -2211,7 +3225,13 @@
               "ko": "흐린"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈklaʊdi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "every cloud has a silver lining",
+              "ko": "괴로움 속에도 희망은 있다"
+            }
           },
           {
             "id": "w0154",
@@ -2225,7 +3245,13 @@
               "ko": "산들바람"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈwɪndi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "calm before the storm",
+              "ko": "폭풍전야"
+            }
           },
           {
             "id": "w0155",
@@ -2239,7 +3265,13 @@
               "ko": "겨울"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "snoʊ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "save for a rainy day",
+              "ko": "만일을 위해 저축하다"
+            }
           },
           {
             "id": "w0156",
@@ -2253,7 +3285,19 @@
               "ko": "따뜻한"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "hɒt",
+            "grammar_tips": [
+              {
+                "phrase": "in summer",
+                "title": "전치사 in + 시간대/계절",
+                "desc": "morning, afternoon, evening이나 계절 앞에는 in을 써요."
+              }
+            ],
+            "idiom": {
+              "en": "weather the storm",
+              "ko": "어려움을 견뎌내다"
+            }
           },
           {
             "id": "w0157",
@@ -2267,7 +3311,19 @@
               "ko": "시원한"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "koʊld",
+            "grammar_tips": [
+              {
+                "phrase": "in winter",
+                "title": "전치사 in + 시간대/계절",
+                "desc": "morning, afternoon, evening이나 계절 앞에는 in을 써요."
+              }
+            ],
+            "idiom": {
+              "en": "a ray of sunshine",
+              "ko": "밝은 희망"
+            }
           },
           {
             "id": "w0158",
@@ -2281,7 +3337,13 @@
               "ko": "더운"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "wɔːrm",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "chase away the clouds",
+              "ko": "걱정을 떨쳐내다"
+            }
           },
           {
             "id": "w0159",
@@ -2295,7 +3357,13 @@
               "ko": "쌀쌀한"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "kuːl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "when it rains it pours",
+              "ko": "엎친 데 덮친 격"
+            }
           },
           {
             "id": "w0160",
@@ -2309,7 +3377,19 @@
               "ko": "천둥"
             },
             "category": "weather",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "stɔːrm",
+            "grammar_tips": [
+              {
+                "phrase": "is coming",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "once in a blue moon",
+              "ko": "아주 가끔"
+            }
           }
         ],
         "intermediate": [
@@ -2325,7 +3405,13 @@
               "ko": "정도, 온도 단위"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈtɛmpərətʃər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "come rain or shine",
+              "ko": "어떤 일이 있어도"
+            }
           },
           {
             "id": "w0162",
@@ -2339,7 +3425,13 @@
               "ko": "예측"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈfɔːrkæst",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under the weather",
+              "ko": "몸이 안 좋은"
+            }
           },
           {
             "id": "w0163",
@@ -2353,7 +3445,13 @@
               "ko": "습기"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "hjuːˈmɪdɪti",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "every cloud has a silver lining",
+              "ko": "괴로움 속에도 희망은 있다"
+            }
           },
           {
             "id": "w0164",
@@ -2367,7 +3465,19 @@
               "ko": "바람"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "briːz",
+            "grammar_tips": [
+              {
+                "phrase": "is blowing",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "calm before the storm",
+              "ko": "폭풍전야"
+            }
           },
           {
             "id": "w0165",
@@ -2381,7 +3491,13 @@
               "ko": "비"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈdrɪzəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "save for a rainy day",
+              "ko": "만일을 위해 저축하다"
+            }
           },
           {
             "id": "w0166",
@@ -2395,7 +3511,13 @@
               "ko": "번개"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈθʌndər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "weather the storm",
+              "ko": "어려움을 견뎌내다"
+            }
           },
           {
             "id": "w0167",
@@ -2409,7 +3531,13 @@
               "ko": "천둥"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈlaɪtnɪŋ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a ray of sunshine",
+              "ko": "밝은 희망"
+            }
           },
           {
             "id": "w0168",
@@ -2423,7 +3551,13 @@
               "ko": "옅은 안개"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈfɒɡi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "chase away the clouds",
+              "ko": "걱정을 떨쳐내다"
+            }
           },
           {
             "id": "w0169",
@@ -2437,7 +3571,19 @@
               "ko": "얼다"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "frɒst",
+            "grammar_tips": [
+              {
+                "phrase": "There was",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": {
+              "en": "when it rains it pours",
+              "ko": "엎친 데 덮친 격"
+            }
           },
           {
             "id": "w0170",
@@ -2451,7 +3597,13 @@
               "ko": "날씨"
             },
             "category": "weather",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈklaɪmɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "once in a blue moon",
+              "ko": "아주 가끔"
+            }
           }
         ],
         "advanced": [
@@ -2467,7 +3619,13 @@
               "ko": "날씨"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌmiːtiəˈrɒlədʒi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "come rain or shine",
+              "ko": "어떤 일이 있어도"
+            }
           },
           {
             "id": "w0172",
@@ -2481,7 +3639,19 @@
               "ko": "강우량"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "prɪˌsɪpɪˈteɪʃən",
+            "grammar_tips": [
+              {
+                "phrase": "is expected",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": {
+              "en": "under the weather",
+              "ko": "몸이 안 좋은"
+            }
           },
           {
             "id": "w0173",
@@ -2495,7 +3665,19 @@
               "ko": "공기"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌætməsˈfɛrɪk",
+            "grammar_tips": [
+              {
+                "phrase": "is dropping",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "every cloud has a silver lining",
+              "ko": "괴로움 속에도 희망은 있다"
+            }
           },
           {
             "id": "w0174",
@@ -2509,7 +3691,13 @@
               "ko": "흐린"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈoʊvərkæst",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "calm before the storm",
+              "ko": "폭풍전야"
+            }
           },
           {
             "id": "w0175",
@@ -2523,7 +3711,13 @@
               "ko": "폭우"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "tɒˈrɛnʃəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "save for a rainy day",
+              "ko": "만일을 위해 저축하다"
+            }
           },
           {
             "id": "w0176",
@@ -2537,7 +3731,13 @@
               "ko": "강풍"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɡeɪl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "weather the storm",
+              "ko": "어려움을 견뎌내다"
+            }
           },
           {
             "id": "w0177",
@@ -2551,7 +3751,13 @@
               "ko": "눈보라"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈblɪzərd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a ray of sunshine",
+              "ko": "밝은 희망"
+            }
           },
           {
             "id": "w0178",
@@ -2565,7 +3771,13 @@
               "ko": "더운"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈhiːtweɪv",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "chase away the clouds",
+              "ko": "걱정을 떨쳐내다"
+            }
           },
           {
             "id": "w0179",
@@ -2579,7 +3791,13 @@
               "ko": "우기"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "mɒnˈsuːn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "when it rains it pours",
+              "ko": "엎친 데 덮친 격"
+            }
           },
           {
             "id": "w0180",
@@ -2593,7 +3811,13 @@
               "ko": "건조한 기간"
             },
             "category": "weather",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "draʊt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "once in a blue moon",
+              "ko": "아주 가끔"
+            }
           }
         ]
       }
@@ -2616,7 +3840,13 @@
               "ko": "간호사"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈdɒktər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a taste of your own medicine",
+              "ko": "자업자득"
+            }
           },
           {
             "id": "w0182",
@@ -2630,7 +3860,13 @@
               "ko": "의사"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "nɜːrs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on the mend",
+              "ko": "회복 중인"
+            }
           },
           {
             "id": "w0183",
@@ -2644,7 +3880,13 @@
               "ko": "알약"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈmɛdɪsɪn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in good hands",
+              "ko": "믿을 만한 사람에게 맡겨진"
+            }
           },
           {
             "id": "w0184",
@@ -2658,7 +3900,13 @@
               "ko": "아픈"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "sɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "fit as a fiddle",
+              "ko": "아주 건강한"
+            }
           },
           {
             "id": "w0185",
@@ -2672,7 +3920,13 @@
               "ko": "아픔, 통증"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "peɪn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a bitter pill to swallow",
+              "ko": "받아들이기 힘든 사실"
+            }
           },
           {
             "id": "w0186",
@@ -2686,7 +3940,13 @@
               "ko": "기온"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈfiːvər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get a clean bill of health",
+              "ko": "건강하다는 진단을 받다"
+            }
           },
           {
             "id": "w0187",
@@ -2700,7 +3960,13 @@
               "ko": "독감"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "koʊld",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "back on your feet",
+              "ko": "회복하여 다시 활동하는"
+            }
           },
           {
             "id": "w0188",
@@ -2714,7 +3980,13 @@
               "ko": "병원, 진료소"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈhɒspɪtəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep at bay",
+              "ko": "막아내다"
+            }
           },
           {
             "id": "w0189",
@@ -2728,7 +4000,13 @@
               "ko": "일정"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "əˈpɔɪntmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under observation",
+              "ko": "경과를 지켜보는 중인"
+            }
           },
           {
             "id": "w0190",
@@ -2742,7 +4020,13 @@
               "ko": "주사"
             },
             "category": "hospital",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ɪnˈdʒɛkʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "nip it in the bud",
+              "ko": "초기에 문제를 해결하다"
+            }
           }
         ],
         "intermediate": [
@@ -2758,7 +4042,13 @@
               "ko": "징후, 표지판"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsɪmptəm",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a taste of your own medicine",
+              "ko": "자업자득"
+            }
           },
           {
             "id": "w0192",
@@ -2772,7 +4062,19 @@
               "ko": "진찰하다"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌdaɪəɡˈnoʊsɪs",
+            "grammar_tips": [
+              {
+                "phrase": "was confirmed",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": {
+              "en": "on the mend",
+              "ko": "회복 중인"
+            }
           },
           {
             "id": "w0193",
@@ -2786,7 +4088,13 @@
               "ko": "치료"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈtriːtmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in good hands",
+              "ko": "믿을 만한 사람에게 맡겨진"
+            }
           },
           {
             "id": "w0194",
@@ -2800,7 +4108,13 @@
               "ko": "약"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "prɪˈskrɪpʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "fit as a fiddle",
+              "ko": "아주 건강한"
+            }
           },
           {
             "id": "w0195",
@@ -2814,7 +4128,13 @@
               "ko": "검사, 시험"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈtʃɛkʌp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a bitter pill to swallow",
+              "ko": "받아들이기 힘든 사실"
+            }
           },
           {
             "id": "w0196",
@@ -2828,7 +4148,13 @@
               "ko": "수술"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈsɜːrdʒəri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get a clean bill of health",
+              "ko": "건강하다는 진단을 받다"
+            }
           },
           {
             "id": "w0197",
@@ -2842,7 +4168,19 @@
               "ko": "의사"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈpeɪʃənt",
+            "grammar_tips": [
+              {
+                "phrase": "is recovering",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "back on your feet",
+              "ko": "회복하여 다시 활동하는"
+            }
           },
           {
             "id": "w0198",
@@ -2856,7 +4194,13 @@
               "ko": "치유하다"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "rɪˈkʌvəri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep at bay",
+              "ko": "막아내다"
+            }
           },
           {
             "id": "w0199",
@@ -2870,7 +4214,13 @@
               "ko": "긴급한"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ɪˈmɜːrdʒənsi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under observation",
+              "ko": "경과를 지켜보는 중인"
+            }
           },
           {
             "id": "w0200",
@@ -2884,7 +4234,19 @@
               "ko": "병원"
             },
             "category": "hospital",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈklɪnɪk",
+            "grammar_tips": [
+              {
+                "phrase": "There is",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": {
+              "en": "nip it in the bud",
+              "ko": "초기에 문제를 해결하다"
+            }
           }
         ],
         "advanced": [
@@ -2900,7 +4262,13 @@
               "ko": "지속적인"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈkrɒnɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a taste of your own medicine",
+              "ko": "자업자득"
+            }
           },
           {
             "id": "w0202",
@@ -2914,7 +4282,13 @@
               "ko": "전망"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "prɒɡˈnoʊsɪs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on the mend",
+              "ko": "회복 중인"
+            }
           },
           {
             "id": "w0203",
@@ -2928,7 +4302,13 @@
               "ko": "회복"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌriːəˌbɪlɪˈteɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in good hands",
+              "ko": "믿을 만한 사람에게 맡겨진"
+            }
           },
           {
             "id": "w0204",
@@ -2942,7 +4322,19 @@
               "ko": "저항력"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪˈmjuːnɪti",
+            "grammar_tips": [
+              {
+                "phrase": "can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다'는 능력이나 가능성을 나타내요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "fit as a fiddle",
+              "ko": "아주 건강한"
+            }
           },
           {
             "id": "w0205",
@@ -2956,7 +4348,13 @@
               "ko": "질병"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈeɪlmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a bitter pill to swallow",
+              "ko": "받아들이기 힘든 사실"
+            }
           },
           {
             "id": "w0206",
@@ -2970,7 +4368,13 @@
               "ko": "치유"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌθɛrəˈpjuːtɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get a clean bill of health",
+              "ko": "건강하다는 진단을 받다"
+            }
           },
           {
             "id": "w0207",
@@ -2984,7 +4388,13 @@
               "ko": "맥박"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈvaɪtəl saɪnz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "back on your feet",
+              "ko": "회복하여 다시 활동하는"
+            }
           },
           {
             "id": "w0208",
@@ -2998,7 +4408,13 @@
               "ko": "감각이 없는"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌænɪsˈθiːʒə",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep at bay",
+              "ko": "막아내다"
+            }
           },
           {
             "id": "w0209",
@@ -3012,7 +4428,13 @@
               "ko": "추천하다"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "rɪˈfɜːrəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "under observation",
+              "ko": "경과를 지켜보는 중인"
+            }
           },
           {
             "id": "w0210",
@@ -3026,7 +4448,13 @@
               "ko": "예약"
             },
             "category": "hospital",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌkɒnsəlˈteɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "nip it in the bud",
+              "ko": "초기에 문제를 해결하다"
+            }
           }
         ]
       }
@@ -3049,7 +4477,19 @@
               "ko": "가게"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "stɔːr",
+            "grammar_tips": [
+              {
+                "phrase": "at nine",
+                "title": "전치사 at + 시각",
+                "desc": "정확한 시각을 말할 때는 at을 써요. (예: at nine, at noon)"
+              }
+            ],
+            "idiom": {
+              "en": "window shopping",
+              "ko": "아이쇼핑"
+            }
           },
           {
             "id": "w0212",
@@ -3063,7 +4503,13 @@
               "ko": "비용"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "praɪs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "cost an arm and a leg",
+              "ko": "매우 비싸다"
+            }
           },
           {
             "id": "w0213",
@@ -3077,7 +4523,13 @@
               "ko": "현금"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈmʌni",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bang for your buck",
+              "ko": "돈값을 하는"
+            }
           },
           {
             "id": "w0214",
@@ -3091,7 +4543,13 @@
               "ko": "구매"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "baɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in the bag",
+              "ko": "성사된 것이나 다름없는"
+            }
           },
           {
             "id": "w0215",
@@ -3105,7 +4563,13 @@
               "ko": "거래하다"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "sɛl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "break the bank",
+              "ko": "큰돈을 쓰다"
+            }
           },
           {
             "id": "w0216",
@@ -3119,7 +4583,13 @@
               "ko": "돈"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "kæʃ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a steal",
+              "ko": "아주 싼 물건"
+            }
           },
           {
             "id": "w0217",
@@ -3133,7 +4603,13 @@
               "ko": "증거"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "rɪˈsiːt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "shop till you drop",
+              "ko": "지칠 때까지 쇼핑하다"
+            }
           },
           {
             "id": "w0218",
@@ -3147,7 +4623,13 @@
               "ko": "할인, 판매"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈdɪskaʊnt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "money doesn't grow on trees",
+              "ko": "돈이 그냥 생기는 게 아니다"
+            }
           },
           {
             "id": "w0219",
@@ -3161,7 +4643,13 @@
               "ko": "바구니"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "bæɡ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "worth every penny",
+              "ko": "그만한 가치가 있는"
+            }
           },
           {
             "id": "w0220",
@@ -3175,7 +4663,13 @@
               "ko": "바구니"
             },
             "category": "shopping",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "kɑːrt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "buy one get one free",
+              "ko": "하나 사면 하나 무료"
+            }
           }
         ],
         "intermediate": [
@@ -3191,7 +4685,13 @@
               "ko": "비용"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈbʌdʒɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "window shopping",
+              "ko": "아이쇼핑"
+            }
           },
           {
             "id": "w0222",
@@ -3205,7 +4705,13 @@
               "ko": "반품, 돌아오다"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈriːfʌnd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "cost an arm and a leg",
+              "ko": "매우 비싸다"
+            }
           },
           {
             "id": "w0223",
@@ -3219,7 +4725,19 @@
               "ko": "반품, 돌아오다"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ɪksˈtʃeɪndʒ",
+            "grammar_tips": [
+              {
+                "phrase": "Can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다' 또는 상대방에게 부탁할 때도 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "bang for your buck",
+              "ko": "돈값을 하는"
+            }
           },
           {
             "id": "w0224",
@@ -3233,7 +4751,13 @@
               "ko": "보증"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈwɒrənti",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in the bag",
+              "ko": "성사된 것이나 다름없는"
+            }
           },
           {
             "id": "w0225",
@@ -3247,7 +4771,19 @@
               "ko": "지불하다"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈtʃɛkaʊt",
+            "grammar_tips": [
+              {
+                "phrase": "There is",
+                "title": "There is/are ~",
+                "desc": "'~이 있다'라고 할 때 쓰는 표현이에요. 뒤에 오는 명사가 단수면 is/was, 복수면 are/were를 써요."
+              }
+            ],
+            "idiom": {
+              "en": "break the bank",
+              "ko": "큰돈을 쓰다"
+            }
           },
           {
             "id": "w0226",
@@ -3261,7 +4797,13 @@
               "ko": "회원"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈmɛmbərʃɪp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a steal",
+              "ko": "아주 싼 물건"
+            }
           },
           {
             "id": "w0227",
@@ -3275,7 +4817,13 @@
               "ko": "상품권"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkuːpɒn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "shop till you drop",
+              "ko": "지칠 때까지 쇼핑하다"
+            }
           },
           {
             "id": "w0228",
@@ -3289,7 +4837,13 @@
               "ko": "거래"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈbɑːrɡɪn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "money doesn't grow on trees",
+              "ko": "돈이 그냥 생기는 게 아니다"
+            }
           },
           {
             "id": "w0229",
@@ -3303,7 +4857,13 @@
               "ko": "재고"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈɪnvəntɔːri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "worth every penny",
+              "ko": "그만한 가치가 있는"
+            }
           },
           {
             "id": "w0230",
@@ -3317,7 +4877,13 @@
               "ko": "고객"
             },
             "category": "shopping",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkʌstəmər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "buy one get one free",
+              "ko": "하나 사면 하나 무료"
+            }
           }
         ],
         "advanced": [
@@ -3333,7 +4899,13 @@
               "ko": "구매자"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "kənˈsuːmər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "window shopping",
+              "ko": "아이쇼핑"
+            }
           },
           {
             "id": "w0232",
@@ -3347,7 +4919,13 @@
               "ko": "가게"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈriːteɪl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "cost an arm and a leg",
+              "ko": "매우 비싸다"
+            }
           },
           {
             "id": "w0233",
@@ -3361,7 +4939,13 @@
               "ko": "상품"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈmɜːrtʃəndaɪz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bang for your buck",
+              "ko": "돈값을 하는"
+            }
           },
           {
             "id": "w0234",
@@ -3375,7 +4959,19 @@
               "ko": "거래"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "trænˈzækʃən",
+            "grammar_tips": [
+              {
+                "phrase": "was completed",
+                "title": "수동태 (be + p.p.)",
+                "desc": "동작을 당하는 대상이 주어로 올 때 써요. '~되다, ~해지다'라고 해석해요."
+              }
+            ],
+            "idiom": {
+              "en": "in the bag",
+              "ko": "성사된 것이나 다름없는"
+            }
           },
           {
             "id": "w0235",
@@ -3389,7 +4985,13 @@
               "ko": "지불"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪnˈstɔːlmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "break the bank",
+              "ko": "큰돈을 쓰다"
+            }
           },
           {
             "id": "w0236",
@@ -3403,7 +5005,13 @@
               "ko": "대량"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈhoʊlseɪl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a steal",
+              "ko": "아주 싼 물건"
+            }
           },
           {
             "id": "w0237",
@@ -3417,7 +5025,19 @@
               "ko": "할인, 판매"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "prəˈmoʊʃən",
+            "grammar_tips": [
+              {
+                "phrase": "is running",
+                "title": "현재진행형 (be + -ing)",
+                "desc": "지금 진행 중인 동작을 나타낼 때 써요. be동사(am/is/are) 뒤에 동사의 -ing형을 붙입니다."
+              }
+            ],
+            "idiom": {
+              "en": "shop till you drop",
+              "ko": "지칠 때까지 쇼핑하다"
+            }
           },
           {
             "id": "w0238",
@@ -3431,7 +5051,13 @@
               "ko": "회원권"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈlɔɪəlti",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "money doesn't grow on trees",
+              "ko": "돈이 그냥 생기는 게 아니다"
+            }
           },
           {
             "id": "w0239",
@@ -3445,7 +5071,13 @@
               "ko": "갑작스러운"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈɪmpʌls",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "worth every penny",
+              "ko": "그만한 가치가 있는"
+            }
           },
           {
             "id": "w0240",
@@ -3459,7 +5091,13 @@
               "ko": "친환경적인"
             },
             "category": "shopping",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "səˈsteɪnəbəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "buy one get one free",
+              "ko": "하나 사면 하나 무료"
+            }
           }
         ]
       }
@@ -3482,7 +5120,13 @@
               "ko": "학교"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈtiːtʃər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "climb the corporate ladder",
+              "ko": "승진하다, 출세하다"
+            }
           },
           {
             "id": "w0242",
@@ -3496,7 +5140,13 @@
               "ko": "농장"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈfɑːrmər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "nine-to-five job",
+              "ko": "정규 근무시간의 직장"
+            }
           },
           {
             "id": "w0243",
@@ -3510,7 +5160,13 @@
               "ko": "직업"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈwɜːrkər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "burn the midnight oil",
+              "ko": "밤늦게까지 일하다"
+            }
           },
           {
             "id": "w0244",
@@ -3524,7 +5180,13 @@
               "ko": "기술"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˌɛndʒɪˈnɪər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get the ball rolling",
+              "ko": "일을 시작하다"
+            }
           },
           {
             "id": "w0245",
@@ -3538,7 +5200,13 @@
               "ko": "경찰"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "pəˈliːs ˈɒfɪsər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "wear many hats",
+              "ko": "여러 역할을 맡다"
+            }
           },
           {
             "id": "w0246",
@@ -3552,7 +5220,13 @@
               "ko": "요리하다"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ʃɛf",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "call it a day",
+              "ko": "하루 일을 마치다"
+            }
           },
           {
             "id": "w0247",
@@ -3566,7 +5240,13 @@
               "ko": "버스"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈdraɪvər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in the driver's seat",
+              "ko": "주도권을 쥔"
+            }
           },
           {
             "id": "w0248",
@@ -3580,7 +5260,13 @@
               "ko": "회사"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ɪmˈplɔɪiː",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bring home the bacon",
+              "ko": "생계를 책임지다"
+            }
           },
           {
             "id": "w0249",
@@ -3594,7 +5280,13 @@
               "ko": "관리자"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "bɒs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on the same page",
+              "ko": "의견이 일치하는"
+            }
           },
           {
             "id": "w0250",
@@ -3608,7 +5300,13 @@
               "ko": "지불하다"
             },
             "category": "jobs",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈsæləri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "put in the hours",
+              "ko": "시간을 들여 노력하다"
+            }
           }
         ],
         "intermediate": [
@@ -3624,7 +5322,13 @@
               "ko": "경력"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "prəˈfɛʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "climb the corporate ladder",
+              "ko": "승진하다, 출세하다"
+            }
           },
           {
             "id": "w0252",
@@ -3638,7 +5342,13 @@
               "ko": "동료"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkɒliːɡ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "nine-to-five job",
+              "ko": "정규 근무시간의 직장"
+            }
           },
           {
             "id": "w0253",
@@ -3652,7 +5362,13 @@
               "ko": "기르다, 올리다"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "prəˈmoʊʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "burn the midnight oil",
+              "ko": "밤늦게까지 일하다"
+            }
           },
           {
             "id": "w0254",
@@ -3666,7 +5382,13 @@
               "ko": "이력서"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈrɛzʊmeɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get the ball rolling",
+              "ko": "일을 시작하다"
+            }
           },
           {
             "id": "w0255",
@@ -3680,7 +5402,13 @@
               "ko": "지원하다"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈɪntərvjuː",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "wear many hats",
+              "ko": "여러 역할을 맡다"
+            }
           },
           {
             "id": "w0256",
@@ -3694,7 +5422,19 @@
               "ko": "마감일"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈdɛdlaɪn",
+            "grammar_tips": [
+              {
+                "phrase": "must",
+                "title": "조동사 must",
+                "desc": "must는 '반드시 ~해야 한다'는 강한 의무를 나타내요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "call it a day",
+              "ko": "하루 일을 마치다"
+            }
           },
           {
             "id": "w0257",
@@ -3708,7 +5448,13 @@
               "ko": "사무실"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈwɜːrkpleɪs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in the driver's seat",
+              "ko": "주도권을 쥔"
+            }
           },
           {
             "id": "w0258",
@@ -3722,7 +5468,13 @@
               "ko": "논의하다"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "nɪˌɡoʊʃiˈeɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bring home the bacon",
+              "ko": "생계를 책임지다"
+            }
           },
           {
             "id": "w0259",
@@ -3736,7 +5488,13 @@
               "ko": "합의"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkɒntrækt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on the same page",
+              "ko": "의견이 일치하는"
+            }
           },
           {
             "id": "w0260",
@@ -3750,7 +5508,13 @@
               "ko": "추가 근무"
             },
             "category": "jobs",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈoʊvərtaɪm",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "put in the hours",
+              "ko": "시간을 들여 노력하다"
+            }
           }
         ],
         "advanced": [
@@ -3766,7 +5530,13 @@
               "ko": "사업주"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌɒntrəprəˈnɜːr",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "climb the corporate ladder",
+              "ko": "승진하다, 출세하다"
+            }
           },
           {
             "id": "w0262",
@@ -3780,7 +5550,13 @@
               "ko": "기술, 능력"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌɛkspɜːrˈtiːz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "nine-to-five job",
+              "ko": "정규 근무시간의 직장"
+            }
           },
           {
             "id": "w0263",
@@ -3794,7 +5570,13 @@
               "ko": "직업"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌɒkjʊˈpeɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "burn the midnight oil",
+              "ko": "밤늦게까지 일하다"
+            }
           },
           {
             "id": "w0264",
@@ -3808,7 +5590,13 @@
               "ko": "유연한"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈvɜːrsətaɪl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get the ball rolling",
+              "ko": "일을 시작하다"
+            }
           },
           {
             "id": "w0265",
@@ -3822,7 +5610,13 @@
               "ko": "숙련된"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "prəˈfɪʃənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "wear many hats",
+              "ko": "여러 역할을 맡다"
+            }
           },
           {
             "id": "w0266",
@@ -3836,7 +5630,13 @@
               "ko": "리더십"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪˈnɪʃətɪv",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "call it a day",
+              "ko": "하루 일을 마치다"
+            }
           },
           {
             "id": "w0267",
@@ -3850,7 +5650,13 @@
               "ko": "책임"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "əˌkaʊntəˈbɪlɪti",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "in the driver's seat",
+              "ko": "주도권을 쥔"
+            }
           },
           {
             "id": "w0268",
@@ -3864,7 +5670,13 @@
               "ko": "팀워크"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "kəˌlæbəˈreɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bring home the bacon",
+              "ko": "생계를 책임지다"
+            }
           },
           {
             "id": "w0269",
@@ -3878,7 +5690,13 @@
               "ko": "지도, 안내"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈliːdərʃɪp",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on the same page",
+              "ko": "의견이 일치하는"
+            }
           },
           {
             "id": "w0270",
@@ -3892,7 +5710,13 @@
               "ko": "균형"
             },
             "category": "jobs",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈwɜːrk laɪf ˈbæləns",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "put in the hours",
+              "ko": "시간을 들여 노력하다"
+            }
           }
         ]
       }
@@ -3915,7 +5739,13 @@
               "ko": "기쁜"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈhæpi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "over the moon",
+              "ko": "매우 기쁜"
+            }
           },
           {
             "id": "w0272",
@@ -3929,7 +5759,13 @@
               "ko": "불행한"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "sæd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "down in the dumps",
+              "ko": "우울한"
+            }
           },
           {
             "id": "w0273",
@@ -3943,7 +5779,13 @@
               "ko": "화난"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈæŋɡri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "butterflies in your stomach",
+              "ko": "긴장되어 속이 울렁거리다"
+            }
           },
           {
             "id": "w0274",
@@ -3957,7 +5799,13 @@
               "ko": "졸린"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈtaɪərd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "at the end of your rope",
+              "ko": "인내심이 바닥난"
+            }
           },
           {
             "id": "w0275",
@@ -3971,7 +5819,19 @@
               "ko": "무서워하는"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "skɛərd",
+            "grammar_tips": [
+              {
+                "phrase": "was scared",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "keep a stiff upper lip",
+              "ko": "감정을 억누르고 침착하게 있다"
+            }
           },
           {
             "id": "w0276",
@@ -3985,7 +5845,19 @@
               "ko": "짜릿한"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ɪkˈsaɪtɪd",
+            "grammar_tips": [
+              {
+                "phrase": "are excited",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "wear your heart on your sleeve",
+              "ko": "감정을 숨기지 않다"
+            }
           },
           {
             "id": "w0277",
@@ -3999,7 +5871,19 @@
               "ko": "충격받은"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "sərˈpraɪzd",
+            "grammar_tips": [
+              {
+                "phrase": "was surprised",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "a heavy heart",
+              "ko": "슬픈 마음"
+            }
           },
           {
             "id": "w0278",
@@ -4013,7 +5897,19 @@
               "ko": "지루한"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "bɔːrd",
+            "grammar_tips": [
+              {
+                "phrase": "were bored",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "walking on air",
+              "ko": "날아갈듯이 기쁜"
+            }
           },
           {
             "id": "w0279",
@@ -4027,7 +5923,19 @@
               "ko": "불안한"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈwɜːrid",
+            "grammar_tips": [
+              {
+                "phrase": "is worried",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "bite your tongue",
+              "ko": "하고 싶은 말을 참다"
+            }
           },
           {
             "id": "w0280",
@@ -4041,7 +5949,13 @@
               "ko": "만족한"
             },
             "category": "emotions",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "praʊd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on cloud nine",
+              "ko": "매우 행복한"
+            }
           }
         ],
         "intermediate": [
@@ -4057,7 +5971,13 @@
               "ko": "불안한"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈnɜːrvəs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "over the moon",
+              "ko": "매우 기쁜"
+            }
           },
           {
             "id": "w0282",
@@ -4071,7 +5991,13 @@
               "ko": "질투하는"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈdʒɛləs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "down in the dumps",
+              "ko": "우울한"
+            }
           },
           {
             "id": "w0283",
@@ -4085,7 +6011,13 @@
               "ko": "감사하는"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈɡreɪtfəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "butterflies in your stomach",
+              "ko": "긴장되어 속이 울렁거리다"
+            }
           },
           {
             "id": "w0284",
@@ -4099,7 +6031,19 @@
               "ko": "부끄러운"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ɪmˈbærəst",
+            "grammar_tips": [
+              {
+                "phrase": "was embarrassed",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "at the end of your rope",
+              "ko": "인내심이 바닥난"
+            }
           },
           {
             "id": "w0285",
@@ -4113,7 +6057,13 @@
               "ko": "확신하는"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkɒnfɪdənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep a stiff upper lip",
+              "ko": "감정을 억누르고 침착하게 있다"
+            }
           },
           {
             "id": "w0286",
@@ -4127,7 +6077,19 @@
               "ko": "실망시키다"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌdɪsəˈpɔɪntɪd",
+            "grammar_tips": [
+              {
+                "phrase": "was disappointed",
+                "title": "감정을 나타내는 be + p.p.",
+                "desc": "형태는 수동태와 비슷하지만 감정을 나타내는 형용사로 자주 쓰여요. '~한 감정을 느끼다'라는 뜻이에요."
+              }
+            ],
+            "idiom": {
+              "en": "wear your heart on your sleeve",
+              "ko": "감정을 숨기지 않다"
+            }
           },
           {
             "id": "w0287",
@@ -4141,7 +6103,13 @@
               "ko": "차분한"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "rɪˈliːvd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a heavy heart",
+              "ko": "슬픈 마음"
+            }
           },
           {
             "id": "w0288",
@@ -4155,7 +6123,13 @@
               "ko": "긴장한"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈæŋkʃəs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "walking on air",
+              "ko": "날아갈듯이 기쁜"
+            }
           },
           {
             "id": "w0289",
@@ -4169,7 +6143,13 @@
               "ko": "만족한"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "kənˈtɛnt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bite your tongue",
+              "ko": "하고 싶은 말을 참다"
+            }
           },
           {
             "id": "w0290",
@@ -4183,7 +6163,13 @@
               "ko": "낙관적인"
             },
             "category": "emotions",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈhoʊpfəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on cloud nine",
+              "ko": "매우 행복한"
+            }
           }
         ],
         "advanced": [
@@ -4199,7 +6185,13 @@
               "ko": "슬픔"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈmɛlənkɒli",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "over the moon",
+              "ko": "매우 기쁜"
+            }
           },
           {
             "id": "w0292",
@@ -4213,7 +6205,13 @@
               "ko": "기쁨"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "juːˈfɔːriə",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "down in the dumps",
+              "ko": "우울한"
+            }
           },
           {
             "id": "w0293",
@@ -4227,7 +6225,13 @@
               "ko": "연민 어린"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌɛmpəˈθɛtɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "butterflies in your stomach",
+              "ko": "긴장되어 속이 울렁거리다"
+            }
           },
           {
             "id": "w0294",
@@ -4241,7 +6245,13 @@
               "ko": "스트레스 받는"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌoʊvərˈwɛlmd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "at the end of your rope",
+              "ko": "인내심이 바닥난"
+            }
           },
           {
             "id": "w0295",
@@ -4255,7 +6265,13 @@
               "ko": "감상적인"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "nɒˈstældʒɪk",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep a stiff upper lip",
+              "ko": "감정을 억누르고 침착하게 있다"
+            }
           },
           {
             "id": "w0296",
@@ -4269,7 +6285,13 @@
               "ko": "걱정하는"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˌæprɪˈhɛnsɪv",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "wear your heart on your sleeve",
+              "ko": "감정을 숨기지 않다"
+            }
           },
           {
             "id": "w0297",
@@ -4283,7 +6305,13 @@
               "ko": "짜릿한"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪɡˈzɪləreɪtɪd",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a heavy heart",
+              "ko": "슬픈 마음"
+            }
           },
           {
             "id": "w0298",
@@ -4297,7 +6325,13 @@
               "ko": "연약한"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈvʌlnərəbəl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "walking on air",
+              "ko": "날아갈듯이 기쁜"
+            }
           },
           {
             "id": "w0299",
@@ -4311,7 +6345,13 @@
               "ko": "불확실한"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "æmˈbɪvələnt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "bite your tongue",
+              "ko": "하고 싶은 말을 참다"
+            }
           },
           {
             "id": "w0300",
@@ -4325,7 +6365,13 @@
               "ko": "평화로운"
             },
             "category": "emotions",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "səˈriːn",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "on cloud nine",
+              "ko": "매우 행복한"
+            }
           }
         ]
       }
@@ -4348,7 +6394,13 @@
               "ko": "안녕"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "həˈloʊ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "break the ice",
+              "ko": "어색한 분위기를 깨다"
+            }
           },
           {
             "id": "w0302",
@@ -4362,7 +6414,13 @@
               "ko": "감사"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈθæŋk juː",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "long time no see",
+              "ko": "오랜만이야"
+            }
           },
           {
             "id": "w0303",
@@ -4376,7 +6434,13 @@
               "ko": "사과"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈsɒri",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep in touch",
+              "ko": "계속 연락하고 지내다"
+            }
           },
           {
             "id": "w0304",
@@ -4390,7 +6454,13 @@
               "ko": "요청"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "pliːz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "speak of the devil",
+              "ko": "호랑이도 제 말하면 온다"
+            }
           },
           {
             "id": "w0305",
@@ -4404,7 +6474,13 @@
               "ko": "좋아, 괜찮아"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "jɛs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get to the point",
+              "ko": "요점을 말하다"
+            }
           },
           {
             "id": "w0306",
@@ -4418,7 +6494,13 @@
               "ko": "아닌"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "noʊ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "beat around the bush",
+              "ko": "말을 빙빙 돌리다"
+            }
           },
           {
             "id": "w0307",
@@ -4432,7 +6514,13 @@
               "ko": "안녕(작별)"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˌɡʊdˈbaɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "give someone the benefit of the doubt",
+              "ko": "일단 믿어주다"
+            }
           },
           {
             "id": "w0308",
@@ -4446,7 +6534,13 @@
               "ko": "용서하다, 실례합니다"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ɪkˈskjuːz miː",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "read between the lines",
+              "ko": "행간을 읽다"
+            }
           },
           {
             "id": "w0309",
@@ -4460,7 +6554,13 @@
               "ko": "인사하다"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˈwɛlkəm",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a piece of my mind",
+              "ko": "따끔한 말 한마디"
+            }
           },
           {
             "id": "w0310",
@@ -4474,7 +6574,13 @@
               "ko": "괜찮은"
             },
             "category": "daily_talk",
-            "level": "basic"
+            "level": "basic",
+            "ipa": "ˌoʊˈkeɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "small talk",
+              "ko": "가벼운 잡담"
+            }
           }
         ],
         "intermediate": [
@@ -4490,7 +6596,19 @@
               "ko": "요청"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈfeɪvər",
+            "grammar_tips": [
+              {
+                "phrase": "Can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다' 또는 상대방에게 부탁할 때도 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "break the ice",
+              "ko": "어색한 분위기를 깨다"
+            }
           },
           {
             "id": "w0312",
@@ -4504,7 +6622,13 @@
               "ko": "생각, 아이디어"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "səˈdʒɛstʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "long time no see",
+              "ko": "오랜만이야"
+            }
           },
           {
             "id": "w0313",
@@ -4518,7 +6642,13 @@
               "ko": "견해, 전망"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "əˈpɪnjən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep in touch",
+              "ko": "계속 연락하고 지내다"
+            }
           },
           {
             "id": "w0314",
@@ -4532,7 +6662,13 @@
               "ko": "동의"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "əˈɡriːmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "speak of the devil",
+              "ko": "호랑이도 제 말하면 온다"
+            }
           },
           {
             "id": "w0315",
@@ -4546,7 +6682,13 @@
               "ko": "미안한"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "əˈpɒlədʒi",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get to the point",
+              "ko": "요점을 말하다"
+            }
           },
           {
             "id": "w0316",
@@ -4560,7 +6702,13 @@
               "ko": "칭찬"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˈkɒmplɪmənt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "beat around the bush",
+              "ko": "말을 빙빙 돌리다"
+            }
           },
           {
             "id": "w0317",
@@ -4574,7 +6722,13 @@
               "ko": "초대하다"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "ˌɪnvɪˈteɪʃən",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "give someone the benefit of the doubt",
+              "ko": "일단 믿어주다"
+            }
           },
           {
             "id": "w0318",
@@ -4588,7 +6742,13 @@
               "ko": "메모"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "rɪˈmaɪndər",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "read between the lines",
+              "ko": "행간을 읽다"
+            }
           },
           {
             "id": "w0319",
@@ -4602,7 +6762,13 @@
               "ko": "요청하다"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "rɪˈkwɛst",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a piece of my mind",
+              "ko": "따끔한 말 한마디"
+            }
           },
           {
             "id": "w0320",
@@ -4616,7 +6782,13 @@
               "ko": "답장"
             },
             "category": "daily_talk",
-            "level": "intermediate"
+            "level": "intermediate",
+            "ipa": "rɪˈspɒns",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "small talk",
+              "ko": "가벼운 잡담"
+            }
           }
         ],
         "advanced": [
@@ -4632,7 +6804,19 @@
               "ko": "설명하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɪˈlæbəreɪt",
+            "grammar_tips": [
+              {
+                "phrase": "Could",
+                "title": "조동사 could",
+                "desc": "could는 can보다 더 정중하게 부탁할 때 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "break the ice",
+              "ko": "어색한 분위기를 깨다"
+            }
           },
           {
             "id": "w0322",
@@ -4646,7 +6830,13 @@
               "ko": "설명하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈklærɪfaɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "long time no see",
+              "ko": "오랜만이야"
+            }
           },
           {
             "id": "w0323",
@@ -4660,7 +6850,13 @@
               "ko": "흥정, 싸게 산 물건"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "nɪˈɡoʊʃieɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "keep in touch",
+              "ko": "계속 연락하고 지내다"
+            }
           },
           {
             "id": "w0324",
@@ -4674,7 +6870,13 @@
               "ko": "이해하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈɛmpəθaɪz",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "speak of the devil",
+              "ko": "호랑이도 제 말하면 온다"
+            }
           },
           {
             "id": "w0325",
@@ -4688,7 +6890,13 @@
               "ko": "표현하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ɑːrˈtɪkjəleɪt",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "get to the point",
+              "ko": "요점을 말하다"
+            }
           },
           {
             "id": "w0326",
@@ -4702,7 +6910,13 @@
               "ko": "화해하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈrɛkənsaɪl",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "beat around the bush",
+              "ko": "말을 빙빙 돌리다"
+            }
           },
           {
             "id": "w0327",
@@ -4716,7 +6930,13 @@
               "ko": "인정하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "əkˈnɒlɪdʒ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "give someone the benefit of the doubt",
+              "ko": "일단 믿어주다"
+            }
           },
           {
             "id": "w0328",
@@ -4730,7 +6950,19 @@
               "ko": "다르게 말하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "ˈpærəfreɪz",
+            "grammar_tips": [
+              {
+                "phrase": "Can",
+                "title": "조동사 can",
+                "desc": "can은 '~할 수 있다' 또는 상대방에게 부탁할 때도 써요. 뒤에는 항상 동사원형이 옵니다."
+              }
+            ],
+            "idiom": {
+              "en": "read between the lines",
+              "ko": "행간을 읽다"
+            }
           },
           {
             "id": "w0329",
@@ -4744,7 +6976,13 @@
               "ko": "벗어나다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "daɪˈɡrɛs",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "a piece of my mind",
+              "ko": "따끔한 말 한마디"
+            }
           },
           {
             "id": "w0330",
@@ -4758,7 +6996,13 @@
               "ko": "표현하다"
             },
             "category": "daily_talk",
-            "level": "advanced"
+            "level": "advanced",
+            "ipa": "kənˈveɪ",
+            "grammar_tips": [],
+            "idiom": {
+              "en": "small talk",
+              "ko": "가벼운 잡담"
+            }
           }
         ]
       }
