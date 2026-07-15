@@ -29,12 +29,12 @@ let ALL_WORDS = {};       // id -> word
 let CATS = [];            // 카테고리 목록
 let ORDERED = {basic:[], intermediate:[], advanced:[]}; // 레벨별 라운드로빈 id 순서
 
-let settings = LS.get(KEYS.settings, {level:'basic', rate:0.85, voiceURI:null, koVoiceURI:null});
+let settings = LS.get(KEYS.settings, {level:'basic', rate:0.85, voiceURI:null, koVoiceURI:null, studyMode:'mixed', defaultCategory:null});
 let learned = new Set(LS.get(KEYS.learned, []));
 let favs = new Set(LS.get(KEYS.fav, []));
 let wrongs = LS.get(KEYS.wrong, []); // 배열(순서 유지)
 let quizStats = LS.get(KEYS.quiz, {correct:0, total:0});
-let daysProgress = LS.get(KEYS.days, {basic:{completed:[]}, intermediate:{completed:[]}, advanced:{completed:[]}});
+let daysProgress = LS.get(KEYS.days, {});
 let dailyStats = LS.get(KEYS.dailyStats, {}); // {date: count}
 let reviewMeta = LS.get(KEYS.reviewMeta, {}); // {wordId: {stage, nextReviewAt, learnedAt}}
 
@@ -91,6 +91,9 @@ const STATE = {
   dayPicker:false,
   duePicker:false,
   openTip:null, // {wordId, idx}
+  studyMode:'mixed', // 'mixed' | 'category'
+  studyCategory:null, // 카테고리 모드일 때 선택된 카테고리 id
+  categoryPickerOpen:false,
   searchQuery:'',
 };
 
@@ -212,15 +215,39 @@ function starBurst(callback){
   setTimeout(()=>{ callback && callback(); }, 650);
 }
 function levelLabel(lv){ return {basic:'기본', intermediate:'중급', advanced:'심화'}[lv]; }
-function maxDays(lv){ return Math.ceil(ORDERED[lv].length/20); }
-function getDayWords(lv, day){ return ORDERED[lv].slice((day-1)*20, day*20); }
-function nextDay(lv){
-  const done = daysProgress[lv].completed;
-  for(let d=1; d<=maxDays(lv); d++){ if(!done.includes(d)) return d; }
-  return maxDays(lv); // 모두 완료 시 마지막 회차 재표시
+function wordTag(w){
+  const cat = CATS.find(c=>c.id===w.category);
+  return `${cat ? cat.icon+' '+cat.name : ''} · ${levelLabel(w.level)}`;
 }
-function allDone(lv){ return daysProgress[lv].completed.length >= maxDays(lv); }
-function alreadyDoneToday(lv){ return daysProgress[lv].lastDate === todayStr(); }
+
+/* trackKey: 섞어서 모드는 'basic'/'intermediate'/'advanced', 카테고리 모드는 'travel:basic' 형태 */
+function trackWordIds(trackKey){
+  if(trackKey.includes(':')){
+    const [catId, lv] = trackKey.split(':');
+    const cat = CATS.find(c=>c.id===catId);
+    return cat ? cat.levels[lv].map(w=>w.id) : [];
+  }
+  return ORDERED[trackKey] || [];
+}
+function ensureTrackProgress(trackKey){
+  if(!daysProgress[trackKey]) daysProgress[trackKey] = {completed:[]};
+  return daysProgress[trackKey];
+}
+function currentTrackKey(){
+  if(STATE.studyMode === 'category' && STATE.studyCategory){
+    return `${STATE.studyCategory}:${settings.level}`;
+  }
+  return settings.level;
+}
+function maxDays(trackKey){ return Math.max(1, Math.ceil(trackWordIds(trackKey).length/20)); }
+function getDayWords(trackKey, day){ return trackWordIds(trackKey).slice((day-1)*20, day*20); }
+function nextDay(trackKey){
+  const done = ensureTrackProgress(trackKey).completed;
+  for(let d=1; d<=maxDays(trackKey); d++){ if(!done.includes(d)) return d; }
+  return maxDays(trackKey); // 모두 완료 시 마지막 회차 재표시
+}
+function allDone(trackKey){ return ensureTrackProgress(trackKey).completed.length >= maxDays(trackKey); }
+function alreadyDoneToday(trackKey){ return ensureTrackProgress(trackKey).lastDate === todayStr(); }
 
 /* ---------- 렌더 라우터 ---------- */
 function render(){
@@ -253,41 +280,50 @@ function renderHome(){
   const lv = settings.level;
   let banner = '';
   if(session && !session.completed){
-    banner = `<div class="banner">
-      <div class="msg">🌊 지난 학습을 이어서 하시겠습니까?<br><span style="color:#7a8794;font-size:1.3rem;">${levelLabel(session.level)} · ${session.index}/${session.wordIds.length} 단어 진행됨</span></div>
-    </div>
-    <div class="btn-row" style="margin-bottom:16px;">
-      <button class="big-btn small" data-action="resume-session">이어서 하기</button>
-      <button class="big-btn small ghost" data-action="discard-session">새로 시작</button>
+    banner = `<div class="card" style="background:var(--white);border:1px solid var(--line);">
+      <div style="font-size:1.7rem;font-weight:700;">지난 학습을 이어서 하시겠습니까?</div>
+      <div style="color:#7a8794;font-size:1.3rem;margin-top:4px;">${levelLabel(session.level)} · ${session.index}/${session.wordIds.length} 단어 진행됨</div>
+      <div class="btn-row">
+        <button class="big-btn small" data-action="resume-session">이어서 하기</button>
+        <button class="big-btn small ghost" data-action="discard-session">새로 시작</button>
+      </div>
     </div>`;
   }
 
   const dueBanner = renderDueSection();
 
-  const day = nextDay(lv);
-  const done = allDone(lv);
-  const doneToday = alreadyDoneToday(lv);
+  const trackKey = currentTrackKey();
+  const day = nextDay(trackKey);
+  const done = allDone(trackKey);
+  const doneToday = alreadyDoneToday(trackKey);
   const todayCount = dailyStats[todayStr()] || 0;
+  const dayWordCount = getDayWords(trackKey, day).length || 20;
 
-  const dayPickerBlock = STATE.dayPicker ? renderDayPicker(lv) : '';
+  const dayPickerBlock = STATE.dayPicker ? renderDayPicker(trackKey) : '';
+
+  const currentCat = CATS.find(c=>c.id===STATE.studyCategory);
+  const modeLabel = STATE.studyMode==='category' && currentCat ? `${currentCat.icon} ${currentCat.name} · ` : '';
 
   return `
     ${banner}
-    ${dueBanner}
     <div class="card">
+      ${renderStudyModeControl()}
+      <div style="border-top:1px solid var(--line);margin:14px 0;"></div>
       <div class="level-pills">
         ${['basic','intermediate','advanced'].map(l=>`
           <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
         `).join('')}
       </div>
       <div style="text-align:center;">
-        <div style="font-size:1.6rem;color:#5c6b78;">${done ? '모든 회차를 학습했어요 🎉' : doneToday ? '오늘치 학습 완료 ✅' : `오늘의 학습 · ${day}회차`}</div>
-        <div style="font-size:3.2rem;font-weight:700;margin:6px 0 2px;">${todayCount} <span style="font-size:1.6rem;color:#7a8794;">/ 20 단어</span></div>
+        <div style="font-size:1.6rem;color:#5c6b78;">${done ? '모든 회차를 학습했어요 🎉' : doneToday ? '오늘치 학습 완료 ✅' : `${modeLabel}오늘의 학습 · ${day}회차`}</div>
+        <div style="font-size:3.2rem;font-weight:700;margin:6px 0 2px;">${todayCount} <span style="font-size:1.6rem;color:#7a8794;">/ ${dayWordCount} 단어</span></div>
       </div>
       <button class="big-btn" style="margin-top:14px;" data-action="start-today">오늘 학습 시작</button>
       <button class="big-btn ghost small" style="margin-top:10px;" data-action="toggle-day-picker">${STATE.dayPicker ? '회차 목록 닫기' : '다른 회차 선택'}</button>
       ${dayPickerBlock}
     </div>
+
+    ${dueBanner}
 
     <div class="section-title">바로가기</div>
     <div class="btn-row">
@@ -297,12 +333,32 @@ function renderHome(){
   `;
 }
 
-function renderDayPicker(lv){
-  const n = maxDays(lv);
+/* 전체 섞기 / 카테고리 선택 모드 전환용 세그먼트 컨트롤 (홈 화면 공용) */
+function renderStudyModeControl(){
+  const currentCat = CATS.find(c=>c.id===STATE.studyCategory);
+  const rightLabel = STATE.studyMode==='category' && currentCat ? `${currentCat.icon} ${currentCat.name}` : '카테고리';
+  const dropdown = STATE.categoryPickerOpen ? `
+    <div class="cat-dropdown">
+      ${CATS.map(cat=>`
+        <div class="cat-dropdown-item ${STATE.studyCategory===cat.id?'active':''}" data-action="pick-study-category" data-cat="${cat.id}">${cat.icon} ${cat.name}</div>
+      `).join('')}
+    </div>
+  ` : '';
+  return `
+    <div class="mode-toggle">
+      <div class="mode-seg ${STATE.studyMode==='mixed'?'active':''}" data-action="set-study-mode" data-mode="mixed">🔀 전체 섞기</div>
+      <div class="mode-seg ${STATE.studyMode==='category'?'active':''}" data-action="open-category-picker">${rightLabel} ▾</div>
+    </div>
+    ${dropdown}
+  `;
+}
+
+function renderDayPicker(trackKey){
+  const n = maxDays(trackKey);
   let items = '';
   for(let d=1; d<=n; d++){
-    const isDone = daysProgress[lv].completed.includes(d);
-    const cnt = getDayWords(lv,d).length;
+    const isDone = ensureTrackProgress(trackKey).completed.includes(d);
+    const cnt = getDayWords(trackKey,d).length;
     items += `<div class="word-row" data-action="pick-day" data-day="${d}">
       <div class="en" style="font-size:1.7rem;">${d}회차 <span style="color:#7a8794;font-size:1.3rem;">(${cnt}단어)</span></div>
       <div>${isDone?'✅':'▶️'}</div>
@@ -350,7 +406,7 @@ function renderStudy(){
   return `
     <div class="progress-wrap">
       <div class="progress-track"><div class="progress-fill" style="width:${pct}%;"></div><div class="gull-marker" style="left:calc(${pct}% - 10px);">🕊️</div></div>
-      <div class="progress-label">${session.index+1} / ${total} 단어 · ${levelLabel(session.level)} · 좌우로 넘겨보세요</div>
+      <div class="progress-label">${session.index+1} / ${total} 단어 · ${session.category ? `${(CATS.find(c=>c.id===session.category)||{}).icon||''} ${(CATS.find(c=>c.id===session.category)||{}).name||''} · ` : ''}${levelLabel(session.level)} · 좌우로 넘겨보세요</div>
     </div>
     <div id="swipe-zone" style="position:relative;">
       <button class="card-arrow left" data-action="prev-word" ${isFirst?'disabled':''} aria-label="이전 단어">‹</button>
@@ -393,7 +449,7 @@ function renderWordCard(w, showSound){
       <div class="en">${w.en}</div>
       <div class="pron">${w.ipa ? `/${w.ipa}/ · ` : ''}[${w.pron}]</div>
       <div class="ko">${w.ko}</div>
-      <div class="example">
+      <div class="example" ${w.grammar_tips && w.grammar_tips.length ? `data-action="toggle-grammar-tip" data-word="${w.id}" data-tip="0" style="cursor:pointer;"` : ''}>
         <div>${renderExampleWithTips(w)}</div>
         <div class="ex-ko">${w.example_ko}</div>
         ${renderGrammarTipBox(w)}
@@ -469,12 +525,11 @@ function renderBrowseBody(){
     return results.length ? `
       <div class="section-title">검색 결과 ${results.length}개</div>
       ${results.map(w=>{
-        const cat = CATS.find(c=>c.id===w.category);
         return `
         <div class="word-row" data-action="open-detail" data-id="${w.id}" data-back="browse">
           <div style="flex:1;">
             <div class="en">${w.en}</div>
-            <div class="ko">${w.ko} · ${cat ? cat.icon+' '+cat.name : ''} · ${levelLabel(w.level)}</div>
+            <div class="ko">${w.ko} · ${wordTag(w)}</div>
           </div>
           <button class="star-btn ${favs.has(w.id)?'active':''}" data-action="toggle-fav" data-id="${w.id}" data-stop="1">${favs.has(w.id)?'★':'☆'}</button>
         </div>`;
@@ -484,19 +539,16 @@ function renderBrowseBody(){
 
   if(!STATE.browseCat){
     return `
-      <div class="level-pills">
-        ${['basic','intermediate','advanced'].map(l=>`
-          <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
-        `).join('')}
-      </div>
       <div class="cat-grid">
-        ${CATS.map(cat=>`
+        ${CATS.map(cat=>{
+          const total = cat.levels.basic.length + cat.levels.intermediate.length + cat.levels.advanced.length;
+          return `
           <div class="cat-tile" data-action="open-cat" data-cat="${cat.id}">
             <span class="icon">${cat.icon}</span>
             <div class="name">${cat.name}</div>
-            <div class="count">${cat.levels[lv].length}개 단어</div>
+            <div class="count">${total}개 단어</div>
           </div>
-        `).join('')}
+        `;}).join('')}
       </div>
     `;
   }
@@ -504,7 +556,12 @@ function renderBrowseBody(){
   const words = cat.levels[lv];
   return `
     <button class="icon-btn" data-action="back-to-cats" style="margin-bottom:14px;">← 카테고리 목록</button>
-    <div class="section-title">${cat.icon} ${cat.name} · ${levelLabel(lv)}</div>
+    <div class="section-title">${cat.icon} ${cat.name}</div>
+    <div class="level-pills">
+      ${['basic','intermediate','advanced'].map(l=>`
+        <div class="level-pill ${l===lv?'active':''}" data-action="set-level" data-level="${l}">${levelLabel(l)}</div>
+      `).join('')}
+    </div>
     ${words.map(w=>`
       <div class="word-row" data-action="open-detail" data-id="${w.id}" data-back="browse">
         <div style="flex:1;">
@@ -545,7 +602,7 @@ function renderReview(){
       <button class="big-btn" style="margin-bottom:14px;" data-action="start-flash" data-source="fav">즐겨찾기 전체 학습</button>
       ${list.map(id=>{const w=ALL_WORDS[id]; return `
         <div class="word-row" data-action="open-detail" data-id="${w.id}" data-back="fav">
-          <div style="flex:1;"><div class="en">${w.en}</div><div class="ko">${w.ko}</div></div>
+          <div style="flex:1;"><div class="en">${w.en}</div><div class="ko">${w.ko}</div><div style="font-size:1.2rem;color:#9aa7b2;margin-top:2px;">${wordTag(w)}</div></div>
           <button class="star-btn active" data-action="toggle-fav" data-id="${w.id}" data-stop="1">★</button>
         </div>`;}).join('')}
     `;
@@ -556,7 +613,7 @@ function renderReview(){
       <button class="big-btn ghost small" style="margin-bottom:14px;" data-action="clear-wrong">틀린 단어 전체 삭제</button>
       ${wrongs.map(id=>{const w=ALL_WORDS[id]; if(!w) return ''; return `
         <div class="word-row" data-action="open-detail" data-id="${w.id}" data-back="wrong">
-          <div style="flex:1;"><div class="en">${w.en}</div><div class="ko">${w.ko}</div></div>
+          <div style="flex:1;"><div class="en">${w.en}</div><div class="ko">${w.ko}</div><div style="font-size:1.2rem;color:#9aa7b2;margin-top:2px;">${wordTag(w)}</div></div>
           <button class="icon-btn" style="min-height:auto;padding:8px 12px;" data-action="remove-wrong" data-id="${w.id}" data-stop="1">삭제</button>
         </div>`;}).join('')}
     `;
@@ -687,6 +744,11 @@ function renderSettings(){
         `).join('')}
       </div>
     </div>
+    <div class="card">
+      <div style="font-weight:700;margin-bottom:4px;">오늘의 학습 방식</div>
+      <div style="color:#5c6b78;font-size:1.4rem;margin-bottom:10px;">전체 카테고리를 섞을지, 한 카테고리만 볼지 골라두면 홈 화면에도 그대로 적용돼요.</div>
+      ${renderStudyModeControl()}
+    </div>
     <div class="setting-row">
       <div><div class="label">음성 속도</div><div class="desc">단어·예문 읽어주는 속도</div></div>
       <div class="toggle-group">
@@ -739,11 +801,13 @@ function markLearned(ids){
 function completeSession(){
   const finishedIds = [...session.wordIds];
   markLearned(session.wordIds);
-  if(!daysProgress[session.level].completed.includes(session.day)){
-    daysProgress[session.level].completed.push(session.day);
+  const trackKey = session.trackKey || session.level;
+  const prog = ensureTrackProgress(trackKey);
+  if(!prog.completed.includes(session.day)){
+    prog.completed.push(session.day);
   }
-  daysProgress[session.level].lastDate = todayStr();
-  daysProgress[session.level].lastDay = session.day;
+  prog.lastDate = todayStr();
+  prog.lastDay = session.day;
   session.completed = true;
   LS.set(KEYS.session, session);
   saveAll();
@@ -817,18 +881,42 @@ document.addEventListener('click', function(e){
     case 'toggle-day-picker':
       STATE.dayPicker = !STATE.dayPicker; render(); break;
     case 'pick-day': {
+      const trackKey = currentTrackKey();
       const d = parseInt(t.dataset.day,10);
-      session = {level:settings.level, day:d, wordIds:getDayWords(settings.level,d), index:0, date:todayStr(), completed:false};
+      session = {trackKey, level:settings.level, category: STATE.studyMode==='category' ? STATE.studyCategory : null, day:d, wordIds:getDayWords(trackKey,d), index:0, date:todayStr(), completed:false};
       LS.set(KEYS.session, session);
       STATE.dayPicker=false; STATE.screen='studying'; render(); break;
     }
     case 'start-today': {
-      const lv = settings.level;
-      const d = alreadyDoneToday(lv) ? (daysProgress[lv].lastDay || nextDay(lv)) : nextDay(lv);
-      session = {level:lv, day:d, wordIds:getDayWords(lv,d), index:0, date:todayStr(), completed:false};
+      const trackKey = currentTrackKey();
+      const d = alreadyDoneToday(trackKey) ? (ensureTrackProgress(trackKey).lastDay || nextDay(trackKey)) : nextDay(trackKey);
+      session = {trackKey, level:settings.level, category: STATE.studyMode==='category' ? STATE.studyCategory : null, day:d, wordIds:getDayWords(trackKey,d), index:0, date:todayStr(), completed:false};
       LS.set(KEYS.session, session);
       STATE.screen='studying'; render(); break;
     }
+    case 'set-study-mode':
+      STATE.studyMode = t.dataset.mode;
+      settings.studyMode = t.dataset.mode;
+      STATE.categoryPickerOpen = false;
+      if(STATE.studyMode==='category' && !STATE.studyCategory){
+        STATE.studyCategory = settings.defaultCategory || (CATS[0] ? CATS[0].id : null);
+      }
+      saveAll(); render(); break;
+    case 'open-category-picker':
+      STATE.studyMode = 'category';
+      settings.studyMode = 'category';
+      if(!STATE.studyCategory){
+        STATE.studyCategory = settings.defaultCategory || (CATS[0] ? CATS[0].id : null);
+      }
+      STATE.categoryPickerOpen = !STATE.categoryPickerOpen;
+      saveAll(); render(); break;
+    case 'pick-study-category':
+      STATE.studyCategory = t.dataset.cat;
+      settings.defaultCategory = t.dataset.cat;
+      STATE.studyMode = 'category';
+      settings.studyMode = 'category';
+      STATE.categoryPickerOpen = false;
+      saveAll(); render(); break;
     case 'resume-session': STATE.screen='studying'; render(); break;
     case 'discard-session': session=null; LS.set(KEYS.session,null); render(); break;
     case 'prev-word':
@@ -927,7 +1015,7 @@ document.addEventListener('click', function(e){
       if(confirm('학습 기록, 즐겨찾기, 통계가 모두 초기화됩니다. 계속할까요?')){
         learned = new Set(); favs = new Set(); wrongs = [];
         quizStats = {correct:0,total:0};
-        daysProgress = {basic:{completed:[]}, intermediate:{completed:[]}, advanced:{completed:[]}};
+        daysProgress = {};
         dailyStats = {};
         reviewMeta = {};
         session = null; LS.set(KEYS.session, null);
@@ -982,6 +1070,8 @@ async function init(){
   applyFontScale();
   await loadData();
   migrateReviewMeta();
+  STATE.studyMode = settings.studyMode || 'mixed';
+  STATE.studyCategory = settings.defaultCategory || (CATS[0] ? CATS[0].id : null);
   if(session && session.date !== todayStr() && !session.completed){
     // 날짜가 지났어도 이어하기 제안은 유지 (진행 중이면)
   }

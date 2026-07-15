@@ -133,7 +133,36 @@ button{font-family:inherit;}
   background:var(--surface);font-size:1.5rem;font-weight:700;
   border:1.5px solid transparent;cursor:pointer;color:var(--text-sub);
 }
-.level-pill.active{background:var(--primary);color:var(--white);}
+.level-pill.active{background:var(--text);color:var(--white);}
+
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+.chip{
+  padding:9px 14px;border-radius:999px;background:var(--surface);
+  font-size:1.3rem;font-weight:700;color:var(--text-sub);cursor:pointer;
+  border:1.5px solid transparent;
+}
+.chip.active{background:var(--primary);color:var(--white);}
+
+.mode-toggle{display:flex;gap:8px;margin-bottom:10px;}
+.mode-seg{
+  flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
+  padding:13px 10px;border-radius:12px;
+  background:var(--white);border:1.5px solid var(--line);
+  font-size:1.5rem;font-weight:700;color:var(--text-sub);cursor:pointer;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.mode-seg.active{background:var(--primary);color:var(--white);border-color:var(--primary);}
+.cat-dropdown{
+  margin-top:8px;margin-bottom:10px;background:var(--white);
+  border:1px solid var(--line);border-radius:12px;
+  max-height:260px;overflow-y:auto;
+}
+.cat-dropdown-item{
+  padding:14px 16px;font-size:1.5rem;font-weight:600;color:var(--text);
+  cursor:pointer;border-bottom:1px solid var(--line);
+}
+.cat-dropdown-item:last-child{border-bottom:none;}
+.cat-dropdown-item.active{background:var(--primary-tint);color:var(--primary-deep);font-weight:800;}
 
 /* ===== 단어 리스트 ===== */
 .word-row{
